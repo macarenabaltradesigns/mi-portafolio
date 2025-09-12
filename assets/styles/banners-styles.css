@@ -1,0 +1,345 @@
+/* banners-styles.css
+   ------------------------------------------------------------
+   Propósito:
+     - Contiene estilos específicos para banners y hero sections,
+       incluyendo el componente .banner-ebook y utilidades relacionadas.
+     - Se mantienen aquí únicamente estilos relacionados a banners.
+       (Utilidades globales y resets se mantienen en images.css / main.css)
+   Notas del autor:
+     - Este fichero está diseñado para ser consumido por ImageHelper
+       o por clases inyectadas dinámicamente (.hero-banner, .banner-ebook--xxx).
+     - Se usan variables CSS para facilitar ajustes temáticos y responsive.
+     - Cualquier cambio de nombres de clase o IDs puede romper la lógica
+       de inyección por Javascript.
+   Autor: Macarena Baltra — Product & UX Designer.
+   Fecha: 12-09-2025
+   ------------------------------------------------------------
+*/
+
+/* =========================
+   Variables (ajustables por tema)
+   ========================= */
+:root {
+  --banner-min-height: 220px;
+  --banner-ideal-vh: 71vh;
+  --banner-max-height: 520px;
+
+  --banner-mobile-min: 160px;
+  --banner-mobile-ideal-vh: 30vh;
+  --banner-mobile-max: 360px;
+
+  --banner-transition: 300ms ease;
+  --banner-border-radius: 0;
+  --banner-content-max-width: 1100px;
+  --banner-content-gap: 1rem;
+
+  /* Overlay color: si no existe variable global, se usa fallback */
+  --banner-overlay-color: var(--banner-overlay-color, rgba(0, 0, 0, 0.32));
+}
+
+/* =========================
+   Banner placeholder / hero (layout)
+   ========================= */
+#article-banner-placeholder {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: .6rem;
+}
+
+/* hero banner element - la clase .hero-banner puede ser inyectada */
+#article-banner-placeholder .hero-banner,
+.hero-banner {
+  width: 100%;
+  min-height: var(--banner-min-height);
+  background-repeat: no-repeat;
+  display: block;
+  border-radius: var(--banner-border-radius);
+  transition: opacity var(--banner-transition), transform var(--banner-transition);
+  will-change: transform, opacity;
+  position: relative;
+}
+
+/* Estados de carga animados:
+   - loading: aplicable cuando la imagen aún carga
+   - loaded: estado final visible
+*/
+#article-banner-placeholder .hero-banner.loading {
+  opacity: 0;
+  transform: scale(1.02);
+}
+#article-banner-placeholder .hero-banner.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#article-banner-placeholder .hero-banner::after,
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, var(--banner-overlay-color) 100%);
+  transition: opacity var(--banner-transition);
+  z-index: 1;
+}
+
+/* Contenido posicionado encima del banner (títulos, CTA)
+   Disposición centrada y ancho máximo controlado por variable.
+*/
+#article-banner-placeholder .hero-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+  width: min(var(--banner-content-max-width), 96%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--banner-content-gap);
+}
+
+.banner-landing-blog {
+  /* Rutas relativas: verificar estructura de assets en producción. */
+  background-image: url("assets/img/hero-article/BLOG/img-blog-3840@2x.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* =========================
+   Responsive tweaks
+   ========================= */
+/* Comentario profesional:
+   Ajustes puntuales para pantallas pequeñas. Mantener padding reducido
+   para contener el contenido sin romper diseños.
+*/
+@media (max-width: 767.98px) {
+  #article-banner-placeholder .hero-content {
+    padding: 0 0.75rem;
+  }
+
+  #article-banner-placeholder .hero-banner,
+  .hero-banner {
+    min-height: 35rem;
+  }
+
+  .banner-landing-blog {
+    background-image: url("assets/img/hero-article/BLOG/img-blog-750@2x.webp") !important;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* =========================
+   Accesibilidad: prefers-reduced-motion
+   ========================= */
+/* 
+   Respetar la preferencia del usuario para reducir movimiento; retiramos
+   transiciones y transformaciones que puedan causar molestias.
+*/
+@media (prefers-reduced-motion: reduce) {
+  #article-banner-placeholder .hero-banner,
+  .hero-banner,
+  #article-banner-placeholder .hero-banner::after,
+  .hero-banner::after {
+    transition: none;
+    transform: none;
+    animation: none;
+  }
+}
+
+/* =========================
+   Banner ebook (componente)
+   ========================= */
+/* 
+   Banner-ebook es un componente autónomo. La imagen de fondo se provee
+   mediante clases BEM-modifier (.banner-ebook--xxx), inline-style o por
+   ImageHelper. Aquí definimos la estructura y capas (overlay y contenido).
+*/
+.banner-ebook {
+  position: relative;
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  color: #fff;
+  display: block;
+}
+
+/* Overlay dentro del banner (capa de sombreado) */
+.banner-ebook__overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--banner-overlay-color);
+  z-index: 1;
+}
+
+/* Contenido encima del overlay */
+.banner-ebook__content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Tipografía y espaciado para título y texto del ebook */
+.banner-ebook__title {
+  font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+  line-height: 1.15;
+  margin-bottom: .5rem;
+}
+
+.banner-ebook__text {
+  font-size: clamp(.95rem, 1.8vw, 1.1rem);
+  margin-bottom: 1.5rem;
+}
+
+/* CTA principal del banner */
+.banner-ebook__button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  background: #ffbb00;
+  border: 1px solid #ffbb00;
+  color: #111;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+/* Enfoque y hover: accesibilidad y feedback visual */
+.banner-ebook__button:focus,
+.banner-ebook__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  background: transparent;
+  color: #ffbb00;
+  outline: 3px solid rgba(255, 187, 0, 0.18);
+}
+
+/* Variante estilo footer para CTAs en pie de artículo */
+.banner-ebook_pie_button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background var(--banner-transition), color var(--banner-transition), border-color var(--banner-transition);
+}
+
+.banner-ebook_pie_button:focus,
+.banner-ebook_pie_button:hover {
+  background: transparent;
+  border-color: magenta;
+  color: magenta;
+  outline: 3px solid rgba(255, 0, 255, 0.12);
+}
+
+/* Variante para formularios en pie de página */
+.banner-ebook_pie_form {
+  display: inline-block;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #051036;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.banner-ebook_pie_form:hover,
+.banner-ebook_pie_form:focus {
+  background: transparent;
+  border-color: #ff00ff;
+  color: #bb10bb;
+  outline: 3px solid rgba(187, 16, 187, 0.08);
+}
+
+/* =========================
+   Recursos / botones específicos
+   ========================= */
+/* 
+   Estas clases se usan en sliders o secciones de recursos. Se mantienen
+   !important para sobreescribir estilos heredados de utilidades globales.
+*/
+#recursos-slider .badge:hover {
+  filter: brightness(0.9);
+}
+
+.btn-free-recursos,
+.btn-price-recursos {
+  font-weight: 600;
+  border: none;
+  border-radius: 0;
+  padding: .6rem .9rem;
+}
+
+.btn-free-recursos {
+  background: #4fa128 !important;
+  color: #fff !important;
+}
+
+.btn-price-recursos {
+  background: rgba(var(--bs-warning-rgb, 255, 193, 7), var(--bs-bg-opacity, 1)) !important;
+  color: #1e1f2f !important;
+}
+
+.btn-free-recursos:hover,
+.btn-price-recursos:hover {
+  filter: brightness(0.92);
+  transition: filter .35s ease;
+}
+
+.btn-free-recursos:focus,
+.btn-price-recursos:focus {
+  outline: 3px solid rgba(79, 161, 40, 0.12);
+  outline-offset: 2px;
+}
+
+/* =========================
+   Background presets (modifiers)
+   ========================= */
+.banner-ebook-free-branding {
+  background: url('../img/fondo-banners-articles@2x.webp') center/cover no-repeat;
+}
+.banner-ebook-price-memoriaemocional {
+  background: url('../img/fondo-banners-pie-articles@2x.webp') center/cover no-repeat;
+}
+
+/* =========================
+   Fallbacks & utilities
+   ========================= */
+.inset-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Visually hidden utility: patrón accesible para elementos que deben
+   ser leídos por screen readers pero no visibles. */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  border: 0;
+  white-space: nowrap;
+}
+
+/* =========================
+   End of file
+   ========================= */

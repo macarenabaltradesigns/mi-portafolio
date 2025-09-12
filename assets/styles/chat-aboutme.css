@@ -1,0 +1,197 @@
+/* chat-aboutme.css
+   ------------------------------------------------------------
+   Propósito:
+     - Estilos del componente “chat” utilizado en la sección About Me.
+     - Soporta un panel fijo con un viewport de mensajes y un track
+       que se desplaza mediante transform (animación controlada por JS).
+   Autor: Macarena Baltra — Product & UX Designer.
+   Fecha: 12-09-2025
+   ------------------------------------------------------------
+*/
+
+/* =========================
+   Variables del componente
+   ========================= */
+
+:root {
+  --chat-bg-gradient: linear-gradient(180deg, #07101a 0%, #04101a 100%);
+  --chat-radius: 12px;
+  --chat-padding: 12px;
+  --chat-color: #e6f8fb;
+  --chat-shadow: 0 6px 18px rgba(2, 6, 23, .6);
+
+  --chat-viewport-height: 22rem;
+  --chat-item-h: 120px;
+
+  /* Transitions / timing */
+  --chat-transition-track: 700ms cubic-bezier(.2, .9, .2, 1);
+}
+
+/* =========================
+   Layout: panel y cabecera
+   ========================= */
+/* 
+   Cabecera, ventana y controles. Mantener bordes y sombras
+   consistentes con la guía visual del producto.
+*/
+.chat-panel {
+  background: var(--chat-bg-gradient);
+  border-radius: var(--chat-radius);
+  padding: var(--chat-padding);
+  color: var(--chat-color);
+  box-shadow: var(--chat-shadow);
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.chat-note {
+  color: #a6c2c7;
+  font-size: 0.85rem;
+  margin-left: auto;
+}
+
+/* =========================
+   Viewport / track / mensajes
+   ========================= */
+/*
+   La ventana actúa como viewport con overflow hidden; el track se mueve
+   mediante transform para aprovechar GPU acceleration y obtener animación
+   suave. El cálculo de alturas debe concordar con lo que haga el script.
+*/
+.chat-window {
+  height: var(--chat-viewport-height);
+  overflow: hidden;
+  padding: 6px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.005));
+}
+
+.chat-track {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transform: translateY(0);
+  will-change: transform;
+}
+
+/* Mensajes: altura controlada por variable para permitir cálculo JS */
+.chat-msg {
+  box-sizing: border-box;
+  height: var(--item-h, var(--chat-item-h));
+  padding: 14px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  line-height: 1.25;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  opacity: 1;
+}
+
+/* Alternancia visual left / right (alineación y paleta) */
+.chat-msg.left {
+  background: linear-gradient(180deg, #25074d, #3e0489);
+  color: #dceff2;
+  align-self: flex-start;
+}
+
+.chat-msg.right {
+  background: linear-gradient(180deg, #07074d, #181890);
+  color: #fff;
+  align-self: flex-end;
+}
+
+/* Transición aplicada solo al track para evitar repaints en items individuales */
+.chat-track.animating {
+  transition: transform var(--chat-transition-track);
+}
+
+/* =========================
+   Controles (botones con IDs)
+   ========================= */
+/* 
+   Mantener selectores exactos ya que los scripts/markup los insertan con esas clases.
+*/
+#pauseChat.btn-outline-secondary {
+  background: #026016;
+  border: 2px solid #026016;
+  color: #ffffff;
+}
+
+#resumeChat.btn-outline-primary {
+  background: transparent;
+  border: 2px solid #026016;
+  color: #ffffff;
+}
+
+/* Estados activos/focus para preservar feedback visual accesible */
+#resumeChat.btn-outline-primary:active,
+#resumeChat.btn-outline-primary:focus,
+#resumeChat.btn-outline-primary:visited {
+  background: #026016;
+}
+
+/* Consistencia visual de los botones (botones redondeados tipo pill) */
+#resumeChat.btn-outline-primary,
+#pauseChat.btn-outline-secondary {
+  padding: 0.3rem 0.7rem;
+  border-radius: 19px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* =========================
+   Responsive
+   ========================= */
+/* 
+   En pantallas pequeñas se reduce la altura del viewport; el cálculo
+   de la altura de cada mensaje incluye un fallback con un cálculo
+   razonable en px para evitar diseños rotos.
+*/
+@media (max-width: 767px) {
+  .chat-window {
+    height: 20rem;
+  }
+
+  /* Fallback de altura de items en móvil — mantener proporcionalidad
+     con el número de mensajes visibles esperado (ej. 5 items). */
+  .chat-msg {
+    height: calc((480px - (8px * 4)) / 5);
+  }
+}
+
+/* =========================
+   Accesibilidad: prefers-reduced-motion
+   ========================= */
+@media (prefers-reduced-motion: reduce) {
+  .chat-track.animating {
+    transition: none !important;
+  }
+  .chat-track,
+  .chat-msg {
+    will-change: auto !important;
+    transform: none !important;
+  }
+}
+
+/* =========================
+   Utilities / focus visible
+   ========================= */
+.chat-panel :focus {
+  outline: 3px solid rgba(2, 96, 48, 0.12);
+  outline-offset: 2px;
+}
+
+/* =========================
+   End of file
+   ========================= */

@@ -1,0 +1,406 @@
+/* 404-animations.css
+   ------------------------------------------------------------
+   Propósito:
+     - Estilos para la landing 404: ilustración/animación del gato,
+       diálogos, reacciones (pelusas, corazones), y notificaciones/quejas.
+     - Diseñado para trabajar en conjunto con scripts que inyectan markup
+       (por ejemplo: contenedor .css-cat, imagen raster .cat-image, y
+       otros elementos dinámicos). Algunas animaciones y timings son leídos
+       desde variables CSS (ej. --dialog-word-delay).
+   Autor: Macarena Baltra — Product & UX Designer.
+   Fecha: 12-09-2025
+   ------------------------------------------------------------
+*/
+
+/* =========================
+   /* Variables
+   ========================= */
+   :root {
+    --color-bg: #342b8f; 
+    --color-text: #ffffff;
+  
+    --dialog-bg: rgba(0, 0, 0, 0.46);
+    --dialog-color: #f7fbf9;
+    --muted: #bfc4d0;
+    --accent: #00d1b2;
+    --boom-color: #ff4d4d;
+  
+    /* Timings (importante: JS lee --dialog-word-delay) */
+    --dialog-word-delay: 140; /* ms entre palabra y palabra (JS lee esta variable) */
+  
+    /* Gato / animaciones */
+    --gato-brush-duration: 1200ms;
+    --gato-purr-duration: 2200ms;
+    --gato-size-default: 170px;
+  }
+  
+  /* =========================
+     /* Reset / Base
+     ========================= */
+  body {
+    height: 100%;
+    background-color: var(--color-bg) !important;
+    color: var(--color-text);
+  }
+  
+  /* =========================
+     /* Layout / SVG holder
+     ========================= */
+  
+  /* SVG container: mantiene el aspecto y el centrado de la ilustración */
+  .svg-holder {
+    width: 100%;
+    max-width: 520px;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+    position: relative;
+    background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.01), transparent 12%);
+    border-radius: 18px;
+    overflow: visible; /* importante para pelusas y quejas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+  
+  /* center the CSS-cat injected container (injected by JS) */
+  .css-cat-container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 80;
+  }
+  
+  /* Cat raster image wrapper */
+  .cat-image-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #cat-image {
+    width: 94%;
+    height: auto;
+    max-height: 94%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 320ms ease, filter 320ms ease;
+    display: block;
+  }
+  
+  /* =========================
+     /* Components: Brush / Vibrate / Boom
+     ========================= */
+  
+  /* control brush animation duration via CSS variable */
+  .brush-animate {
+    animation: brush-sway var(--gato-brush-duration) ease-in-out infinite;
+  }
+  
+  @keyframes brush-sway {
+    0%   { transform: translateY(-4px) rotate(-1.5deg); }
+    50%  { transform: translateY(4px) rotate(1.2deg); }
+    100% { transform: translateY(-4px) rotate(-1.5deg); }
+  }
+  
+  /* faster brush variant (aplicar .brush-fast al #cat-image) */
+  .brush-fast {
+    --gato-brush-duration: 700ms !important; /* !important preserva override que JS aplica dinámicamente */
+  }
+  
+  /* stopped brush & body vibrate */
+  .vibrate {
+    animation: vibrate-1 600ms ease-in-out infinite;
+  }
+  
+  @keyframes vibrate-1 {
+    0%   { transform: translateY(0) rotate(0); }
+    25%  { transform: translateY(-4px) rotate(-1deg); }
+    50%  { transform: translateY(4px) rotate(1deg); }
+    75%  { transform: translateY(-3px) rotate(-0.5deg); }
+    100% { transform: translateY(0) rotate(0); }
+  }
+  
+  /* stronger vibrate for intensificación por clic (aplicar .vibrate-more) */
+  .vibrate-more {
+    animation: vibrate-2 300ms ease-in-out infinite;
+  }
+  
+  @keyframes vibrate-2 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    20%  { transform: translate(-6px, 4px) rotate(-2deg); }
+    40%  { transform: translate(8px, -6px) rotate(3deg); }
+    60%  { transform: translate(-6px, 6px) rotate(-1deg); }
+    80%  { transform: translate(6px, -6px) rotate(2deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+  }
+  
+  /* boom tremor (aplicar clase .cat-boom al img para efecto final) */
+  .cat-boom {
+    animation: boom-tremor 800ms ease-in-out forwards;
+  }
+  
+  @keyframes boom-tremor {
+    0%   { transform: scale(1) rotate(0); filter: saturate(1); }
+    20%  { transform: scale(1.08) rotate(-6deg); filter: saturate(1.1) contrast(1.05); }
+    40%  { transform: scale(0.96) rotate(6deg); }
+    60%  { transform: scale(1.02) rotate(-3deg); }
+    100% { transform: scale(1) rotate(0); }
+  }
+  
+  /* =========================
+     /* Dialogue bubble
+     ========================= */
+  
+  .cat-dialogue {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38px;
+    min-width: 26rem;
+    max-width: 86%;
+    padding: 12px 16px;
+    background: var(--dialog-bg);
+    color: var(--dialog-color);
+    border-radius: 12px;
+    text-align: center;
+    z-index: 85;
+    font-weight: 700;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* word-by-word */
+  .cat-dialogue .word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(6px) scale(.98);
+    animation: wordPop 420ms ease forwards;
+  }
+  
+  @keyframes wordPop {
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  
+  .fade-in  { animation: fadeInMove 280ms ease forwards; }
+  .fade-out { animation: fadeOut 240ms ease forwards; }
+  
+  @keyframes fadeInMove {
+    from { opacity: 0; transform: translateX(-50%) translateY(-8px) scale(.98); }
+    to   { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); }
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; } to { opacity: 0; }
+  }
+  
+  /* =========================
+     /* Reactions: Hearts / Fur
+     ========================= */
+  
+  .hearts-container {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 90;
+  }
+  
+  .heart {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    transform-origin: center;
+    animation: heart-pop 900ms ease forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes heart-pop {
+    0%   { transform: translateY(0) scale(.28); opacity: 0; }
+    30%  { transform: translateY(-20px) scale(1.05); opacity: 1; }
+    100% { transform: translateY(-70px) scale(.6); opacity: 0; }
+  }
+  
+  /* Fur (pelusas) - spawn visible a la derecha/arriba */
+  .fur {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    pointer-events: none;
+    z-index: 75;
+  }
+  
+  .fur::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow:
+      18px 6px rgba(255, 255, 255, 0.18),
+      34px 0 rgba(255, 255, 255, 0.18),
+      12px -14px rgba(255, 255, 255, 0.18),
+      38px -18px rgba(255, 255, 255, 0.18);
+    opacity: 0.98;
+    animation: fur-float-visible 2400ms ease-in-out forwards;
+  }
+  
+  @keyframes fur-float-visible {
+    0%   { transform: translateY(0) scale(.96); opacity: 0.95; }
+    30%  { transform: translateY(-12px) scale(1.05); opacity: 1; }
+    70%  { transform: translateY(-40px) scale(0.96); opacity: 0.6; }
+    100% { transform: translateY(-64px) scale(.9); opacity: 0; }
+  }
+  
+  /* =========================
+     /* Complaints / static notifications
+     ========================= */
+  
+  .complaint-static {
+    position: fixed; /* fixed para no cortar por contenedores */
+    z-index: 12000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12%;
+    background: rgba(8, 8, 8, 0.92);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+    pointer-events: none;
+    opacity: 0;
+    animation: complaint-static-show 2600ms ease forwards;
+  }
+  
+  @keyframes complaint-static-show {
+    0%  { transform: translateX(-50%) translateY(6px); opacity: 0; }
+    10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+    85% { opacity: 0.9; transform: translateX(-50%) translateY(0); }
+    100%{ opacity: 0; transform: translateX(-50%) translateY(-18px); }
+  }
+  
+  /* =========================
+     /* Emoji badge / Progress / Countdown
+     ========================= */
+  
+  .emoji-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    width: 46px;
+    height: 46px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #ffffff20, #0004);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  
+  .progress-wrap {
+    width: 100%;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #7cf59b, #21c6a6);
+    transition: width 220ms linear;
+  }
+  
+  /* Countdown (alarm) — emoji reloj más grande */
+  .countdown {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 40, 40, 0.02));
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  }
+  
+  .countdown .countdown-title {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .countdown .countdown-title .clock-emoji {
+    font-size: 30px;
+    line-height: 1;
+  }
+  
+  /* =========================
+     /* Responsive adjustments
+     ========================= */
+  
+  @media (max-width: 920px) {
+    :root { --gato-size-default: 140px; }
+    .cat-dialogue {
+      min-width: 14rem;
+      top: 22px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    :root { --gato-size-default: 120px; }
+    .cat-dialogue {
+      min-width: 12rem;
+      top: 18px;
+    }
+  }
+  
+  /* =========================
+     /* Utilities
+     ========================= */
+  
+  /* Hidden when JS is off/on depending on logic */
+  .hidden-js { 
+    display: none !important; 
+  }
+  
+  /* =========================
+     /* Accessibility: reduced motion
+     ========================= */
+  
+  /* Respect user's reduced motion preference (solo reduce animaciones) */
+  @media (prefers-reduced-motion: reduce) {
+    .brush-animate,
+    .vibrate,
+    .vibrate-more,
+    .cat-boom,
+    .heart,
+    .fur::before,
+    .complaint-static,
+    .cat-dialogue .word,
+    .fade-in,
+    .fade-out {
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  
+    * {
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* =========================
+     /* End of file
+     ========================= */
