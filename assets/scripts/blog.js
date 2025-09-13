@@ -32,7 +32,7 @@
   function buildBlogSection(opts = {}) {
     // contenedor <section class="container ...">
     const section = document.createElement('section');
-    section.className = 'container px-4 pt-5 insights';
+    section.className = 'container pt-5 insights';
     section.setAttribute('role', 'region');
     section.setAttribute('aria-label', opts.ariaLabel || 'Blog — Aprendizajes');
 
