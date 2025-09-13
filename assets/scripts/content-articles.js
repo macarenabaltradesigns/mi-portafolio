@@ -61,7 +61,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo1/img-article-1-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo1/img-article-1-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-1@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-1@2x.webp",
       aboutHTML: `
       <span class="opacity-70">
         Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -190,7 +190,7 @@
       date: "25 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo2/img-article-2-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo2/img-article-2-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-2@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-2@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -338,7 +338,7 @@
       date: "25 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo3/img-article-3-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo3/img-article-3-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-3@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-3@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -518,7 +518,7 @@
       date: "25 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo4/img-article-4-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo4/img-article-4-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-4@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-4@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -692,7 +692,7 @@
       date: "25 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo5/img-article-5-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo5/img-article-5-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-5@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-5@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer</strong>. 
@@ -860,7 +860,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo6/img-article-6-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo6/img-article-6-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-6@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-6@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -978,7 +978,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo7/img-article-7-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo7/img-article-7-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-7@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-7@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>—Product & UX Designer—</strong>
@@ -1141,7 +1141,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo8/img-article-8-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo8/img-article-8-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-8@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-8@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>—Product & UX Designer—</strong>
@@ -1313,7 +1313,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo9/img-article-9-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo9/img-article-9-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-9@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-9@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -1441,7 +1441,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo10/img-article-10-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo10/img-article-10-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-10@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-10@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
@@ -1592,7 +1592,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo11/img-article-11-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo11/img-article-11-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-11@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-11@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer,</strong>
@@ -1727,7 +1727,7 @@
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo12/img-article-12-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo12/img-article-12-750@2x.webp",
-      ogImage: "assets/img/og-images/og-article-12@2x.webp",
+      ogImage: "mi-portafolio/assets/img/og-images/og-article-12@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>Product & UX Designer.</strong>
