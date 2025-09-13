@@ -109,6 +109,13 @@
   background-position: center;
 }
 
+.banner-landing-othersprojects{
+    /* Rutas relativas: verificar estructura de assets en producción. */
+    background-image: url("assets/img/hero-article/Others-Projects/img-othersprojects-3840@2x.webp");
+    background-size: cover;
+    background-position: center;
+}
+
 /* =========================
    Responsive tweaks
    ========================= */
@@ -123,11 +130,17 @@
 
   #article-banner-placeholder .hero-banner,
   .hero-banner {
-    min-height: 35rem;
+    min-height: 31rem;
   }
 
   .banner-landing-blog {
     background-image: url("assets/img/hero-article/BLOG/img-blog-750@2x.webp") !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner-landing-othersprojects {
+    background-image: url("assets/img/hero-article/Others-Projects/img-othersprojects-750@2x.webp") !important;
     background-size: cover;
     background-position: center;
   }

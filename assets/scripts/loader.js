@@ -10,7 +10,7 @@
  * // Fecha: 12-09-2025.
  ------------------------------------------------------------ */
 
-(function () {
+ (function () {
   'use strict';
 
   const LOADER_ID = 'loadingpage';
@@ -40,23 +40,46 @@
     container.style.zIndex = '9999';
     container.style.transition = 'opacity 360ms ease';
     container.style.pointerEvents = 'auto'; // bloquea interacciones mientras visible
+    container.style.overflow = 'hidden'; // evita scroll horizontal causado por contenido largo
 
     // estilo interno (scoped) — para evitar collisiones, mantenemos selectores muy concretos
     const style = document.createElement('style');
     style.textContent = `
       /* Loader styles (scoped to #${LOADER_ID}) */
       #${LOADER_ID} .loader {
-        font-size: 48px;
+        /* escala responsiva: mínimo legible, máximo grande en desktop */
+        font-size: clamp(16px, 5vw, 48px);
         font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         color: #0ff;
-        white-space: nowrap;
         display: inline-flex;
         align-items: center;
         gap: 0.5rem;
+        /* evitar que el contenido se salga de la pantalla */
+        max-width: min(92vw, 720px);
+        padding: max(12px, env(safe-area-inset-top, 12px)) 1rem max(12px, env(safe-area-inset-bottom, 12px));
+        box-sizing: border-box;
+        text-align: center;
+        white-space: normal; /* permite wrap para que no se salga del viewport */
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        line-height: 1.1;
       }
-      #${LOADER_ID} .dots { display: inline-block; width: 1.2em; text-align: left; }
+
+      /* estilo para el texto dentro del loader (si quieres separarlo) */
+      #${LOADER_ID} .loader .loader-text {
+        display: block;
+      }
+
+      #${LOADER_ID} .dots {
+        display: inline-block;
+        width: 1.2em;
+        text-align: left;
+        vertical-align: baseline;
+      }
       #${LOADER_ID} .dots span {
-        display:inline-block; opacity:0; transform: translateY(0);
+        display:inline-block;
+        opacity:0;
+        transform: translateY(0);
         animation: ${LOADER_ID}-dot 1s infinite;
       }
       #${LOADER_ID} .dots span:nth-child(1){ animation-delay: 0s; }
@@ -77,15 +100,27 @@
 
       /* Respeto a la preferencia reduce-motion */
       @media (prefers-reduced-motion: reduce) {
-        #${LOADER_ID} .dots span { animation: none !important; opacity: 1 !important; }
+        #${LOADER_ID} .dots span { animation: none !important; opacity: 1 !important; transform: none !important; }
         #${LOADER_ID} { transition: none !important; }
+      }
+
+      /* pequeños ajustes para móviles muy pequeños */
+      @media (max-width: 380px) {
+        #${LOADER_ID} .loader {
+          gap: 0.35rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          font-size: clamp(18px, 10vw, 40px);
+        }
+        #${LOADER_ID} .dots { width: .5em; }
       }
     `;
 
     // markup
     const loader = document.createElement('div');
     loader.className = 'loader';
-    loader.innerHTML = `Agitando píxeles<span class="dots" aria-hidden="true"><span>.</span><span>.</span><span>.</span></span>`;
+    // separamos el texto en span .loader-text y mantenemos .dots igual
+    loader.innerHTML = `<span class="loader-text">Agitando píxeles</span><span class="dots" aria-hidden="true"><span>.</span><span>.</span><span>.</span></span>`;
 
     container.appendChild(style);
     container.appendChild(loader);

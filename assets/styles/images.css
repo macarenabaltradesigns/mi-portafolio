@@ -167,7 +167,7 @@ picture img,
   width: 100%;
   overflow: hidden;
   aspect-ratio: var(--banner-aspect);
-  min-height: 180px;
+  min-height: 36rem;
   padding-top: calc(100% * (8 / 21));
   position: relative;
 }
