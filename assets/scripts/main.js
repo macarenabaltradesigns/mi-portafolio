@@ -220,8 +220,8 @@
     injectOnce('#cta-buttons-2', `
       <section>
         <div class="cta-group-center py-5">
-          <a href="https://forms.gle/9m8BURuvUohX2iNE8" class="btn btn-primary" aria-label="Cotizar" title="Cotizar" data-bs-toggle="tooltip" target="_blank" rel="noopener">Cotizar proyecto</a>
-          <a href="assets/CV2025-azul.pdf" download="CV2025-azul.pdf" class="btn btn-secondary" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" target="_blank" rel="noopener">Descargar CV</a>
+          <a href="https://forms.gle/9m8BURuvUohX2iNE8" class="btn btn-primary my-2" aria-label="Cotizar" title="Cotizar" data-bs-toggle="tooltip" target="_blank" rel="noopener">Cotizar proyecto</a>
+          <a href="assets/CV2025-azul.pdf" download="CV2025-azul.pdf" class="btn btn-secondary my-2" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" target="_blank" rel="noopener">Descargar CV</a>
         </div>
       </section>
     `);

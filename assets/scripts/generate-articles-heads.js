@@ -386,7 +386,7 @@ async function main() {
     const src = args.src || 'assets/js/content-articles.js';
     const templatePath = args.template || 'templates/article-template.html';
     const outDir = args.out || 'dist';
-    const origin = args.origin || 'https://tudominio.com';
+    const origin = args.origin || 'https://macarenabaltradesigns.github.io/';
     const candidateDefault = args.defaultOgImage || `${origin.replace(/\/$/, '')}/assets/img/og-image/og-article-default_v1.webp`;
     const ogImageType = args.ogImageType || 'image/webp';
     const dry = !!args.dry;

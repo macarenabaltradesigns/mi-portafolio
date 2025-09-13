@@ -321,7 +321,7 @@
         };
 
         // Enviar a Apps Script (placeholder — REEMPLAZAR TU_URL)
-        const endpoint = 'https://script.google.com/macros/s/TU_URL/exec';
+        const endpoint = 'https://script.google.com/macros/s/TU_URL/exec'; // colocar tu URL real cuando lo tengas
 
         try {
           const resp = await fetch(endpoint, {
