@@ -1152,7 +1152,7 @@
       imageUrl: "assets/img/coveraboutme/avatar-2-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>¿UX como gasto?</strong> EEs un error común. Con un método sencillo la investigación y el diseño no solo mejoran la experiencia: también aumentan conversiones, reducen consultas al soporte y generan ahorros reales. En este artículo te explico cómo pasar de “buen diseño” a evidencia empírica: qué medir, cómo probar hipótesis y qué resultados comunicar para convencer a un recruiter o a un tomador de decisiones.</p>
+        <p><strong>¿UX como gasto?</strong> Es un error común. Con un método sencillo la investigación y el diseño no solo mejoran la experiencia: también aumentan conversiones, reducen consultas al soporte y generan ahorros reales. En este artículo te explico cómo pasar de “buen diseño” a evidencia empírica: qué medir, cómo probar hipótesis y qué resultados comunicar para convencer a un recruiter o a un tomador de decisiones.</p>
         <p class="text-center fs-6 my-4 bg-canva p-3">“Si piensas que el buen diseño es caro, deberías considerar el costo del mal diseño” — <em>Dr. Ralf Speth</em></p>
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>

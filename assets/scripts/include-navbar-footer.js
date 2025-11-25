@@ -4,7 +4,7 @@
 //  - Inyecta el navbar y footer en los placeholders esperados y configura
 //  la lógica de alternancia del toggler (iconos).
 // Autor: Macarena Baltra — Product & UX Designer
-// Fecha: 12-09-2025
+// Fecha: 2025
 // ------------------------------------------------------------
 
 
@@ -52,7 +52,7 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-5 border-top-footer">
           <div class="col-md-6 d-flex align-items-start align-items-center">
             <img src="assets/img/Logo2-sinfondo.png" alt="" width="40">
-            <span class="mb-3 mb-md-0 text-white">© 2025 Macarena Baltra, Product & UX Designer. <small class="opacity-70"><em>Disponible para roles remotos y colaboraciones estratégicas.</em></small></span>
+            <span class="mb-3 mb-md-0 text-white">© 2025 Macarena Baltra, Product & UX Designer · UI Front-end Prototyper. <small class="opacity-70"><em>Disponible para roles híbridos, remotos y colaboraciones estratégicas.</em></small></span>
           </div>
           <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
