@@ -94,6 +94,7 @@
             <p><strong>Acción:</strong> análisis de analytics y mapas de calor; priorización de funnels críticos; prototipos mobile-first en HTML5/CSS3; pruebas rápidas con usuarios.</p>
             <p><strong>Resultado:</strong> migración a etiquetas semánticas, reorganización de contenidos y optimización de recursos. Navegación móvil más fluida y caída importante en la tasa de abandono.</p>
             <p><strong>Aprendizaje:</strong> mejora primero los flujos que impactan al negocio (onboarding, formularios) para obtener resultados rápidos y justificar inversión.</p>
+            <p class="textdescriptions"><small><strong>Cómo se observó:</strong> el impacto se evaluó mediante análisis comparativo en Google Analytics y mapas de calor antes y después de las mejoras, priorizando secciones críticas del funnel móvil.</small></p>
           </li>
           <li>
             <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Actualizaciones Front-End — Plataforma CBC</a>:</em></strong>
@@ -723,6 +724,7 @@
                 <p><strong>Acción:</strong> diseñé +20 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.</p>
                 <p><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa.</p>
                 <p><strong><em>Aprendizaje:</em></strong> alinear comunicación visual con procesos operativos impulsa la participación.</p>
+                <p class="textdescriptions"><small><strong>Cómo se midió:</strong> el resultado se obtuvo comparando el número de postulaciones registradas en la campaña previa, considerando las piezas y la planificación del stand, según registros internos de AIESEC.</small></p>
             </li>
             <li>
                 <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka</a>:</em></strong>
@@ -737,6 +739,7 @@
                 <p><strong>Acción:</strong> prototipé un blog en HTML5/CSS3, definí flujos editoriales y guías de publicación.</p>
                 <p><strong>Resultado:</strong> canal estable que centralizó la comunicación y permitió medir engagement.</p>
                 <p><strong><em>Aprendizaje:</em></strong> soluciones sostenibles facilitan la continuidad y muestran impacto medible.</p>
+                <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> el blog permitió centralizar contenidos y habilitar métricas básicas de lectura y participación que antes no existían.</small></p>
             </li>
         </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">"El liderazgo no está en mandar; está en conectar, inspirar y motivar a otros a actuar. La empatía es el mejor catalizador del cambio."</p>
@@ -885,6 +888,7 @@
                 <p><strong>Acción:</strong> journey mapping, reordenamiento de pasos y prototipo testeado con usuarios internos.</p>
                 <p><strong>Resultado:</strong> tiempo de tarea reducido de 15 a 6 minutos y menos errores operativos.</p>
                 <p><strong><em>Métrica:</em></strong> tiempo por tarea.</p>
+                <p class="textdescriptions"><small><strong>Cómo se midió:</strong> se registró el tiempo promedio de ejecución de la tarea en pruebas con usuarios internos antes y después del rediseño.</small></p>
             </li>
             <li>
                 <strong><em><a href="https://www.instagram.com/p/DLsLeySMdog/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">A/B Testing — CBC Web (Prototipado & Mantenimiento)</a>:</em></strong>
@@ -892,6 +896,7 @@
                 <p><strong>Acción:</strong> tres rondas de A/B testing en variantes de menú, cada prueba con una sola variable.</p>
                 <p><strong>Resultado:</strong> +25% en clics acumulados tras las iteraciones.</p>
                 <p><strong><em>Métrica:</em></strong> tasa de clics (CTR).</p>
+                <p class="textdescriptions"><small><strong>Cómo se midió:</strong> CTR comparativo entre variantes durante tres rondas de A/B testing, modificando una variable por iteración.</small></p>
             </li>
             <li>
                 <strong><em><a href="landing-projects-d-minka.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Shadowing — Hostal Casona Minka</a>:</em></strong>
@@ -899,6 +904,7 @@
                 <p><strong>Acción:</strong> observación 1:1 en contexto, ajuste de formularios y reorganización de tareas.</p>
                 <p><strong>Resultado:</strong> +20% en reservas y mayor fluidez operacional.</p>
                 <p><strong><em>Métrica:</em></strong> reservas y tiempo de atención</p>
+                <p class="textdescriptions"><small><strong>Cómo se observó:</strong> el incremento se identificó comparando el volumen de reservas registradas antes y después de la reorganización de procesos, junto con observación directa del flujo en recepción.</small></p>
             </li>
         </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">“La usabilidad gobierna la Web. En pocas palabras, si el cliente no puede encontrar un producto, entonces él o ella no lo comprará” — <em>Jakob Nielsen</em></p>
@@ -1379,6 +1385,7 @@
                   <p><strong>Acción:</strong> plantillas editables en Canva y guía rápida de uso.</p>
                   <p><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement.</p>
                   <p><strong>Por qué la herramienta funcionó:</strong> Canva permitió autonomía del cliente y velocidad de publicación sin depender de un diseñador.</p>
+                  <p class="textdescriptions"><small><strong>Cómo se midió:</strong> se comparó el engagement promedio de publicaciones previas con las piezas creadas a partir de las plantillas, según métricas visibles de la plataforma (Instagram).</small></p>
               </li>
               <li>
                   <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Actualizaciones Front-End — CBC (assets y hand-off)</a>:</em></strong>
@@ -1386,6 +1393,7 @@
                   <p><strong>Acción:</strong> entrega de assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML5/CSS3 para validar interacción.</p>
                   <p><strong>Resultado:</strong> tiempo de gestión interna reducido (10 → 8 minutos) y despliegues más rápidos.</p>
                   <p><strong>Por qué la herramienta funcionó:</strong> Los snippets aceleraron la implementación.</p>
+                  <p class="textdescriptions"><small><strong>Cómo se midió:</strong> estimación comparativa del tiempo promedio de preparación y entrega de assets antes y después de estandarizar snippets (fragmentos reutilizables) y formatos.</small></p>
               </li>
           </ul>
           <p class="text-center fs-6 my-4 bg-canva p-3">“La fuerza del equipo reside en cada miembro. La fuerza de cada miembro es el equipo.” — <em>Phil Jackson</em></p>
@@ -1753,6 +1761,7 @@
                 <p><strong>Acción:</strong> la IA generó 12 copys iniciales y 5 propuestas de paleta; yo afiné tono y diseño final en Canva.</p>
                 <p><strong>Resultado:</strong> 80% del material listo en un par de horas; mejor consistencia y más interacción.</p>
                 <p><strong>Aprendizaje:</strong> la IA acelera producción, pero el juicio humano mantiene la voz.</p>
+                <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> comparación del tiempo habitual de producción manual versus el flujo asistido por IA con validación humana.</small></p>
             </li>
             <li>
                 <strong><em>Diseñadora independiente — proceso comercial</em></strong>
