@@ -77,6 +77,10 @@
   *::selection {
     user-select: none;
   }
+
+  .selected{
+    user-select: text !important;
+  }
   
   /* Espacio para navbar fijo */
   body {
