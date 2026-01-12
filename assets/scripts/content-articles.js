@@ -356,7 +356,7 @@
       content: `
         <p>Una intuición abrió la pregunta; los datos la confirmaron. <strong><em>"El corazón: un órgano diferenciador"</em></strong> probó que señales cardíacas pueden transformarse en mándalas sonoras y visuales únicas por persona. Aquí cuento la metodología, los prototipos y cómo validé la idea frente a público y jurado.</p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central</h2>
+        <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central: </h2>
         <p>El latido contiene rasgos sonoros (ritmo, amplitud, variabilidad) que, mapeados y procesados, pueden generar una mándala visual y sonora única por persona.</p>
         <p class="text-center fs-6 my-4 bg-canva p-3">“El objetivo del arte no es representar la apariencia exterior de las cosas, sino su significado interior.” — <em>Aristóteles</em></p>
         <hr class="my-5">
@@ -398,7 +398,6 @@
         <h4 class="mt-5 fontpoppins opacity-100">Comentarios del jurado (selección)</h4>
         <p><em>“Nos mostraste que biología y física pueden alimentar propuestas creativas de diseño.”</em> — Julián Naranjo, Diseñador Gráfico</p>
         <p><em>“La experiencia me dejó pensando en la relación entre cuerpo y emoción.”</em> — Sol Guillón, Artista y Docente</p>
-        <hr>
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Retos</h2>
         <ul>
