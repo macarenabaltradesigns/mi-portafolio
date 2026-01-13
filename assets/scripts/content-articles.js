@@ -356,7 +356,7 @@
       content: `
         <p>Una intuición abrió la pregunta; los datos la confirmaron. <strong><em>"El corazón: un órgano diferenciador"</em></strong> probó que señales cardíacas pueden transformarse en mándalas sonoras y visuales únicas por persona. Aquí cuento la metodología, los prototipos y cómo validé la idea frente a público y jurado.</p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central: </h2>
+        <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central</h2>
         <p>El latido contiene rasgos sonoros (ritmo, amplitud, variabilidad) que, mapeados y procesados, pueden generar una mándala visual y sonora única por persona.</p>
         <p class="text-center fs-6 my-4 bg-canva p-3">“El objetivo del arte no es representar la apariencia exterior de las cosas, sino su significado interior.” — <em>Aristóteles</em></p>
         <hr class="my-5">
@@ -490,7 +490,7 @@
       relatedArticles: [
         { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
         { id: "6", title: "Investigación UX que Transforma Productos" },
-        { id: "5", title: "Más Allá del Lienzo: cómo convertir experiencia en carrera profesional" }
+        { id: "5", title: "Antes de llamarlo UX: diseño, personas y criterio profesional" }
       ],
       relatedProjects: [
         {
@@ -663,7 +663,7 @@
       relatedArticles: [
         { id: "3", title: "El corazón, un órgano diferenciador— proyecto de título" },
         { id: "9", title: "Herramientas de Diseño Inteligentes" },
-        { id: "5", title: "Más Allá del Lienzo: cómo convertir experiencia en carrera profesional" }
+        { id: "5", title: "Antes de llamarlo UX: diseño, personas y criterio profesional" }
       ],
       relatedProjects: [
         {
@@ -683,8 +683,8 @@
     "5": {
       id: 5,
       titleHTML: `
-        Más Allá del Lienzo: 
-        <span class="opacity-70">cómo convertir experiencia en carrera profesional</span>
+        Antes de llamarlo UX: 
+        <span class="opacity-70">lo que aprendí sobre diseño, personas y criterio profesional en el voluntariado</span>
       `,
       date: "25 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo5/img-article-5-3840@2x.webp",
@@ -692,80 +692,74 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-5@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX Designer</strong>. 
-          Mi paso por AIESEC potenció mi liderazgo y me enseñó a transformar iniciativas comunitarias en proyectos medibles.
-          Cuando no diseño para ONG, exploro nuevas formas de visualización de datos con un café en mano.
+          Soy Macarena, <strong>Product & UX/UI Designer</strong>. 
+          Me titulé en Diseño Gráfico en 2015. En 2017 cursé un diplomado Front-End Jr. (Laboratoria Chile) y, desde entonces, consolidé experiencia en UX/UI en roles profesionales y como freelance, complementando mi formación con cursos autodidactas (Udemy, Domestika, YouTube). Mis primeros voluntariados como estudiante fueron el semillero de prácticas que hoy muestro con orgullo en mi portafolio.
+          Cuando no diseño, exploro visualizaciones de datos con un café en mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-5-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>El voluntariado</strong> no es solo buena voluntad: es un laboratorio de habilidades reales. Liderar equipos, diseñar campañas y medir resultados te da experiencia que puede entrar directo en tu portafolio y en conversaciones con recruiters.</p>
-        <p><strong>Antes / Después — mi experiencia personal</strong>— Al principio me movía la inquietud y también mucha duda. Me daba temor asumir responsabilidades porque pensaba que no “daba el ancho”: no estaba segura de poder enseñar o coordinar con estudiantes de otras carreras y culturas. Con el tiempo acepté roles que me sacaron de mi zona de confort: organicé cronogramas, facilité comunicación entre equipos y diseñé material de captación. Me pidieron dar capacitaciones y me ofrecieron liderar un área. Fue un proceso de prueba y error: pedí ayuda cuando la necesité, aprendí a delegar y a medir resultados. Al mirar atrás, ya no soy la de antes: tengo más confianza, más claridad sobre lo que aporto y evidencia concreta para mostrar.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“La gente no compra lo que haces; compra por qué lo haces.” — <em>Simon Sinek</em></p>
-        <hr>
-        <h4 class="text-centerfontpoppins opacity-100">Por qué importa documentar el voluntariado</h4>
-        <p>Muchas iniciativas valiosas quedan sin registrar y se pierden en el olvido. Documentarlas bien te permite:</p>
-        <ul>
-          <li>Mostrar habilidades transferibles (liderazgo, coordinación, gestión de stakeholders).</li>
-          <li>Probar impacto con números simples (postulaciones, asistencia, satisfacción).</li>
-          <li>Contar una narrativa profesional coherente que recruiters y clientes valoran.</li>
-        </ul>
+        <p>Durante mucho tiempo pensé que mi experiencia en voluntariados era solo eso: participación, apoyo y aprendizaje personal. Hoy entiendo que ahí —sin llamarlo UX— empecé a desarrollar una forma de observar, priorizar y tomar decisiones que definiría mi camino profesional.</p>
+        <p><strong>Mis primeros voluntariados fueron un laboratorio:</strong> sin terminología técnica ni procesos formales, ejercité la curiosidad, la sensibilidad por las personas, el orden en el caos y la capacidad de iterar con lo que había.</p>
+        <p>Con el tiempo —tras titularme en 2015, cursar un diplomado Front-End Jr. en 2017 (Laboratoria Chile) y profundizar de manera autodidacta y profesional en UX/UI— entendí que esas prácticas no eran casuales. <strong>Eran señales tempranas de una manera de pensar</strong> que hoy aplico conscientemente en diseño de producto.</p>
+        <p class="text-center fs-6 my-4 bg-canva p-3">Mirar hacia atrás fue clave: no para reescribir mi historia, sino para entenderla.</p>
         <hr class="my-5">
         <h2 class="mb-3">Mini-casos</h2>
         <ul>
             <li>
-                <strong><em><a href="https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Voluntariado en AIESEC</a>:</em></strong>
-                <p><strong>Reto:</strong> baja captación y falta de material estandarizado para eventos y stand.</p>
-                <p><strong>Acción:</strong> diseñé +20 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.</p>
-                <p><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa.</p>
-                <p><strong><em>Aprendizaje:</em></strong> alinear comunicación visual con procesos operativos impulsa la participación.</p>
-                <p class="textdescriptions"><small><strong>Cómo se midió:</strong> el resultado se obtuvo comparando el número de postulaciones registradas en la campaña previa, considerando las piezas y la planificación del stand, según registros internos de AIESEC.</small></p>
+                <strong><em><a href="https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">AIESEC — Voluntariado (etapa estudiantil)</a>:</em></strong>
+                <p><strong>Reto:</strong> baja captación y materiales no estandarizados.</p>
+                <p><strong>Acción:</strong> diseñé más de 15 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.</p>
+                <p><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa (registro interno).</p>
+                <p><strong><em>Qué demuestra:</em></strong> investigación rápida, pruebas de diseño y medición de impacto (habilidades aplicables a UX).</p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka</a>:</em></strong>
-                <p><strong>Reto:</strong> tareas operativas sin documentación clara, lo que generaba ineficiencias.</p>
-                <p><strong>Acción:</strong> creé un manual OPL y plantillas prácticas para onboarding.</p>
-                <p><strong>Resultado:</strong> onboarding estandarizado y menor tiempo de adaptación para nuevos voluntarios.</p>
-                <p><strong><em>Aprendizaje:</em></strong> el diseño puede estructurar cultura y operaciones; un documento claro ahorra horas.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Casona Minka — Manual OPL (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> tareas operativas sin documentación clara.</p>
+                <p><strong>Acción:</strong> diseñé un Manual OPL y plantillas para onboarding.</p>
+                <p><strong>Resultado:</strong> onboarding estandarizado y menor tiempo de adaptación.</p>
+                <p><strong><em>Qué demuestra:</em></strong> capacidad para sistematizar procesos y traducir operaciones a documentación útil (UX writing / documentación de producto).</p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Diseño y Prototipo de Blog — CBC</a>:</em></strong>
-                <p><strong>Reto:</strong> la comunicación por email no era escalable y la lectura móvil era pobre.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Diseño y prototipo de blog (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> comunicación por email no escalable y mala experiencia móvil.</p>
                 <p><strong>Acción:</strong> prototipé un blog en HTML5/CSS3, definí flujos editoriales y guías de publicación.</p>
-                <p><strong>Resultado:</strong> canal estable que centralizó la comunicación y permitió medir engagement.</p>
-                <p><strong><em>Aprendizaje:</em></strong> soluciones sostenibles facilitan la continuidad y muestran impacto medible.</p>
+                <p><strong>Resultado:</strong> canal centralizado para medir engagement.</p>
+                <p><strong><em>Qué demuestra:</em></strong> soluciones escalables que integran diseño y front-end.</p>
                 <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> el blog permitió centralizar contenidos y habilitar métricas básicas de lectura y participación que antes no existían.</small></p>
             </li>
         </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">"El liderazgo no está en mandar; está en conectar, inspirar y motivar a otros a actuar. La empatía es el mejor catalizador del cambio."</p>
         <hr>
-        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Tres pasos prácticos para transformar voluntariado en experiencia profesional</h4>
-        <ol>
-            <li>
-                <strong><em>Acepta roles que te saquen de tu zona de confort</em></strong>
-                <ul>
-                    <li>Busca responsabilidad real: coordinar, liderar proyectos, formar a otros.</li>
-                    <li>Documenta tareas y decisiones: qué hiciste, por qué lo hiciste y qué decisión tomaste.</li>
-                </ul>
-            </li>
-            <div class="my-5"></div>
-            <li>
-                <strong><em>Mide lo que puedas, aunque sea con indicadores simples</em></strong>
-                <ul>
-                    <li>Postulaciones por campaña, asistentes a eventos, tasa de conversión interés→postulación, encuestas de satisfacción.</li>
-                    <li>Guarda una línea base (antes) y compara después de tu intervención.</li>
-                </ul>
-            </li>
-            <div class="my-5"></div>
-            <li>
-                <strong><em>Cuenta tu historia con evidencia</em></strong>
-                <ul>
-                    <li>Publica un hilo en LinkedIn o una entrada en tu blog con: contexto, tu rol, metodología, resultado y un testimonio breve.</li>
-                    <li>Adjunta artefactos: piezas diseñadas, cronogramas, capturas del dashboard o encuestas.</li>
-                </ul>
-            </li>
-        </ol>
+        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Educación formal vs. “ser profesional”</h4>
+        <ul>
+            <li><strong><em>La educación formal suma:</em></strong> estructura, lenguaje común, validación.</li>
+            <li>Pero <strong><em>no define</em></strong> por completo a la persona profesional.</li>
+            <li>Lo profesional <strong><em>también se construye desde la personalidad</em></strong>, la ética, la curiosidad, la forma de observar y de aportar valor.</li>
+        </ul>
+        <p>Esto <strong>no invalida el título</strong> (muy importante), sino que lo contextualiza como parte de un sistema mayor.</p>
+        <hr>
+        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Personalidad, disfrute y creatividad</h4>
+        <ul>
+          <li>Los momentos de mayor creatividad suelen ocurrir <strong><em>cuando no estamos cumpliendo expectativas externas</em></strong>, sino explorando.</li>
+          <li>
+            Esos momentos dejan pistas sobre:
+            <ul>
+              <li>Cómo pensamos</li>
+              <li>Qué tipo de problemas nos energizan y motivan</li>
+              <li>Qué rol tomamos naturalmente en equipos</li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Ser autodidacta y autonomía</h4>
+        <ul>
+            <li>Ser autodidacta no es “aprender solo”.</li>
+            <li>Es <strong><em>hacerse responsable del propio crecimiento</em></strong>, decidir qué aprender, cuándo y por qué.</li>
+            <li>En <strong><em>voluntariados</em></strong>, esa autonomía aparece temprano: nadie te da un roadmap, tú lo construyes.</li>
+        </ul>
+        <p>La autonomía es una competencia profesional. El voluntariado es un entorno donde esa competencia se ejercita antes que en trabajos formales.</p>
 
         <!-- Banner E-Book Memoria Emocional -->
         <div id="banner-ebook-price-memoriaemocional" class="d-none"></div>
@@ -774,14 +768,19 @@
         <hr class="my-5">
         <div class="bg-canva p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Cómo demuestra el voluntariado habilidades transferibles?</strong></p>
-            <p>Con resultados y artefactos: explica tu rol, muestra piezas y cronogramas, comparte métricas y 1–2 testimonios que respalden tu aporte.</p>
+            <p><strong>¿Qué hago si no hay datos previos para medir el impacto de mi experiencia?</strong></p>
+            <p>Cuando no existen métricas previas, el primer paso es <strong>crear una línea base mínima</strong>, aunque sea imperfecta. Puede ser una campaña puntual, un período corto (dos semanas) o una comparación cualitativa antes/después.</p>
+            <p>Medir no siempre es tener dashboards complejos; muchas veces es demostrar criterio, intención y capacidad de observación.</p>
             <hr>
-            <p><strong>¿Puedo incluir trabajo voluntario en un case study profesional?</strong></p>
-            <p>Sí. Anonimiza datos sensibles si corresponde; presenta contexto, tu rol, la línea base, la metodología y los resultados cuantificados.</p>
+            <p><strong>¿Cómo muestro que soy autodidacta sin sonar informal?</strong></p>
+            <p>Presenta proceso y resultados: problema → aprendizaje aplicado → resultado. Cursos y tutoriales suman cuando están conectados a decisiones reales.</p>
             <hr>
-            <p><strong>¿Qué hago si no hay datos previos?</strong></p>
-            <p>Registra una línea base mínima (una campaña o dos semanas), usa encuestas rápidas y combina métricas con testimonios cualitativos.</p>
+            <p><strong>¿Cómo transformo recuerdos creativos en fortalezas profesionales?</strong></p>
+            <p>Revisa esos momentos donde creabas sin presión externa, desde el disfrute y la curiosidad.</p>
+            <p>Pregúntate:</p>
+            <p><em>¿qué estaba resolviendo?, ¿qué me motivaba?, ¿cómo pensaba?, ¿qué decisiones tomaba casi de forma intuitiva?</em></p>
+            <p>Ahí suelen aparecer <strong>patrones de personalidad</strong>: observación, empatía, síntesis, sensibilidad visual o pensamiento sistémico.</p>
+            <p>Cuando los reconoces y los conectas con tu práctica actual, esos recuerdos dejan de ser nostalgia y se convierten en <strong>criterio profesional consciente</strong>.</p>
         </div>
         <!-- Gallery Article -->
         <hr class="my-5">
@@ -819,15 +818,12 @@
             </div>
           </div>
           <!-- Gallery Article -->
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
-        <ol>
-            <li>Documentar transforma tareas en evidencia profesional.</li>
-            <li>Medir —aunque sea con métricas simples— transforma historias en datos accionables.</li>
-            <li>Liderar en voluntariado enseña coordinación, delegación y diseño de soluciones sostenibles.</li>
-        </ol>
-        <hr class="my-5">
-        <p>El voluntariado es una escuela práctica: te expone a problemas reales, equipos diversos y decisiones que no aparecen en las aulas. Si aceptas responsabilidades, mides lo que haces y cuentas la historia con humildad y datos, tu experiencia deja de ser un anexo del CV y pasa a ser parte central de tu trayectoria profesional.</p>   
+          <hr class="my-5">
+          <p>Mis experiencias de voluntariado, vividas en etapa estudiantil, fueron mucho más que una colaboración puntual. Sin saberlo en ese momento, ahí empecé a practicar habilidades muy cercanas al <strong>pensamiento UX:</strong> observar antes de decidir, priorizar en contextos reales e iterar con los recursos disponibles.</p>
+          <p>No lo aprendí en una sala de clases. Surgió de hacerme responsable, de escuchar a otros, de intentar mejorar procesos que no funcionaban y de aprender mientras avanzaba.</p>
+          <p>Ser autodidacta y asumir responsabilidad es una forma de liderazgo. No es algo que deba esconderse o minimizarse; es algo que merece ser mostrado con claridad y orgullo.</p>
+          <p><strong>Un voluntariado es una escuela práctica:</strong> te enfrenta a problemas reales, equipos diversos y decisiones que importan. Por eso, tus experiencias desde la etapa estudiantil no deberían descartarse. Muchas competencias profesionales nacen ahí, cuando aún no estamos intentando <em>“ser profesionales”</em>, sino simplemente resolver, colaborar y crear desde la honestidad.</p>
+          <p>Mirar hacia atrás y reconocer esos momentos no es nostalgia: <strong>es autoconocimiento</strong>. Entender cómo aprendiste, cómo decidiste y qué disfrutaste hacer es una herramienta poderosa para <em>construir una carrera con sentido</em>. Porque, al final, <em><strong><u>el crecimiento profesional</u> <span class="color-green">no empieza con un título ni termina con él</span>:</strong> se construye cuando conectas quién eres, cómo aprendes y el impacto que decides generar.</em></p>
       `,
       // ← Aquí las relaciones
       relatedArticles: [
@@ -846,7 +842,7 @@
         },
         {
           title: "Voluntariado en AIESEC",
-          url: "https://www.behance.net/gallery/54481033/Proyecto-de-Titulo-UFT-2015"
+          url: "https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29"
         }
       ]
     },
