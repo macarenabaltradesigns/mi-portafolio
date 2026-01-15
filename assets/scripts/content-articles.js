@@ -316,7 +316,7 @@
       // ← Aquí las relaciones
       relatedArticles: [
         { id: "10", title: "Brand Kit Eficiente: Ahorra Tiempo y Consigue Coherencia Visual" },
-        { id: "7", title: "Brief de Diseño: Hoja de Ruta para Proyectos Exitosos" },
+        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
         { id: "9", title: "Herramientas de Diseño Inteligentes: Cómo Elegir la Mejor para Tu Equipo" }
       ],
       relatedProjects: [
@@ -694,7 +694,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-5@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer</strong>. 
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong> 
           Me titulé en Diseño Gráfico en 2015. En 2017 cursé un diplomado Front-End Jr. (Laboratoria Chile) y, desde entonces, consolidé experiencia en UX/UI en roles profesionales y como freelance, complementando mi formación con cursos autodidactas (Udemy, Domestika, YouTube). Mis primeros voluntariados como estudiante fueron el semillero de prácticas que hoy muestro con orgullo en mi portafolio.
           Cuando no diseño, exploro visualizaciones de datos con un café en mano.
         </span>
@@ -830,7 +830,7 @@
       // ← Aquí las relaciones
       relatedArticles: [
         { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
-        { id: "7", title: "Brief de Diseño: Hoja de Ruta para Proyectos Exitosos" },
+        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
         { id: "10", title: "Brand Kit Eficiente" }
       ],
       relatedProjects: [
@@ -873,7 +873,7 @@
         <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
         <p>Muchas interfaces nacen de suposiciones: pantallas atractivas que ocultan pasos confusos. Sin investigación, los equipos toman decisiones por opinión y no por efecto real.</p>
         <p><strong>Un punto que suele pasarse por alto:</strong> diseñar sin contenido suele ser decoración. Textos, titulares, CTAs y ejemplos reales dan intención y jerarquía; sin ellos, la interfaz puede quedar bonita pero vacía. Por eso recomiendo <strong><em>investigar, diseñar y escribir en paralelo:</em></strong> el contenido aporta propósito y el diseño estructura ese propósito.</p>
-        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
         <ul>
             <li><p><strong><em>Antes:</em></strong> pantallas que se veían bien pero no resolvían procesos.</p></li>
             <li><p><strong><em>Qué pasó:</em></strong> aplicamos métodos de investigación (mapas de recorrido, observación en contexto y pruebas por etapas) y trabajamos el contenido desde el primer boceto.</p></li>
@@ -976,8 +976,8 @@
     "7": {
       id: 7,
       titleHTML: `
-        Brief de Diseño: 
-        <span class="opacity-70"> Hoja de Ruta para Proyectos Exitosos</span>
+        Brief de diseño: 
+        <span class="opacity-70"> la hoja de ruta que acorta proyectos</span>
       `,
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo7/img-article-7-3840@2x.webp",
@@ -985,135 +985,143 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-7@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>—Product & UX Designer—</strong>
-          y pienso que empezar con un buen brief es un acto de cuidado: cuida tiempos, dinero y expectativas. Tras estandarizar documentos en equipos diversos, veo cómo un brief corto y bien hecho cambia la energía del proyecto.
-          Cuando no estructuro briefs, exploro nuevas metodologías de diseño con un té de jazmín a mano.
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Creo que empezar con un brief operativo es un acto de cuidado: protege tiempos, presupuesto y expectativas. Tras estandarizar documentos en equipos diversos, comprobé que un brief corto y práctico cambia la energía del proyecto. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de manera autodidacta.
+          Cuando no diseño, pruebo metodologías nuevas con un té de jazmín a mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-1-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>El éxito de un proyecto de diseño rara vez depende sólo del talento creativo. Gran parte se decide al principio: cuando cliente y equipo alinean objetivo, alcance y criterios. Un brief claro es la brújula que evita idas y vueltas, acelera decisiones y protege el tiempo de todos.</p>
-        <p><strong>¿Qué es un Brief de Diseño?</strong> Un brief es un documento breve y operativo que responde: ¿qué queremos lograr?, ¿por qué importa?, ¿para quién es esto? y ¿qué entregables y plazos acordamos? Más que un archivo, es la referencia diaria que guía decisiones creativas y técnicas.</p>
+        <p>Un brief claro acorta proyectos: menos dudas, decisiones más rápidas y entregables alineados con el negocio.</p>
+        <p>En este artículo encontrarás una hoja de ruta práctica para crear briefs operativos: qué incluir, cómo estructurarlo y plantillas para empezar ya.</p>
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
+        <ul>
+            <li><p><strong><em>Antes:</em></strong> proyectos que empezaban por pantallas y terminaban con muchas correcciones.</p></li>
+            <li><p><strong><em>Qué pasó:</em></strong> al poner un brief operativo en el kick-off, alineamos objetivo, contenido y plazos desde el día 0.</p></li>
+            <li><p><strong><em>Después:</em></strong> decisiones más ágiles, entregables coherentes y clientes con capacidad para publicar sin depender del equipo de diseño.</p></li>
+        </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño es el pensamiento hecho visual” — <em>Saul Bass</em></p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Sin un brief práctico ocurren con frecuencia:</p>
-        <ul>
-            <li>Se pierde tiempo en decisiones evitables.</li>
-            <li>Aumentan las correcciones por malentendidos.</li>
-            <li>Entregables inconsistente que no responden al objetivo de negocio.</li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">Un brief bien definido evita eso y pone a todos en la misma página desde el día 0.</p>
-        <h4 class="mt-5 mb-3">¿Por qué es tan importante?</h4>
-        <p>Un brief alineado:</p>
-        <ul>
-            <li>Acelera la toma de decisiones.</li>
-            <li>Reduce consultas y correcciones.</li>
-            <li>Permite medir si el trabajo cumple el objetivo comercial o funcional.</li>
-        </ul>
+        <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
+        <p>El talento creativo importa, pero la mayor parte del resultado se decide al inicio. Sin un brief práctico aparecen: pérdida de tiempo en decisiones evitables, cambios constantes por malentendidos y entregables que no responden al objetivo. Dedicar tiempo a definir un brief no es papeleo: <strong>es una inversión que protege tiempos, presupuesto y expectativas.</strong></p>
         <hr>
-        <h4 class="mt-5 mb-3">Elementos Clave de un Brief Efectivo</h4>
-        <p>Un brief no debe ser largo; debe ser útil. Campos que siempre incluyo:</p>
+        <h4 class="mt-5 fontpoppins opacity-100">¿Qué es un Brief de Diseño?</h4>
+        <p>Un brief de diseño es un documento breve y operativo que responde con claridad: ¿qué buscamos lograr?, ¿por qué importa?, ¿para quién es esto? y ¿qué entregables y plazos acordamos? <strong>No es un PDF extenso</strong> que nadie abre; es la guía viva que se consulta cada vez que surge una duda.</p>
+        <hr>
+        <h4 class="mt-5 mb-3">Elementos clave de un brief efectivo</h4>
+        <p>Un brief no debe ser largo; debe ser útil y accionable. Campos que siempre incluyo:</p>
         <ol>
-            <li><strong>Título del proyecto</strong></li>
+            <li><strong>Título del proyecto</strong>— foco claro en una línea.</li>
             <li><strong>Objetivo (1 línea, SMART si es posible)</strong>— ¿Qué buscamos lograr? (p. ej. aumentar completitud de formulario +15% en 60 días).</li>
-            <li><strong>Audiencia principal</strong>— quién usa o recibe el producto (edad, rol, contexto).</li>
-            <li><strong>Propuesta de valor / mensaje clave</strong>— ¿qué debe comunicar esta pieza?</li>
-            <li><strong>Alcance (qué está dentro y qué no)</strong>— entregables claros.</li>
-            <li><strong>Métricas de éxito</strong>— 2–3 KPIs (ej.: tasa de conversión, tiempo por tarea, CSAT).</li>
-            <li><strong>Restricciones</strong>— plazos, tech stack, recursos, accesibilidad.</li>
-            <li><strong>Referencias visuales / tono</strong>— ejemplos “qué sí” / “qué no”</li>
-            <li><strong>Stakeholders y responsables</strong>— quién aprueba en cada etapa.</li>
-            <li><strong>Plazos y entregables</strong>— fechas clave y entregables intermedios.</li>
+            <li><strong>KPIs y línea base</strong>— 1–2 métricas que medirán éxito (cómo y con qué datos se registra la línea base).</li>
+            <li><strong>Audiencia / JTBD (2–3 perfiles)</strong>— quién usa esto, en qué contexto y qué intenta lograr.</li>
+            <li><strong>Mensaje y contenido de referencia (content-first)</strong>— titulares, microcopy y un CTA ejemplo; si no hay textos definitivos, añade “prototipos de contenido” que el diseño debe soportar.</li>
+            <li><strong>Alcance y entregables</strong>— qué está dentro y qué no (wireframes, prototipo, archivos fuente, plantillas).</li>
+            <li><strong>Restricciones técnicas y presupuesto estimado</strong>— stack, limitaciones y recursos.</li>
+            <li><strong>Referencias visuales y tono</strong>— qué sí / qué no.</li>
+            <li><strong>Stakeholders y aprobaciones</strong>— quién aprueba cada paso.</li>
+            <li><strong>Plazos clave y versionado</strong>— fechas, responsable y control de cambios.</li>
         </ol>
+        <p><strong><em>Tip:</em></strong> un brief que incluye ejemplos de contenido y una plantilla visual reduce preguntas y acelera el hand-off.</p>
         <hr>
         <h4 class="mt-5 mb-3">Mini-casos</h4>
         <ul>
             <li>
-                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System para FOL</a>:</em></strong>
-                <p><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing que frenaban lanzamientos.</p>
-                <p><strong>Acción:</strong> brief inicial + moodboard + guía de tokens visuales y plantillas.</p>
-                <p><strong>Resultado:</strong> decisiones más ágiles; despliegues sin correcciones de color.</p>
-                <p><strong><em>Aprendizaje:</em></strong> un brief operativo + entregables fuente acelera el hand-off técnico.</p>
+                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System para FOL (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing que retrasaban lanzamientos.</p>
+                <p><strong>Acción:</strong> brief inicial + moodboard + guía de tokens (colores, tipografías) y plantillas editables.</p>
+                <p><strong>Resultado:</strong> decisiones más ágiles y casi sin correcciones de color.</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un brief operativo con archivos fuente acelera el hand-off técnico.</small></p>
             </li>
             <li>
-                <strong><em><a href="landing-projects-d-australGroup.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Aulas Virtuales e-Learning para Austral Group</a>:</em></strong>
-                <p><strong>Reto:</strong> comenzar por pantallas sin entender flujos y usuarios.</p>
-                <p><strong>Acción:</strong> brief con 3 perfiles (roles) y mapeo de journeys antes de wireframes.</p>
+                <strong><em><a href="landing-projects-d-australGroup.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Aulas Virtuales e-Learning — Austral Group (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> iniciar por pantallas sin entender flujos ni usuarios.</p>
+                <p><strong>Acción:</strong> brief con 3 perfiles prioritarios y mapeo de recorridos antes de wireframes.</p>
                 <p><strong>Resultado:</strong> mayor velocidad en entregas y capacidad de anticipar soluciones.</p>
-                <p><strong><em>Aprendizaje:</em></strong> mapear usuarios antes de diseñar evita supuestos costosos.</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> mapear usuarios y trabajos a realizar evita suposiciones costosas.</small></p>
             </li>
             <li>
-                <strong><em><a href="landing-projects-d-tarotParaSanar.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Rebranding / Plantillas para Tarot para Sanar</a>:</em></strong>
-                <p><strong>Reto:</strong> producir 18 piezas en 4 semanas con tono profundo y coherente.</p>
-                <p><strong>Acción:</strong> brief estético claro + plantillas editables.</p>
-                <p><strong>Resultado:</strong> entregas puntuales y cliente autónoma para publicar.</p>
-                <p><strong><em>Aprendizaje:</em></strong> incluir plantillas en el entregable reduce consultas posteriores.</p>
+                <strong><em><a href="landing-projects-d-tarotParaSanar.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Rebranding y plantillas — Tarot para Sanar (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> producir 18 piezas para redes sociales y rebranding en 4 semanas manteniendo tono coherente.</p>
+                <p><strong>Acción:</strong> brief estético preciso, plantillas editables en formato para redes y guías rápidas de uso (paleta, tipografías y logo).</p>
+                <p><strong>Resultado:</strong> entregas puntuales y autonomía del cliente.</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> entregar plantillas reduce consultas posteriores y da escalabilidad.</small></p>
             </li>
         </ul>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Checklist operativo</h2>
-        <p>(30 / 60 / 90 días) — con indicadores</p>
+        <h4 class="mt-5 fontpoppins opacity-100">Brief operativo — 7 pasos que realmente funcionan</h4>
+        <p>Un brief eficaz es práctico, colaborativo y accionable. Más que un documento largo, debe ser la guía viva del proyecto.</p>
         <ol>
           <li>
-            <p><strong>Semana 0 (Kick-off, día 0)</strong></p>
-                <ul>
-                  <li>Objetivo SMART aprobado.</li>
-                  <li>2 perfiles definidos (responsable de producto + responsable de diseño).</li>
-                  <li>Moodboard y 3 referencias.</li>
-                  <li><strong>KPI línea base registrada</strong> (p. ej. tiempo medio por tarea o % de completitud)</li>
-                </ul>
-              </li>
-              <li>
-                <p><strong>Día 30</strong></p>
-                <ul>
-                  <li>Entrega de wireframes y prototipo MVP.</li>
-                  <li>Plantilla visual básica aprobada (slide / PDF).</li>
-                  <li><strong>Medir:</strong> % de piezas que usan plantilla; número de correcciones en la primera ronda.</li>
-                </ul>
-              </li>
-              <li>
-                <p><strong>Día 60</strong></p>
-                <ul>
-                  <li>Primera versión funcional / QA básico.</li>
-                  <li><strong>Medir:</strong> reducción % en tiempo por tarea vs. línea base; % de entregables aprobados a la primera.</li>
-                </ul>
-              </li>
-              <li>
-                <p><strong>Día 90</strong></p>
-                <ul>
-                  <li>Entrega final y retro / lecciones aprendidas.</li>
-                  <li><strong>Medir:</strong> horas/mes ahorradas estimadas; CSAT cliente; % de entregables entregados en tiempo.</li>
-                </ul>  
+            <p><strong>Kick-off colaborativo (45–60 min)</strong></p>
+            <ul>
+              <li class="mb-3">Junta a cliente, producto, diseño y quien apruebe los entregables. Usa un tablero visual (Miro / Notion) para consensuar objetivo, restricciones y responsables. Documenta acuerdos.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Define objetivo y KPI línea base</strong></p>
+            <ul>
+              <li class="mb-3">1 objetivo principal (SMART) y 1–2 KPIs. Registra cómo se midió la línea base (herramienta, periodo). Esto evita discusiones sobre resultados.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Perfila usuarios y JTBD ((Jobs to be Done)</strong></p>
+            <ul>
+              <li class="mb-3">Describe 2–3 perfiles prioritarios y su trabajo clave: dispositivo, contexto y motivadores. Esto evita diseñar para “el usuario promedio”.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Contenido desde el día 0 (content-first)</strong></p>
+            <ul>
+              <li class="mb-3">Incluye titulares de ejemplo, microcopy y un CTA real. Si no hay textos finales, añade prototipos de contenido: el diseño debe sostener el mensaje, no al revés.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Alcance y entregables claros</strong></p>
+            <ul>
+              <li class="mb-3">Lista lo que se entrega (wireframes, prototipo, archivos fuente, plantillas). Adjunta al brief las plantillas editables para uso del cliente.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Restricciones técnicas y presupuesto estimado</strong></p>
+            <ul>
+              <li class="mb-3">Señala stack, límites de accesibilidad y un estimado de tiempo/costo. Esto reduce scope creep y malos entendidos.</li>
+            </ul>
+          </li>
+          <li>
+            <p><strong>Responsables y versionado</strong></p>
+            <ul>
+              <li class="mb-3">Define quién aprueba qué, cómo se registra un cambio y quién actualiza la línea base de KPIs. Cada versión debe tener fecha y responsable.</li>
+            </ul>
           </li>
         </ol>
+        <p><strong><em>Tip:</em></strong> Agenda sesiones cortas por área (Marketing, TI, Ventas): presentación del brief, cómo acceder a assets y qué se espera de cada equipo. Las micro-sesiones reducen preguntas y aumentan adopción.</p>
         <hr class="my-5">
         <div class="bg-canva p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
             <p><strong>¿Qué diferencia un brief UX de un brief visual?</strong></p>
-            <p>El brief UX incluye objetivos de comportamiento y métricas (tests, usuarios), el visual se centra en tono e imagen. Ideal: un único brief que combine ambos planos.</p>
+            <p>El brief UX incluye objetivos de comportamiento y métricas (tests, usuarios); el visual se concentra en tono e imagen. Lo ideal es un brief que combine ambos planos.</p>
             <hr>
             <p><strong>¿Quién debe aprobar el brief?</strong></p>
-            <p>Al menos: cliente/project owner, responsable de producto y diseñador líder.</p>
+            <p>Como mínimo: cliente / project owner, responsable de producto y diseñador líder.</p>
             <hr>
             <p><strong>¿Quién participa en la creación del brief?</strong></p>
             <p>Generalmente el cliente, el equipo de producto, stakeholders clave y el diseñador UX.</p>
             <hr>
-            <p><strong>¿El brief se puede cambiar durante el proyecto?</strong></p>
-            <p>Sí — debe versionarse. Cualquier cambio importante necesita aprobación y actualización de KPIs.</p>
+            <p><strong>¿El brief puede cambiar durante el proyecto?</strong></p>
+            <p>Sí —pero con control: versiona el cambio, registra el impacto en KPIs y solicita aprobación de los responsables.</p>
         </div>
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Mis 4 Aprendizajes Clave</h2>
         <ol>
             <li>Involucra a las personas correctas desde el día 0.</li>
-            <li>Define 1–2 métricas que importen al negocio.</li>
+            <li>Define 1–2 métricas que importen al negocio</li>
             <li>Entrega plantillas y archivos fuente: facilitan implementación y reducen consultas.</li>
-            <li>Mantén el brief vivo: versión, fecha y responsable para cada cambio.</li>
+            <li>Mantén el brief vivo: cada cambio con fecha y responsable.</li>
         </ol>
-        <p class="text-center fs-6 my-4 bg-canva p-3">"Briefs bien definidos, proyectos más cortos, entregables más claros y clientes que regresan"</p>
         <hr>
-        <p>Un brief bien estructurado no es un documento más, es la brújula que guía al equipo de diseño hacia soluciones claras, alineadas y efectivas. Dedicar tiempo a definirlo es invertir en un proceso creativo más ágil y en resultados que realmente aportan valor.</p>
+        <p>Un brief bien pensado no es un trámite: es la brújula que guía al equipo hacia soluciones claras y alineadas. Dedicar tiempo a definirlo es invertir en proyectos más cortos, entregables más alineados y clientes que vuelven.</p>
       `,
       // ← Aquí las relaciones
       relatedArticles: [
@@ -1140,7 +1148,7 @@
       id: 8,
       titleHTML: `
         ROI en UX:
-        <span class="opacity-70"> cómo medir y demostrar impacto (conversiones, ahorro y retención)</span>
+        <span class="opacity-70"> demuestra con números cómo el diseño aumenta conversiones y ahorra costos</span>
       `,
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo8/img-article-8-3840@2x.webp",
@@ -1148,103 +1156,97 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-8@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>—Product & UX Designer—</strong>
-          he transformado procesos y experiencias digitales en proyectos para Austral Group, CBC Web y Hostal Casona Minka, siempre con un enfoque basado en datos y pruebas reales.
-          Cuando no estoy diseñando, me encontrarás disfrutando de un episodio de anime o serie, acompañada de una tabla de sushi vegetariano (sin palta).
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          He aplicado investigación y prototipado en proyectos como Austral Group, CBC Web y Hostal Casona Minka para transformar dificultades en mejoras medibles. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de forma autodidacta.
+          Cuando no mido impactos, disfruto un capítulo de anime con una tabla de sushi vegetariano (sin palta).
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-2-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>¿UX como gasto?</strong> Es un error común. Con un método sencillo la investigación y el diseño no solo mejoran la experiencia: también aumentan conversiones, reducen consultas al soporte y generan ahorros reales. En este artículo te explico cómo pasar de “buen diseño” a evidencia empírica: qué medir, cómo probar hipótesis y qué resultados comunicar para convencer a un recruiter o a un tomador de decisiones.</p>
+        <p><strong>¿UX como gasto?</strong> Es un error frecuente. Con un método práctico, la investigación y el diseño no solo mejoran la experiencia: generan conversiones, reducen consultas al soporte y producen ahorros concretos. Aquí verás qué medir, cómo probar hipótesis y cómo presentar resultados claros que convenzan a un reclutador o a la dirección.</p>
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
+        <ul>
+            <li><p><strong><em>Antes:</em></strong> los proyectos solían comenzar por diseñar pantallas y acabar en debates sobre prioridades y cambios continuos.</p></li>
+            <li><p><strong><em>Qué pasó:</em></strong> registramos la línea base, investigamos en contexto, prototipamos con contenido real y probamos hipótesis en ciclos cortos.</p></li>
+            <li><p><strong><em>Después:</em></strong> priorizamos solo las soluciones que demostraron impacto: menos tickets de soporte, mayor tasa de finalización en flujos clave y ahorros operativos concretos —resultados que facilitaron aprobaciones de inversión y acortaron los plazos de entrega.</p></li>
+        </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">“Si piensas que el buen diseño es caro, deberías considerar el costo del mal diseño” — <em>Dr. Ralf Speth</em></p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Sin una estrategia UX clara ocurre esto: usuarios abandonan flujos críticos, el equipo de soporte se sobrecarga y se pierde facturación y confianza. Además, en algunas empresas el diseño se considera “decoración” o se contrata perfiles sin darles espacio para investigar —eso limita el potencial de impacto del diseño. Si no hay métricas, el diseño queda como opinión; con números pasa a ser evidencia.</p>
+        <h2 class="mt-5 fontpoppins opacity-100">Contexto y problema</h2>
+        <p>Sin métricas, el diseño queda en opinión. Usuarios abandonan pasos críticos, soporte se sobrecarga y se pierde facturación. En organizaciones que consideran al diseño una “decisión estética”, el equipo no tiene espacio para investigar ni justificar cambios. Medir transforma intuiciones en evidencia.</p>
         <hr>
-        <h4 class="mb-3">Qué medir primero</h4>
-        <p>Antes de tocar nada, registra durante 1–2 semanas o 100 sesiones (lo que llegue primero):</p>
+        <h4 class="mb-3">Qué medir primero (línea base)</h4>
+        <p>Antes de tocar nada, registra durante 1–2 semanas (o 100 sesiones):</p>
         <ol>
-            <li>Tiempo por tarea crítica (p. ej. completar el registro).</li>
-            <li>Tasa de abandono del flujo (por paso).</li>
-            <li>Tickets de soporte asociados al flujo (nº / semana).</li>
+            <li>Tiempo por tarea crítica (ej.: completar registro).</li>
+            <li>Tasa de abandono por paso del flujo.</li>
+            <li>Tickets / consultas relacionados (nº por semana).</li>
         </ol>
-        <p>Con estos datos tendrás la línea base para comparar tras los cambios.</p>
+        <p>Con estos datos tendrás la base para comparar tras las mejoras.</p>
         <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Propuesta práctica: convierte UX en ROI medible (pasos)</h4>
+        <h4 class="mt-5 fontpoppins opacity-100">Cómo convertir UX en ROI — pasos prácticos</h4>
         <ol>
-            <li>
+            <li class="mb-3">
                 <strong><em>Define la hipótesis</em></strong>
-                <p>Ej.: “Si simplificamos el formulario de registro, la tasa de completitud aumentará.”</p>
+                <p>Ej.: “Si simplificamos el formulario, la completitud subirá X%”.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Prioriza una métrica norte</em></strong>
-                <p>Elige 1 métrica que represente el impacto (ej.: % de completitud).</p>
+            <li class="mb-3">
+                <strong><em>Elige la métrica norte</em></strong>
+                <p>Selecciona 1 KPI (ej.: % de completitud) y registra la línea base (periodo, fuente).</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Observación contextual</em></strong>
-                <p>Shadowing 1:1 de 10–30 minutos; anota atajos y workarounds. Complementa métricas con entrevistas cortas.</p>
+            <li class="mb-3">
+                <strong><em>Investiga en contexto</em></strong>
+                <p>Shadowing 1:1 (10–30 min) y entrevistas cortas; anota atajos, términos confusos y momentos que interrumpen la tarea.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Diseña un experimento controlado</em></strong>
-                <p>A/B test o test con usuarios; cambia una sola variable por prueba (microcopy, orden de campos, CTA). Corre 3 iteraciones si es posible.</p>
+            <li class="mb-3">
+                <strong><em>Prototipa y prueba</em></strong>
+                <p>Crea un prototipo click-through o HTML ligero. Testea con 3–5 usuarios o A/B si hay suficiente tráfico. Cambia una sola variable por iteración.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Observa en contexto (shadowing 1:1)</em></strong>
-                <p>Acompaña a usuarios en su entorno para descubrir atajos y problemas que las métricas no muestran.</p>
+            <li class="mb-3">
+                <strong><em>Mide y monetiza</em></strong>
+                <p>Calcula la mejora (antes → después) y monetiza: horas ahorradas × coste/hora + aumento de conversiones × valor medio.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Valida prototipos en entorno real</em></strong>
-                <p>Prueba prototipos con usuarios representativos antes de programar.</p>
-            </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Calcula ahorro operativo</em></strong>
-                <p><em>Fórmula práctica:</em></p>
-                <p>Ahorro = (horas de soporte evitadas × coste/h) + (horas de correcciones evitadas × coste/h)</p>
-                <p>ROI (%) = (Beneficio neto − Inversión) / Inversión × 100</p>
-            </li>       
+            <li class="mb-3">
+                <strong><em>Comunica con un one-pager</em></strong>
+                <p>Resume: objetivo, línea base, hipótesis, resultado (%), cálculo de ahorro/ingreso y tiempo de recuperación.</p>
+            </li>   
         </ol>
         <p class="text-center fs-6 my-4 bg-canva p-3">“Si quieres un gran sitio, debes probarlo” — <em>Steve Krug</em></p>
         <hr class="my-5">
         <h2 class="mb-3 mt-5">Mini-casos</h2>
         <ul>
             <li>
-                <strong><em><a href="https://www.behance.net/gallery/229418197/Perfil-de-Inversionista-en-App-FOL-%282018%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Perfil de Inversionista — FOL</a>:</em></strong>
-                <p><strong>Reto:</strong> flujos complejos para completar el perfil y lectura de textos pensados para desktop que no funcionaban en mobile.</p>
-                <p><strong>Acción:</strong> investigación de contenido, priorización de campos, rediseño responsive y prototipado.</p>
-                <p><strong>Resultado:</strong> mayor tasa de completitud del perfil, mejora en la experiencia móvil y reducción de obstáculos para realizar tareas clave.</p>
-                <p><strong><em>Qué demuestra:</em></strong> priorizar contenido crítico mejora conversión sin grandes inversiones.</p>
+                <strong><em><a href="https://www.behance.net/gallery/229418197/Perfil-de-Inversionista-en-App-FOL-%282018%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Perfil de Inversionista — FOL (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> flujos y textos pensados para desktop que fallaban en móvil.</p>
+                <p><strong>Acción:</strong> research de contenido (content-first), priorización de campos y prototipado responsive.</p>
+                <p><strong>Resultado:</strong> aumento en la tasa de completitud y menor abandono en mobile (registro interno).</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> invertir en contenido y validación móvil mejora conversión con inversión moderada.</small></p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLnmgKHS9he/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Burbuja de Chatbot — CBC</a>:</em></strong>
-                <p><strong>Reto:</strong> no contaban con un chatbot para resolver dudas básicas ni acceso directo a su asesor en consultas específicas.</p>
-                <p><strong>Acción:</strong> diseño de burbuja con cuatro rutas (búsqueda, FAQs, vídeos, asesor), pruebas de usabilidad y microcopy optimizado.</p>
-                <p><strong>Resultado:</strong> menos consultas repetidas y soporte más eficiente.</p>
-                <p><strong><em>Qué demuestra:</em></strong> invertir en UX reduce costos operativos.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLnmgKHS9he/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Burbuja de Chatbot — CBC (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> alto volumen de consultas repetidas y falta de acceso directo a asesor.</p>
+                <p><strong>Acción:</strong> diseño de burbuja con cuatro rutas, pruebas de usabilidad y microcopy optimizado.</p>
+                <p><strong>Resultado:</strong> menor volumen de consultas repetidas y soporte más eficiente (registro interno).</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> soluciones UX reducen costos operativos.</small></p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Diseño y Prototipo de Blog — CBC</a>:</em></strong>
-                <p><strong>Reto:</strong> comunicación por email poco escalable y baja lectura en móvil.</p>
-                <p><strong>Acción:</strong> definición de flujos editoriales, prototipado en HTML5/CSS3 y diseño centrado en lectura móvil.</p>
-                <p><strong>Resultado:</strong> mayor organización de contenidos y canal público que reforzó la marca.</p>
-                <p><strong><em>Qué demuestra:</em></strong> experiencia optimizada = mayor engagement.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Diseño y Prototipo de Blog — CBC (proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> comunicación por email difícil de escalar y mala experiencia móvil.</p>
+                <p><strong>Acción:</strong> flujos editoriales, prototipado responsive (HTML5/CSS3) y foco en lectura móvil.</p>
+                <p><strong>Resultado:</strong> mayor lectura móvil y canal público con métricas de engagement.</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un canal bien diseñado se convierte en activo medible para marketing.</small></p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Proyecto de Título — "El corazón, un órgano diferenciador"</a>:</em></strong>
-                <p><strong>Reto:</strong> representar de manera visual y sonora la singularidad del latido humano.</p>
-                <p><strong>Acción:</strong> investigación interdisciplinaria, registro in situ de pulso y creación de mandalas sonoros.</p>
-                <p><strong>Resultado:</strong> validación de la hipótesis y exhibición interactiva exitosa.</p>
-                <p><strong><em>Qué demuestra:</em></strong> investigación aplicada + diseño comunican resultados complejos a audiencias amplias.</p>
+                <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">"El corazón, un órgano diferenciador" (Proyecto académico)</a>:</em></strong>
+                <p><strong>Reto:</strong> traducir señales biométricas a experiencia visual y sonora.</p>
+                <p><strong>Acción:</strong> investigación interdisciplinaria y prototipado experimental.</p>
+                <p><strong>Resultado:</strong> validación de la hipótesis y exhibición.</p>
+                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> investigación aplicada comunica ideas complejas a audiencias amplias.</small></p>
             </li>
         </ul>
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Perfiles UX + UI (qué son y cuándo necesitarlos)</h4>
+        <h4 class="mt-5 fontpoppins opacity-100">Perfiles UX y cuándo contratarlos</h4>
         <p>Un diseñador gráfico no es lo mismo que un diseñador UX/UI. El gráfico trabaja identidad y piezas estáticas; el UX se centra en procesos, comportamiento y medición. Tampoco es necesario que el diseñador dependa jerárquicamente de TI: lo ideal es una colaboración transversal entre Producto, TI y Marketing. Un diseñador puede liderar iniciativas, proponer hipótesis y coordinar con ingeniería según su experiencia y contexto.</p>
         <ul>
             <li><strong>Generalista UX/UI (MVPs):</strong> prototipo navegable, user flows. Ideal para lanzar y validar rápido.</li>
@@ -1269,10 +1271,10 @@
         <div class="bg-canva p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
             <p><strong>¿Cómo calculo el ROI de UX?</strong></p>
-            <p>ROI = (Beneficio neto — Inversión) / Inversión × 100. Beneficio neto = ingresos adicionales + ahorros operativos.</p>
+            <p><em>ROI = (Beneficio neto − Inversión) / Inversión × 100</em>. Beneficio neto = ingresos adicionales + ahorro operativo estimado.</p>
             <hr>
             <p><strong>¿Qué KPI inicio para e-commerce?</strong></p>
-            <p>Tasa de conversión por paso, AOV (average order value), tasa de abandono del carrito y tiempo hasta compra.</p>
+            <p>Tasa de conversión por paso, AOV, abandono de carrito y tiempo hasta completar la compra.</p>
             <hr>
             <p><strong>¿Por qué invertir en UX es relevante para mi empresa y equipo de trabajo?</strong></p>
             <p>Porque reduce obstáculos y costos, aumenta conversiones y velocidad de entrega, y convierte decisiones en resultados medibles.</p>
@@ -1280,12 +1282,14 @@
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
         <ol>
-            <li>Medir convierte UX en evidencia: sin línea base no hay historia creíble.</li>
-            <li>Pequeños experimentos valen mucho: tres iteraciones controladas superan muchas opiniones.</li>
-            <li>El ahorro operativo acelera decisiones: menos consultas y menos correcciones convierten inversión en retorno.</li>
+            <li>Medir primero: sin línea base no hay historia defendible.</li>
+            <li>Experimenta barato y repite: 2–3 iteraciones aportan evidencia sólida.</li>
+            <li>Traduce resultados a dinero o tiempo: así el negocio entiende el valor del diseño.</li>
         </ol>
         <hr class="my-5">
-        <p><em>Invertir en UX no es un gasto estético: es la estrategia que reduce obstáculos, acelera decisiones de compra y hace que tu negocio crezca de forma sostenible — y eso se puede probar con números.</em></p>
+        <p>El diseño deja de ser un gasto cuando se demuestra con números: medir primero, probar rápido y traducir mejoras a ahorro o ingresos transforma intuiciones en decisiones.</p>
+        <p>Cuando integras contenido, investigación y prototipado desde el inicio, las soluciones dejan de ser ideas bonitas y pasan a ser resultados claros: menos consultas al soporte, mayor completitud en flujos clave y procesos internos más ágiles.</p>
+        <p>Cambiar la forma de trabajar no requiere milagros: pide disciplina para registrar la línea base, valentía para probar en pequeño y hábito para comunicar resultados con claridad. Esas tres prácticas son las que, en mi experiencia, convierten diseño en ventaja competitiva.</p>
       `,
       // ← Aquí las relaciones
       relatedArticles: [
@@ -1419,7 +1423,7 @@
       `,
       // ← Aquí las relaciones
       relatedArticles: [
-        { id: "7", title: "Brief de Diseño: Hoja de Ruta para Proyectos Exitosos" },
+        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
         { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" }
       ],
@@ -1572,7 +1576,7 @@
       relatedArticles: [
         { id: "2", title: "Coherencia Visual: Estandariza tus Documentos" },
         { id: "1", title: "Diseño que Evoluciona" },
-        { id: "7", title: "Brief de Diseño: Hoja de Ruta para Proyectos Exitosos" }
+        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" }
       ],
       relatedProjects: [
         {
