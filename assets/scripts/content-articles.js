@@ -1316,7 +1316,7 @@
       id: 9,
       titleHTML: `
         Herramientas de Diseño: 
-        <span class="opacity-70"> Cómo Elegir la Mejor para Tu Equipo</span>
+        <span class="opacity-70"> elige lo que hace al equipo más autónomo</span>
       `,
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo9/img-article-9-3840@2x.webp",
@@ -1324,7 +1324,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-9@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX Designer.</strong>
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
           He adaptado herramientas y flujos según contexto y objetivos, buscando siempre que el equipo gane autonomía y velocidad.
           Cuando no estoy utilizando herramientas de diseño, me puedes encontrar disfrutando de un pastel de frutos del bosque con una infusión de rooibos.
         </span>
@@ -1332,94 +1332,96 @@
       imageUrl: "assets/img/coveraboutme/avatar-3-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-          <p>La mejor herramienta no es la más popular: es la que tu equipo domina y que resuelve objetivos reales. Elegir mal no solo genera incomodidad: frena proyectos, provoca demoras evitables y reduce la autonomía del equipo.</p>
+          <p>Elige herramientas con pruebas reales y métricas: así ganas autonomía, velocidad y menos dependencias.</p>
+          <p>La mejor herramienta es la que el equipo domina y que resuelve objetivos reales —no la que está de moda.</p>
+          <p>Aquí tienes un proceso práctico (5 pasos), criterios claros y ejemplos reales para elegir, probar e incorporar la herramienta que realmente ayude a tu equipo a hacer mejor su trabajo.</p>
           <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-          <p>He visto equipos adoptar herramientas por moda o por preferencia del líder, sin medir impacto real. El resultado: curvas de aprendizaje largas, frustración, demoras y gasto inútil en licencias. Si no ligas la elección a resultados concretos, la herramienta deja de ser ayuda y se convierte en obstáculo.</p>
-          <hr>
-          <h4 class="mt-5 fontpoppins opacity-100">5 pasos para elegir la herramienta correcta</h4>
+          <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
+          <p>He visto equipos elegir herramientas por moda o por la preferencia de quien decide. El resultado suele ser siempre el mismo: curvas de aprendizaje largas, frustración, demoras y gasto en licencias que casi no se usan. Si la elección no se vincula a objetivos concretos, la herramienta deja de ser ayuda y se vuelve un freno. Este artículo explica cómo decidir con evidencia, probar en condiciones reales y acompañar la implementación para que el uso sea real y constante.</p>
+          <h4 class="mt-5 fontpoppins opacity-100">Antes / Después — en pocas palabras</h4>
+          <ul>
+              <li><p><strong><em>Antes:</em></strong> decisiones por opinión o moda.</p></li>
+              <li><p><strong><em>Después:</em></strong> decisiones basadas en necesidades, pruebas reales y métricas que demuestran si la herramienta mejora el trabajo diario.</p></li>
+          </ul>
+          <hr class="my-5">
+          <h4 class="my-5 fontpoppins opacity-100">5 pasos para elegir la herramienta correcta (proceso práctico)</h4>
           <ol>
-            <li><strong>Auditoría rápida (30–60 min):</strong> Reúne 4–5 stakeholders (Marketing, Producto, TI, Operaciones, Diseño). Pide 2–3 necesidades por persona y prioriza por impacto × frecuencia. <strong>Resultado:</strong> lista de 3 objetivos prioritarios (ej.: velocidad de publicación, calidad de arte final, integración con dev).</li>
-            <li><strong>Define la métrica norte por entregable:</strong> Antes de probar, acuerda qué medirás: tiempo por publicación, tasa de errores en export, tiempo de hand-off, satisfacción del editor (NPS interno). Sin línea base, no hay evidencia.</li>
-            <li><strong>Evalúa 4 dimensiones (Matriz)</strong> precisión (¿requiere control técnico o detalle vectorial?), colaboración (¿edición simultánea?), integración (¿export/hand-off a dev o a otros formatos?), coste/curva de aprendizaje (¿vale la inversión por lo que aporta? Prioriza según impacto × frecuencia.).</li>
-            <li><strong>Piloto corto (7–14 días) — prueba real + medición:</strong> Selecciona 1 entregable real (post, banner, página o vídeo corto). Mide tiempo por tarea, errores y satisfacción del editor. Repite con 1–2 herramientas si es necesario. Los datos del piloto justifican la decisión.</li>
-            <li><strong>Plan de adopción 30/60/90 días:</strong> Licencias, responsable, plantillas, formaciones cortas y métricas de adopción.</li>
+            <li><strong>Auditoría rápida (30–60 min):</strong> Reúne 4–5 stakeholders (Marketing, Producto, TI, Operaciones, Diseño). Pide 2–3 necesidades por persona y prioriza por impacto × frecuencia. El entregable: 3 objetivos concretos (ej.: velocidad de publicación, calidad de arte final, integración con desarrollo).</li>
+            <li><strong>Define la métrica norte por entregable:</strong> Antes de probar, acuerda qué medirás: tiempo por publicación, errores en la exportación, tiempo de hand-off, satisfacción del responsable. Registra la línea base (cómo se midió) para comparar después.</li>
+            <li><strong>Evalúa con una matriz simple:</strong> Valora: (a) precisión técnica (¿requiere control vectorial?), (b) colaboración en tiempo real, (c) integración con desarrollo/formatos de entrega, (d) coste y curva de aprendizaje. Prioriza según impacto × frecuencia.</li>
+            <li><strong>Prueba corta y medible (7–14 días):</strong> Elige 1 entregable real (post, banner, página o video corto). Haz la prueba, mide tiempo por tarea, errores y satisfacción del responsable. Si hace falta, repite la prueba con otra alternativa. Usa los datos para decidir con mayor seguridad.</li>
+            <li><strong>Plan de incorporación 30/60/90 días:</strong> Define licencias, responsable de implementación, plantillas, sesiones cortas de formación y métricas de uso (por ejemplo: % de uso de plantillas, tiempo por tarea, tickets de soporte). Revisa y ajusta en ciclos breves.</li>
           </ol>
           <hr>
-          <h4 class="mt-5 fontpoppins opacity-100">Matriz rápida: cuándo elegir cada herramienta</h4>
-          <p><strong>Illustrator (Adobe)</strong></p>
-          <ul>
-            <li>Cuándo: branding, iconografía y arte final que exige precisión.</li>
-            <li>Ventaja: control vectorial.</li>
-            <li>Contra: curva de aprendizaje y licencia.</li>
-          </ul>
-          <p><strong>InDesign (Adobe)</strong></p>
-          <ul>
-            <li>Cuándo: maquetación multipágina (revistas, folletos).</li>
-            <li>Ventaja: control tipográfico.</li>
-            <li>Contra: colaboración en tiempo real limitada.</li>
-          </ul>
-          <p><strong>Canva</strong></p>
-          <ul>
-            <li>Cuándo: equipos no diseñadores y contenidos sociales.</li>
-            <li>Ventaja: rapidez y autonomía.</li>
-            <li>Contra: control fino para arte final.</li>
-          </ul>
-          <p><strong>Figma</strong></p>
-          <ul>
-            <li>Cuándo: interfaces, prototipado y trabajo colaborativo.</li>
-            <li>Ventaja: colaboración en vivo y hand-off.</li>
-            <li>Contra: no es la herramienta ideal para arte final de impresión.</li>
-          </ul>
-          <p><strong>CapCut / Premiere Pro</strong></p>
-          <ul>
-            <li>Cuándo: video rápido vs. producción profesional.</li>
-            <li>Ventaja: velocidad móvil (CapCut) o control profesional (Premiere).</li>
-            <li>Contra: recurso hardware / curva de uso.</li>
-          </ul>
+          <h4 class="my-5 fontpoppins opacity-100">Cuándo elegir cada herramienta</h4>
+          <p><strong>Illustrator (Adobe)</strong>— Para branding, iconografía y arte final con control vectorial. Recomendado para equipos de diseño/producción.</p>
+          <p><strong>InDesign (Adobe)</strong>— Para maquetación multipágina (revistas, catálogos). Recomendado para equipos editoriales.</p>
+          <p><strong>Canva</strong>— Para contenidos rápidos en redes y equipos no diseñadores. Úsalo con plantillas controladas y conservando archivos originales para producción.</p>
+          <p><strong>Figma</strong>— Para interfaces, prototipado y colaboración en vivo; facilita el hand-off a desarrollo. Recomendado para producto/diseño.</p>
+          <p><strong>CapCut / Premiere Pro</strong>— CapCut para video ágil; Premiere para producción profesional. Elige según recursos y objetivos de calidad.</p>
           <p class="text-center fs-6 my-4 bg-canva p-3">"La mejor herramienta no siempre es la más popular: es la que tu equipo domina y que impulsa resultados"</p>
           <hr class="my-5">
           <h2 class="mt-5 fontpoppins opacity-100">Mini-casos</h2>
           <ul>
               <li>
-                  <strong><em><a href="https://www.instagram.com/p/DL0pyKUSCg-/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Plantillas Social Media — Akasha Healing</a>:</em></strong>
-                  <p><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenidos.</p>
+                  <strong><em><a href="https://www.instagram.com/p/DL0pyKUSCg-/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Plantillas Social Media — Akasha Healing (Proyecto profesional)</a>:</em></strong>
+                  <p><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenido constante.</p>
                   <p><strong>Acción:</strong> plantillas editables en Canva y guía rápida de uso.</p>
-                  <p><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement.</p>
-                  <p><strong>Por qué la herramienta funcionó:</strong> Canva permitió autonomía del cliente y velocidad de publicación sin depender de un diseñador.</p>
-                  <p class="textdescriptions"><small><strong>Cómo se midió:</strong> se comparó el engagement promedio de publicaciones previas con las piezas creadas a partir de las plantillas, según métricas visibles de la plataforma (Instagram).</small></p>
+                  <p><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement (comparativa interna).</p>
+                  <p class="textdescriptions"><small><strong>Qué demuestra:</strong> elegir la herramienta por autonomía permite velocidad sin perder identidad.</small></p>
               </li>
               <li>
-                  <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Actualizaciones Front-End — CBC (assets y hand-off)</a>:</em></strong>
-                  <p><strong>Reto:</strong> inconsistencias en assets y hand-off lento a desarrollo.</p>
-                  <p><strong>Acción:</strong> entrega de assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML5/CSS3 para validar interacción.</p>
-                  <p><strong>Resultado:</strong> tiempo de gestión interna reducido (10 → 8 minutos) y despliegues más rápidos.</p>
-                  <p><strong>Por qué la herramienta funcionó:</strong> Los snippets aceleraron la implementación.</p>
-                  <p class="textdescriptions"><small><strong>Cómo se midió:</strong> estimación comparativa del tiempo promedio de preparación y entrega de assets antes y después de estandarizar snippets (fragmentos reutilizables) y formatos.</small></p>
+                  <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Prototipado & hand-off — CBC (Proyecto profesional)</a>:</em></strong>
+                  <p><strong>Reto:</strong> assets inconsistentes y hand-off lento a desarrollo.</p>
+                  <p><strong>Acción:</strong> assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML/CSS.</p>
+                  <p><strong>Resultado:</strong> tiempo de preparación de assets estimado 30→15 minutos y despliegues más ágiles.</p>
+                  <p class="textdescriptions"><small><strong>Qué demuestra:</strong> estandarizar formatos y fragmentos reutilizables acelera la implementación.</small></p>
               </li>
           </ul>
           <p class="text-center fs-6 my-4 bg-canva p-3">“La fuerza del equipo reside en cada miembro. La fuerza de cada miembro es el equipo.” — <em>Phil Jackson</em></p>
+          <hr>
+          <h4 class="my-5 fontpoppins opacity-100">Cómo medir la prueba (plantilla rápida)</h4>
+          <p>Registra estas columnas en una tabla simple:</p>
+          <ul>
+              <li><p><strong><em>Tarea —</em></strong> qué se está midiendo.</p></li>
+              <li><p><strong><em>Tiempo antes (min) —</em></strong> línea base.</p></li>
+              <li><p><strong><em>Tiempo prueba (min) —</em></strong> durante el ensayo.</p></li>
+              <li><p><strong><em>Errores / ajustes —</em></strong> número de correcciones necesarias.</p></li>
+              <li><p><strong><em>Satisfacción (1–5) —</em></strong> valoración del responsable.</p></li>
+          </ul>
+          <p><strong>Decisión práctica:</strong> si la nueva herramienta reduce tiempo y mantiene calidad → seguir; si no, probar otra alternativa.</p>
+          <hr>
+          <h4 class="my-5 fontpoppins opacity-100">Responsabilidades y versiones (breve y práctico)</h4>
+          <p>Define:</p>
+          <ul>
+              <li>Responsable del cambio (nombre)</li>
+              <li>Formato y nombre de archivo estándar (ej.: banner_v1_2026_facebook.svg)</li>
+              <li>Dónde están los master files (Figma / Drive / GitHub)</li>
+              <li>Dónde están los master files (Figma / Drive / GitHub)</li>
+          </ul>
+          <p><strong>Esto evita</strong> malentendidos y scope creep.</p>
           <hr class="my-5">
           <div class="bg-canva p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
             <p><strong>¿Canva sirve para branding?</strong></p>
-            <p>Sí, si se entrega con master files y reglas claras; para pieza final técnico sigue siendo mejor Illustrator.</p>
+            <p>Sí, si se entrega con master files y reglas claras; Canva es útil para velocidad y autonomía, pero conserva archivos fuente (AI/Figma) para producción o impresión.</p>
             <hr>
-            <p><strong>¿Cuánto tarda un equipo en adoptar una herramienta?</strong></p>
-            <p>Con piloto, plantillas y formación: 30–90 días para adopción estable.</p>
+            <p><strong>¿Cuánto tarda un equipo en incorporar una herramienta?</strong></p>
+            <p>Con una prueba corta, plantillas y formación breve: 30–90 días para uso habitual. Mide con % de uso de plantillas y tiempo por tarea.</p>
             <hr>
-            <p><strong>¿Cómo demuestro retorno de la herramienta?</strong></p>
-            <p>Mide tiempo por tarea y % de uso de plantillas antes/después.</p>
+            <p><strong>¿Cómo demuestro el retorno de la herramienta?</strong></p>
+            <p>Define la métrica principal, registra la línea base, haz la prueba corta y compara. Complementa con testimonios internos.</p>
           </div>
           <hr class="my-5">
           <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
           <ul>
-            <li>La mejor herramienta es la que tu equipo domina y que cumple objetivos concretos.</li>
-            <li>Pilotos cortos + métricas claras evitan decisiones basadas en opiniones.</li>
-            <li>Plantillas y formación breve producen más adopción que manuales extensos.</li>
+            <li>La mejor herramienta es la que el equipo usa bien y que cumple objetivos concretos.</li>
+            <li>Pruebas cortas con métricas claras evitan decisiones guiadas por opiniones.</li>
+            <li>Plantillas y sesiones de 15–30 minutos logran uso real más rápido que manuales extensos.</li>
           </ul>
-          <hr>
-          <p>Elegir herramientas es decidir cómo trabajará tu equipo cada día. Hazlo con datos, prueba en contexto y prioriza la autonomía de las personas que usarán la herramienta hoy. Si lo acompañas de plantillas y formación corta, la decisión deja de ser un problema y se convierte en una ventaja operativa.</p>
+          <hr class="my-5">
+          <p>Elegir herramientas es una decisión de trabajo diario, no una moda. Cuando tomas esa decisión con cuidado —definiendo qué quieres lograr, probando con casos reales y midiendo resultados— <strong>estás diseñando la forma en que tu equipo trabajará y cómo se verá su trabajo mañana.</strong></p>
+          <p>Esto va más allá de licencias o listas de funciones: es un compromiso con la autonomía de las personas que hacen el trabajo. Una buena elección libera tiempo para pensar, iterar y resolver problemas reales; <strong>una mala elección disminuye la creatividad</strong> porque consume atención en problemas técnicos.</p>
       `,
       // ← Aquí las relaciones
       relatedArticles: [
@@ -1445,8 +1447,8 @@
     "10": {
       id: 10,
       titleHTML: `
-        Brand Kit Eficiente:
-        <span class="opacity-70"> Ahorra Tiempo y Consigue Coherencia Visual</span>
+        Brand Kit eficiente:
+        <span class="opacity-70"> ahorra tiempo y consigue coherencia visual</span>
       `,
       date: "18 de julio, 2025",
       imagenDesktop: "assets/img/hero-article/Articulo10/img-article-10-3840@2x.webp",
@@ -1454,7 +1456,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-10@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX Designer.</strong>
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
           He ayudado a equipos a ahorrar horas de trabajo y a mantener coherencia visual en múltiples proyectos.
           Cuando no organizo assets, me encontrarás disfrutando de la compañía de un hermoso gatito.
         </span>
@@ -1462,105 +1464,104 @@
       imageUrl: "assets/img/coveraboutme/avatar-4-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>Un Brand Kit bien pensado no es decoración: es la herramienta que transforma improvisación en velocidad, confianza y profesionalismo.</strong></p>
-        <p>He visto propuestas perder impulso por detalles evitables: colores distintos en la misma campaña, tipografías que cambian en cada slide o versiones de logo equivocadas. Esas pequeñas grietas minan la credibilidad. Cuando los recursos están organizados, el equipo gasta su energía en crear valor —no en buscar archivos— y eso se traduce en trabajo más ágil y con mejor resultado.</p>
+        <p>No es decoración: un Brand Kit práctico hace que tu equipo gaste energía en crear, no en buscar archivos.</p>
         <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño es el embajador silencioso de tu marca.” — <em>Paul Rand</em></p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Cuando cada área usa sus propios archivos aparecen inconsistencias: valores de color distintos, tipografías mezcladas y logos en JPG que se pixelan en pantalla. Eso genera correcciones, demoras y una imagen menos profesional frente a clientes y partners. Un Brand Kit y un UI Kit bien diseñados evitan estas fallas y convierten los assets en recursos reutilizables y controlables.</p>
+        <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
+        <p>En mi experiencia profesional he visto cómo la falta de reglas claras termina consumiendo horas y energía. Un Brand Kit bien pensado no es decoración: es la herramienta que transforma improvisación en velocidad, confianza y profesionalismo. <strong>Sin un Brand Kit, la presencia de la marca se debilita</strong>: cada persona interpreta la identidad desde su propio lugar y, poco a poco, la marca puede convertirse en un Frankenstein visual —variada, inconsistente y confusa. Centralizar los activos evita eso y <strong>permite que el equipo gaste su energía en crear, no en buscar archivos.</strong></p>
         <hr>
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después — en pocas palabras</h4>
+        <ul>
+          <li><strong><em>Antes:</em></strong> piezas con colores distintos y preguntas repetidas sobre cuál es el logo correcto.</li>
+          <li><strong><em>Después:</em></strong> una carpeta única con archivos fuente, plantillas y un UI Kit que el equipo usa a diario; menos correcciones y entregas más rápidas.</li>
+        </ul>
+        <hr class="my-5">
         <h4 class="mb-3">Qué es y por qué funciona</h4>
         <ul>
-            <li><strong>Brand System:</strong> una guía viva que reúne paleta exacta (HEX / RGB / CMYK), familias tipográficas, reglas de uso, versiones del logo y tokens. Es la referencia que evita dudas.</li>
-            <li><strong>UI Kit:</strong> colección de componentes digitales listos (botones, inputs, cards, iconos SVG), tokens y snippets para desarrollo. Facilita implementar sin inconsistencias.</li>
+          <li><strong>Brand System / Brand Kit:</strong> guía viva con paleta (HEX / RGB / CMYK), tipografías, versiones de logo, uso correcto vs incorrecto y reglas de tono. Un Brand System escalable integra tokens y componentes para productos digitales; <strong><em>un Brand Kit es la versión compacta para arrancar rápido.</em></strong></li>
+          <li><strong>UI Kit:</strong> colección de componentes (botones, inputs, cards, iconos SVG), tokens y snippets que facilitan la implementación sin inconsistencias. Usar <strong><em>design tokens</em></strong> ayuda a mantener valores de color y espaciados sincronizados entre diseño y código.</li>
+          <li><strong>Documentación:</strong> mantener ejemplos interactivos y estados de componentes reduce dudas y acelera hand-off hacia desarrollo.</li>
         </ul>
-        <p>Juntos permiten a los equipos implementar más rápido, con menos consultas y sin depender del diseñador en cada pieza.</p>
         <hr class="my-5">
         <h4 class="mb-3 mt-5">Mini-casos</h4>
         <ul>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System — CBC</a>:</em></strong>
-                <p><strong>Reto:</strong> documentos y piezas con líneas gráficas diferentes entre áreas.</p>
-                <p><strong>Acción:</strong> Brand Guide práctico de 10 páginas que unificó paleta, tipografías y reglas.</p>
-                <p><strong>Resultado:</strong> equipos alineados, menos preguntas repetidas y plantillas internas listas para usar.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System — CBC (Proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> piezas y documentos con líneas visuales distintas entre áreas.</p>
+                <p><strong>Acción:</strong> Brand Guide práctico (10 páginas) + archivos fuente</p>
+                <p><strong>Resultado:</strong> equipos alineados y plantillas internas listas; menos revisiones de color y usos del logo.</p>
+                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> centralizar archivos fuente y reglas ahorra tiempo y consultas.</small></p>
             </li>
             <li>
-                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Style Guide — FOL</a>:</em></strong>
-                <p><strong>Reto:</strong> uso diferente de colores, tipografías e iconos entre Marketing, TI y Ventas.</p>
-                <p><strong>Acción:</strong> definí paleta (HEX/RGB), familias tipográficas, iconografía y reglas de aplicación en un documento accesible.</p>
-                <p><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales; menos correcciones y procesos más ágiles.</p>
+                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Style Guide — FOL (Proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> uso inconsistente de colores y tipografías entre Marketing, TI y Ventas.</p>
+                <p><strong>Acción:</strong> paleta (HEX/RGB), familias tipográficas, iconografía y guías de aplicación.</p>
+                <p><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales.</p>
+                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> entregar ejemplos “qué sí / qué no” evita interpretaciones distintas.</small></p>
             </li>
             <li>
-                <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka</a>:</em></strong>
-                <p><strong>Reto:</strong> identidad externa cuidada, pero procesos internos sin estandarizar.</p>
-                <p><strong>Acción:</strong> diseñamos un manual operativo con instrucciones claras para convivencia, procesos y comunicación.</p>
-                <p><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación entre voluntarios.</p>
+                <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka (Proyecto profesional)</a>:</em></strong>
+                <p><strong>Reto:</strong> identidad externa cuidada; procesos internos sin estandarizar.</p>
+                <p><strong>Acción:</strong> manual operativo con instrucciones claras para convivencia, procesos y comunicación.</p>
+                <p><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación de equipos.</p>
+                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> un manual práctico funciona si lo enseñas en 15–30 minutos a equipos del negocio.</small></p>
             </li>
         </ul>
-        <p><strong>Aprendizaje clave de los casos:</strong> centralizar los archivos fuente, entregar componentes prácticos y dedicar 15–30 minutos a capacitar por área hace que un manual deje de ser un documento abandonado y pase a ser una herramienta útil.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño es, en esencia, un acto de comunicación; requiere comprender profundamente a la persona con la que te comunicas.” — <em>Don Norman</em></p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Cómo hacerlo</h2>
+        <h4 class="mb-3">Evidencia y benchmarks: qué dicen los datos</h4>
+        <p>No hagas métricas por moda: usa benchmarks reales para fijar metas alcanzables. Esto es lo que muestran estudios y experiencias de la industria —y cómo convertirlo en objetivos concretos para tu Brand Kit.</p>
         <ol>
-            <li>
-                <strong><em>Documento central — lo mínimo indispensable</em></strong>
-                <ul>
-                    <li>Entregable: <em>BrandGuide_v1.pdf</em> + archivos fuente (<em>.ai, .svg</em>).</li>
-                    <li>Debe incluir: paleta (HEX + RGB + CMYK), familias tipográficas y pesos, versiones del logo y ejemplos de uso (bien / mal), reglas de espaciado y tamaños mínimos.</li>
-                </ul>
+            <li class="mb-3">
+                <strong><em>Ahorro de tiempo</em></strong>
+                <p>Equipos con design systems reportan reducciones en tiempos de trabajo entre <strong><em>25% y 40%</em></strong>, según la madurez del sistema.<br> 
+                Traducción práctica: si hoy un banner te toma 60 min, una meta razonable tras implementar tokens y un UI Kit es dejarlo en 36–45 min.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>UI Kit práctico — en Figma + snippets para devs</em></strong>
-                <ul>
-                    <li>Entregable: <em>UIKit_v1.fig</em> + <em>code-snippets/</em> con variables CSS/SASS (<em>--brand-primary, --space-16,</em> etc.).</li>
-                    <li>Componentes mínimos: botón (variante primaria/secundaria), input con estados, card, header/footer, icon set en SVG.</li>
-                </ul>
+            <li class="mb-3">
+                <strong><em>Uso de plantillas (benchmark)</em></strong>
+                <p>Equipos que miden el uso de plantillas suelen ver que alcanzar <strong><em>>70% en 60–90 días</em></strong> es realista cuando hay formación breve y un responsable que impulse el proceso. Si tu punto de partida es <30%, arma un plan con sesiones cortas y seguimiento semanal.</p>
             </li>
-            <div class="my-4"></div>
-            <li>
-                <strong><em>Tokens y nomenclatura clara</em></strong>
-                <ul>
-                    <li>Nombres claros y predecibles: <em>--brand-primary, --accent-50, --space-8.</em></li>
-                    <li>Versionado: <em>BrandSystem_v1.ai, BrandSystem_v1.1.ai.</em></li>
-                </ul>
-            </li>
-            <li>
-                <strong><em>Adopción rápida: micro-workshops (15 min)</em></strong>
-                <ul>
-                    <li>Una sesión por área (Marketing, Sales, Producto, Dev). Objetivo: mostrar dónde están los assets y practicar un uso real. Material: 1 slide “Cómo usar el Brand Kit en 60 s”.</li>
-                </ul>
-            </li>
-            <li>
-                <strong><em>Coordinación mínima</em></strong>
-                <ul>
-                    <li>Nombra un/a responsable (owner) del Brand Kit.</li>
-                    <li>Define canal (Slack/Teams) para consultas y un folder central con permisos.</li>
-                    <li>Regla: cualquier cambio al Brand Kit pasa por el owner.</li>
-                </ul>
+            <li class="mb-3">
+                <strong><em>Calidad</em></strong>
+                <p>Organizaciones que usan documentación interactiva y librerías vivas reducen errores visuales y problemas de accesibilidad —esto se traduce en <strong><em>menos correcciones y ahorro de horas en QA</em></strong>. Registra incidencias mensuales antes y después con un tag “error-identidad” para mostrar el impacto.</p>
             </li>
         </ol>
-        <hr>
-        <h4 class="mb-3 mt-5">Métricas para reportar</h4>
+        <h5 class="mt-5">Referencias</h5>
         <ul>
-            <li><strong>% reducción de errores</strong> por entregable (p. ej. colores / logos incorrectos).</li>
-            <li><strong>Tiempo medio de implementación</strong> por asset (antes / después; objetivo: −20–30%).</li>
-            <li><strong>% de piezas que usan plantilla oficial</strong> (meta: >80% en 90 días).</li>
-            <li><strong>Número de consultas al owner</strong> (esperamos bajar tras 30 días de talleres).</li>
+          <li class="textdescriptions"><small><a href="https://www.figma.com/es-la/reports/measure-design-system-roi/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Figma — Measure design system ROI."</a></small></li>
+          <li class="textdescriptions"><small><a href="https://www.smashingmagazine.com/2022/09/formula-roi-design-system/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Smashing Magazine — The ROI of a design system."</a></small></li>
+          <li class="textdescriptions"><small><a href="https://storybook.js.org/showcase/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Storybook — Case studies."</a></small></li> 
+          <li class="textdescriptions"><small><a href="https://storybook.js.org/docs" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Storybook — Docs."</a></small></li>          
         </ul>
-        <p>Estas métricas muestran de forma tangible el impacto del trabajo.</p>
+        <hr class="my-5">
+        <h4 class="mb-3">Cómo medir (recomendación rápida y práctica)</h4>        
+        <ol>
+          <li><strong>Antes:</strong> registra 10–20 assets típicos (tiempo y número de correcciones).</li>
+          <li><strong>Implementa:</strong> One-page + 3 tokens + 1 plantilla.</li>
+          <li><strong>Después:</strong> a los 30 y 90 días, mide la misma muestra.</li>
+          <li><strong>Reporta:</strong> % reducción de tiempo, % uso de plantilla, nº incidencias.</li>          
+        </ol>
+        <p><strong>Por qué esto suma:</strong> benchmarks + una mini-prueba convierten al Brand Kit en una inversión justificable —no en una actividad estética.</p>
+        <hr class="my-5">
+        <h4 class="mb-3">¿Qué son los benchmarks?</h4>
+        <p>Los <em>benchmarks</em> son <strong>puntos de referencia:</strong> cifras o resultados que sirven para comparar cómo estamos haciendo algo frente a otras prácticas o estándares. No son reglas; son mediciones que nos ayudan a decidir si lo que hacemos está dentro de lo esperado o si debemos mejorar.</p>
+        <h5 class="my-3">Cómo usar un benchmark en 3 pasos sencillos</h5>
+        <ol>
+          <li><strong>Busca una referencia</strong> (un artículo o caso público o tu propia medición).</li>
+          <li><strong>Mide tu situación actual</strong> (registra 10 piezas similares y su tiempo).</li>
+          <li><strong>Compara y decide:</strong> si estás muy por encima del benchmark, planifica mejoras concretas y una pequeña prueba para reducir tiempos.</li>
+        </ol>
         <hr class="my-5">
         <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Brand Kit o Brand System?</strong></p>
-            <p>El <strong>Brand Kit</strong> es una entrega compacta para arrancar rápido (paleta, logos, 2–3 plantillas). El <strong>Brand System</strong> es la versión estructurada y escalable (tokens, componentes, documentación viva). Si necesitas empezar ya, pide un Brand Kit; si quieres control a largo plazo, pide un Brand System.</p>
-            <hr>
-            <p><strong>¿Cómo hago que el equipo lo use?</strong></p>
-            <p>Asigna un owner visible, realiza micro-workshops por área, versiona archivos y mide adopción. Plantillas listas y formación breve generan uso inmediato.</p>
-            <hr>
-            <p><strong>¿Entregar código listo o solo snippets?</strong></p>
-            <p>- Si lanzas con frecuencia: entrega componentes documentados (Storybook) y código listo.</p>
-            <p>- Si arrancas rápido: entrega snippets CSS/variables y un prototipo navegable; desarrollo completará la integración.</p>
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+          <p><strong>¿Brand Kit o Brand System?</strong></p>
+          <p>El <strong>Brand Kit</strong> es la versión compacta para arrancar rápido (paleta, logos, 2–3 plantillas). El <strong>Brand System</strong> es la versión escalable con tokens, componentes y documentación viva. Empieza por un Brand Kit si necesitas resultados pronto; evoluciona a Brand System cuando el producto digital lo demande.</p>
+          <hr>
+          <p><strong>¿Cómo hago que el equipo lo use?</strong></p>
+          <p>Asigna un owner visible, realiza micro-workshops por área, versiona archivos y mide adopción. Plantillas listas y formación breve generan uso inmediato.</p>
+          <hr>
+          <p><strong>¿Entregar código listo o solo snippets?</strong></p>
+          <p>- Si lanzas con frecuencia: entrega componentes documentados (Storybook) y código listo.</p>
+          <p>- Si arrancas rápido: entrega snippets CSS/variables y un prototipo navegable; desarrollo completará la integración.</p>
         </div>
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
@@ -1570,7 +1571,7 @@
             <li>Enseñar en poco tiempo (micro-workshops) es más efectivo que una guía extensa.</li>
         </ol>
         <hr class="my-5">
-        <p>La coherencia visual es práctica diaria. Un Brand Kit bien diseñado no solo ahorra tiempo: facilita la comunicación interna, mejora la percepción externa y libera al equipo para crear trabajo con impacto. Empezar por lo esencial y asegurarse de que la gente lo use es lo que realmente marca la diferencia.</p>
+        <p>La coherencia visual no es un lujo: es una práctica diaria que protege la reputación y acelera el trabajo. Un Brand Kit eficiente no solo reduce errores; libera tiempo para que el equipo haga lo que importa: resolver problemas, probar ideas y conectar con usuarios.</p>
       `,
       // ← Aquí las relaciones
       relatedArticles: [
