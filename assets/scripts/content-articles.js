@@ -1606,7 +1606,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-11@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX Designer,</strong>
+          Soy Macarena, <strong>Product & UX/UI Designer,</strong>
           y creo que validar rápido es un acto de cuidado: prototipos bien hechos ahorran tiempo y dinero y mantienen la visión del producto. He liderado sprints de prototipado que detectaron problemas críticos antes de escribir código y redujeron semanas de desarrollo.
           Cuando no construyo prototipos, pruebo nuevas herramientas ágiles con un helado Amarena en mano.
         </span>
@@ -1614,63 +1614,61 @@
       imageUrl: "assets/img/coveraboutme/avatar-5-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>Valida tu idea en días, no en meses. Un prototipo interactivo muestra problemas reales antes de escribir código y evita semanas de trabajo perdido.</strong></p>
-        <p><strong>Qué prototipo usar y cuándo?</strong> Usa prototipos <em>click-through</em> (Figma, Adobe XD) para validar flujos, lenguaje y tareas con usuarios —sin programar. Reserva prototipos en HTML/CSS/JS cuando la interacción, el rendimiento o la accesibilidad ya estén validados y necesites comprobar la implementación técnica. En resumen: primero valida la idea; solo después inviertes en código.</p>
-        <p>En un lanzamiento, un cliente evitó cualquier experimento y saltó directo a programar. Tras semanas de desarrollo tuvimos que rehacer gran parte. Desde entonces, prototipar temprano dejó de ser una opción: es la forma más barata y rápida de responder a dudas reales.</p>
+        <p>Valida en días, no en meses: prototipos tempranos solucionan dudas reales antes de escribir código.</p>
+        <p>Una vez me tocó rehacer semanas de desarrollo porque nadie había probado la idea con usuarios. Desde entonces, prototipar temprano se volvió mi forma de cuidar el tiempo del equipo. Aquí comparto lo práctico: pasos que uso, errores que ya no repito y resultados que sí se ven.</p>
         <p class="text-center fs-6 my-4 bg-canva p-3">“La transformación ágil no es un proyecto; es un cambio cultural” — <em>Michael Sahota</em></p>
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Sin prototipado temprano se multiplican los errores: se invierte en código que no funciona, aparecen demoras y los usuarios quedan confundidos por flujos poco claros. Probar antes convierte suposiciones en evidencia y permite tomar decisiones con datos, no con opiniones.</p>
+        <p>Si construyes sin probar, gastas horas en código que no responde a lo que la gente necesita. Se alargan los plazos, suben los cambios y baja la confianza del equipo. Probar primero evita todo eso.</p>
         <hr>
         <h4 class="mb-3 mt-5">Mini-casos</h4>
         <ul>
             <li>
-                <strong><em>Formación en Laboratoria — adopción de metodología ágil</em></strong>
-                <p><strong>Reto:</strong> cumplir múltiples desafíos diarios con tiempo limitado y sin un método claro.</p>
-                <p><strong>Acción:</strong> sprints cortos, roles definidos y hackathons de 24 h para pasar de idea a entrega.</p>
-                <p><strong>Resultado:</strong> la práctica se incorporó como rutina; equipos iteran con más disciplina y entregan pruebas funcionales en plazos cortos.</p>
-                <p><strong>Aprendizaje:</strong> practicar sprints frecuentes transforma la intención en hábito.</p>
+                <strong><em>Laboratoria — sprints cortos (formación)</em></strong>
+                <p>Hicimos sprints cortos y hackathons de 24 h para pasar de idea a prototipo. <em><strong>Resultado:</em></strong> la práctica de iterar pasó a ser rutina y los equipos aprendieron a tomar decisiones rápidas sin perder foco.</p>
             </li>
             <li>
-                <strong><em>Integración en equipos TI — experiencia en FOL</em></strong>
-                <p><strong>Reto:</strong> integrarme como diseñadora web en procesos dirigidos por TI.</p>
-                <p><strong>Acción:</strong> participé desde el inicio en reuniones, prototipé en HTML5/SASS y trabajé con Scrum.</p>
-                <p><strong>Resultado:</strong> colaboración más fluida, mayor responsabilidad en el flujo productivo y prototipos que facilitaron la implementación.</p>
-                <p><strong>Aprendizaje:</strong> involucrar a TI desde el prototipo reduce malentendidos y acelera el hand-off técnico.</p>
+                <strong><em>FOL — trabajo junto a TI (proyecto profesional)</em></strong>
+                <p>Me sumé desde el inicio a reuniones técnicas, armé prototipos en HTML y trabajé en ciclos. <em><strong>Resultado:</em></strong> menos malentendidos y un traspaso a desarrollo más suave. Aprendí que involucrar a quien va a programar desde el prototipo ahorra trabajo y tiempo.</p>
             </li>
         </ul>
         <p class="text-center fs-6 my-4 bg-canva p-3">“En un equipo Scrum, todos están dando lo máximo siempre, buscando apoyar a sus compañeros en lo que requieran” — <em>Jorge Abad</em></p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Hoja de ruta práctica</h2>
-        <p><strong><em>Objetivo general:</em></strong> validar el flujo crítico (registro, compra, onboarding) con usuarios reales y decidir qué construir.</p>
-        <h4 class="mb-3 mt-5">Antes del sprint (prep en 1–2 días)</h4>
+        <h2 class="mt-5 fontpoppins opacity-100">Lo que realmente funciona</h2>
+        <ol>
+            <li class="mb-3"><strong><em>Arranca con lo mínimo que pruebe la idea.</em></strong>
+              <br>Un prototipo simple que deje probar la <em>tarea clave</em> (registro, compra, envío) ya te da pistas reales.
+            </li>
+            <li class="mb-3"><strong><em>Valida el flujo, no la decoración.</em></strong>
+              <br>Primero comprueba si la gente <em>entiende el camino</em>. Después trabajas en la estética y los detalles.
+            </li>
+            <li class="mb-3"><strong><em>No subas la fidelidad hasta estar seguro.</em></strong>
+              <br>HTML/CSS tiene sentido cuando ya validaste que el flujo y el contenido funcionan. Si no, estarás programando partes que luego cambian.
+            </li>
+            <li class="mb-3"><strong><em>Cada prueba responde una pregunta.</em></strong>
+              <br>¿Queremos saber si la gente se registra sin ayuda? Esa es la pregunta del test. <em>No multipreguntas:</em> pierdes foco. Evita la dispersión.
+            </li>
+            <li class="mb-3"><strong><em>Registra lo que aprendes.</em></strong>
+              <br>Un changelog simple (fecha – hipótesis – hallazgo – decisión) evita repetir errores y hace claro por qué se cambió algo.
+            </li>
+        </ol>
+        <h4 class="mb-3 mt-5">Método práctico que uso</h4>
         <ul>
-          <li>Define <strong><em>objetivo</em></strong> del sprint (qué hipótesis pruebas).</li>
-          <li>Elige la <strong><em>métrica norte</em></strong> (p. ej. % de tareas completadas, tiempo a completar, errores por paso).</li>
-          <li>Recluta 5 usuarios representativos (o usa stakeholders para tests rápidos si no hay tiempo).</li>
-          <li>Reserva herramientas: Figma/Adobe XD/ProtoPie y grabación (Zoom, Loom).</li>
+          <li><strong><em>Hipótesis en 1 línea.</em></strong> Por ejemplo: “El 70% de usuarios completará el registro en menos de 2 minutos.”</li>
+          <li><strong><em>Métrica principal.</em></strong> Elige una sola (tasa de éxito, tiempo, o errores críticos).</li>
+          <li><strong><em>Ronda rápida:</em></strong> 3–5 usuarios para detectar problemas importantes. Si hay patrones, haces otra ronda.</li>
+          <li><strong><em>Entregable:</em></strong> prototipo click-through + grabaciones + changelog con 8–12 hallazgos priorizados.</li>
         </ul>
-        <hr>
-        <h4 class="mb-3 mt-5">Día a día (1 week sprint)</h4>
+        <p><small><strong>Consejo:</strong> no necesitas gran reclutamiento para empezar. Amigos, colegas o stakeholders representativos sirven para la primera ronda. Lo importante es observar y repetir.</small></p>
+        <hr class="my-5">
+        <h4 class="mb-3 mt-5">KPIs sencillos</h4>
         <ul>
-          <li><strong><em>Día 1 — Explorar & mapear:</em></strong> wireframes rápidos y user flows; define alcance.</li>
-          <li><strong><em>Día 2 — Diseñar prototipo baja/medio:</em></strong> pantallas clave y hotspots (click-through).</li>
-          <li><strong><em>Día 3 — Refinar & preparar test:</em></strong> microcopy y escenarios; guion de test.</li>
-          <li><strong><em>Día 4 — Tests con 3–5 usuarios:</em></strong> cada sesión 30–45 min (tarea + entrevista breve). Graba y toma notas.</li>
-          <li><strong><em>Día 5 — Sintetizar & plan:</em></strong> prioriza hallazgos (Impacto × Esfuerzo), registra en el changelog y acuerda backlog con desarrollo.</li>
+          <li><strong><em>% de tareas completadas —</em></strong> cuenta cuántos usuarios lograron la tarea.</li>
+          <li><strong><em>Tiempo medio por tarea —</em></strong> cronómetro y registra.</li>
+          <li><strong><em>Problemas críticos —</em></strong> lista corta de errores que impiden completar la tarea.</li>
         </ul>
-        <hr>
-        <h4 class="mb-3 mt-5">Registro de cambios (changelog)</h4>
-        <p>Mantén un registro simple (Google Sheets / Notion): fecha — pantalla — cambio — motivo — responsable. Un changelog claro evita repetir trabajo y mantiene alineados diseño y desarrollo.</p>
-        <hr>
-        <h4 class="mb-3 mt-5">KPIs sugeridos (qué reportar)</h4>
-        <ul>
-          <li><strong><em>Tasa de éxito</em></strong> por tarea (% usuarios que completan la tarea).</li>
-          <li><strong><em>Tiempo medio</em></strong> para completar la tarea (s).</li>
-          <li><strong><em>Número de problemas críticos</em></strong> detectados por usuario.</li>
-          <li><strong><em>Horas de desarrollo evitadas</em></strong> (estimadas) al corregir en prototipo.</li>
-        </ul>
-        <p>Registra la línea base y muestra la diferencia pre/post para justificar decisiones.</p>
+        <p><small><strong>Registra los resultados en una hoja con columnas:</strong> usuario / tarea / tiempo / completó (sí/no) / nota. Así tienes evidencia para decidir.</small></p>
+        <hr class="my-5">
         <p class="text-center fs-6 my-4 bg-canva p-3">“La forma más costosa de probar tu idea es desarrollar software de calidad de producción” — <em>Jeff Patton</em></p>
         <hr>
         <h4 class="mb-3 mt-5">Herramientas recomendadas</h4>
@@ -1682,31 +1680,49 @@
           <li><strong><em>Registro / grabación:</em></strong> Loom, Zoom.</li>
         </ul>
         <p>Si no hay desarrollador disponible, considera no-code (Webflow) o contratación puntual para convertir el prototipo validado en producción; evita programar antes de validar.</p>
-        <h4 class="mb-3 mt-5">Testing: automatización + usuarios reales</h4>
-        <p>Las herramientas automáticas (Testim, Applitools, Mabl) ayudan a detectar regresiones y asegurar estabilidad técnica, pero no reemplazan la observación con personas. La combinación ideal: datos técnicos + evidencia humana.</p>
-        <hr class="my-5">
-        <div class="bg-canva p-5">
+        <p class="text-center fs-6 my-4 bg-canva p-3">“Build — Measure — Learn.” — <em>Eric Ries</em></p>
+        <h4 class="mb-3 mt-5">Procesos internos que sostienen iteraciones sanas</h4>
+        <p><em>No son reuniones por cumplir:</em> los procesos internos bien pensados mantienen el ritmo del proyecto y cuidan al equipo. <strong>He aprendido que sin acuerdos claros, la iteración se vuelve ruido:</strong> tareas abiertas, revisiones eternas y expectativas perdidas.</p>
+        <p>Prácticas concretas que he explorado y que funcionan:</p>
+        <ul class="mb-5">
+            <li class="mb-3"><strong><em>Sprint corto y con foco.</em></strong>
+              <br>Sprints de una o dos semanas que priorizan 1–2 hipótesis clave. Evita intentar “todo a la vez”. (Esto reduce rehacer y mantiene energía)
+            </li>
+            <li class="mb-3"><strong><em>Reuniones cortas y útiles.</em></strong>
+              <br>Daily standups de 10–15 minutos para sincronizar bloqueos —no para reportar todo.
+            </li>
+            <li class="mb-3"><strong><em>Muestra rápida cada sprint.</em></strong>
+              <br>Mostrar lo probado en 20–30 minutos ayuda a alinear a producto, negocio y desarrollo. Cuando todos ven lo que funciona (o no), las decisiones son más limpias.
+            </li>
+            <li class="mb-3"><strong><em>Preguntas sencillas y accionables.</em></strong>
+              <br>Tres preguntas: ¿qué salió bien?, ¿qué no?, ¿qué haremos distinto la próxima vez? Pequeños cambios acumulados mejoran el ritmo.
+            </li>
+            <li class="mb-3"><strong><em>Reglas claras de entrega (Definition of Done).</em></strong>
+              <br>Qué se considera “listo”: diseño, microcopy, assets optimizados, notas para desarrollo. Esto evita que “listo” signifique cosas distintas según la persona.
+            </li>
+            <li class="mb-3"><strong><em>Límites de trabajo en curso (WIP).</em></strong>
+              <br>Menos tareas abiertas = menos context switching. Esto protege la calidad y la energía del equipo.
+            </li>
+            <li class="mb-3"><strong><em>Involucra a desarrollo desde el inicio.</em></strong>
+              <br>Cuando dev conoce la hipótesis y ve el prototipo temprano, se evitan malentendidos técnicos y se acelera el paso a producción.
+            </li>
+        </ul>
+        <p><strong><em>Estos acuerdos no son rígidos;</em></strong> se ajustan al contexto de la empresa. Lo importante es que existan y que todos los respeten: así las iteraciones dejan de ser improvisación y pasan a ser aprendizaje con sentido.</p>
+        <div class="bg-canva mt-5 p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Por qué 5 usuarios si es una muestra pequeña?</strong></p>
+            <p><strong>¿Por qué con 5 usuarios alcanza para empezar?</strong></p>
             <p>Cinco usuarios suelen ser suficientes para identificar los problemas más críticos de usabilidad de forma rápida y económica; si aparecen patrones, amplía la muestra en rondas sucesivas.</p>
             <hr>
-            <p><strong>¿Qué hacer si no hay presupuesto para usuarios externos?</strong></p>
-            <p>Comienza con tests internos y stakeholders representativos; añade al menos 1–2 usuarios externos en la siguiente ronda o usa guerrilla testing para obtener rápida retroalimentación.</p>
+            <p><strong>¿Y si no hay presupuesto para usuarios externos?</strong></p>
+            <p>Haz guerrilla testing: prueba con compañeros, clientes internos o personas en la calle. Lo clave es observar y repetir.</p>
             <hr>
             <p><strong>¿Cómo acelerar procesos en empresas donde las decisiones tardan?</strong></p>
             <p>Propón entregas pequeñas y visibles: un tablero (Trello, Miro o incluso Excel), acuerdos breves por reunión y demos rápidas. Pequeños éxitos muestran valor y contagian la práctica.</p>
         </div>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
-        <ol>
-            <li>Probar temprano evita trabajo extra: cada problema detectado en prototipo ahorra tiempo de programación.</li>
-            <li>Cinco usuarios bien reclutados bastan para revelar la mayoría de los problemas críticos.</li>
-            <li>Un registro claro de cambios alinea diseño y desarrollo y evita malentendidos.</li>
-        </ol>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Build — Measure — Learn.” — <em>Eric Ries</em></p>
-        <p><small>Un recordatorio práctico: convierte tu intuición en experimentos cortos, mide lo que importa y aprende rápido.</small></p>
-        <hr class="my-5">
-        <p>Prototipar rápido no es solo una técnica: es una forma de cuidar el tiempo de tu equipo y la experiencia de tus usuarios. Convierte la intuición en experimentos cortos, mide lo que importa y ajusta con rapidez. Esa práctica constante reduce errores, mejora decisiones y ayuda a entregar productos que realmente funcionan.</p>
+        <p>Prototipar rápido me enseñó algo esencial: no se trata solo de ahorrar horas. Se trata de cuidar el tiempo de las personas, las expectativas del cliente y la reputación del producto. Por eso, además de prototipos, siempre busco que existan <strong><em>reglas simples</em></strong> dentro del equipo: sprints con foco, muestras frecuentes, una definición clara de “listo” y una persona responsable de mantener el ritmo.</p>
+        <p>Creo en Scrum y en los principios ágiles no como recetas rígidas, sino como marcos que protegen al equipo. <strong><em>Sprints cortos, roles claros y ceremonias útiles</em></strong> (no reuniones interminables) crean ritmo sin quemar a las personas: detectan problemas temprano y evitan rehacer. Probar rápido tiene sentido solo si ponemos límites, cuidamos la carga de trabajo y mantenemos la salud del equipo como prioridad.</p>
+        
       `,
       // ← Aquí las relaciones
       relatedArticles: [
