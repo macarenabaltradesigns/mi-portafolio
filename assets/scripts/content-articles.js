@@ -88,26 +88,26 @@
         <hr>
         <h4 class="mb-3">Mini-casos</h4>
         <ul>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="landing-projects-d-CBC.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — De los 90s a la era responsive (2020)</a>:</em></strong>
-            <p><strong>Reto:</strong> sitio pensado para escritorio; mala experiencia móvil y altas tasas de abandono en secciones clave.</p>
-            <p><strong>Acción:</strong> análisis de Analytics y mapas de calor; priorización de funnels; prototipos mobile-first en HTML5/CSS3; pruebas rápidas con usuarios.</p>
-            <p><strong>Resultado:</strong> migración a etiquetas semánticas, reorganización de contenidos y optimización de recursos; navegación móvil más fluida y caída significativa de la tasa de abandono.</p>
+            <strong>Reto:</strong> sitio pensado para escritorio; mala experiencia móvil y altas tasas de abandono en secciones clave.
+            <strong>Acción:</strong> análisis de Analytics y mapas de calor; priorización de funnels; prototipos mobile-first en HTML5/CSS3; pruebas rápidas con usuarios.
+            <strong>Resultado:</strong> migración a etiquetas semánticas, reorganización de contenidos y optimización de recursos; navegación móvil más fluida y caída significativa de la tasa de abandono.
             <p><strong>Aprendizaje:</strong> mejora primero los flujos que impactan al negocio (onboarding, formularios) para obtener resultados rápidos y justificar inversión.</p>
             <p class="textdescriptions"><small><strong>Cómo se midió:</strong> el impacto se evaluó mediante análisis comparativo en Google Analytics y mapas de calor antes y después de las mejoras, priorizando secciones críticas del funnel móvil.</small></p>
           </li>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Actualizaciones front-end (plataforma)</a>:</em></strong>
-            <p><strong>Reto:</strong> pantallas sobrecargadas y flujos confusos.</p>
-            <p><strong>Acción:</strong> mapeo con stakeholders; prototipado iterativo (baja → alta fidelidad); pruebas con usuarios internos; creación de librería de componentes en HTML/CSS alineada al Brand System.</p>
-            <p><strong>Resultado:</strong> formularios reestructurados, componentes reutilizables y procesos internos más ágiles.</p>
+            <strong>Reto:</strong> pantallas sobrecargadas y flujos confusos.
+            <strong>Acción:</strong> mapeo con stakeholders; prototipado iterativo (baja → alta fidelidad); pruebas con usuarios internos; creación de librería de componentes en HTML/CSS alineada al Brand System.
+            <strong>Resultado:</strong> formularios reestructurados, componentes reutilizables y procesos internos más ágiles.
             <p><strong>Aprendizaje:</strong> documentar componentes (Storybook o similar) acelera la colaboración y reduce dudas en hand-off.</p>
           </li>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.behance.net/gallery/229753651/Rebranding-de-Full-Graphic-Impresores-%282014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Full Graphic Impresores — Rebranding</a>:</em></strong>
-            <p><strong>Reto:</strong> identidad solo en JPG, sin archivos fuente ni paleta digital.</p>
-            <p><strong>Acción:</strong> vectorización (.ai/.svg), mapeo Pantone/CMYK → HEX/RGB y reglas de uso.</p>
-            <p><strong>Resultado:</strong> coherencia visual en digital e impreso; mejor legibilidad en pantallas pequeñas y piezas comerciales más efectivas.</p>
+            <strong>Reto:</strong> identidad solo en JPG, sin archivos fuente ni paleta digital.
+            <strong>Acción:</strong> vectorización (.ai/.svg), mapeo Pantone/CMYK → HEX/RGB y reglas de uso.
+            <strong>Resultado:</strong> coherencia visual en digital e impreso; mejor legibilidad en pantallas pequeñas y piezas comerciales más efectivas.
             <p><strong>Aprendizaje:</strong> entregar master files y reglas claras evita errores repetidos y acelera producción.</p>
           </li>
         </ul>
@@ -164,7 +164,7 @@
       relatedArticles: [
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
         { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
-        { id: "12", title: "Integrando IA en tu Proceso de Diseño" }
+        { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
         {
@@ -216,25 +216,25 @@
         <hr class="my-5">
         <h4 class="mb-3">Casos prácticos — qué hicimos y por qué funcionó</h4>
         <ul>
-          <li>
+          <li class="mb-5">
             <p><strong><em><a href="https://www.instagram.com/p/DLirllmSpai/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Manual de Documentos (2020)</a>:</em></strong></p>
-            <p><strong>Reto:</strong> materiales inconsistentes y muchas correcciones.</p>
-            <p><strong>Acción:</strong> manual práctico + plantillas para presentaciones y reportes.</p>
-            <p><strong>Resultado:</strong> entregables alineados entre áreas y menos rondas de revisión.</p>
+            <br><strong>Reto:</strong> materiales inconsistentes y muchas correcciones.
+            <br><strong>Acción:</strong> manual práctico + plantillas para presentaciones y reportes.
+            <br><strong>Resultado:</strong> entregables alineados entre áreas y menos rondas de revisión.
             <p><strong>Aprendizaje:</strong> un documento corto y plantillas prácticas aceleran la publicación.</p>
           </li>
-          <li>
+          <li class="mb-5">
             <p><strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Casona Minka — Manual OPL (2019)</a>:</em></strong></p>
-            <p><strong>Reto:</strong> caos operativo por falta de reglas claras.</p>
-            <p><strong>Acción:</strong> manual operativo y talleres express con equipos.</p>
-            <p><strong>Resultado:</strong> procesos más fluidos, onboarding más claro y experiencia coherente para huéspedes.</p>  
+            <br><strong>Reto:</strong> caos operativo por falta de reglas claras.
+            <br><strong>Acción:</strong> manual operativo y talleres express con equipos.
+            <br><strong>Resultado:</strong> procesos más fluidos, onboarding más claro y experiencia coherente para huéspedes.
             <p><strong>Aprendizaje:</strong> los talleres cortos garantizan adopción y uso real del manual.</p>      
           </li>
-          <li>
+          <li class="mb-5">
             <p><strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">FOL — Brand System</a>:</em></strong></p>
-            <p><strong>Reto:</strong> uso inconsistente de colores, tipografías e iconos.</p>
-            <p><strong>Acción:</strong> guía con paleta (HEX/RGB), tipografías y reglas de uso; entrega de snippets y assets.</p>
-            <p><strong>Resultado:</strong> menos dudas entre equipos y lanzamientos más ágiles.</p>
+            <br><strong>Reto:</strong> uso inconsistente de colores, tipografías e iconos.
+            <br><strong>Acción:</strong> guía con paleta (HEX/RGB), tipografías y reglas de uso; entrega de snippets y assets.
+            <br><strong>Resultado:</strong> menos dudas entre equipos y lanzamientos más ágiles.
             <p><strong>Aprendizaje:</strong> entregar assets listos (master files) reduce consultas y acelera ejecución.</p>  
           </li>
         </ul>
@@ -535,24 +535,25 @@
         <hr class="my-5">
         <h4 class="mb-3">Mini-casos</h4>
         <ul>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DMOgSTsyD6m/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Venezia Venezia — Cartel</a></em></strong>
-            <p><strong>Reto:</strong> traducir una crítica arquitectónica/ambiental en una pieza impactante.</p>
-            <p><strong>Acción:</strong> experimentar con pliegues y arrugas en papel para generar volúmenes; fotografiar y editar variantes.</p>
-            <p><strong>Resultado:</strong> piezas impresas y digitales con textura propia, listas para flyers y afiches.</p>
+            <br><strong>Reto:</strong> traducir una crítica arquitectónica/ambiental en una pieza impactante.
+            <br><strong>Acción:</strong> experimentar con pliegues y arrugas en papel para generar volúmenes; fotografiar y editar variantes.
+            <br><strong>Resultado:</strong> piezas impresas y digitales con textura propia, listas para flyers y afiches.
             <p><strong><em>Aprendizaje:</em></strong> una textura física puede transformarse en motivo visual coherente en múltiples soportes.</p>
           </li>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DMLlLzQyweZ/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">TEPA — Exploración serigráfica</a></em></strong>
-            <p><strong>Reto:</strong> crear identidad propia para portadas y bolsos usando técnicas artesanales.</p>
-            <p><strong>Acción:</strong> fotografiar objetos con luz rasante para revelar relieves; digitalizar ilustraciones y generar patterns.</p>
-            <p><strong>Resultado:</strong> texturas únicas aplicadas en portadas y material promocional digital.</p>
-            <p><strong><em>Aprendizaje:</em></strong> la observación de material y luz produce detalles auténticos y diferenciadores.
-          <li>
+            <br><strong>Reto:</strong> crear identidad propia para portadas y bolsos usando técnicas artesanales.
+            <br><strong>Acción:</strong> fotografiar objetos con luz rasante para revelar relieves; digitalizar ilustraciones y generar patterns.
+            <br><strong>Resultado:</strong> texturas únicas aplicadas en portadas y material promocional digital.
+            <p><strong><em>Aprendizaje:</em></strong> la observación de material y luz produce detalles auténticos y diferenciadores.</p>
+          </li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Proyecto de título — “El corazón, un órgano diferenciador”</a></em></strong>    
-            <p><strong>Reto:</strong> convertir frecuencia cardiaca en imagen y sonido con propósito artístico y comunicacional.</p>
-            <p><strong>Acción:</strong> registro in situ, transformación de señales en mándalas y prototipado de aplicaciones gráficas para soportes físicos/digitales.</p>
-            <p><strong>Resultado:</strong> componentes visuales con carga emocional que reforzaron la presentación del proyecto.</p>
+            <br><strong>Reto:</strong> convertir frecuencia cardiaca en imagen y sonido con propósito artístico y comunicacional.
+            <br><strong>Acción:</strong> registro in situ, transformación de señales en mándalas y prototipado de aplicaciones gráficas para soportes físicos/digitales.
+            <br><strong>Resultado:</strong> componentes visuales con carga emocional que reforzaron la presentación del proyecto.
             <p><strong><em>Aprendizaje:</em></strong> datos bien traducidos al diseño aumentan la carga narrativa y el impacto.</p>
           </li>
         </ul>
@@ -709,25 +710,25 @@
         <hr class="my-5">
         <h2 class="mb-3">Mini-casos</h2>
         <ul>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">AIESEC — Voluntariado (etapa estudiantil)</a>:</em></strong>
-            <p><strong>Reto:</strong> baja captación y materiales no estandarizados.</p>
-            <p><strong>Acción:</strong> diseñé más de 15 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.</p>
-            <p><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa (registro interno).</p>
+            <br><strong>Reto:</strong> baja captación y materiales no estandarizados.
+            <br><strong>Acción:</strong> diseñé más de 15 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.
+            <br><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa (registro interno).
             <p><strong><em>Qué demuestra:</em></strong> investigación rápida, pruebas de diseño y medición de impacto (habilidades aplicables a UX).</p>
           </li>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Casona Minka — Manual OPL (proyecto profesional)</a>:</em></strong>
-            <p><strong>Reto:</strong> tareas operativas sin documentación clara.</p>
-            <p><strong>Acción:</strong> diseñé un Manual OPL y plantillas para onboarding.</p>
-            <p><strong>Resultado:</strong> onboarding estandarizado y menor tiempo de adaptación.</p>
+            <br><strong>Reto:</strong> tareas operativas sin documentación clara.
+            <br><strong>Acción:</strong> diseñé un Manual OPL y plantillas para onboarding.
+            <br><strong>Resultado:</strong> onboarding estandarizado y menor tiempo de adaptación.
             <p><strong><em>Qué demuestra:</em></strong> capacidad para sistematizar procesos y traducir operaciones a documentación útil (UX writing / documentación de producto).</p>
           </li>
-          <li>
+          <li class="mb-5">
             <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Diseño y prototipo de blog (proyecto profesional)</a>:</em></strong>
-            <p><strong>Reto:</strong> comunicación por email no escalable y mala experiencia móvil.</p>
-            <p><strong>Acción:</strong> prototipé un blog en HTML5/CSS3, definí flujos editoriales y guías de publicación.</p>
-            <p><strong>Resultado:</strong> canal centralizado para medir engagement.</p>
+            <br><strong>Reto:</strong> comunicación por email no escalable y mala experiencia móvil.
+            <br><strong>Acción:</strong> prototipé un blog en HTML5/CSS3, definí flujos editoriales y guías de publicación.
+            <br><strong>Resultado:</strong> canal centralizado para medir engagement.
             <p><strong><em>Qué demuestra:</em></strong> soluciones escalables que integran diseño y front-end.</p>
             <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> el blog permitió centralizar contenidos y habilitar métricas básicas de lectura y participación que antes no existían.</small></p>
           </li>
@@ -883,25 +884,25 @@
         <hr class="my-5">
         <h4 class="mb-3">Mini-casos (qué se hizo y por qué funcionó)</h4>
         <ul>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLskei2SY5r/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Módulo “Mis Datos” — Plataforma CBC (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> pasos redundantes para actualizar información.</p>
-                <p><strong>Acción:</strong> mapa del recorrido, rediseño del flujo y prototipos testados con usuarios internos.</p>
-                <p><strong>Resultado:</strong> tiempo medio por tarea reducido de 15 a 6 minutos (registro interno).</p>
+                <br><strong>Reto:</strong> pasos redundantes para actualizar información.
+                <br><strong>Acción:</strong> mapa del recorrido, rediseño del flujo y prototipos testados con usuarios internos.
+                <br><strong>Resultado:</strong> tiempo medio por tarea reducido de 15 a 6 minutos (registro interno).
                 <p class="textdescriptions"><small><strong>Qué demuestra:</strong> investigar el recorrido y escribir microcopy claro desde el inicio evita ambigüedades y reduce errores.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLsLeySMdog/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">A/B testing — CBC Web (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> baja visibilidad del menú y la landing.</p>
-                <p><strong>Acción:</strong> diseño de variantes y pruebas por etapas (una variable por prueba).</p>
-                <p><strong>Resultado:</strong> +25% CTR acumulado tras las iteraciones (registro interno).</p>
+                <br><strong>Reto:</strong> baja visibilidad del menú y la landing.
+                <br><strong>Acción:</strong> diseño de variantes y pruebas por etapas (una variable por prueba).
+                <br><strong>Resultado:</strong> +25% CTR acumulado tras las iteraciones (registro interno).
                 <p class="textdescriptions"><small><strong>Qué demuestra:</strong> usar pruebas controladas para priorizar cambios con evidencia.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="landing-projects-d-minka.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Observación en contexto — Hostal Casona Minka (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> procesos manuales y desorden en recepción que afectaban la atención y las reservas.</p>
-                <p><strong>Acción:</strong> observación 1:1 en contexto, ajuste de formularios y reorganización de tareas con el equipo.</p>
-                <p><strong>Resultado:</strong> aumento en reservas (≈+20%) y mayor fluidez en la operación (registros y observación).</p>
+                <br><strong>Reto:</strong> procesos manuales y desorden en recepción que afectaban la atención y las reservas.
+                <br><strong>Acción:</strong> observación 1:1 en contexto, ajuste de formularios y reorganización de tareas con el equipo.
+                <br><strong>Resultado:</strong> aumento en reservas (≈+20%) y mayor fluidez en la operación (registros y observación).
                 <p class="textdescriptions"><small><strong>Qué demuestra:</strong> ver el trabajo en su contexto revela problemas operativos que impactan directamente la conversión.</small></p>
             </li>
         </ul>
@@ -956,7 +957,7 @@
       relatedArticles: [
         { id: "8", title: "El Retorno de Inversión en UX: Por Qué Vale la Pena" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
-        { id: "12", title: "Integrando IA en tu Proceso de Diseño" }
+        { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
         {
@@ -1027,25 +1028,25 @@
         <hr>
         <h4 class="mt-5 mb-3">Mini-casos</h4>
         <ul>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System para FOL (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing que retrasaban lanzamientos.</p>
-                <p><strong>Acción:</strong> brief inicial + moodboard + guía de tokens (colores, tipografías) y plantillas editables.</p>
-                <p><strong>Resultado:</strong> decisiones más ágiles y casi sin correcciones de color.</p>
+                <br><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing que retrasaban lanzamientos.
+                <br><strong>Acción:</strong> brief inicial + moodboard + guía de tokens (colores, tipografías) y plantillas editables.
+                <br><strong>Resultado:</strong> decisiones más ágiles y casi sin correcciones de color.
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un brief operativo con archivos fuente acelera el hand-off técnico.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="landing-projects-d-australGroup.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Aulas Virtuales e-Learning — Austral Group (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> iniciar por pantallas sin entender flujos ni usuarios.</p>
-                <p><strong>Acción:</strong> brief con 3 perfiles prioritarios y mapeo de recorridos antes de wireframes.</p>
-                <p><strong>Resultado:</strong> mayor velocidad en entregas y capacidad de anticipar soluciones.</p>
+                <br><strong>Reto:</strong> iniciar por pantallas sin entender flujos ni usuarios.
+                <br><strong>Acción:</strong> brief con 3 perfiles prioritarios y mapeo de recorridos antes de wireframes.
+                <br><strong>Resultado:</strong> mayor velocidad en entregas y capacidad de anticipar soluciones.
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> mapear usuarios y trabajos a realizar evita suposiciones costosas.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="landing-projects-d-tarotParaSanar.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Rebranding y plantillas — Tarot para Sanar (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> producir 18 piezas para redes sociales y rebranding en 4 semanas manteniendo tono coherente.</p>
-                <p><strong>Acción:</strong> brief estético preciso, plantillas editables en formato para redes y guías rápidas de uso (paleta, tipografías y logo).</p>
-                <p><strong>Resultado:</strong> entregas puntuales y autonomía del cliente.</p>
+                <br><strong>Reto:</strong> producir 18 piezas para redes sociales y rebranding en 4 semanas manteniendo tono coherente.
+                <br><strong>Acción:</strong> brief estético preciso, plantillas editables en formato para redes y guías rápidas de uso (paleta, tipografías y logo).
+                <br><strong>Resultado:</strong> entregas puntuales y autonomía del cliente.
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> entregar plantillas reduce consultas posteriores y da escalabilidad.</small></p>
             </li>
         </ul>
@@ -1216,32 +1217,32 @@
         <hr class="my-5">
         <h2 class="mb-3 mt-5">Mini-casos</h2>
         <ul>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.behance.net/gallery/229418197/Perfil-de-Inversionista-en-App-FOL-%282018%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Perfil de Inversionista — FOL (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> flujos y textos pensados para desktop que fallaban en móvil.</p>
-                <p><strong>Acción:</strong> research de contenido (content-first), priorización de campos y prototipado responsive.</p>
-                <p><strong>Resultado:</strong> aumento en la tasa de completitud y menor abandono en mobile (registro interno).</p>
+                <br><strong>Reto:</strong> flujos y textos pensados para desktop que fallaban en móvil.
+                <br><strong>Acción:</strong> research de contenido (content-first), priorización de campos y prototipado responsive.
+                <br><strong>Resultado:</strong> aumento en la tasa de completitud y menor abandono en mobile (registro interno).
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> invertir en contenido y validación móvil mejora conversión con inversión moderada.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLnmgKHS9he/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Burbuja de Chatbot — CBC (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> alto volumen de consultas repetidas y falta de acceso directo a asesor.</p>
-                <p><strong>Acción:</strong> diseño de burbuja con cuatro rutas, pruebas de usabilidad y microcopy optimizado.</p>
-                <p><strong>Resultado:</strong> menor volumen de consultas repetidas y soporte más eficiente (registro interno).</p>
+                <br><strong>Reto:</strong> alto volumen de consultas repetidas y falta de acceso directo a asesor.
+                <br><strong>Acción:</strong> diseño de burbuja con cuatro rutas, pruebas de usabilidad y microcopy optimizado.
+                <br><strong>Resultado:</strong> menor volumen de consultas repetidas y soporte más eficiente (registro interno).
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> soluciones UX reducen costos operativos.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Diseño y Prototipo de Blog — CBC (proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> comunicación por email difícil de escalar y mala experiencia móvil.</p>
-                <p><strong>Acción:</strong> flujos editoriales, prototipado responsive (HTML5/CSS3) y foco en lectura móvil.</p>
-                <p><strong>Resultado:</strong> mayor lectura móvil y canal público con métricas de engagement.</p>
+                <br><strong>Reto:</strong> comunicación por email difícil de escalar y mala experiencia móvil.
+                <br><strong>Acción:</strong> flujos editoriales, prototipado responsive (HTML5/CSS3) y foco en lectura móvil.
+                <br><strong>Resultado:</strong> mayor lectura móvil y canal público con métricas de engagement.
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un canal bien diseñado se convierte en activo medible para marketing.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">"El corazón, un órgano diferenciador" (Proyecto académico)</a>:</em></strong>
-                <p><strong>Reto:</strong> traducir señales biométricas a experiencia visual y sonora.</p>
-                <p><strong>Acción:</strong> investigación interdisciplinaria y prototipado experimental.</p>
-                <p><strong>Resultado:</strong> validación de la hipótesis y exhibición.</p>
+                <br><strong>Reto:</strong> traducir señales biométricas a experiencia visual y sonora.
+                <br><strong>Acción:</strong> investigación interdisciplinaria y prototipado experimental.
+                <br><strong>Resultado:</strong> validación de la hipótesis y exhibición.
                 <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> investigación aplicada comunica ideas complejas a audiencias amplias.</small></p>
             </li>
         </ul>
@@ -1295,7 +1296,7 @@
       relatedArticles: [
         { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
-        { id: "12", title: "Integrando IA en tu Proceso de Diseño" }
+        { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
         {
@@ -1363,18 +1364,18 @@
           <hr class="my-5">
           <h2 class="mt-5 fontpoppins opacity-100">Mini-casos</h2>
           <ul>
-              <li>
+              <li class="mb-5">
                   <strong><em><a href="https://www.instagram.com/p/DL0pyKUSCg-/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Plantillas Social Media — Akasha Healing (Proyecto profesional)</a>:</em></strong>
-                  <p><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenido constante.</p>
-                  <p><strong>Acción:</strong> plantillas editables en Canva y guía rápida de uso.</p>
-                  <p><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement (comparativa interna).</p>
+                  <br><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenido constante.
+                  <br><strong>Acción:</strong> plantillas editables en Canva y guía rápida de uso.
+                  <br><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement (comparativa interna).
                   <p class="textdescriptions"><small><strong>Qué demuestra:</strong> elegir la herramienta por autonomía permite velocidad sin perder identidad.</small></p>
               </li>
-              <li>
+              <li class="mb-5">
                   <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Prototipado & hand-off — CBC (Proyecto profesional)</a>:</em></strong>
-                  <p><strong>Reto:</strong> assets inconsistentes y hand-off lento a desarrollo.</p>
-                  <p><strong>Acción:</strong> assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML/CSS.</p>
-                  <p><strong>Resultado:</strong> tiempo de preparación de assets estimado 30→15 minutos y despliegues más ágiles.</p>
+                  <br><strong>Reto:</strong> assets inconsistentes y hand-off lento a desarrollo.
+                  <br><strong>Acción:</strong> assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML/CSS.
+                  <br><strong>Resultado:</strong> tiempo de preparación de assets estimado 30→15 minutos y despliegues más ágiles.
                   <p class="textdescriptions"><small><strong>Qué demuestra:</strong> estandarizar formatos y fragmentos reutilizables acelera la implementación.</small></p>
               </li>
           </ul>
@@ -1485,25 +1486,25 @@
         <hr class="my-5">
         <h4 class="mb-3 mt-5">Mini-casos</h4>
         <ul>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System — CBC (Proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> piezas y documentos con líneas visuales distintas entre áreas.</p>
-                <p><strong>Acción:</strong> Brand Guide práctico (10 páginas) + archivos fuente</p>
-                <p><strong>Resultado:</strong> equipos alineados y plantillas internas listas; menos revisiones de color y usos del logo.</p>
+                <br><strong>Reto:</strong> piezas y documentos con líneas visuales distintas entre áreas.
+                <br><strong>Acción:</strong> Brand Guide práctico (10 páginas) + archivos fuente
+                <br><strong>Resultado:</strong> equipos alineados y plantillas internas listas; menos revisiones de color y usos del logo.
                 <p class="textdescriptions"><small><strong>Aprendizaje:</strong> centralizar archivos fuente y reglas ahorra tiempo y consultas.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="landing-projects-d-fol.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Style Guide — FOL (Proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> uso inconsistente de colores y tipografías entre Marketing, TI y Ventas.</p>
-                <p><strong>Acción:</strong> paleta (HEX/RGB), familias tipográficas, iconografía y guías de aplicación.</p>
-                <p><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales.</p>
+                <br><strong>Reto:</strong> uso inconsistente de colores y tipografías entre Marketing, TI y Ventas.
+                <br><strong>Acción:</strong> paleta (HEX/RGB), familias tipográficas, iconografía y guías de aplicación.
+                <br><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales.
                 <p class="textdescriptions"><small><strong>Aprendizaje:</strong> entregar ejemplos “qué sí / qué no” evita interpretaciones distintas.</small></p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka (Proyecto profesional)</a>:</em></strong>
-                <p><strong>Reto:</strong> identidad externa cuidada; procesos internos sin estandarizar.</p>
-                <p><strong>Acción:</strong> manual operativo con instrucciones claras para convivencia, procesos y comunicación.</p>
-                <p><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación de equipos.</p>
+                <br><strong>Reto:</strong> identidad externa cuidada; procesos internos sin estandarizar.
+                <br><strong>Acción:</strong> manual operativo con instrucciones claras para convivencia, procesos y comunicación.
+                <br><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación de equipos.
                 <p class="textdescriptions"><small><strong>Aprendizaje:</strong> un manual práctico funciona si lo enseñas en 15–30 minutos a equipos del negocio.</small></p>
             </li>
         </ul>
@@ -1623,11 +1624,11 @@
         <hr>
         <h4 class="mb-3 mt-5">Mini-casos</h4>
         <ul>
-            <li>
+            <li class="mb-5">
                 <strong><em>Laboratoria — sprints cortos (formación)</em></strong>
                 <p>Hicimos sprints cortos y hackathons de 24 h para pasar de idea a prototipo. <em><strong>Resultado:</em></strong> la práctica de iterar pasó a ser rutina y los equipos aprendieron a tomar decisiones rápidas sin perder foco.</p>
             </li>
-            <li>
+            <li class="mb-5">
                 <strong><em>FOL — trabajo junto a TI (proyecto profesional)</em></strong>
                 <p>Me sumé desde el inicio a reuniones técnicas, armé prototipos en HTML y trabajé en ciclos. <em><strong>Resultado:</em></strong> menos malentendidos y un traspaso a desarrollo más suave. Aprendí que involucrar a quien va a programar desde el prototipo ahorra trabajo y tiempo.</p>
             </li>
@@ -1728,7 +1729,7 @@
       relatedArticles: [
         { id: "1", title: "Diseño que Evoluciona" },
         { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
-        { id: "12", title: "Integrando IA en tu Proceso de Diseño" }
+        { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
         {
@@ -1748,7 +1749,7 @@
     "12": {
       id: 12,
       titleHTML: `
-        Integrando IA
+        Colabora con IA:
         <span class="opacity-70"> en tu Proceso de Diseño</span>
       `,
       date: "18 de julio, 2025",
@@ -1757,79 +1758,79 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-12@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX Designer.</strong>
-          Uso IA como herramienta para acelerar tareas y crear más espacio para estrategia y diseño con sentido.
+          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Trabajo mezclando diseño, prototipado front-end (HTML/CSS) y Brand Systems para convertir ideas en productos útiles. Uso la IA para eliminar tareas repetitivas y dedicar tiempo a la estrategia, las pruebas y el detalle humano. No la veo como sustituta: la pruebo, la documento y la adapto a cada proyecto.
           Cuando no estoy afinando prompts, me encontrarás disfrutando de mi sándwich favorito.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-6-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong><em>La IA no sustituye al diseñador:</em></strong> automatiza lo repetitivo y libera tiempo para la creatividad y la estrategia. Su verdadero valor aparece cuando se usan prompts documentados, se valida con criterio humano y se miden los resultados (tiempo ahorrado, más variantes para probar, mejores métricas).</p>
-        <p>Hace poco pedí a un generador cinco paletas completas en segundos; ese tiempo lo invertí en suavizar contraste y accesibilidad. La lección fue clara: la IA acelera tareas, pero el criterio profesional sigue siendo lo que marca la diferencia.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“La mejor manera de predecir el futuro es inventarlo.” — <em>Alan Kay</em></p>
+        <p><strong><em>La IA acelera tareas repetitivas;</em></strong> tu criterio decide qué queda y qué suma.</p>
+        <p>Hace poco pedí cinco paletas en segundos y usé ese tiempo para ajustar contraste y accesibilidad <em>—lo que normalmente me llevaría horas.</em> En un proyecto reciente, esa agilidad me permitió pasar de 3 propuestas a la versión final en una sola reunión con el cliente. La IA me dio velocidad; yo decidí si la salida valía la pena. Por eso trabajo con método: <strong><em>generar → validar → documentar.</em></strong></p>
+        <p>Te comparto mi flujo práctico para usar IA en diseño: prompts que funcionan, validación humana y reglas simples para no perder la voz de la marca.</p>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Sin una guía y disciplina, la IA puede generar ruido: textos con tonos incompatibles, imágenes que no respetan la identidad y soluciones que fallan en producción. Cuando los equipos no registran sus prompts, pierden la posibilidad de replicar buenos resultados. No se trata de usar IA por moda, sino de integrarla con método: diseñar indicaciones claras, revisar salidas y cuidar la consistencia de las piezas que entregas.</p>
+        <h4 class="mt-5 fontpoppins opacity-100">Qué pasa cuando se usa mal</h4>
+        <p>Sin reglas, la IA produce versiones sueltas: copys con tonos distintos, imágenes que desvirtúan la identidad o código con atajos inseguros. Si no guardo los prompts, pierdo reproducibilidad. Usar IA por moda sin controles complica más que ayuda.</p>
         <hr>
-        <h4 class="mb-3 mt-5">Mini-casos</h4>
+        <h4 class="mb-3 mt-5">Dónde me ayuda la IA</h4>
         <ul>
-            <li>
-                <strong><em>Mi Mágico Bosque — Social Media</em></strong>
-                <p><strong>Reto:</strong> mantener contenido constante con recursos limitados.</p>
-                <p><strong>Acción:</strong> la IA generó 12 copys iniciales y 5 propuestas de paleta; yo afiné tono y diseño final en Canva.</p>
-                <p><strong>Resultado:</strong> 80% del material listo en un par de horas; mejor consistencia y más interacción.</p>
-                <p><strong>Aprendizaje:</strong> la IA acelera producción, pero el juicio humano mantiene la voz.</p>
-                <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> comparación del tiempo habitual de producción manual versus el flujo asistido por IA con validación humana.</small></p>
-            </li>
-            <li>
-                <strong><em>Diseñadora independiente — proceso comercial</em></strong>
-                <p><strong>Reto:</strong> escalar oferta de servicios manteniendo calidad en diseño y comunicación.</p>
-                <p><strong>Acción:</strong> IA para propuestas iniciales, emails y calendarización; revisión humana y personalización final.</p>
-                <p><strong>Resultado:</strong> más clientes recurrentes y menos tiempo de preparación por propuesta.</p>
-                <p><strong>Aprendizaje:</strong> automatizar lo repetitivo libera espacio para la relación con el cliente.</p>
-            </li>
-            <li>
-                <strong><em>Elaboración del portafolio — colaboración con IA</em></strong>
-                <p><strong>Reto:</strong> condensar trayectoria y suplir áreas menos dominadas (redacción, snippets JS).</p>
-                <p><strong>Acción:</strong> IA para variantes de texto, planificación de micro-metas y ejemplos de código; cada salida fue validada y adaptada al stack (HTML5/CSS3).</p>
-                <p><strong>Resultado:</strong> avance más rápido y mayor consistencia en el mensaje.</p>
-                <p><strong>Aprendizaje:</strong> la IA complementa habilidades, no las sustituye; cuanto mejor el prompt, mejor la salida.</p>
-            </li>
+          <li><strong>Exploración visual y paletas —</strong> arranque visual rápido para propuestas.</li>
+          <li><strong>Microcopy y variantes —</strong> pruebas A/B de CTAs y titulares.</li>
+          <li><strong>Prototipado inicial y snippets —</strong> reduce boilerplate (código repetitivo o “plantillas” innecesarias); siempre revisa seguridad y calidad del código.</li>
+          <li><strong>Operaciones internas —</strong> plantillas de email, agendas y resúmenes.</li>
+          <li><strong>Testing preparatorio —</strong> generar variantes para luego probar con usuarios.</li>
+        </ul>
+        <p class="text-center fs-6 my-4 bg-canva p-3">“En encuestas a diseñadores, la mayoría dice que la IA aumenta la eficiencia, pero menos de la mitad asegura que la IA los hace ‘mejores’ profesionales —lo que confirma que el criterio humano sigue siendo clave.” — <em><a href="https://www.figma.com/blog/figma-2025-ai-report-perspectives/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">Figma</a></em></p>
+        <hr class="my-5">
+        <h4 class="mt-5 fontpoppins opacity-100">Buenas prácticas de prompts</h4>
+        <ul class="my-3">
+          <li><strong><em>Sé claro como si le hablaras a una persona:</em></strong> indica audiencia, tono, longitud y formato.<br><small><em>Ej.: “Escribe 6 CTAs para registro, dirigidos a emprendedoras, tono cordial y directo, 3–5 palabras.”</em></small></li>
+          <li><strong><em>Pide variantes y pide explicaciones:</em></strong> solicita 3 opciones y una línea que explique por qué cada una funciona. Así entiendes la intención detrás de la salida.</li>
+          <li><strong><em>Da contexto fijo:</em></strong> incluye siempre el <strong><em>brief corto</em></strong> (qué hace el producto, para quién y qué no debe decir). Eso reduce resultados fuera de tono.</li>
+          <li><strong><em>Controla el alcance:</em></strong> si quieres solo ideas, dilo; si quieres texto listo para publicar, dilo también. Evita malentendidos al principio.</li>
+          <li><strong><em>Itera el prompt, no la versión final:</em></strong> ajusta poco a poco y guarda cada versión que funcione. Un pequeño cambio en una palabra puede mejorar mucho la salida.</li>
+          <li><strong><em>Guarda todo en un solo lugar:</em></strong> Notion o Google Drive con fecha, modelo y la salida final. Así reproduces lo que funcionó cuando lo necesites.</li>
+          <li><strong><em>Valida siempre con criterio humano:</em></strong> corrige estilo, comprueba datos y prueba las frases con una persona real antes de publicar.</li>
+          <li><strong><em>Ten un prompt base de marca:</em></strong> una frase fija que siempre añades (p. ej. “Tono: cercano, profesional; evitar jergas técnicas”). Úsalo como contexto predeterminado.</li>
         </ul>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Dónde aplicar IA</h2>
-        <ul>
-          <li><strong>Exploración visual y paletas:</strong> genera opciones rápidas para moodboards.</li>
-          <li><strong>Microcopy y variantes:</strong> acelera pruebas A/B de CTAs y títulos.</li>
-          <li><strong>Prototipado inicial y snippets:</strong> reduce boilerplate (código repetitivo o “plantillas” innecesarias); siempre revisa seguridad y calidad del código.</li>
-          <li><strong>Planificación y operaciones internas:</strong> calendarios, plantillas de emails y resúmenes de reuniones.</li>
-        </ul>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Pasos prácticos (Qué / Por qué / Cómo)</h4>
-        <ol>
-            <li><strong><em>Automatiza research visual</em></strong>— <em>Por qué:</em> encuentras tendencias y paletas en minutos. <em>Cómo (prompt ejemplo):</em> “Dame 5 paletas HEX para una UI minimalista orientada a bienestar, con contraste accesible y una opción secundaria para acentos; incluye uso recomendado (fondo / texto / acento).”</li>
-            <li><strong><em>Genera microcopy para pruebas</em></strong>— <em>Por qué:</em> acelera testeo y evita bloqueos por redacción. <em>Cómo (prompt ejemplo):</em> “Escribe 6 variantes de CTA para registro dirigido a emprendedoras; tono cordial y directo; 3–5 palabras cada una.”</li>
-            <li><strong><em>Usa asistentes de código para prototipos</em></strong>— <em>Por qué:</em> reducen boilerplate y aceleran prototipado. <em>Cómo (prompt ejemplo):</em> “Genera un snippet HTML/CSS para un card responsive con imagen, título y botón; incluye variables CSS para color y spacing.”</li>
-            <li><strong><em>Documenta prompts y resultados</em></strong>— <em>Por qué:</em> reproducibilidad y mejora continua. <em>Cómo:</em> guarda prompt, versión del modelo, ejemplos de salida y notas de ajuste en Notion/Google Drive por proyecto.</li>
+        <h4 class="mt-5 fontpoppins opacity-100">Prompts listos (copiar y pegar)</h4>
+        <ol class="my-3">
+            <li class="mb-4">
+              <strong><em>Paletas rápidas</em></strong>
+              <br>“Dame 5 paletas HEX para una UI minimalista orientada al bienestar. Indica contraste (alto/medio/bajo) y uso recomendado (fondo/texto/acento).”
+            </li>
+            <li class="mb-4">
+              <strong><em>Microcopy CTA</em></strong>
+              <br>“Escribe 6 variantes de CTA para ‘registro’ dirigido a emprendedoras; tono cordial y directo; 3–5 palabras.”
+            </li>
+            <li class="mb-4">
+              <strong><em>Snippet HTML/CSS</em></strong>
+              <br>“Genera un snippet HTML/CSS para una card responsive con imagen, título y botón; incluye variables CSS para color y spacing. Añade 2 sugerencias de accesibilidad.”
+            </li>
+            <li class="mb-4">
+              <strong><em>Prompt base UX/UI</em></strong>
+              <br>“Contexto: [funcionalidad]. Audiencia: [perfil, dispositivo]. Objetivo: [acción clave]. Prioridad: [accesibilidad/rendimiento/conversión]. Entregable: [CTA/microcopy/form]. Estilo: claro y directo. Genera 6 variantes e indica la más accesible.”
+            </li>
         </ol>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Herramientas recomendadas</h4>
+        <hr class="my-5">
+        <h4 class="mt-5 fontpoppins opacity-100">Cómo lo hago (mi flujo, en 4 pasos)</h4>
         <ul>
-          <li><strong>Texto:</strong> ChatGPT, Claude, Jasper, Copy.ai — para borradores y variantes; guarda prompts.</li>
-          <li><strong>Imágenes:</strong> Midjourney, DALL·E, Stable Diffusion — útiles para moodboards y exploración visual, no para arte final sin revisión.</li>
-          <li><strong>Código:</strong> GitHub Copilot, Codeium, Cursor — como base; revisa seguridad y licencias.</li>
-          <li><strong>Gestión:</strong> Notion / Google Drive para registrar prompts y resultados.</li>
-          <li><strong>Testing:</strong> Testim, Applitools, Mabl para pruebas técnicas; combina con tests con usuarios.</li>
+          <li><strong>Generar —</strong> Pido 5–10 opciones rápidas (paletas, textos, snippets).</li>
+          <li><strong>Filtrar —</strong> Elijo 2–3 opciones con criterio: legibilidad, voz y factibilidad.</li>
+          <li><strong>Validar —</strong> Pruebo las mejores con un colega o 3–5 usuarios (según lo que se trate).</li>
+          <li><strong>Documentar —</strong> Guardo el prompt, la versión del modelo y la salida final con notas.</li>
         </ul>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Consideraciones éticas y de calidad</h4>
-        <ul>
-          <li><strong>Verifica siempre:</strong> la IA puede inventar datos o hechos. No asumas todo correcto.</li>
-          <li><strong>Revisa representación:</strong> cuida el lenguaje y las imágenes para evitar imágenes limitantes o imparcialidad en la comunicación.</li>
-          <li><strong>Licencias y propiedad:</strong> revisa términos antes de usar imágenes o fragmentos en productos comerciales.</li>
-          <li><strong>Privacidad:</strong> no cargues datos sensibles a modelos públicos.</li>
+        <hr class="my-5">
+        <h4 class="mt-5 fontpoppins opacity-100">Medir sin complicarte: 3 métricas que uso</h4>
+        <ul class="my-3">
+          <li><strong><em>Tiempo ahorrado por tarea</em></strong> (minutos antes vs después).</li>
+          <li><strong><em>Variantes útiles por hora</em></strong> (cuántas salidas sirven de verdad).</li>
+          <li><strong><em>% de salidas reutilizadas sin edición —</em></strong> porcentaje de salidas de IA que puedo usar tal cual; si baja, ajusto el prompt (más contexto, ejemplo y formato) hasta mejorar la reproducción.</li>
         </ul>
+        <p><small><strong>Registro simple:</strong> hoja con tarea / tiempo antes / tiempo después / variantes generadas / uso final.</small></p>
+        <p class="mt-4"><strong>Ética y legal — lo imprescindible:</strong> Verifica siempre la información que genera la IA (puede inventar hechos), cuida la representación para evitar estereotipos y revisa las licencias antes de usar imágenes o assets en productos comerciales; además, no subas datos sensibles a modelos públicos sin permisos claros.</p>
         <hr class="my-5">
         <div class="bg-canva p-5">
             <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
@@ -1843,14 +1844,7 @@
             <p>Empieza con versiones gratuitas o pruebas; usa la IA para borradores y prioriza la revisión humana. Documenta resultados para medir impacto antes de invertir.</p>
         </div>
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
-        <ol>
-            <li>La IA es una herramienta para acelerar y ampliar opciones; el criterio profesional decide qué queda.</li>
-            <li>Documentar prompts y resultados convierte la IA en un recurso replicable y escalable.</li>
-            <li>Validar siempre con personas: pruebas con usuarios o stakeholders son indispensables antes de lanzar.</li>
-        </ol>
-        <hr class="my-5">
-        <p>La IA ya forma parte de mi flujo de trabajo: me ahorra tiempo y me permite enfocarme en estrategia y calidad. Sigo aprendiendo y documentando lo que funciona para compartirlo con equipos y clientes. La IA potencia mi criterio —no lo reemplaza— y se vuelve una ventaja cuando se usa con método.</p>    
+        <p>La IA me regaló tiempo: tiempo para pensar, para conversar con usuarios y para cuidar los detalles que marcan la diferencia. Pero la velocidad sin método es ruido. Mi forma es sencilla y práctica: <strong>genero, filtro, pruebo y documento</strong> Así convierto una herramienta rápida en un recurso confiable.</p>    
       `,
       // ← Aquí las relaciones
       relatedArticles: [
