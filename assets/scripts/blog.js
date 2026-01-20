@@ -38,7 +38,7 @@
 
     // header
     const headerWrap = document.createElement('div');
-    headerWrap.className = 'pb-2 my-lg-4 my-md-4';
+    headerWrap.className = 'pb-2 my-lg-4';
 
     const h2 = document.createElement('h2');
     h2.className = 'border-bottom';
@@ -61,7 +61,7 @@
     if (opts.hero) {
       const heroOuter = document.createElement('div');
       const heroInner = document.createElement('div');
-      heroInner.className = 'p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary';
+      heroInner.className = 'p-4 p-md-5 mb-2 rounded text-body-emphasis bg-body-secondary';
 
       const heroCol = document.createElement('div');
       heroCol.className = 'col-lg-8 px-0';
@@ -201,28 +201,28 @@
       headerMain: 'Blog',
       headerDescription: 'Reflexiones breves sobre diseño, procesos y lo que aprendí trabajando con personas y marcas.',
       hero: {
-        title: 'Laboratorio de Formas:',
-        lead: 'experimentación creativa aplicada al diseño',
-        description: 'Cómo un laboratorio de experimentos materiales genera texturas, componentes y narrativas que enriquecen UX, UI y branding.',
-        href: 'landing-blog-article.html?article=4',
-        articleId: 'article-4',
+        title: 'Colabora con IA:',
+        lead: ' en tu Proceso de Diseño',
+        description: 'La IA no reemplaza al diseñador; libera horas repetitivas para que tú diseñes, prototipes y produzcas contenido con intención.',
+        href: 'landing-blog-article.html?article=12',
+        articleId: 'article-12',
         ctaText: 'Leer más →'
       },
       items: [
         {
           iconClass: 'fa-regular fa-newspaper color-green opacity-60',
           title: 'Investigación UX:',
-          titleSpan: ' mapas, A/B testing y shadowing',
-          description: 'Convierte observación en decisiones: mapas, A/B tests y shadowing que reducen tiempos, aumentan clics y elevan reservas con mejoras medibles.',
+          titleSpan: ' mapas, A/B y observación en contexto',
+          description: 'Mapea, observa y prueba con contenidos reales: métodos UX que redujeron tiempos, subieron clics y aumentaron reservas en casos reales.',
           href: 'landing-blog-article.html?article=6',
           articleId: 'article-6',
           ctaText: 'Leer más →'
         },
         {
           iconClass: 'fa-regular fa-newspaper color-secondary opacity-60',
-          title: 'El corazón, un órgano diferenciador',
-          titleSpan: '— proyecto de título',
-          description: 'Convertí latidos en imagen y sonido: una instalación que traduce la frecuencia cardiaca en una mándala única por visitante, uniendo ciencia, sonido y diseño.',
+          title: 'El corazón, un órgano diferenciador:',
+          titleSpan: ' de latido a mándala visual',
+          description: 'Un proyecto que traduce señales cardíacas en mándalas sonoras y visuales —prototipos y validación que muestran cómo datos, diferentes disciplinas y diseño se encuentran.',
           href: 'landing-blog-article.html?article=3',
           articleId: 'article-3',
           ctaText: 'Leer más →'
@@ -240,8 +240,8 @@
       headerDescription: 'Reflexiones breves sobre diseño, procesos y lo que aprendí trabajando con personas y marcas.',
       hero: {
         title: 'ROI en UX:',
-        lead: 'cómo medir y demostrar impacto (conversiones, ahorro y retención)',
-        description: 'Mide UX y transforma cada mejora en ingresos: aprende a calcular ROI, reducir consultas y aumentar conversiones con pruebas simples y medibles.',
+        lead: ' demuestra con números el valor del diseño',
+        description: 'No pidas presupuesto sin números: te muestro cómo investigación y diseño generan conversiones y ahorros reales —de forma práctica y humana.',
         href: 'landing-blog-article.html?article=8',
         articleId: 'article-8',
         ctaText: 'Leer más →'
@@ -249,20 +249,21 @@
       items: [
         {
           iconClass: 'fa-regular fa-newspaper color-green opacity-60',
-          title: 'Brand Kit Eficiente:',
-          titleSpan: ' Ahorra Tiempo y Consigue Coherencia Visual',
-          description: 'Diseña un Brand System + UI Kit mínimos y aplicables desde el primer día: menos errores, lanzamientos más rápidos y un equipo que dedica energía a crear valor, no a buscar archivos.',
+          title: 'Brand Kit:',
+          titleSpan: ' consigue coherencia visual',
+          description: 'Un Brand Kit bien hecho convierte improvisación en velocidad: organiza los activos, reduce errores y libera tiempo para crear.',
           href: 'landing-blog-article.html?article=10',
           articleId: 'article-10',
           ctaText: 'Leer más →'
         },
         {
+          
           iconClass: 'fa-regular fa-newspaper color-secondary opacity-60',
-          title: 'Integrando IA',
-          titleSpan: ' en tu Proceso de Diseño',
-          description: 'La IA no reemplaza al diseñador; libera horas repetitivas para que tú diseñes, prototipes y produzcas contenido con intención.',
-          href: 'landing-blog-article.html?article=12',
-          articleId: 'article-12',
+          title: 'Laboratorio de Formas:',
+          lead: 'experimenta, documenta, integra',
+          description: 'Sesiones cortas para crear texturas, relieves y micro-prototipos que enriquecen interfaces y branding sin romper coherencia.',
+          href: 'landing-blog-article.html?article=4',
+          articleId: 'article-4',
           ctaText: 'Leer más →'
         }
       ],
