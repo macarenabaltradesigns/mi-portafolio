@@ -322,6 +322,7 @@
     }
   
     nav ul.open { display: flex; }
+
   }
   
   /* =========================
@@ -1159,6 +1160,17 @@
     height: 250px !important; 
     margin-bottom: 1rem; 
   }
+
+  .img-size-designs{
+    max-width: 25rem!important;
+  }
+
+    /* Mobile nav */
+    @media (max-width: 768px) { 
+      .img-size-designs{
+        max-width: 98% !important;
+      }
+    }
 
   
   /* =========================
