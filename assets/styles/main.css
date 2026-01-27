@@ -73,15 +73,6 @@
     padding: 0;
   }
   
-  *,
-  *::selection {
-    user-select: none;
-  }
-
-  .selected{
-    user-select: text !important;
-  }
-  
   /* Espacio para navbar fijo */
   body {
     padding-top: 70px;
