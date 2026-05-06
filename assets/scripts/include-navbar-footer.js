@@ -50,11 +50,11 @@
     const footerHTML = `
       <div class="container p-3" id="footer-portfolio">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-5 border-top-footer">
-          <div class="col-md-6 d-flex align-items-start align-items-center">
+          <div class="col-md-9 d-flex align-items-start align-items-center">
             <img src="assets/img/Logo2-sinfondo.png" alt="" width="40">
-            <span class="mb-3 mb-md-0 text-white">© 2026 Macarena Baltra, Product & UX/UI Designer. <small class="opacity-70"><em>Disponible para roles híbridos, remotos y colaboraciones estratégicas.</em></small></span>
+            <span class="mb-3 mb-md-0 text-white">© 2026 Macarena Baltra, Product & UX/UI Designer. <small class="opacity-70"><em>Disponible para roles remotos e híbridos en Chile, y remoto para España y Latinoamérica — en modalidad full-time o part-time según el proyecto y el equipo.</em></small></span>
           </div>
-          <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+          <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
               <a class="mx-2 a-small-sl" href="https://www.instagram.com/macarenabaltradesigns/" target="_blank" aria-label="Instagram" title="Abrir perfil de Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>
             </li>
