@@ -52,7 +52,7 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-5 border-top-footer">
           <div class="col-md-9 d-flex align-items-start align-items-center">
             <img src="assets/img/Logo2-sinfondo.png" alt="" width="40">
-            <span class="mb-3 mb-md-0 text-white">© 2026 Macarena Baltra, UX/UI Designer & Front-End Prototyper. <small class="opacity-70"><em>Disponible para roles remotos e híbridos en Chile, y remoto para España y Latinoamérica — en modalidad full-time o part-time según el proyecto y el equipo.</em></small></span>
+            <span class="mb-3 mb-md-0 text-white">© 2026 Macarena Baltra, UX/UI Designer & Front-End Prototyper. <small class="opacity-70"><em>Disponible para roles remotos e híbridos en Chile, y remoto para España y Latinoamérica.</em></small></span>
           </div>
           <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
             <li class="ms-3">
