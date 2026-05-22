@@ -55,115 +55,309 @@
     "1": {
       id: 1,
       titleHTML: `
-        Diseño que evoluciona: 
-        <span class="opacity-70">Mantén tu marca y front-end al día</span>
+        Diseño que evoluciona:
+        <span class="opacity-70">cómo actualizar front-end e identidad sin romper lo que ya funciona</span>
       `,
-      date: "18 de julio, 2025",
+      date: "22 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo1/img-article-1-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo1/img-article-1-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-1@2x.webp",
       aboutHTML: `
-      <span class="opacity-70">
-        Soy Macarena, <strong>Product & UX/UI Designer.</strong>
-        He entregado más de 40 proyectos front-end listos para producción. Creo en mezclar diseño, código y documentación para proteger la inversión de una marca. 
-        Cuando no trabajo, pruebo paletas con un Matcha Latte en mano.
+        <span class="opacity-70">
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
+          He entregado más de 40 proyectos listos para producción combinando diseño,
+          código y documentación. Creo que proteger la inversión de una marca empieza
+          por mantenerla actualizada — técnica y visualmente.
+          Cuando no trabajo, pruebo paletas con un Matcha Latte en mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-1-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>Posponer actualizaciones no es neutral: abre la puerta a errores y deja ventaja a la competencia. Actualiza a tiempo y tu producto —y tu reputación— lo agradecerán.</p>
-        <p>Recuerdo una auditoría donde todo el sitio estaba maquetado con <strong><code class="fs-6">&lt;table&gt;</code></strong>. Fue asombro y urgencia: ¿cómo seguir liderando así? Ese día entendí que posponer iteraciones técnicas no es neutro: afecta visibilidad, experiencia móvil y la confianza de clientes y socios. Aquí comparto pasos prácticos, mini-casos y una hoja de ruta para modernizar con seguridad y foco en resultados.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño no es solo cómo se ve y cómo se siente. El diseño es cómo funciona.” — <em>Steve Jobs</em></p>
+        <p>
+          En uno de mis primeros proyectos profesionales abrí el repositorio de un sitio
+          que llevaba años sin tocarse. Layout con tablas, imágenes sin comprimir, cero
+          etiquetas semánticas. El equipo lo sabía, pero nadie había podido justificar
+          el costo de cambiarlo. Mientras lo revisaba, pensé: <em>esto no es solo deuda
+          técnica, es una decisión que alguien tomó cada vez que eligió no actuar.</em>
+        </p>
+        <p>
+          Posponer una actualización no es una decisión neutral. Es una decisión activa
+          de quedarse atrás — y afecta el SEO, la experiencia móvil y, silenciosamente,
+          la confianza de quienes visitan el sitio.
+        </p>
+        <p>
+          Aquí comparto lo que aprendí modernizando proyectos reales: pasos prácticos,
+          mini-casos con métricas concretas y una forma de actualizar con foco en
+          resultados — sin empezar de cero.
+        </p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "El diseño no es solo cómo se ve y cómo se siente. El diseño es cómo funciona."
+          — <em>Steve Jobs</em>
+        </p>
+    
         <hr>
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Hoy los buscadores y los usuarios exigen velocidad, accesibilidad y buen comportamiento móvil.</p>
-        <p>Cuando una web y su identidad se quedan atrás, las consecuencias son claras:</p>
-        <ul>
-          <li>Aumento de abandonos y caída en conversiones.</li>
-          <li>Riesgo de pérdida de posicionamiento orgánico por prácticas técnicas pobres.</li>
-          <li>Percepción de marca debilitada frente a clientes, socios y reclutadores.</li>
-        </ul>
-        <p>La solución: pasar de “funciona por ahora” a una cultura de revisión continua que combine auditorías técnicas, actualizaciones visuales y componentes reutilizables.</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Velocidad, accesibilidad, comportamiento móvil — los buscadores y los usuarios
+          lo exigen hoy. Cuando una web no responde a eso, las consecuencias son concretas:
+          <strong>más abandonos, menos conversiones, posicionamiento orgánico que se erosiona
+          despacio y una percepción de marca que empieza a quedar vieja.</strong>
+        </p>
+        <p>
+          No hace falta estar en crisis para actualizar. Hace falta el hábito de revisar
+          antes de que el problema se vuelva visible y urgente.
+        </p>
+    
         <hr>
+    
         <h4 class="mb-3">Mini-casos</h4>
+    
         <ul>
+    
           <li class="mb-5">
-            <strong><em><a href="landing-projects-d-CBC.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — De los 90s a la era responsive (2020)</a>:</em></strong>
-            <strong>Reto:</strong> sitio pensado para escritorio; mala experiencia móvil y altas tasas de abandono en secciones clave.
-            <strong>Acción:</strong> análisis de Analytics y mapas de calor; priorización de funnels; prototipos mobile-first en HTML5/CSS3; pruebas rápidas con usuarios.
-            <strong>Resultado:</strong> migración a etiquetas semánticas, reorganización de contenidos y optimización de recursos; navegación móvil más fluida y caída significativa de la tasa de abandono.
-            <p><strong>Aprendizaje:</strong> mejora primero los flujos que impactan al negocio (onboarding, formularios) para obtener resultados rápidos y justificar inversión.</p>
-            <p class="textdescriptions"><small><strong>Cómo se midió:</strong> el impacto se evaluó mediante análisis comparativo en Google Analytics y mapas de calor antes y después de las mejoras, priorizando secciones críticas del funnel móvil.</small></p>
+            <strong><em>
+              <a
+                href="landing-projects-d-CBC.html"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >CBC — De los 90s a la era responsive (2020)</a>:
+            </em></strong>
+    
+            <p>
+              El sitio había sido diseñado para escritorio y casi nunca tocado. En móvil,
+              los usuarios abandonaban antes de llegar a los formularios clave. Empezamos
+              por donde duele: Analytics y mapas de calor para entender qué flujos importaban
+              al negocio — no solo cuáles se veían mal.
+            </p>
+            <p>
+              Prototipos mobile-first en HTML5/CSS3, pruebas rápidas con usuarios internos,
+              migración a etiquetas semánticas y reorganización de contenidos.
+              <strong>El resultado fue menos rebote y navegación más fluida</strong>
+              — medido con comparativa en Analytics antes y después.
+            </p>
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> las mejoras que impactan al negocio primero
+                (formularios, onboarding) justifican la inversión mucho más rápido que las estéticas.
+              </small>
+            </p>
+            <p class="textdescriptions">
+              <small>
+                <strong>Cómo se midió:</strong> análisis comparativo en Google Analytics y
+                mapas de calor antes y después, priorizando secciones críticas del funnel móvil.
+              </small>
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Actualizaciones front-end (plataforma)</a>:</em></strong>
-            <strong>Reto:</strong> pantallas sobrecargadas y flujos confusos.
-            <strong>Acción:</strong> mapeo con stakeholders; prototipado iterativo (baja → alta fidelidad); pruebas con usuarios internos; creación de librería de componentes en HTML/CSS alineada al Brand System.
-            <strong>Resultado:</strong> formularios reestructurados, componentes reutilizables y procesos internos más ágiles.
-            <p><strong>Aprendizaje:</strong> documentar componentes (Storybook o similar) acelera la colaboración y reduce dudas en hand-off.</p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >CBC — Actualizaciones front-end (plataforma)</a>:
+            </em></strong>
+    
+            <p>
+              Pantallas sobrecargadas y flujos confusos que el equipo interno tampoco
+              entendía del todo bien.
+            </p>
+            <p>
+              Mapeamos con stakeholders, prototipamos de baja a alta fidelidad y probamos
+              con usuarios internos. Creamos una librería de componentes en HTML/CSS
+              alineada al Brand System.
+            </p>
+            <p>
+              <strong>Resultado:</strong> formularios reestructurados, componentes
+              reutilizables y procesos internos más ágiles.
+            </p>
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> documentar componentes (Storybook o similar)
+                acelera la colaboración y reduce dudas en el handoff. Esa documentación vale
+                más de lo que parece cuando el equipo crece.
+              </small>
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.behance.net/gallery/229753651/Rebranding-de-Full-Graphic-Impresores-%282014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Full Graphic Impresores — Rebranding</a>:</em></strong>
-            <strong>Reto:</strong> identidad solo en JPG, sin archivos fuente ni paleta digital.
-            <strong>Acción:</strong> vectorización (.ai/.svg), mapeo Pantone/CMYK → HEX/RGB y reglas de uso.
-            <strong>Resultado:</strong> coherencia visual en digital e impreso; mejor legibilidad en pantallas pequeñas y piezas comerciales más efectivas.
-            <p><strong>Aprendizaje:</strong> entregar master files y reglas claras evita errores repetidos y acelera producción.</p>
+            <strong><em>
+              <a
+                href="https://www.behance.net/gallery/229753651/Rebranding-de-Full-Graphic-Impresores-%282014%29"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Full Graphic Impresores — Rebranding</a>:
+            </em></strong>
+    
+            <p>
+              Identidad solo en JPG, sin archivos fuente ni paleta digital.
+              Cada pieza nueva era una adivinanza.
+            </p>
+            <p>
+              Vectorizamos (.ai/.svg), mapeamos Pantone/CMYK a HEX/RGB
+              y establecimos reglas de uso claras.
+            </p>
+            <p>
+              <strong>Resultado:</strong> coherencia visual en digital e impreso,
+              mejor legibilidad en pantallas pequeñas y piezas comerciales más efectivas.
+            </p>
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> entregar master files y reglas claras
+                evita errores que se repiten — y libera al equipo para crear en vez de corregir.
+              </small>
+            </p>
           </li>
+    
         </ul>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Propuesta práctica: evita el “efecto dinosaurio” digital</h2>
-        <p>Integra estas tres prácticas en tu ciclo de producto para mantener marca y front-end alineados:</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">
+          Propuesta práctica: evita el "efecto dinosaurio" digital
+        </h2>
+    
+        <p>
+          Tres prácticas que no requieren reinventar el proceso —
+          solo incorporarlas con disciplina:
+        </p>
+    
         <ol>
-          <li><strong><em>Auditorías semestrales (front-end + UX/UI)</em></strong>
+    
+          <li>
+            <strong><em>Auditorías semestrales (front-end + UX/UI)</em></strong>
             <p><em>Qué:</em> revisiones programadas de código, rendimiento, accesibilidad y flujos.</p>
-            <p><em>Por qué:</em> previenes deuda técnica y proteges SEO y conversiones.</p>
-            <p><em>Cómo (práctico):</em> combina escaneos automáticos con revisiones manuales en dispositivos reales. Herramientas: Stylelint, validadores W3C y Lighthouse.</p>
+            <p>
+              <em>Por qué:</em> previenes deuda técnica acumulada y proteges SEO y conversiones
+              antes de que el daño sea visible.
+            </p>
+            <p>
+              <em>Cómo:</em> combina escaneos automáticos con revisiones manuales en dispositivos
+              reales. Herramientas: Stylelint, validadores W3C y Lighthouse.
+            </p>
           </li>
+    
           <div class="my-5"></div>
-          <li><strong><em>Revisiones periódicas de identidad visual</em></strong>
-            <p><em>Qué:</em> evaluar logo, paleta, tipografías y tono.</p>
-            <p><em>Por qué:</em> la coherencia visual genera confianza; la inconsistencia confunde.</p>
-            <p><em>Cómo:</em> normaliza archivos fuente (.ai/.svg), mapea Pantone → HEX/RGB y documenta reglas en un Brand System. Considera tipografías variables para ahorrar peso y mejorar rendimiento.</p>
+    
+          <li>
+            <strong><em>Revisiones periódicas de identidad visual</em></strong>
+            <p><em>Qué:</em> evaluar logo, paleta, tipografías y tono con la misma frecuencia que el código.</p>
+            <p>
+              <em>Por qué:</em> la coherencia visual genera confianza;
+              la inconsistencia confunde — y la confianza se construye o se pierde en cada pieza.
+            </p>
+            <p>
+              <em>Cómo:</em> normaliza archivos fuente (.ai/.svg), mapea Pantone → HEX/RGB
+              y documenta reglas en un Brand System. Las tipografías variables además
+              ahorran peso y mejoran rendimiento.
+            </p>
           </li>
+    
           <div class="my-5"></div>
-          <li><strong><em>Componentes y estilos reutilizables</em></strong>
-            <p><em>Qué:</em> librería sistematizada (botones, inputs, cards) y variables (Sass/CSS tokens).</p>
-            <p><em>Por qué:</em> acelera desarrollo, asegura coherencia y facilita pruebas.</p>
-            <p><em>Cómo:</em> define un stack y documenta (por ejemplo: Sass modular + Storybook; o componentes web reutilizables).</p>
+    
+          <li>
+            <strong><em>Componentes y estilos reutilizables</em></strong>
+            <p>
+              <em>Qué:</em> librería sistematizada (botones, inputs, cards)
+              y variables (Sass/CSS tokens).
+            </p>
+            <p>
+              <em>Por qué:</em> acelera el desarrollo, asegura coherencia y facilita pruebas.
+              El equipo deja de tomar decisiones de estilo en cada entrega.
+            </p>
+            <p>
+              <em>Cómo:</em> define un stack y documenta.
+              Sass modular + Storybook es una combinación que funciona bien en proyectos medianos.
+            </p>
           </li>
+    
         </ol>
-
-        <!-- Banner E-Book Memoria Emocional --> 
+    
+        <!-- Banner E-Book Memoria Emocional -->
         <div id="banner-ebook-price-memoriaemocional" class="d-none"></div>
-        <!-- CTA alternativo para usuarios -->
-
+        <!-- Banner E-Book Memoria Emocional -->
+    
         <hr class="my-5">
+    
         <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Cuánto tiempo para ver mejoras tangibles?</strong></p>
-            <p>Quick wins: 2–8 semanas. Reestructuras/migraciones: 2–6 meses. Proyectos mayores: 3–12 meses. Mide desde la línea base (tasa de rebote, conversiones) y reporta por sprint.</p>
-            <hr>
-            <p><strong>¿Puedo modernizar sin perder la memoria visual?</strong></p>
-            <p>Sí. Modernizar no es borrar: documenta la identidad y crea componentes que respeten la memoria emocional, mientras mejoras accesibilidad y rendimiento.</p>
-            <hr>
-            <p><strong>¿Qué documentación entregar?</strong></p>
-            <p>Master files (.ai/.svg), tokens y variables CSS/Sass, ejemplos de uso y un repositorio de componentes (Storybook o carpeta con snippets y guías).</p>
+    
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Cuánto tiempo para ver mejoras tangibles?</strong></p>
+          <p>
+            Quick wins: 2–8 semanas. Reestructuras o migraciones: 2–6 meses.
+            Proyectos mayores: 3–12 meses. Lo importante es medir desde la línea base
+            — tasa de rebote, conversiones — y reportar por sprint, no al final.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Puedo modernizar sin perder la memoria visual de la marca?</strong></p>
+          <p>
+            Sí. Modernizar no es borrar — es actualizar con cuidado. Documenta la identidad,
+            crea componentes que respeten lo que la marca ya comunica emocionalmente
+            y mejora accesibilidad y rendimiento sin sacrificar reconocimiento.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Qué documentación entregar?</strong></p>
+          <p>
+            Master files (.ai/.svg), tokens y variables CSS/Sass, ejemplos de uso
+            y un repositorio de componentes. Un Storybook o una carpeta con snippets
+            y guías es suficiente para empezar.
+          </p>
+    
         </div>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 aprendizajes clave</h2>
+    
         <ol>
-          <li>Revisa el proyecto cada seis meses para evitar deuda técnica acumulada.</li>
-          <li>Mejora progresivamente: moderniza sin borrar la memoria emocional de la marca.</li>
-          <li>Documenta: una librería de componentes y un Brand System permiten iterar con coherencia.</li>
+          <li>
+            Revisar cada seis meses evita que la deuda técnica se acumule hasta el punto
+            en que ya no hay vuelta atrás sin costo alto.
+          </li>
+          <li>
+            Mejorar progresivamente funciona mejor que reescribir todo.
+            Moderniza sin borrar la memoria emocional de la marca.
+          </li>
+          <li>
+            Documentar no es opcional. Una librería de componentes y un Brand System
+            permiten iterar con coherencia aunque el equipo cambie.
+          </li>
         </ol>
+    
         <hr class="my-5">
-        <p>Quedarse esperando que “siga funcionando” es una trampa. La tecnología y las expectativas cambian; mantener tu front-end y tu marca actualizados protege visibilidad, experiencia y reputación. Actualizar no significa empezar de cero: prioriza lo que aporta valor y crea capacidad para seguir mejorando.</p>
+    
+        <p>
+          "Sigue funcionando" es la frase más cara del producto digital.
+          La tecnología cambia, las expectativas también y los usuarios no esperan.
+        </p>
+        <p>
+          Actualizar no significa empezar de cero — significa priorizar lo que aporta
+          valor real, documentar para no repetir el trabajo y construir la capacidad
+          de seguir mejorando sin necesitar una crisis para justificarlo.
+          Eso lo aprendí abriendo repositorios viejos, no leyendo sobre ellos.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
-        { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
+        { id: "6",  title: "Investigación UX: mapas, A/B y observación en contexto" },
         { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
@@ -181,332 +375,631 @@
         }
       ]
     },
-    // 
-    "2": {
-      id: 2,
-      titleHTML: `
-        Coherencia Visual: 
-        <span class="opacity-70">estandariza tus Documentos</span>
-      `,
-      date: "25 de julio, 2025",
-      imagenDesktop: "assets/img/hero-article/Articulo2/img-article-2-3840@2x.webp",
-      imagenMobile: "assets/img/hero-article/Articulo2/img-article-2-750@2x.webp",
-      ogImage: "mi-portafolio/assets/img/og-images/og-article-2@2x.webp",
-      aboutHTML: `
-        <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
-          y he estandarizado documentos y Brand Systems en organizaciones de distintos tamaños. 
-          Cuando no diseño, pruebo paletas con mi jugo de zanahoria favorito en mano.
-        </span>
-      `,
-      imageUrl: "assets/img/coveraboutme/avatar-2-400@2x.webp",
-      imageAlt: "Imagen de mí",
-      content: `
-        <p>Recibir folletos con tipografías y colores distintos no es solo un fallo estético: confunde al cliente y desgasta la confianza. Un logo bonito no basta. La coherencia en cada pieza —impresa o digital— sostiene la reputación de una organización. Aquí tienes un plan práctico, mini-casos y pasos accionables para que tus documentos sean claros, consistentes y fáciles de usar por todo el equipo.</p>
+ 
+  // ─────────────────────────────────────────────────────────────────────────────
+ 
+  "2": {
+    id: 2,
+    titleHTML: `
+      Coherencia Visual:
+      <span class="opacity-70">estandariza tus Documentos</span>
+    `,
+    date: "22 de mayo, 2026",
+    imagenDesktop: "assets/img/hero-article/Articulo2/img-article-2-3840@2x.webp",
+    imagenMobile: "assets/img/hero-article/Articulo2/img-article-2-750@2x.webp",
+    ogImage: "mi-portafolio/assets/img/og-images/og-article-2@2x.webp",
+    aboutHTML: `
+      <span class="opacity-70">
+        Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+        He estandarizado documentos y Brand Systems en organizaciones de distintos tamaños.
+        Cuando no diseño, pruebo paletas con mi jugo de zanahoria favorito en mano.
+      </span>
+    `,
+    imageUrl: "assets/img/coveraboutme/avatar-2-400@2x.webp",
+    imageAlt: "Imagen de mí",
+    content: `
+      <p>
+        Una vez le entregué a una clienta un manual de documentos y me dijo: "Esto lo
+        entiendo yo y lo entiende mi equipo." Esa frase vale más que cualquier elogio estético.
+        Porque el problema con la coherencia visual no es de mala voluntad — es de sistema.
+        Cuando no hay reglas claras, cada persona interpreta la marca desde su propio lugar
+        y, poco a poco, los documentos empiezan a contar historias distintas.
+      </p>
+      <p>
+        Folletos con tipografías distintas, logos en versiones viejas, presentaciones
+        que no se parecen entre sí. No es solo un fallo estético: confunde al cliente
+        y desgasta la confianza. Un logo bonito no basta. La coherencia en cada pieza
+        — impresa o digital — sostiene la reputación de una organización.
+      </p>
+      <p>
+        Aquí comparto un plan práctico basado en proyectos reales: qué incluir,
+        cómo enseñarlo y qué entregar para que el equipo lo use de verdad.
+      </p>
+ 
+      <hr>
+ 
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        "Un buen diseño es el mínimo diseño posible." — <em>Dieter Rams</em>
+      </p>
+ 
+      <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
+ 
+      <p>En muchas organizaciones los documentos nacen en manos distintas sin una guía clara. El resultado:</p>
+      <ul>
+        <li><strong><em>Percepción dispersa:</em></strong> el público no identifica un mismo lenguaje visual.</li>
+        <li><strong><em>Versiones antiguas circulando:</em></strong> logos en JPG y paletas desalineadas.</li>
+        <li><strong><em>Pérdida de tiempo:</em></strong> correcciones manuales y cuellos de botella en aprobaciones.</li>
+      </ul>
+      <p>
+        La solución no es un manual eterno: es un sistema usable — breve, visual
+        y con plantillas que el equipo realmente use.
+      </p>
+ 
+      <hr class="my-5">
+ 
+      <h4 class="mb-3">Casos prácticos — qué hicimos y por qué funcionó</h4>
+ 
+      <ul>
+ 
+        <li class="mb-5">
+          <p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLirllmSpai/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >CBC — Manual de Documentos (2020)</a>:
+            </em></strong>
+          </p>
+          <strong>Reto:</strong> materiales inconsistentes y muchas correcciones.
+          <br><strong>Acción:</strong> manual práctico + plantillas para presentaciones y reportes.
+          <br><strong>Resultado:</strong> entregables alineados entre áreas y menos rondas de revisión.
+          <p><strong>Aprendizaje:</strong> un documento corto y plantillas prácticas aceleran la publicación.</p>
+        </li>
+ 
+        <li class="mb-5">
+          <p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Casona Minka — Manual OPL (2019)</a>:
+            </em></strong>
+          </p>
+          <strong>Reto:</strong> caos operativo por falta de reglas claras.
+          <br><strong>Acción:</strong> manual operativo y talleres express con equipos.
+          <br><strong>Resultado:</strong> procesos más fluidos, onboarding más claro y experiencia coherente para huéspedes.
+          <p><strong>Aprendizaje:</strong> los talleres cortos garantizan adopción y uso real del manual.</p>
+        </li>
+ 
+        <li class="mb-5">
+          <p>
+            <strong><em>
+              <a
+                href="landing-projects-d-fol.html"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >FOL — Brand System</a>:
+            </em></strong>
+          </p>
+          <strong>Reto:</strong> uso inconsistente de colores, tipografías e iconos.
+          <br><strong>Acción:</strong> guía con paleta (HEX/RGB), tipografías y reglas de uso; entrega de snippets y assets.
+          <br><strong>Resultado:</strong> menos dudas entre equipos y lanzamientos más ágiles.
+          <p><strong>Aprendizaje:</strong> entregar assets listos (master files) reduce consultas y acelera ejecución.</p>
+        </li>
+ 
+      </ul>
+ 
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        En todos los casos la clave fue: <strong>documento breve + práctica inmediata + activos listos para usar</strong>.
+      </p>
+ 
+      <hr>
+ 
+      <h4 class="mt-5 fontpoppins opacity-100">Propuesta práctica: manual + talleres + plantillas</h4>
+      <p>Tres pasos claros para que el equipo adopte una guía usable y productiva:</p>
+ 
+      <h4 class="mb-3">1. Style Guide básico (8–12 páginas)</h4>
+      <ul>
+        <li>Paleta con valores (HEX/RGB/CMYK) y ejemplos de uso.</li>
+        <li>Tipografías: jerarquía y tamaños recomendados.</li>
+        <li>Logos: versiones, espacio mínimo y usos permitidos.</li>
+        <li>Uso correcto vs. incorrecto (2–3 comparaciones rápidas).</li>
+        <li>Plantillas maestras prioritarias: presentación, reporte y factura.</li>
+      </ul>
+ 
+      <hr>
+ 
+      <p><strong><em>Tip:</em></strong> si se entiende en 30 s, el equipo lo usará.</p>
+ 
+      <hr>
+ 
+      <h4 class="mb-3">2. Taller express (30 minutos)</h4>
+      <ol>
+        <li>10 min: impacto en percepción y tiempo.</li>
+        <li>15 min: ejercicio práctico aplicando la guía a una pieza real.</li>
+        <li>5 min: dudas y asignación de responsable.</li>
+      </ol>
+ 
+      <hr>
+ 
+      <p><strong><em>Tip:</em></strong> remoto → usar Miro/Zoom y plantillas compartidas para practicar en vivo.</p>
+ 
+      <hr>
+ 
+      <h4 class="mb-3">3. Plantillas editables que funcionen</h4>
+      <p>Sugerencias según perfil:</p>
+      <ul>
+        <li>Equipos sin diseñadores → Canva (bloquea elementos críticos y acelera entrega).</li>
+        <li>Documentos complejos → InDesign (paquete con fuentes).</li>
+        <li>Colaboración digital → Figma (librerías y componentes).</li>
+        <li>Entregables recomendados: master files (.ai, .svg, .fig) + versiones "para editar" (.pptx, .canva).</li>
+      </ul>
+ 
+      <hr>
+ 
+      <!-- Banner E-Book Branding -->
+      <div id="banner-ebook-free-branding" class="d-none"></div>
+      <!-- Banner E-Book Branding -->
+ 
+      <h4>Buenas prácticas rápidas</h4>
+      <ul>
+        <li>Nombres claros y versión en archivos: ejemplo "logo_v2_2025.svg".</li>
+        <li>Control de acceso: carpeta con permisos; editar solo las versiones "para editar".</li>
+        <li>Onboarding visual: incluye el Style Guide en la inducción.</li>
+        <li>Automatiza lo repetitivo: campos rellenables y plantillas.</li>
+      </ul>
+ 
+      <hr>
+ 
+      <h4>Herramientas (mini-guía)</h4>
+      <ul>
+        <li><strong>Canva:</strong> rapidez y autonomía (ideal para no diseñadores). Entrega master files y guías.</li>
+        <li><strong>Figma:</strong> colaboración y hand-off a front-end (librerías y componentes).</li>
+        <li><strong>Illustrator:</strong> precisión vectorial para logos e iconos.</li>
+        <li><strong>InDesign:</strong> maquetación multipágina para impresos.</li>
+      </ul>
+      <p><strong>Regla de oro:</strong> la herramienta no define la calidad; el criterio y los master files sí.</p>
+ 
+      <hr class="my-5">
+ 
+      <div class="bg-canva p-5">
+        <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+ 
+        <p><strong>¿Un manual corto es suficiente?</strong></p>
+        <p>Sí — si es práctico, visual y viene con plantillas que el equipo pueda usar al instante.</p>
+ 
         <hr>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Un buen diseño es el mínimo diseño posible.” — <em>Dieter Rams</em></p>
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>En muchas organizaciones los documentos nacen en manos distintas sin una guía clara. El resultado:</p>
-        <ul>
-          <li><strong><em>Percepción dispersa:</em></strong> el público no identifica un mismo lenguaje visual.</li>
-          <li><strong><em>Versiones antiguas circulando:</em></strong> logos en JPG y paletas desalineadas.</li>
-          <li><strong><em>Pérdida de tiempo:</em></strong> correcciones manuales y cuellos de botella en aprobaciones.</li>
-        </ul>
-        <p>La solución no es un manual eterno: es un sistema usable —breve, visual y con plantillas que el equipo realmente use.</p>
-        <hr class="my-5">
-        <h4 class="mb-3">Casos prácticos — qué hicimos y por qué funcionó</h4>
-        <ul>
-          <li class="mb-5">
-            <p><strong><em><a href="https://www.instagram.com/p/DLirllmSpai/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Manual de Documentos (2020)</a>:</em></strong></p>
-            <br><strong>Reto:</strong> materiales inconsistentes y muchas correcciones.
-            <br><strong>Acción:</strong> manual práctico + plantillas para presentaciones y reportes.
-            <br><strong>Resultado:</strong> entregables alineados entre áreas y menos rondas de revisión.
-            <p><strong>Aprendizaje:</strong> un documento corto y plantillas prácticas aceleran la publicación.</p>
-          </li>
-          <li class="mb-5">
-            <p><strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Casona Minka — Manual OPL (2019)</a>:</em></strong></p>
-            <br><strong>Reto:</strong> caos operativo por falta de reglas claras.
-            <br><strong>Acción:</strong> manual operativo y talleres express con equipos.
-            <br><strong>Resultado:</strong> procesos más fluidos, onboarding más claro y experiencia coherente para huéspedes.
-            <p><strong>Aprendizaje:</strong> los talleres cortos garantizan adopción y uso real del manual.</p>      
-          </li>
-          <li class="mb-5">
-            <p><strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">FOL — Brand System</a>:</em></strong></p>
-            <br><strong>Reto:</strong> uso inconsistente de colores, tipografías e iconos.
-            <br><strong>Acción:</strong> guía con paleta (HEX/RGB), tipografías y reglas de uso; entrega de snippets y assets.
-            <br><strong>Resultado:</strong> menos dudas entre equipos y lanzamientos más ágiles.
-            <p><strong>Aprendizaje:</strong> entregar assets listos (master files) reduce consultas y acelera ejecución.</p>  
-          </li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">En todos los casos la clave fue: <strong>documento breve + práctica inmediata + activos listos para usar</strong>.</p>
+ 
+        <p><strong>¿Cómo demuestro el ROI a dirección?</strong></p>
+        <p>Muestra errores reales (logo viejo, colores equivocados), cuantifica horas en correcciones y proyecta la reducción tras implementar el sistema.</p>
+ 
         <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Propuesta práctica: manual + talleres + plantillas</h4>
-        <p>Tres pasos claros para que el equipo adopte una guía usable y productiva:</p>
-        <h4 class="mb-3">1. Style Guide básico (8–12 páginas)</h4>
-        <ul>
-          <li>Paleta con valores (HEX/RGB/CMYK) y ejemplos de uso.</li>
-          <li>Tipografías: jerarquía y tamaños recomendados.</li>
-          <li>Logos: versiones, espacio mínimo y usos permitidos.</li>
-          <li>Uso correcto vs. incorrecto (2–3 comparaciones rápidas).</li>
-          <li>Plantillas maestras prioritarias: presentación, reporte y factura.</li>
-        </ul>
+ 
+        <p><strong>¿Qué plantilla priorizar?</strong></p>
+        <p>La presentación corporativa: cambia la percepción externa y es la más usada por equipos. Empieza por ahí.</p>
+ 
         <hr>
-        <p><strong><em>Tip:</em></strong> si se entiende en 30 s, el equipo lo usará.</p>
+ 
+        <p><strong>¿Es profesional usar Canva?</strong></p>
+        <p>Sí. Canva es válido cuando se usa con criterio. La profesionalidad se demuestra en la calidad de la solución, el pensamiento detrás del diseño y la capacidad de elegir la plataforma que mejor sirva al contexto del cliente. Usa Canva para velocidad y autonomía de equipos no diseñadores; conserva y entrega master files (Figma/AI) cuando el proyecto requiere control tipográfico, producción o escalabilidad.</p>
+ 
         <hr>
-        <h4 class="mb-3">2. Taller express (30 minutos)</h4>
-        <ol>
-          <li>10 min: impacto en percepción y tiempo.</li>
-          <li>15 min: ejercicio práctico aplicando la guía a una pieza real.</li>
-          <li>5 min: dudas y asignación de responsable.</li>
-        </ol>
-        <hr>
-        <p><strong><em>Tip:</em></strong> remoto → usar Miro/Zoom y plantillas compartidas para practicar en vivo.</p>
-        <hr>
-        <h4 class="mb-3">3. Plantillas editables que funcionen</h4>
-        <p>Sugerencias según perfil:</p>
-        <ul>
-          <li>Equipos sin diseñadores → Canva (bloquea elementos críticos y acelera entrega).</li>
-          <li>Documentos complejos → InDesign (paquete con fuentes).</li>
-          <li>Colaboración digital → Figma (librerías y componentes).</li>
-          <li>Entregables recomendados: master files (.ai, .svg, .fig) + versiones “para editar” (.pptx, .canva).</li>
-        </ul>
-        <hr>
+ 
+        <p><strong>¿Cada cuánto revisar la guía?</strong></p>
+        <p>Revisión ligera anual; ajustes menores según campañas o cambios de identidad.</p>
+      </div>
+ 
+      <hr class="my-5">
+ 
+      <p>
+        La coherencia visual no es solo estética: es práctica diaria y profesionalismo.
+        Un manual claro, talleres aplicados y plantillas bien pensadas convierten la identidad
+        en una herramienta que facilita el trabajo y mejora la percepción en cada contacto.
+        Lo aprendí proyecto a proyecto, y la diferencia siempre estuvo en lo mismo:
+        hacer que el sistema sea tan simple que el equipo no necesite pedirle permiso
+        a nadie para usarlo bien.
+      </p>
+    `,
+    relatedArticles: [
+      { id: "10", title: "Brand Kit Eficiente: Ahorra Tiempo y Consigue Coherencia Visual" },
+      { id: "7",  title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
+      { id: "9",  title: "Herramientas de Diseño Inteligentes: Cómo Elegir la Mejor para Tu Equipo" }
+    ],
+    relatedProjects: [
+      {
+        title: "Brand System para CBC",
+        url: "https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link"
+      },
+      {
+        title: "Estandarización & Manual de Documentos para CBC",
+        url: "https://www.behance.net/gallery/229336493/Estandarizacion-Manual-de-Documentos-para-CBC"
+      },
+      {
+        title: "Brand System para FOL Agencia de Valores SpA",
+        url: "landing-projects-d-fol.html"
+      }
+    ]
+  },
+ 
+  // ─────────────────────────────────────────────────────────────────────────────
+ 
+  "3": {
+    id: 3,
+    titleHTML: `
+      El corazón, un órgano diferenciador
+      <span class="opacity-70">— proyecto de título</span>
+    `,
+    date: "22 de mayo, 2026",
+    imagenDesktop: "assets/img/hero-article/Articulo3/img-article-3-3840@2x.webp",
+    imagenMobile: "assets/img/hero-article/Articulo3/img-article-3-750@2x.webp",
+    ogImage: "mi-portafolio/assets/img/og-images/og-article-3@2x.webp",
+    aboutHTML: `
+      <span class="opacity-70">
+        Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+        En "El corazón" confirmé que la intuición, acompañada de experimentos y registros,
+        puede transformarse en experiencia pública.
+        Cuando no diseño, bosquejo ideas con un chocolate caliente con naranja.
+      </span>
+    `,
+    imageUrl: "assets/img/coveraboutme/avatar-3-400@2x.webp",
+    imageAlt: "Imagen de mí",
+    content: `
+      <p>
+        Había una pregunta que no me dejaba tranquila: ¿puede el latido de una persona
+        convertirse en algo visible? No un dato clínico — un retrato. Algo que te miras
+        y reconoces como tuyo.
+      </p>
+      <p>
+        De esa pregunta nació <strong><em>"El corazón: un órgano diferenciador"</em></strong>,
+        mi proyecto de título. Lo que empezó como una intuición difícil de explicar terminó
+        siendo una instalación con sensores Doppler, algoritmos de mapeo sonoro y mándalas
+        generadas en tiempo real frente a un jurado que no sabía exactamente qué esperar.
+        Yo tampoco, del todo. Pero tenía datos, prototipos y una hipótesis que quería probar
+        en público.
+      </p>
+      <p>
+        Aquí cuento cómo lo construí: la hipótesis, el proceso, lo que validé
+        y lo que aprendí sosteniendo una idea arriesgada hasta el final.
+      </p>
   
-        <!-- Banner E-Book Branding --> 
-        <div id="banner-ebook-free-branding" class="d-none"></div>
-        <!-- Banner E-Book Branding -->
-
-        <h4>Buenas prácticas rápidas</h4>
-        <ul>
-          <li>Nombres claros y versión en archivos: ejemplo "logo_v2_2025.svg".</li>
-          <li>Control de acceso: carpeta con permisos; editar solo las versiones “para editar”.</li>
-          <li>Onboarding visual: incluye el Style Guide en la inducción.</li>
-          <li>Automatiza lo repetitivo: campos rellenables y plantillas.</li>
-        </ul>
-        <hr>
-        <h4>Herramientas (mini-guía)</h4>
-        <ul>
-          <li><strong>Canva:</strong> rapidez y autonomía (ideal para no diseñadores). Entrega master files y guías.</li>
-          <li><strong>Figma:</strong> colaboración y hand-off a front-end (librerías y componentes).</li>
-          <li><strong>Illustrator:</strong> precisión vectorial para logos e iconos.</li>
-          <li><strong>InDesign:</strong> maquetación multipágina para impresos.</li>
-        </ul>
-        <p><strong>Regla de oro:</strong> la herramienta no define la calidad; el criterio y los master files sí.</p>
-        <hr class="my-5">
-        <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Un manual corto es suficiente?</strong></p>
-            <p>Sí —si es práctico, visual y viene con plantillas que el equipo pueda usar al instante.</p>
-            <hr>
-            <p><strong>¿Cómo demuestro el ROI a dirección?</strong></p>
-            <p>Muestra errores reales (logo viejo, colores equivocados), cuantifica horas en correcciones y proyecta la reducción tras implementar el sistema.</p>
-            <hr>
-            <p><strong>¿Qué plantilla priorizar?</strong></p>
-            <p>La presentación corporativa: cambia la percepción externa y es la más usada por equipos. Empieza por ahí.</p>
-            <hr>
-            <p><strong>¿Es profesional usar Canva?</strong></p>
-            <p>Sí. Canva es válido cuando se usa con criterio. La profesionalidad se demuestra en la calidad de la solución, el pensamiento detrás del diseño y la capacidad de elegir la plataforma que mejor sirva al contexto del cliente. Usa Canva para velocidad y autonomía de equipos no diseñadores; conserva y entrega master files (Figma/AI) cuando el proyecto requiere control tipográfico, producción o escalabilidad.</p>
-            <hr>
-            <p><strong>¿Cada cuánto revisar la guía?</strong></p>
-            <p>Revisión ligera anual; ajustes menores según campañas o cambios de identidad.</p>
-        </div>
-        <hr class="my-5">
-        <p>La coherencia visual no es solo estética: es práctica diaria y profesionalismo. Un manual claro, talleres aplicados y plantillas bien pensadas convierten la identidad en una herramienta que facilita el trabajo y mejora la percepción en cada contacto.</p>    
-      `,
-      // ← Aquí las relaciones
-      relatedArticles: [
-        { id: "10", title: "Brand Kit Eficiente: Ahorra Tiempo y Consigue Coherencia Visual" },
-        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
-        { id: "9", title: "Herramientas de Diseño Inteligentes: Cómo Elegir la Mejor para Tu Equipo" }
-      ],
-      relatedProjects: [
-        {
-          title: "Brand System para CBC",
-          url: "https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link"
-        },
-        {
-          title: "Estandarización & Manual de Documentos para CBC",
-          url: "https://www.behance.net/gallery/229336493/Estandarizacion-Manual-de-Documentos-para-CBC"
-        },
-        {
-          title: "Brand System para FOL Agencia de Valores SpA",
-          url: "landing-projects-d-fol.html"
-        }
-      ]
-    },
-    "3": {
-      id: 3,
-      titleHTML: `
-        El corazón, un órgano diferenciador 
-        <span class="opacity-70">— proyecto de título</span>
-      `,
-      date: "25 de julio, 2025",
-      imagenDesktop: "assets/img/hero-article/Articulo3/img-article-3-3840@2x.webp",
-      imagenMobile: "assets/img/hero-article/Articulo3/img-article-3-750@2x.webp",
-      ogImage: "mi-portafolio/assets/img/og-images/og-article-3@2x.webp",
-      aboutHTML: `
-        <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
-          En "El corazón" confirmé que la intuición, acompañada de experimentos y registros, puede transformarse en experiencia pública. 
-          Cuando no diseño, bosquejo ideas con un chocolate caliente con naranja.
-        </span>
-      `,
-      imageUrl: "assets/img/coveraboutme/avatar-3-400@2x.webp",
-      imageAlt: "Imagen de mí",
-      content: `
-        <p>Una intuición abrió la pregunta; los datos la confirmaron. <strong><em>"El corazón: un órgano diferenciador"</em></strong> probó que señales cardíacas pueden transformarse en mándalas sonoras y visuales únicas por persona. Aquí cuento la metodología, los prototipos y cómo validé la idea frente a público y jurado.</p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central</h2>
-        <p>El latido contiene rasgos sonoros (ritmo, amplitud, variabilidad) que, mapeados y procesados, pueden generar una mándala visual y sonora única por persona.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El objetivo del arte no es representar la apariencia exterior de las cosas, sino su significado interior.” — <em>Aristóteles</em></p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Contexto científico</h2>
-        <p>La actividad cardíaca se registra con sensores como Doppler o PPG; la señal exhibe ritmo, amplitud y variabilidad. Estos parámetros pueden mapearse a propiedades sonoras (tono, intensidad, ritmo) y traducirse luego a rasgos gráficos.</p>
-        <p><strong><em>Importante:</em></strong> esta obra usa datos como material creativo, no como diagnóstico médico.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño puede ser arte. El diseño puede ser estético. El diseño es muy simple, por eso es tan complicado” — <em>Paul Rand</em></p>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Metodología</h4>
-        <ol>
-          <li><strong><em>Captura in situ:</em></strong> registro de 10–20 s por visitante (Doppler).</li>
-          <li><strong><em>Procesamiento sonoro:</em></strong> mapeo de parámetros a propiedades auditivas (frecuencia→tono; amplitud→intensidad; variabilidad→ornamento) con Max/MSP.</li>
-          <li><strong><em>Generación gráfica:</em></strong> algoritmo que traduce la onda en trazos radiales, paletas y texturas para crear una mándala única.</li>
-          <li><strong><em>Cadena de exhibición:</em></strong> sensor → procesamiento → sonificación + mándala → visualización en pantalla.</li>
-        </ol>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">¿Qué miden las mándalas?</h4>
-        <ul>
-          <li><strong><em>Amplitud </em>→</strong> altura y energía del trazo.</li>
-          <li><strong><em>Frecuencia </em>→</strong> ritmo y densidad del patrón.</li>
-          <li><strong><em>Timbre / color </em>→</strong> paletas y contraste que sugieren cualidad tonal.</li>
-          <li><strong><em>Variabilidad </em>→</strong> ornamentación y complejidad visual.</li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">Estas representaciones no son diagnósticos; son relatos visuales pensados para provocar reconocimiento emocional y conexión.</p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Resultados y validación</h2>
-        <p>El banco de registros mostró patrones diferenciables entre participantes. En la defensa, la pieza despertó reacciones técnicas y emocionales: la mayoría del jurado manifestó sorpresa y conexión.</p>
-        <p>Encuestas y observaciones confirmaron que la propuesta funcionó a nivel conceptual y estético: la hipótesis se validó mediante prototipos mínimos y datos reales.</p>        
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Testimonios seleccionados</h4>
-        <p><em>“Hace tangible algo que normalmente sólo escucho en el trabajo clínico.”</em> — Teresa Conejeros, Enfermera Coordinadora</p>
-        <p><em>“Sentí que es algo frágil, como otro ser al que debo cuidar.”</em> — María José Neira, Estudiante de Arte</p>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Entrevistas con especialistas (extractos)</h4>
-        <p><strong>Sobre memoria prenatal:</strong> matronas expertas señalaron que experiencias maternas dejan huellas tempranas en el feto.</p>
-        <p><strong>Sobre la relación cerebro-corazón:</strong> cardiólogos y expertos señalaron que el corazón influye en la señal corporal y se conecta con el sistema nervioso; esto respalda usar la señal cardiaca como insumo válido para la obra.</p>
-        <p>(Estas entrevistas aportaron contexto científico y cultural al proyecto.)</p>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Comentarios del jurado (selección)</h4>
-        <p><em>“Nos mostraste que biología y física pueden alimentar propuestas creativas de diseño.”</em> — Julián Naranjo, Diseñador Gráfico</p>
-        <p><em>“La experiencia me dejó pensando en la relación entre cuerpo y emoción.”</em> — Sol Guillón, Artista y Docente</p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Retos</h2>
-        <ul>
-          <li>Escepticismo inicial y falta de apoyo en etapas tempranas.</li>
-          <li>Limitaciones de tiempo y recursos para escalar la instalación.</li>
-        </ul>
-        <p>Estas restricciones obligaron a priorizar prototipos mínimos y documentar cada paso para demostrar la hipótesis rápidamente.</p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Lecciones prácticas</h2>
-        <h4 class="mb-3">1. La ciencia propone; el diseño hace visible.</h4>
-        <ul>
-          <li>Transformar datos pide cuidado para que la pieza comunique sin sobreexplicar.</li>
-        </ul>
-        <hr>
-        <h4 class="mb-3">2. Prototipa lo mínimo.</h4>
-        <ul>
-          <li>Registros de 10–20 s y mapeos simples bastaron para validar la hipótesis.</li>
-        </ul>
-        <hr>
-        <h4 class="mb-3">3. Diseña un puente emocional.</h4>
-        <ul>
-          <li>La visualización debe hablar por sí misma antes que la explicación técnica.</li>
-        </ul>
-
-        <!-- Banner E-Book Branding --> 
-        <div id="banner-ebook-free-branding" class="d-none"></div>
-        <!-- Banner E-Book Branding -->
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Galería de fotos</h2>
-        <!-- Gallery Article -->
-        <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                  <div class="text-center">
-                    <figure>
-                        <img src="assets/img/gallery/img-gallery-article3-1-500@2x.webp" alt="Mándala generada en tiempo real proyectada en sala" class="img-article-gallery"/>
-                        <figcaption><small><em>Mándala generada en tiempo real — proyección en sala.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article3-2-500@2x.webp" alt="Registro con Doppler durante la exhibición" class="img-article-gallery"/>
-                        <figcaption><small><em>Interacción visitante: captura y mándala emergente.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article3-3-500@2x.webp" alt="Miembro del jurado interactuando con la instalación" class="img-article-gallery"/>
-                        <figcaption><small><em>Jurado interactuando con la instalación.</em></small></figcaption>
-                      </figure>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6">
-                  <div class="text-center">
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article3-4-500@2x.webp" alt="Vista general de la exhibición" class="img-article-gallery"/>
-                        <figcaption><small><em>Registro con Doppler durante la exhibición.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article3-5-500@2x.webp" alt="Bocetos de exploración" class="img-article-gallery"/>
-                        <figcaption><small><em>Bocetos y estudios fisiológicos del corazón.</em></small></figcaption>
-                      </figure>
-                  </div>
-              </div>
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Hipótesis central</h2>
+  
+      <p>
+        El latido contiene rasgos sonoros — ritmo, amplitud, variabilidad — que, mapeados
+        y procesados, pueden generar una mándala visual y sonora única por persona.
+        No dos iguales. No dos corazones que cuenten la misma historia.
+      </p>
+  
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        "El objetivo del arte no es representar la apariencia exterior de las cosas,
+        sino su significado interior." — <em>Aristóteles</em>
+      </p>
+  
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Contexto científico</h2>
+  
+      <p>
+        La actividad cardíaca se registra con sensores como Doppler o PPG. La señal
+        tiene ritmo, amplitud y variabilidad — parámetros que pueden mapearse a propiedades
+        sonoras (tono, intensidad, ritmo) y desde ahí traducirse a rasgos gráficos.
+        Lo que hice fue exactamente eso: tomar algo invisible del cuerpo y devolverlo
+        como imagen.
+      </p>
+      <p>
+        <strong><em>Importante:</em></strong> esta obra usa datos como material creativo,
+        no como diagnóstico médico. La diferencia no es menor — define todo el marco ético
+        del proyecto.
+      </p>
+  
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        "El diseño puede ser arte. El diseño puede ser estético. El diseño es muy simple,
+        por eso es tan complicado." — <em>Paul Rand</em>
+      </p>
+  
+      <hr>
+  
+      <h4 class="mt-5 fontpoppins opacity-100">Metodología</h4>
+      <ol>
+        <li>
+          <strong><em>Captura in situ:</em></strong> registro de 10–20 s por visitante (Doppler).
+          Breve, no invasivo, suficiente para leer los parámetros que importaban.
+        </li>
+        <li>
+          <strong><em>Procesamiento sonoro:</em></strong> mapeo de parámetros a propiedades
+          auditivas — frecuencia → tono; amplitud → intensidad; variabilidad → ornamento —
+          con Max/MSP.
+        </li>
+        <li>
+          <strong><em>Generación gráfica:</em></strong> un algoritmo traduce la onda en trazos
+          radiales, paletas y texturas. El resultado es una mándala que nadie más tiene.
+        </li>
+        <li>
+          <strong><em>Cadena de exhibición:</em></strong> sensor → procesamiento →
+          sonificación + mándala → visualización en pantalla. Todo en tiempo real,
+          frente al visitante.
+        </li>
+      </ol>
+  
+      <hr>
+  
+      <h4 class="mt-5 fontpoppins opacity-100">¿Qué miden las mándalas?</h4>
+      <ul>
+        <li><strong><em>Amplitud </em>→</strong> altura y energía del trazo.</li>
+        <li><strong><em>Frecuencia </em>→</strong> ritmo y densidad del patrón.</li>
+        <li><strong><em>Timbre / color </em>→</strong> paletas y contraste que sugieren cualidad tonal.</li>
+        <li><strong><em>Variabilidad </em>→</strong> ornamentación y complejidad visual.</li>
+      </ul>
+  
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        Estas representaciones no son diagnósticos. Son relatos visuales pensados para
+        provocar reconocimiento emocional — y eso, en diseño, también es una función.
+      </p>
+  
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Resultados y validación</h2>
+  
+      <p>
+        El banco de registros mostró patrones diferenciables entre participantes —
+        la hipótesis no era solo una intuición bonita, había algo ahí. En la defensa,
+        la pieza despertó reacciones que no esperaba del todo: el jurado pasó de la
+        curiosidad técnica a algo más parecido a la emoción. Eso fue difícil de fabricar
+        y fácil de reconocer cuando ocurrió.
+      </p>
+      <p>
+        Encuestas y observaciones confirmaron que la propuesta funcionó en dos planos:
+        conceptual y estético. La hipótesis se validó con prototipos mínimos y datos reales.
+        No necesité más.
+      </p>
+  
+      <hr>
+  
+      <h4 class="mt-5 fontpoppins opacity-100">Testimonios seleccionados</h4>
+  
+      <p>
+        <em>"Hace tangible algo que normalmente sólo escucho en el trabajo clínico."</em>
+        — Teresa Conejeros, Enfermera Coordinadora
+      </p>
+      <p>
+        <em>"Sentí que es algo frágil, como otro ser al que debo cuidar."</em>
+        — María José Neira, Estudiante de Arte
+      </p>
+  
+      <hr>
+  
+      <h4 class="mt-5 fontpoppins opacity-100">Entrevistas con especialistas (extractos)</h4>
+  
+      <p>
+        <strong>Sobre memoria prenatal:</strong> matronas expertas señalaron que experiencias
+        maternas dejan huellas tempranas en el feto. Eso me confirmó que el corazón
+        como material creativo tenía profundidad cultural, no solo fisiológica.
+      </p>
+      <p>
+        <strong>Sobre la relación cerebro-corazón:</strong> cardiólogos y expertos señalaron
+        que el corazón influye en la señal corporal y se conecta con el sistema nervioso.
+        Eso respalda usar la señal cardiaca como insumo válido para la obra — y me dio
+        base científica para defender algo que en principio sonaba solo poético.
+      </p>
+      <p>(Estas entrevistas aportaron contexto científico y cultural al proyecto.)</p>
+  
+      <hr>
+  
+      <h4 class="mt-5 fontpoppins opacity-100">Comentarios del jurado (selección)</h4>
+  
+      <p>
+        <em>"Nos mostraste que biología y física pueden alimentar propuestas creativas de diseño."</em>
+        — Julián Naranjo, Diseñador Gráfico
+      </p>
+      <p>
+        <em>"La experiencia me dejó pensando en la relación entre cuerpo y emoción."</em>
+        — Sol Guillón, Artista y Docente
+      </p>
+  
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Retos</h2>
+      <ul>
+        <li>
+          Escepticismo inicial — hubo momentos en que la idea no tenía apoyo y yo
+          tenía que seguir igual.
+        </li>
+        <li>
+          Limitaciones de tiempo y recursos que me impidieron escalar la instalación
+          tanto como quería.
+        </li>
+      </ul>
+      <p>
+        Esas restricciones me obligaron a ser muy precisa: prototipos mínimos,
+        documentación de cada paso, hipótesis clara. A veces las limitaciones
+        te enseñan más que los recursos.
+      </p>
+  
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Lecciones prácticas</h2>
+  
+      <h4 class="mb-3">1. La ciencia propone; el diseño hace visible.</h4>
+      <ul>
+        <li>
+          Transformar datos en experiencia pide cuidado. La pieza tiene que comunicar
+          sin sobreexplicar — y eso es más difícil de lo que parece cuando estás
+          enamorada del proceso técnico.
+        </li>
+      </ul>
+  
+      <hr>
+  
+      <h4 class="mb-3">2. Prototipa lo mínimo.</h4>
+      <ul>
+        <li>
+          Registros de 10–20 s y mapeos simples bastaron para validar la hipótesis.
+          No necesitaba más complejidad — necesitaba evidencia.
+        </li>
+      </ul>
+  
+      <hr>
+  
+      <h4 class="mb-3">3. Diseña un puente emocional.</h4>
+      <ul>
+        <li>
+          La visualización tiene que hablar por sí misma antes que la explicación técnica.
+          Si necesitas un párrafo para que la gente entienda qué siente, algo en el diseño
+          todavía no está resuelto.
+        </li>
+      </ul>
+  
+      <!-- Banner E-Book Branding -->
+      <div id="banner-ebook-free-branding" class="d-none"></div>
+      <!-- Banner E-Book Branding -->
+  
+      <hr class="my-5">
+  
+      <h2 class="mt-5 fontpoppins opacity-100">Galería de fotos</h2>
+  
+      <!-- Gallery Article -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="text-center">
+              <figure>
+                <img src="assets/img/gallery/img-gallery-article3-1-500@2x.webp" alt="Mándala generada en tiempo real proyectada en sala" class="img-article-gallery"/>
+                <figcaption><small><em>Mándala generada en tiempo real — proyección en sala.</em></small></figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/gallery/img-gallery-article3-2-500@2x.webp" alt="Registro con Doppler durante la exhibición" class="img-article-gallery"/>
+                <figcaption><small><em>Interacción visitante: captura y mándala emergente.</em></small></figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/gallery/img-gallery-article3-3-500@2x.webp" alt="Miembro del jurado interactuando con la instalación" class="img-article-gallery"/>
+                <figcaption><small><em>Jurado interactuando con la instalación.</em></small></figcaption>
+              </figure>
             </div>
           </div>
-          <!-- Gallery Article -->
-          <hr class="my-5">
-          <p class="text-center fs-6 my-4 bg-canva p-3">El proyecto mostró que el corazón no solo late: cuenta. Combinando biología, cultura, sonido y diseño convertí ese relato íntimo en experiencia pública.</p>
-          <hr class="my-5">
-          <div class="bg-canva p-5">
-              <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-              <p><strong>¿Por qué trabajar con el corazón?</strong></p>
-              <p>Porque es un símbolo universal con base fisiológica; conecta ciencia, cultura y emoción.</p>
-              <hr>
-              <p><strong>¿Es esto diagnóstico?</strong></p>
-              <p>No. Son relatos visuales/sonoros; no pretenden reemplazar un examen médico.</p>
-              <hr>
-              <p><strong>¿Qué aprende un diseñador con esto?</strong></p>
-              <p>Que una idea arriesgada puede sostenerse si se documenta, se prototipa y se valida con datos y público.</p>
+          <div class="col-12 col-md-6">
+            <div class="text-center">
+              <figure>
+                <img src="assets/img/gallery/img-gallery-article3-4-500@2x.webp" alt="Vista general de la exhibición" class="img-article-gallery"/>
+                <figcaption><small><em>Registro con Doppler durante la exhibición.</em></small></figcaption>
+              </figure>
+              <figure>
+                <img src="assets/img/gallery/img-gallery-article3-5-500@2x.webp" alt="Bocetos de exploración" class="img-article-gallery"/>
+                <figcaption><small><em>Bocetos y estudios fisiológicos del corazón.</em></small></figcaption>
+              </figure>
+            </div>
           </div>
-          <hr class="my-5">
-          <h4 class="mb-3">Proyectos relacionados</h4>
-          <ul>
-            <li>
-              <p><strong><em><a href="https://www.behance.net/gallery/230525254/Espacio-de-Aire-para-Concurso-Acadmico-Nike-Air-Max" class="a-small-article px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Espacio de Aire (Air Max)</a>:</em></strong> escultura en papel que hace tangible la “huella invisible” de una suela.</p>
-            </li>
-            <li>
-              <p><strong><em><a href="https://www.behance.net/gallery/54482169/Obra-expuesta-en-Bellas-Artes" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Tributo a Matta-Clark (Bellas Artes)</a>:</em></strong> maqueta en MDF inspirada en cortes arquitectónicos como exploración espacial.</p>          
-            </li>
-          </ul>
-      `,
-      // ← Aquí las relaciones
-      relatedArticles: [
-        { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
-        { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
-        { id: "5", title: "Antes de llamarlo UX: diseño, personas y criterio profesional" }
-      ],
-      relatedProjects: [
-        {
-          title: "Tributo a Matta-Clark: exhibición en Bellas Artes",
-          url: "https://www.instagram.com/p/DMN1JoOMpb2/?utm_source=ig_web_copy_link"
-        },
-        {
-          title: "Espacio de Aire: La huella invisible de Air Max",
-          url: "https://www.instagram.com/p/DMMJOIuMC7Z/?utm_source=ig_web_copy_link"
-        },
-        {
-          title: "Proyecto de Título: El corazón, un órgano diferenciador",
-          url: "https://www.behance.net/gallery/54481033/Proyecto-de-Titulo-UFT-2015"
-        }
-      ]
-    },
+        </div>
+      </div>
+      <!-- Gallery Article -->
+  
+      <hr class="my-5">
+  
+      <p class="text-center fs-6 my-4 bg-canva p-3">
+        El proyecto mostró que el corazón no solo late: cuenta. Combinando biología,
+        cultura, sonido y diseño convertí ese relato íntimo en experiencia pública.
+      </p>
+  
+      <hr class="my-5">
+  
+      <div class="bg-canva p-5">
+        <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+  
+        <p><strong>¿Por qué trabajar con el corazón?</strong></p>
+        <p>
+          Porque es un símbolo universal con base fisiológica. Conecta ciencia, cultura
+          y emoción — y eso me permitía hablarle a audiencias muy distintas con el mismo objeto.
+        </p>
+  
+        <hr>
+  
+        <p><strong>¿Es esto diagnóstico?</strong></p>
+        <p>
+          No. Son relatos visuales y sonoros. No pretenden reemplazar un examen médico
+          ni acercarse a eso. El marco es artístico y comunicacional, siempre.
+        </p>
+  
+        <hr>
+  
+        <p><strong>¿Qué aprende un diseñador con esto?</strong></p>
+        <p>
+          Que una idea arriesgada puede sostenerse si se documenta, se prototipa
+          y se valida con datos y público. El escepticismo ajeno no es razón suficiente
+          para abandonar una hipótesis que todavía no has probado.
+        </p>
+      </div>
+  
+      <hr class="my-5">
+  
+      <h4 class="mb-3">Proyectos relacionados</h4>
+      <ul>
+        <li>
+          <p>
+            <strong><em>
+              <a
+                href="https://www.behance.net/gallery/230525254/Espacio-de-Aire-para-Concurso-Acadmico-Nike-Air-Max"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Espacio de Aire (Air Max)</a>:
+            </em></strong>
+            escultura en papel que hace tangible la "huella invisible" de una suela.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong><em>
+              <a
+                href="https://www.behance.net/gallery/54482169/Obra-expuesta-en-Bellas-Artes"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Tributo a Matta-Clark (Bellas Artes)</a>:
+            </em></strong>
+            maqueta en MDF inspirada en cortes arquitectónicos como exploración espacial.
+          </p>
+        </li>
+      </ul>
+    `,
+    relatedArticles: [
+      { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
+      { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
+      { id: "5", title: "Antes de llamarlo UX: diseño, personas y criterio profesional" }
+    ],
+    relatedProjects: [
+      {
+        title: "Tributo a Matta-Clark: exhibición en Bellas Artes",
+        url: "https://www.instagram.com/p/DMN1JoOMpb2/?utm_source=ig_web_copy_link"
+      },
+      {
+        title: "Espacio de Aire: La huella invisible de Air Max",
+        url: "https://www.instagram.com/p/DMMJOIuMC7Z/?utm_source=ig_web_copy_link"
+      },
+      {
+        title: "Proyecto de Título: El corazón, un órgano diferenciador",
+        url: "https://www.behance.net/gallery/54481033/Proyecto-de-Titulo-UFT-2015"
+      }
+    ]
+  },
+  
+  // ─────────────────────────────────────────────────────────────────────────────
+ 
     "4": {
       id: 4,
       titleHTML: `
