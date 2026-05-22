@@ -31,7 +31,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Rediseño & Prototipado Web</span> para CBC</h3>
                 <p class="textdescriptions"><small><em>2020</em></small></p>
-                <p class="card-text">Como UX Architect y Prototyper Developer, redefiní la arquitectura de información de CBC usando card sorting y journey maps, prototipando un MVP responsive en HTML5, CSS3 y Bootstrap 4.</p>
+                <p class="card-text">Como <strong><em>UX Architect y Prototyper Developer</em></strong> redefiní la arquitectura de información de CBC — card sorting, journey maps y un MVP responsivo en HTML5/CSS3/Bootstrap 4 que el equipo de desarrollo usó como referencia directa.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +40% tráfico orgánico · +25% leads · prototipo ready-to-code.</small></p>
                 <p class="opacity-75"><small>UX Architecture | Prototipado Web | Critical Journey Map | SEO On-Page | MVP Scalable</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -51,7 +52,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">App “Perfil de Inversionista”</span> para FOL</h3>
                 <p class="textdescriptions"><small><em>2018</em></small></p>
-                <p class="card-text">En FOL, diseñé la sección “Perfil de Inversionista” con prototipos responsive, gráficos intuitivos y flujos claros que guían al usuario desde la configuración de su perfil hasta la entrega de consejos personalizados.</p>
+                <p class="card-text">Diseñé la sección <em>"Perfil de Inversionista"</em> de FOL con prototipos responsivos, user flows claros y gráficas intuitivas — guiando al usuario desde la configuración inicial hasta la recepción de consejos personalizados sin fricción.</p>
+                <p class="card-text"><small><strong><em>Entregable:</em></strong> prototipo interactivo validado con stakeholders · flujos documentados · listo para desarrollo.</small></p>
                 <p class="opacity-75"><small>UX Strategy | User/Task Flow | Prototipo Responsive</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -70,7 +72,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Manual OPL </span> para Voluntarios de Casona Minka</h3>
                 <p class="textdescriptions"><small><em>2019</em></small></p>
-                <p class="card-text">Diseñé un Manual OPL para limpieza y convivencia que, tras su éxito, se escaló a áreas de seguridad y mantenimiento, fortaleciendo la cultura y los procesos de Casona Minka.</p>
+                <p class="card-text">Diseñé un Manual OPL de limpieza y convivencia para Casona Minka — documentando procesos operativos en un lenguaje visual claro que cualquier voluntario podía implementar sin capacitación previa.</p>
+                <p class="card-text"><small>El manual fue tan efectivo que se escaló a seguridad y mantenimiento, estandarizando la operación completa del hostal.</small></p>
                 <p class="opacity-75"><small>Manual OPL | UX Interno | Procesos Estandarizados</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -89,7 +92,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Diseño y Prototipo de Blog</span> para CBC</h3>
                 <p class="textdescriptions"><small><em>2020</em></small></p>
-                <p class="card-text">Convertí la comunicación por email de CBC en un blog responsive, diseñando con HTML5/CSS3 y flujos de usuario optimizados para impulsar la presencia digital y facilitar la gestión de contenido desde back-office.</p>
+                <p class="card-text">Convertí la comunicación por email de CBC en un blog corporativo responsive — diseñado en HTML5/CSS3/Bootstrap con flujos de usuario optimizados para que el equipo de Información gestionara el contenido desde back-office sin depender del área técnica.</p>
+                <p class="card-text"><small><strong><em>Entregable:</em></strong> prototipo ready-to-code · guía de implementación para el equipo responsable.</small></p>
                 <p class="opacity-75"><small>Blog Corporativo | HTML5/CSS3 | Bootstrap | User/Task Flows | MVP Ready-to-Code</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -108,7 +112,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Experiencia Perú:</span> App de Viaje Personalizado</h3>
                 <p class="textdescriptions"><small><em>2019</em></small></p>
-                <p class="card-text">Diseñé “Experiencia Perú”, una app íntima que permite a un padre y su hija revivir juntos su ruta por el país, fusionando recuerdos y adaptándose a las necesidades de ambas generaciones.</p>
+                <p class="card-text">Diseñé "Experiencia Perú" — una app personal de viaje personal que permitió a un padre y su hija revivir juntos su recorrido por Perú, adaptando el contenido a cada generación.</p>
+                <p class="card-text"><small>Un caso de diseño empático donde la investigación de usuarios definió cada decisión de flujo e interfaz.</small></p>
                 <p class="opacity-75"><small>UX/UI Design | MVP prototipo | User/Task Flow | Experiencia de Usuario</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -126,7 +131,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Burbuja de Chatbot </span> para CBC</h3>
                 <p class="textdescriptions"><small><em>2022</em></small></p>
-                <p class="card-text">Diseñé la burbuja de un chatbot con cuatro rutas de ayuda—búsqueda libre, FAQs, vídeos y asesor—basada en investigación híbrida y mockups responsive.</p>
+                <p class="card-text">Diseñé la burbuja de chatbot de CBC con cuatro rutas de ayuda — búsqueda libre, FAQs, videos y asesor personalizado — basada en investigación híbrida con usuarios reales y validada con mockups responsivos antes de llegar a desarrollo.</p>
+                <p class="card-text"><small><strong><em>Entregable:</em></strong> flujos documentados · mockups responsivos · especificaciones para implementación.</small></p>
                 <p class="opacity-75"><small>Chatbot UX | Automatización Cliente | User/Task Flows | MVP</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -145,7 +151,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Estandarización &amp; Manual de Documentos</span> para CBC</h3>
                 <p class="textdescriptions"><small><em>2020</em></small></p>
-                <p class="card-text">Unifiqué la imagen de los documentos del área de Información de CBC con base al Brand System, mapeando flujos de usuario y creando un manual para asegurar su implementación y continuidad.</p>
+                <p class="card-text">Unifiqué la imagen de todos los documentos del área de Información de CBC basándome en el Brand System existente — mapeando flujos de usuario, estandarizando plantillas y creando un manual de implementación para que cualquier integrante del equipo mantuviera la coherencia sin asistencia.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> documentación estandarizada · manual de uso.</small></p>
                 <p class="opacity-75"><small>Estandarización de Documentos | UX/UI Strategy | User Flow | Experiencia de Usuario</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -158,7 +165,7 @@
           </div>
           <!-- Estandarización de Documentos CBC -->
         </div>    
-    `,         // UX/UI Design Strategy (reemplaza '[...]' con tu HTML)
+    `,         // UX/UI Design Strategy
     'frontend-tab-pane': `
         <div class="row">
     <!-- Austral Web -->
@@ -168,7 +175,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Aulas Virtuales e-Learning</span> para Austral Group</h3>
                 <p class="textdescriptions"><small><em>2019</em></small></p>
-                <p class="card-text">Como Prototyper Developer, desarrollé prototipos en HTML5, SASS y Bootstrap para renovar el sitio web, la plataforma y el backoffice de Austral Group.</p>
+                <p class="card-text">Como <strong><em>Prototyper Developer</em></strong> construí prototipos clicables en HTML5/SASS/Bootstrap para el sitio web, plataforma e-learning y back-office de Austral Group — entregables que el equipo de TI podía revisar en el navegador y usar como referencia directa de construcción.</p>
+                <p class="card-text"><small><strong><em>Proyección:</em></strong> al menos un 40% menos tiempo en validación interna · interfaz unificada para estudiantes internacionales y gestores.</small></p>
                 <p class="opacity-75"><small>Prototipado Web | HTML5 CSS3 | Bootstrap | MVP ready-to-code</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -188,7 +196,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Givit:</span> prototipo interactivo de marketplace</h3>
                 <p class="textdescriptions"><small><em>2019</em></small></p>
-                <p class="card-text">Convertí wireframes en un prototipo en HTML5/CSS3 y Bootstrap, construyendo la experiencia de marketplace para compradores y vendedores en Givit.</p>
+                <p class="card-text">Convertí wireframes estáticos en un prototipo interactivo en HTML5/CSS3/Bootstrap para el marketplace Givit — construyendo el flujo y la experiencia de compradores y vendedores, documentados listos para desarrollo.</p>
                 <p class="opacity-75"><small>Prototipado Bootstrap | Marketplace | Front-End</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -206,7 +214,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Dashboard Responsivo </span> para Banco Comafi</h3>
                 <p class="textdescriptions"><small><em>2018</em></small></p>
-                <p class="card-text">Diseñé y desarrollé un dashboard financiero en HTML5 y CSS3, validado en dos ciclos Agile y alineado al Brand System de Comafi.</p>
+                <p class="card-text">Diseñé y desarrollé un dashboard financiero responsivo en HTML5/CSS3 para Banco Comafi — <strong><em>validado en dos ciclos Agile y alineado al Brand System corporativo.</em></strong> Cada componente fue entregado con documentación técnica para el equipo de QA e implementación.</p>
                 <p class="opacity-75"><small>Prototipado Dashboard | HTML5 CSS3 | QA to code | Agile Prototyping</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -222,9 +230,10 @@
             <div class="card card-projects border-0 my-3">
               <img src="assets/img/other-projects/othersprojects-frontend-premiocbc@2x.webp" class="card-img-top" alt="Mockup de la sección Premio CBC con estados: antiguo ganador, convocatoria, timeline y galería de ganadores" loading="lazy">
               <div class="card-body">
-                <h3 class="card-title"><span class="color-primary">Diseño Web &amp; Prototipado</span> de la Sección “Premio CBC”</h3>
+                <h3 class="card-title"><span class="color-primary">Diseño Web &amp; Prototipado</span> de “Premio CBC”</h3>
                 <p class="textdescriptions"><small><em>2022</em></small></p>
-                <p class="card-text">Prototipé la sección web «Premio CBC» en HTML5/CSS3 y Bootstrap, definiendo cuatro estados (proyecto ganador, invitación, timeline y galería) automatizados para cada edición anual.</p>
+                <p class="card-text">Diseñé y prototipé la sección web "Premio CBC" en HTML5/CSS3/Bootstrap — definiendo cuatro estados automatizados (ganador, invitación, timeline y galería) para que la sección se actualizara sola en cada edición anual sin intervención del diseñador.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> sistema autónomo · prototipo ready-to-code · documentación de estados entregada.</small></p>
                 <p class="opacity-75"><small>Prototipado Web | HTML5 CSS3 | Bootstrap | MVP ready-to-code</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -242,7 +251,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Actualizaciones Front-End</span> de Plataforma CBC</h3>
                 <p class="textdescriptions"><small><em>2020–2023</em></small></p>
-                <p class="card-text">Prototipé en HTML5/CSS3 la plataforma CBC, actualizando módulos obsoletos y definiendo task flows y mensajes claros, todo alineado al nuevo Brand System para escalar servicios y optimizar la experiencia de usuario.</p>
+                <p class="card-text">Actualicé módulos obsoletos de la plataforma CBC en HTML5/CSS3 — redefiniendo task flows, mensajes de estado y <strong><em>componentes UI alineados al nuevo Brand System.</em></strong> Cada módulo entregado con documentación técnica para garantizar coherencia en futuras iteraciones.</p>
                 <p class="opacity-75"><small>UX/UI Design | Prototipado Web | HTML5 CSS3 | Bootstrap</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -261,7 +270,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Prototipado &amp; Mantenimiento Front-End</span> de la Web CBC</h3>
                 <p class="textdescriptions"><small><em>2020–2023</em></small></p>
-                <p class="card-text">Renové y mantuve la capa front-end de CBC con HTML5/CSS3 y Bootstrap 4, entregando componentes responsivos y documentación técnica en cada iteración.</p>
+                <p class="card-text"><strong><em>Mantuve y evolucióné la capa front-end de CBC durante 3 años</em></strong> — componentes responsivos en HTML5/CSS3/Bootstrap 4 entregados con documentación técnica en cada iteración para que el equipo de desarrollo pudiera implementar sin ambigüedades.</p>
                 <p class="opacity-75"><small>Bootstrap 4 | Renovación Front-end | User/Task Flows | HTML5 CSS3</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -280,7 +289,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Módulo “Mis Datos”</span> en Plataforma CBC</h3>
                 <p class="textdescriptions"><small><em>2021-2023</em></small></p>
-                <p class="card-text">En HTML5 y CSS3, prototipé el módulo “Mis Datos” de CBC, diseñando un flujo intuitivo y una interfaz escalable alineada al Brand System, lista para adaptarse a futuras mejoras tecnológicas.</p>
+                <p class="card-text">Prototipé el módulo "Mis Datos" de CBC en HTML5/CSS3 — diseñando un flujo intuitivo y una <strong><em>interfaz escalable alineada al Brand System,</em></strong> con componentes documentados listos para adaptarse a futuras mejoras tecnológicas sin romper la coherencia visual.</p>
                 <p class="opacity-75"><small>HTML5 CSS3 | Prototipado Web | UX/UI Design | Experiencia de Usuario</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -303,7 +312,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Brand System</span> para FOL Agencia de Valores SpA</h3>
                 <p class="textdescriptions"><small><em>2018</em></small></p>
-                <p class="card-text">Definí la paleta de colores HEX/RGB, familias tipográficas e iconos de FOL en un documento claro que garantiza coherencia en todos los canales.</p>
+                <p class="card-text">Definí la paleta HEX/RGB, familias tipográficas e iconografía de FOL en un <strong><em>Brand System documentado</em></strong> que unificó la identidad visual entre Marketing, TI y partners externos — garantizando coherencia en todos los canales sin depender del diseñador para cada pieza.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> 50% menos tiempo en producción de assets · adopción inmediata desde el día uno.</small></p>
                 <p class="opacity-75"><small>Brand System | Paleta HEX/RGB | Uso de Marca | Coherencia Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -323,7 +333,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Identidad Viva:</span> Marca de Hostal Casona Minka</h3>
                 <p class="textdescriptions"><small><em>2019</em></small></p>
-                <p class="card-text">Extraje la energía de los murales de Casona Minka para crear un sistema de marca completo: colores, tipografías y reglas de uso que dan vida al hostal en cada pieza.</p>
+                <p class="card-text">Extraje la energía de los murales y la arquitectura de Casona Minka para construir un <strong><em>sistema de marca completo</em></strong> — colores, tipografías, reglas de uso e instrucciones de implementación que cualquier voluntario puede aplicar desde el primer día.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +20% en reservas · procesos operativos 30% más ágiles.</small></p>
                 <p class="opacity-75"><small>Brand System | Identidad Visual | Uso de Marca | Coherencia Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -342,7 +353,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">De Girasoles a Espirales:</span> Identidad de Sandy &amp; Doble Espiral</h3>
                 <p class="textdescriptions"><small><em>2024</em></small></p>
-                <p class="card-text">Diseñé dos logos para Sandy Schumacher y su Academia Doble Espiral: un girasol que emana espiritualidad y una espiral matemática creciente.</p>
+                <p class="card-text"><strong><em>Diseñé la identidad visual de Sandy Schumacher y su Academia Doble Espiral</em></strong> — un girasol que emana espiritualidad y una espiral matemática creciente. Dos logos que capturan la dualidad de una marca que fusiona lo espiritual y lo científico.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> identidad que Sandy reconoció como 100% suya desde la primera presentación.</small></p>
                 <p class="opacity-75"><small>Identidad Visual | Logotipo | Isotipo | Branding</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -360,7 +372,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Brochure Corporativo</span> para Maestranza San José</h3>
                 <p class="textdescriptions"><small><em>2024</em></small></p>
-                <p class="card-text">Diseñé un brochure tipo revista que destaca los servicios de metalizado y fabricación de Maestranza San José, usando texturas y reflejos metálicos para evocar calidad industrial.</p>
+                <p class="card-text">Diseñé un <strong><em>brochure corporativo</em></strong> para Maestranza San José que comunica solidez industrial — texturas y reflejos metálicos que evocan la calidad de sus servicios de metalizado y fabricación sin necesidad de palabras.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> 100% de satisfacción por parte del cliente, expresando textual "Siempre es un agrado trabajar con profesionales" — Juan Salinas.</small></p>
                 <p class="opacity-75"><small>Brochure Industrial | Diseño Corporativo | Brochure | Brand System</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -378,7 +391,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Logo &amp; Variantes de Marca</span> para Mi Mágico Bosque</h3>
                 <p class="textdescriptions"><small><em>2023</em></small></p>
-                <p class="card-text">Diseñé el logo de Mi Mágico Bosque: un corazón que florece desde adentro para afuera, con variantes de color que guían su contenido espiritual.</p>
+                <p class="card-text">Diseñé el <strong><em>logo de Mi Mágico Bosque</em></strong> — un corazón que florece desde adentro hacia afuera, con variantes de color que guían el tipo de contenido espiritual en cada publicación. Un sistema visual que comunica la esencia de la marca en un solo ícono.</p>
                 <p class="opacity-75"><small>Identidad Espiritual | Logo | Identidad Holística | Brand System</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -396,7 +409,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Sello &amp; Brand Token</span> para “INCA: Una Rebelión Transformada”</h3>
                 <p class="textdescriptions"><small><em>2014</em></small></p>
-                <p class="card-text">Diseñé un sello editorial con la corona de los Sapa Incas y un logotipo robusto “INCA”, simbolizando la rebelión histórica y la supervivencia cultural.</p>
+                <p class="card-text">Diseñé un <strong><em>sello editorial y logotipo para "INCA: Una Rebelión Transformada"</em></strong> — la corona de los Sapa Incas como símbolo de poder histórico, combinada con una tipografía robusta que comunica resistencia y supervivencia cultural.</p>
+                <p class="card-text"><small>Un ejercicio de diseño conceptual donde cada decisión tiene peso simbólico.</small></p>
                 <p class="opacity-75"><small>Sello Editorial | Brand Token | Simbología Inca | Identidad Editorial</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -414,7 +428,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Brochure</span> de Servicios y Planes para CBC</h3>
                 <p class="textdescriptions"><small><em>2021-2023</em></small></p>
-                <p class="card-text">Un brochure diseñado bajo el Brand System: paleta, tipografías e iconos de CBC que presenta servicios, planes y sectores económicos de forma modular y atractiva para email y redes.</p>
+                <p class="card-text">Diseñé un <strong><em>brochure corporativo bajo el Brand System de CBC</em></strong> — paleta, tipografías e íconos corporativos — para presentar servicios, planes y sectores económicos de forma clara y atractiva tanto en email como en redes sociales.</p>
                 <p class="opacity-75"><small>Brochure | Brand System | Coherencia Visual | Diseño B2B</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -432,7 +446,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Brand System</span> para CBC</h3>
                 <p class="textdescriptions"><small><em>2020</em></small></p>
-                <p class="card-text">Creé un manual de marca integrando logos, colores, tipografías, fotografía y tono de voz, para alinear múltiples equipos y canales bajo un mismo lenguaje visual y comunicacional, evitando interpretaciones dispares y fortaleciendo la presencia corporativa.</p>
+                <p class="card-text">Creé el <strong><em>Brand System completo de CBC</em></strong> — logos, colores, tipografías, fotografía y tono de voz — para alinear Marketing, TI y Comunicaciones bajo un mismo lenguaje visual y comunicacional.</p>
+                <p class="card-text"><small>Un sistema que eliminó las interpretaciones confusas y le dio a CBC una presencia corporativa coherente en todos sus canales.</small></p>
                 <p class="opacity-75"><small>Comunicación Corporativa | Brand System | Coherencia Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -451,7 +466,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Rebranding</span> de Full Graphic Impresores</h3>
                 <p class="textdescriptions"><small><em>2014</em></small></p>
-                <p class="card-text">Rediseñé el logo de Full Graphic, incorporando gráficamente las tintas CMYK y una tipografía lineal con curvas vectoriales para simbolizar el trazo de imprenta y el flujo del plotter</p>
+                <p class="card-text">Rediseñé la identidad de Full Graphic Impresores — incorporando las tintas CMYK como elemento gráfico y una tipografía lineal con curvas vectoriales que simboliza el trazo de imprenta y el flujo del plotter.</p>
                 <p class="opacity-75"><small>Rebranding | Logotipo | Identidad Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -467,14 +482,15 @@
     `,      // Graphic Design & Brand System
     'rrss-tab-pane': `
         <div class="row">
-    <!-- Plantillas para Doble Espiral Academia -->
+          <!-- Plantillas para Doble Espiral Academia -->
           <div class="col-md-4">
             <div class="card card-projects border-0 my-3">
               <img src="assets/img/other-projects/othersprojects-digitalcontent-dobleespiral@2x.webp" class="card-img-top" alt="Carrusel y cover de Instagram inspirados en girasoles y doble espiral para Doble Espiral Academia" loading="lazy">
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Plantillas de Social Media</span> para Doble Espiral Academia</h3>
                 <p class="textdescriptions"><small><em>2024</em></small></p>
-                <p class="card-text">Fusioné girasoles y doble espiral para diseñar 18 plantillas en Canva que elevaron el engagement de Doble Espiral Academia.</p>
+                <p class="card-text">Fusioné simbolismo espiritual y estructura matemática para diseñar 18 plantillas en Canva que Sandy opera con autonomía total hoy — carruseles, reels y covers para Instagram, Facebook y YouTube.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +25% engagement · sistema que Sandy extendió a lápices, libretas y presentaciones.</small></p>
                 <p class="opacity-75"><small>Plantillas Canva | E-learning | Diseño Espiritual | Social Media Designer</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -493,7 +509,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Plantillas de Social Media</span> para Tarot para Sanar</h3>
                 <p class="textdescriptions"><small><em>2024</em></small></p>
-                <p class="card-text">Creé 18 plantillas en Canva, fusionando profesionalismo y misticismo para preservar su esencia espiritual y preparar la marca para nuevos servicios educativos.</p>
+                <p class="card-text">Creé 18 plantillas en Canva para Tarot para Sanar — fusionando profesionalismo y esencia espiritual para que Carolina publicara con coherencia de marca y sin depender de un diseñador para cada post.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +30% engagement en el primer mes · cliente recurrente — volvió con un nuevo proyecto meses después.</small></p>
                 <p class="opacity-75"><small>Plantillas Canva | Diseño Espiritual | Social Media Designer</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -513,7 +530,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Plantillas de Social Media</span> en Canva para Net2e</h3>
                 <p class="textdescriptions"><small><em>2024</em></small></p>
-                <p class="card-text">Creé plantillas en Canva que reflejaron la línea gráfica profesional de Net2e, listas para que el equipo gestionara carruseles, reels, stories y banners.</p>
+                <p class="card-text">Creé plantillas en Canva alineadas al <strong><em>Brand System de Net2e</em></strong> — carruseles, reels, stories y banners listos para que el equipo gestionara sus redes con coherencia visual y sin necesitar al diseñador para cada publicación.</p>
                 <p class="opacity-75"><small>Plantillas Canva | Editable Templates | Social Media Designer</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -531,7 +548,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Video Promocional</span> del Premio CBC</h3>
                 <p class="textdescriptions"><small><em>2022</em></small></p>
-                <p class="card-text">Desarrollé un video promocional de 51 s con animaciones limpias en After Effects y música atractiva, diseñado para anunciar la apertura de inscripciones al Premio CBC y, durante la ceremonia, presentar a los finalistas y ganadores.</p>
+                <p class="card-text">Desarrollé un video promocional de 51 segundos para el Premio CBC — animaciones limpias en <strong><em>After Effects y Premiere Pro,</em></strong> diseñado para anunciar inscripciones y presentar finalistas y ganadores durante la ceremonia anual.</p>
                 <p class="opacity-75"><small>Video Promocional | After Effects | Premiere Pro | Digital Content</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -549,7 +566,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Animación de Intro</span> para “Revelando Historias”</h3>
                 <p class="textdescriptions"><small><em>2013</em></small></p>
-                <p class="card-text">Inspirada en el revelado fotográfico y las cámaras de video analógicas, diseñé una animación de 5 s para la apertura del programa universitario “Revelando Historias”. Creé los assets en Illustrator y animé en After Effects la transición haciendo que el logo emergiera como un recuerdo que cobra vida.</p>
+                <p class="card-text">Diseñé una animación de intro de 5 segundos para el programa universitario "Revelando Historias" — inspirada en el revelado fotográfico analógico. El logo emerge como un recuerdo que cobra vida, <strong><em>construido en Photoshop y animado en After Effects.</em></strong></p>
                 <p class="opacity-75"><small>TV Intro Design | After Effects | Animación</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -567,7 +584,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Banners</span> para Premio CBC</h3>
                 <p class="textdescriptions"><small><em>2021-2022</em></small></p>
-                <p class="card-text">Diseñé banners para web y redes: en la imagen uno detallando el timeline de inscripciones y etapas del Premio CBC, y otro celebrando a los finalistas con sus nombres y logos. Apliqué la paleta y tipografía del Brand System de CBC para asegurar coherencia visual.</p>
+                <p class="card-text">Diseñé dos sets de banners para el Premio CBC — uno comunicando el timeline de inscripciones y etapas, y otro celebrando a finalistas con nombres y logos. Ambos alineados al <strong><em>Brand System de CBC</em></strong> para garantizar coherencia en web y redes sociales.</p>
                 <p class="opacity-75"><small>Digital Content Design | Banners | Social Media Banners</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -585,7 +602,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Digital Content Design</span> para FOL Agencia de Valores SpA</h3>
                 <p class="textdescriptions"><small><em>2017–2019</em></small></p>
-                <p class="card-text">Diseñé banners web, posts de RR.SS. e imágenes para email marketing alineados al Brand System de FOL, garantizando un mensaje unificado y profesional en cada canal.</p>
+                <p class="card-text">Diseñé banners web, posts para redes sociales e imágenes para email marketing de FOL — todos alineados al <strong><em>Brand System</em></strong> corporativo para garantizar un mensaje unificado y profesional en cada punto de contacto con el cliente.</p>
                 <p class="opacity-75"><small>Digital Content Design | Social Media Design | Banners</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -599,11 +616,13 @@
           <!-- Plantillas de diseños en Canva para Mi Mágico Bosque  -->
           <div class="col-md-4">
             <div class="card card-projects border-0 my-3">
-              <img src="assets/img/other-projects/othersprojects-digitalcontent-mmb@2x.webp" class="card-img-top" alt="Plantillas de diseños en Canva para ´Tarot para Sanar´ con paleta mística" loading="lazy">
+              <img src="assets/img/other-projects/othersprojects-digitalcontent-mmb@2x.webp" class="card-img-top" alt="Plantillas de diseños en Canva para ´Mi mágico Bosque´ con paleta espiritual" loading="lazy">
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Diseños de Social Media</span> para Mi Mágico Bosque</h3>
-                <p class="textdescriptions"><small><em>2023–Actualidad</em></small></p>
-                <p class="card-text">En Mi Mágico Bosque, mi proyecto personal de coaching espiritual, diseñé posts y carruseles que equilibran frescura y coherencia con 5 pilares de marca, logrando +15 % de engagement y fortaleciendo la conexión con mi comunidad.</p>
+                <p class="textdescriptions"><small><em>2023–2025</em></small></p>
+                <p class="card-text">En <strong><em>Mi Mágico Bosque</em></strong> — mi proyecto personal de coaching espiritual — diseñé posts y carruseles que equilibran frescura y coherencia bajo 5 pilares de marca propios.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +41% de engagement · comunidad más conectada con el propósito de la marca.</small></p>
+                <p class="card-text"><small>Un caso donde soy clienta y diseñadora — lo que me enseña a tomar decisiones desde los dos lados.</small></p>
                 <p class="opacity-75"><small>Plantillas Canva | Diseño Espiritual | Social Media Designer | Identidad Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -621,7 +640,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Plantillas de Social Media</span> para Akasha Healing</h3>
                 <p class="textdescriptions"><small><em>2023-2024</em></small></p>
-                <p class="card-text">Diseñé plantillas editables que combinan símbolos akáshicos y layouts claros, permitiendo a Akasha Healing mantener una voz visual coherente en cada publicación.</p>
+                <p class="card-text">Diseñé <strong><em>plantillas editables en Canva</em></strong> para Akasha Healing — combinando símbolos akáshicos y layouts claros que permiten mantener una voz visual coherente en cada publicación, sin necesitar al diseñador para cada post.</p>
+                <p class="card-text"><small><strong><em>Resultado:</em></strong> +60% de engagement · voz visual unificada en todos los canales.</small></p>
                 <p class="opacity-75"><small>Plantillas Canva | Diseño Espiritual | Social Media Designer | Identidad Visual</small></p>
                 <p class="card-text"><small><strong class="color-primary">¿Por qué este proyecto?</strong> Porque en este reto diseñé dinamismo y coherencia al mismo tiempo, creando plantillas editables que unificaron la voz espiritual de la marca y mejoraron su engagement +30 %.</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
@@ -645,7 +665,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Voluntariado</span> en AIESEC</h3>
                 <p class="textdescriptions"><small><em>2012–2014</em></small></p>
-                <p class="card-text">Voluntaria en AIESEC: diseñé más de 20 piezas de reclutamiento (+30 % postulaciones); entrevisté a candidatos promoviendo diversidad y valores; lideré 5 voluntarios en Intercambios UFT alcanzando el 100 % de objetivos; gestioné y conduje un espacio televisivo universitario para visibilizar la organización; y organicé eventos Outgoing Exchange que elevaron la satisfacción en un 25 %.</p>
+                <p class="card-text">Voluntaria en AIESEC — <strong><em>diseñé +20 piezas de reclutamiento que aumentaron las postulaciones en 30%.</em></strong> Entrevisté candidatos promoviendo diversidad y valores organizacionales. Lideré 5 voluntarios en Intercambios UFT alcanzando el 100% de objetivos. Conduje un espacio televisivo universitario para visibilizar la organización y organicé eventos <strong><em>Outgoing Exchange que elevaron la satisfacción en 25%.</em></strong></p>
+                <p class="card-text"><small>Una etapa que me enseñó <strong><em>liderazgo, comunicación y trabajo en equipo</em></strong> antes de que el diseño fuera mi profesión.</small></p>
                 <p class="opacity-75"><small>Graphic Designer | Voluntariado | Liderazgo | Trabajo en Equipo</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -662,9 +683,10 @@
             <div class="card card-projects border-0 my-3">
               <img src="assets/img/other-projects/othersprojects-brandsystem-guiadeestilosfol@2x.webp" class="card-img-top" alt="Guía de Estilos de FOL mostrando paleta de colores HEX/RGB, tipografías corporativas y ejemplos de aplicación gráfica" loading="lazy">
               <div class="card-body">
-                <h3 class="card-title"><span class="color-primary">Style Guide</span> para FOL Agencia de Valores SpA</h3>
+                <h3 class="card-title"><span class="color-primary">Style Guide</span> para FOL</h3>
                 <p class="textdescriptions"><small><em>2018</em></small></p>
-                <p class="card-text">Creé una guía de estilos corporativos que unifica colores, tipografías y logos para Marketing, TI, Ventas y Diseño Gráfico, asegurando que cada pieza transmita la misma identidad.</p>
+                <p class="card-text">Creé la <strong><em>Style Guide corporativa</em></strong> de FOL — colores, tipografías y logos documentados en un formato accesible para Marketing, TI, Ventas y Diseño Gráfico.</p>
+                <p class="card-text"><small>Una guía que asegura que cada pieza — de cualquier equipo — transmita la misma identidad sin necesitar al diseñador como intermediario.</small></p>
                 <p class="opacity-75"><small>Guía de Estilos | Brand System | Coherencia Visual</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -682,7 +704,7 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Iconografía:</span> tokens para consistencia y agilidad</h3>
                 <p class="textdescriptions"><small><em>Sin tiempo definido</em></small></p>
-                <p class="card-text">Iconos personalizados y exclusivos, con trazos, colores y estados adaptados a cada marca, listos para integrarse en el proyecto, reforzar el Brand System al 100 % y destacar frente a la competencia desde el primer vistazo.</p>
+                <p class="card-text"><strong><em>Iconografía personalizada y exclusiva</em></strong> — trazos, colores y estados adaptados a cada marca y sistema de diseño. Listos en SVG para integrarse directamente a cualquier proyecto y reforzar el Brand System desde el primer vistazo.</p>
                 <p class="opacity-75"><small>Iconos Personalizados | SVG | Design Tokens | Brand System</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
@@ -700,9 +722,9 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Exploración Serigráfica</span> para TEPA &amp; Bolsas Reutilizables</h3>
                 <p class="textdescriptions"><small><em>2015-2017</em></small></p>
-                <p class="card-text">De mis ilustraciones y composiciones abstractas en Illustrator nacieron patrones serigráficos que imprimí sobre portadas artesanales para TEPA y bolsas de género. Jugué con superposiciones de textura, color y geometría para crear piezas únicas que pasaron de bocetos a productos reales.</p>
+                <p class="card-text">Creé ilustraciones y composiciones abstractas en Illustrator para crear patrones serigráficos únicos — impresos sobre portadas artesanales para TEPA y bolsas reutilizables de género. Textura, color y geometría convertidos en productos físicos reales.</p>
+                <p class="card-text"><small><strong><em>De boceto a objeto:</em></strong> el proceso que más me recuerda que el diseño también vive fuera de la pantalla.</small></p>
                 <p class="opacity-75"><small>Serigrafía | Encuadernación Artesanal | Exploración Gráfica | Diseño de Patrones de Superficie</small></p>
-                <p class="card-text"><small><strong class="color-secondary">¿Por qué este proyecto?</strong> Porque di el salto de mis bocetos de exploración libre a productos reales, probando que mi estilo gráfico funciona y conecta con la gente más allá de la pantalla.</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
                   <a class="mx-3 text-center a-small-sl" href="https://www.instagram.com/p/DMLlLzQyweZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" aria-label="Instagram" title="Ver en Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>
@@ -720,9 +742,9 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Proyecto de Título:</span> “El corazón, un órgano diferenciador”</h3>
                 <p class="textdescriptions"><small><em>2015</em></small></p>
-                <p class="card-text">Diseñé y monté una exposición interactiva donde cada latido cobra forma y sonido: bocetos técnicos y modelos 3D guiaban la mirada, mientras in situ convertíamos pulsos reales en mandalas sonoros. Así validé la teoría de “El corazón, un órgano diferenciador”.</p>
+                <p class="card-text"><strong><em>Diseñé y monté una exposición interactiva</em></strong> de título donde cada latido cardíaco se convertía en forma y sonido — bocetos técnicos, modelos 3D y mandalas sonoros generados en vivo a partir de pulsos reales.</p>
+                <p class="card-text"><small>Un proyecto interdisciplinario que fusionó <strong><em>diseño, ciencia y arte</em></strong> — y que validó mi capacidad de investigar, prototipar y exponer una idea compleja de forma accesible y memorable.</small></p>
                 <p class="opacity-75"><small>Graphic Designer | Research Researcher | Proyecto de Título | Bio Art</small></p>
-                <p class="card-text"><small><strong class="color-primary">¿Por qué este proyecto?</strong> Porque aquí demostré cómo transformar una idea imposible en una expo interactiva que une arte, ciencia y tecnología, validando mi capacidad de investigación y mi pasión por lo multidisciplinar.</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
                   <a class="mx-3 text-center a-small-sl" href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" aria-label="Instagram" title="Ver en Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>
@@ -741,9 +763,9 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">Espacio de Aire:</span> La huella invisible de Air Max</h3>
                 <p class="textdescriptions"><small><em>2013</em></small></p>
-                <p class="card-text">Para un concurso académico inspirado en la Nike Air Max, creé una escultura en papel Ivory que hace tangible el “vacío sostenido” de su suela. Con cuño seco imprimí su huella real y conservé el relieve original para evocar esa comodidad que “no se siente” al caminar.</p>
+                <p class="card-text">Para un concurso académico inspirado en la Nike Air Max, creé una escultura en papel Ivory que hace tangible lo intangible — el <strong><em>"vacío sostenido"</em></strong> de la suela. Con cuño seco imprimí la huella real y conservé el relieve original para evocar la comodidad que no se siente al caminar pero se nota cuando no está.</p>
+                <p class="card-text"><small>Técnica artesanal al servicio de un concepto de producto.</small></p>
                 <p class="opacity-75"><small>Arte Experiencial | Cuño Seco | Energía en Movimiento | Obra de Arte | Escultura en Papel</small></p>
-                <p class="card-text"><small><strong class="color-secondary">¿Por qué este proyecto?</strong> Porque convertí un concepto intangible—el aire encapsulado en la suela—en una escultura de papel viva y poética, mostrando mi dominio de técnicas artesanales y mi resolución creativa.</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
                   <a class="mx-3 text-center a-small-sl" href="https://www.instagram.com/p/DMMJOIuMC7Z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" aria-label="Instagram" title="Ver en Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>
@@ -761,7 +783,8 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Tributo a Matta-Clark:</span> exhibición en Bellas Artes</h3>
                 <p class="textdescriptions"><small><em>2013</em></small></p>
-                <p class="card-text">Me inspiré en los “building cuts” de Gordon Matta‑Clark para crear una maqueta en MDF de 1 mm. Con cada corte y sombra, aparece una arquitectura renovada que habla de transformación. Esta pieza, elegida para exhibirse en Bellas Artes, marcó mi debut como artista multidisciplinar.</p>
+                <p class="card-text"><strong><em>Inspirada en los "building cuts" de Gordon Matta-Clark,</em></strong> construí una maqueta en MDF de 1mm donde cada corte y sombra revelan una arquitectura renovada — una metáfora de transformación.</p>
+                <p class="card-text"><small><strong><em>La pieza fue seleccionada para exhibirse en Bellas Artes.</em></strong> Mi primer puente entre diseño y obra de arte, y el debut que me mostró que mi voz creativa existe más allá de la pantalla.</small></p>
                 <p class="opacity-75"><small>Obra de Arte | Research Researcher | Bellas Artes | Matta-Clark Tribute</small></p>
                 <p class="card-text"><small><strong class="color-primary">¿Por qué este proyecto?</strong> Porque fue mi primer puente entre diseño y arte intervencionista, me reveló mi voz creativa y la poesía escondida en la estructura y la sombra.</small></p>
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
@@ -781,9 +804,9 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-primary">TEPA</span> Encuaderna tu mundo</h3>
                 <p class="textdescriptions"><small><em>2015-2017</em></small></p>
-                <p class="card-text">En TEPA lancé mi marca de encuadernación artesanal: exploré +11 técnicas (belga, copto, japonesa…), diseñé logo, stands y material promocional, vendí en ferias y fortalecí mi perfil como emprendedora creativa.</p>
-                <p class="opacity-75"><small>Emprendimiento Creativo | Brand System | Product Design | Encuadernación Artesanal | Diseño de Producto</small></p>
-                <p class="card-text"><small><strong class="color-secondary">¿Por qué este proyecto?</strong> Porque fue mi laboratorio de emprendimiento: me obligó a dominar cada fase —de la creación de marca al diseño del producto y la venta directa— y reforzó mis habilidades de diseño, estrategia y empatía con el cliente.</small></p>
+                <p class="card-text"><strong><em>En TEPA lancé mi marca de encuadernación artesanal</em></strong> — exploré más de 11 técnicas (belga, copto, japonesa y más), diseñé el logo, stands y material promocional, y vendí en ferias fortaleciendo mi perfil como emprendedora creativa.</p>
+                <p class="card-text"><small><strong><em>Un laboratorio de emprendimiento donde dominé cada fase:</em></strong> marca, producto, comunicación y venta directa.</small></p>
+                <p class="opacity-75"><small>Emprendimiento Creativo | Brand System | Product Design | Encuadernación Artesanal | Diseño de Producto</small></p>                
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
                   <a class="mx-3 text-center a-small-sl" href="https://www.instagram.com/p/DMOQJo-y4vL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" aria-label="Instagram" title="Ver en Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>
@@ -800,9 +823,9 @@
               <div class="card-body">
                 <h3 class="card-title"><span class="color-secondary">Cartel</span> “Venezia Venezia”</h3>
                 <p class="textdescriptions"><small><em>2013</em></small></p>
-                <p class="card-text">Como diseñadora, transformé la crítica de Alfredo Jaar sobre una Venecia hundiéndose en un cartel 3D: las arrugas del papel se alzan como olas y, desde esas heridas, surge la máscara veneciana flotando, afirmando que la cultura persiste y renace desde su propio caos.</p>
-                <p class="opacity-75"><small>Cartel 3D | Graphic Designer | Conceptual Artist</small></p>
-                <p class="card-text"><small><strong class="color-primary">¿Por qué este proyecto?</strong> Porque me retó a convertir una crítica arquitectónica en una experiencia poética y palpable: creando un cartel 3D convertí el mensaje en una experiencia tangible, y luego lo llevé a flyers y afiches para demostrar cómo mi trabajo puede mantenerse impactante en cualquier formato.</small></p>
+                <p class="card-text">Transformé la crítica de <strong><em>Alfredo Jaar</em></strong> sobre una Venecia que se hunde en un cartel 3D — las arrugas del papel como olas, la máscara veneciana emergiendo desde las heridas. La cultura que persiste desde su propio caos.</p>
+                <p class="card-text"><small>Un ejercicio de diseño conceptual donde el mensaje y la técnica son inseparables — y que luego se llevó a flyers y afiches para demostrar que el concepto se sostiene en cualquier formato.</small></p>
+                <p class="opacity-75"><small>Cartel 3D | Graphic Designer | Conceptual Artist</small></p>                
                 <p class="border-top pt-2 mb-0 text-center"><small>Puedes ver más de este proyecto en:</small></p>
                 <div class="justify-content-center list-unstyled d-flex py-1">
                   <a class="mx-3 text-center a-small-sl" href="https://www.instagram.com/p/DMOgSTsyD6m/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" aria-label="Instagram" title="Ver en Instagram" data-bs-toggle="tooltip"><i class="fab fa-instagram"></i></a>

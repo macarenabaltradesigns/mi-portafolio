@@ -103,6 +103,15 @@
     font-family: 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-weight: bold;
   }
+
+  .card-contact-w p strong, .card-contact-w li strong{
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+  }
+
+  p strong, li strong{
+    color: #e7e7e7;
+  }
   
   .fontmontserrat { 
     font-family: 'Montserrat'; 
@@ -156,6 +165,10 @@
   /* =========================
      Utilities / Helpers
      ========================= */
+  p, li {
+    color: var(--color-muted);
+  }
+
   .fs-03 { 
     font-size: 3rem; 
   }

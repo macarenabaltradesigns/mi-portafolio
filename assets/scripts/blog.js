@@ -45,9 +45,9 @@
     // construir HTML visual usando nodos (evitar innerHTML)
     const spanMuted = document.createElement('span');
     spanMuted.className = 'opacity-70';
-    spanMuted.textContent = (opts.headerPrefix || 'Aprendizajes /');
+    spanMuted.textContent = (opts.headerPrefix || 'Aprendizajes &');
     h2.appendChild(spanMuted);
-    h2.appendChild(document.createTextNode(' ' + (opts.headerMain || 'Blog')));
+    h2.appendChild(document.createTextNode(' ' + (opts.headerMain || 'Reflexiones')));
 
     const pIntro = document.createElement('p');
     pIntro.className = 'fw-medium';
@@ -197,13 +197,13 @@
     // configuración del primer bloque
     const blog1 = buildBlogSection({
       ariaLabel: 'Blog Aprendizajes 1',
-      headerPrefix: 'Aprendizajes /',
-      headerMain: 'Blog',
-      headerDescription: 'Reflexiones breves sobre diseño, procesos y lo que aprendí trabajando con personas y marcas.',
+      headerPrefix: 'Aprendizajes &',
+      headerMain: 'Reflexiones',
+      headerDescription: 'Lo que pienso sobre diseño, UX y lo que realmente pasa entre el brief y el entregable — desde +9 años de proyectos reales.',
       hero: {
         title: 'Colabora con IA:',
         lead: ' en tu Proceso de Diseño',
-        description: 'La IA no reemplaza al diseñador; libera horas repetitivas para que tú diseñes, prototipes y produzcas contenido con intención.',
+        description: 'La IA no reemplaza al diseñador — te devuelve tiempo para lo que importa. Cómo la incorporo en mi proceso real para investigar, prototipar y producir con más velocidad sin perder criterio.',
         href: 'landing-blog-article.html?article=12',
         articleId: 'article-12',
         ctaText: 'Leer más →'
@@ -213,7 +213,7 @@
           iconClass: 'fa-regular fa-newspaper color-green opacity-60',
           title: 'Investigación UX:',
           titleSpan: ' mapas, A/B y observación en contexto',
-          description: 'Mapea, observa y prueba con contenidos reales: métodos UX que redujeron tiempos, subieron clics y aumentaron reservas en casos reales.',
+          description: 'Los métodos de investigación que realmente usé en proyectos — cómo el journey mapping, el A/B testing y la observación en contexto redujeron tiempos, subieron clics y aumentaron conversiones en casos concretos.',
           href: 'landing-blog-article.html?article=6',
           articleId: 'article-6',
           ctaText: 'Leer más →'
@@ -222,7 +222,7 @@
           iconClass: 'fa-regular fa-newspaper color-secondary opacity-60',
           title: 'El corazón, un órgano diferenciador:',
           titleSpan: ' de latido a mándala visual',
-          description: 'Un proyecto que traduce señales cardíacas en mándalas sonoras y visuales —prototipos y validación que muestran cómo datos, diferentes disciplinas y diseño se encuentran.',
+          description: 'Un proyecto de diseño donde datos biométricos cardíacos se convierten en mándalas visuales y sonoros — un caso de prototipado interdisciplinario que muestra cómo el diseño puede encontrarse con la ciencia y el arte.',
           href: 'landing-blog-article.html?article=3',
           articleId: 'article-3',
           ctaText: 'Leer más →'
@@ -235,13 +235,13 @@
 
     const blog2 = buildBlogSection({
       ariaLabel: 'Blog Aprendizajes 2',
-      headerPrefix: 'Aprendizajes /',
-      headerMain: 'Blog',
-      headerDescription: 'Reflexiones breves sobre diseño, procesos y lo que aprendí trabajando con personas y marcas.',
+      headerPrefix: 'Aprendizajes &',
+      headerMain: 'Reflexiones',
+      headerDescription: 'Lo que pienso sobre diseño, UX y lo que realmente pasa entre el brief y el entregable — desde +9 años de proyectos reales.',
       hero: {
         title: 'ROI en UX:',
         lead: ' demuestra con números el valor del diseño',
-        description: 'No pidas presupuesto sin números: te muestro cómo investigación y diseño generan conversiones y ahorros reales —de forma práctica y humana.',
+        description: 'El diseño sin métricas es decoración. Te muestro cómo traducir investigación y decisiones de diseño en conversiones, ahorros y argumentos que un CEO entiende — con ejemplos reales de mis proyectos.',
         href: 'landing-blog-article.html?article=8',
         articleId: 'article-8',
         ctaText: 'Leer más →'
@@ -251,7 +251,7 @@
           iconClass: 'fa-regular fa-newspaper color-green opacity-60',
           title: 'Brand Kit:',
           titleSpan: ' consigue coherencia visual',
-          description: 'Un Brand Kit bien hecho convierte improvisación en velocidad: organiza los activos, reduce errores y libera tiempo para crear.',
+          description: 'Un Brand Kit bien documentado convierte horas de retrabajo en minutos de decisión — cómo lo estructuro para que cualquier equipo lo use desde el primer día.',
           href: 'landing-blog-article.html?article=10',
           articleId: 'article-10',
           ctaText: 'Leer más →'
@@ -259,9 +259,9 @@
         {
           
           iconClass: 'fa-regular fa-newspaper color-secondary opacity-60',
-          title: 'Laboratorio de Formas:',
+          title: 'Laboratorio de Formas: texturas y micro-prototipos para interfaces con carácter',
           lead: 'experimenta, documenta, integra',
-          description: 'Sesiones cortas para crear texturas, relieves y micro-prototipos que enriquecen interfaces y branding sin romper coherencia.',
+          description: 'Cómo experimento con texturas, relieves y formas para enriquecer interfaces y sistemas de marca — sin romper coherencia visual ni salir del sistema.',
           href: 'landing-blog-article.html?article=4',
           articleId: 'article-4',
           ctaText: 'Leer más →'
