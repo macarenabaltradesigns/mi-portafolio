@@ -390,7 +390,7 @@
     ogImage: "mi-portafolio/assets/img/og-images/og-article-2@2x.webp",
     aboutHTML: `
       <span class="opacity-70">
-        Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+        Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
         He estandarizado documentos y Brand Systems en organizaciones de distintos tamaños.
         Cuando no diseño, pruebo paletas con mi jugo de zanahoria favorito en mano.
       </span>
@@ -646,7 +646,7 @@
     ogImage: "mi-portafolio/assets/img/og-images/og-article-3@2x.webp",
     aboutHTML: `
       <span class="opacity-70">
-        Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+        Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
         En "El corazón" confirmé que la intuición, acompañada de experimentos y registros,
         puede transformarse en experiencia pública.
         Cuando no diseño, bosquejo ideas con un chocolate caliente con naranja.
@@ -999,163 +999,304 @@
   },
   
   // ─────────────────────────────────────────────────────────────────────────────
- 
+
     "4": {
       id: 4,
       titleHTML: `
-        Laboratorio de Formas: 
-        <span class="opacity-70"> experimentación creativa aplicada al diseño</span>
+        Laboratorio de Formas:
+        <span class="opacity-70">experimentación creativa aplicada al diseño</span>
       `,
-      date: "25 de julio, 2025",
+      date: "24 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo4/img-article-4-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo4/img-article-4-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-4@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
-          En mi Laboratorio de Formas transformo materiales y técnicas en recursos visuales aplicados a UX, UI y branding.
-          Cuando no experimento, recolecto texturas urbanas para mi próximo prototipo.
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
+          En mi Laboratorio de Formas transformo materiales y técnicas en recursos visuales
+          aplicados a UX, UI y branding. Cuando no experimento, recolecto texturas urbanas
+          para mi próximo prototipo.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-4-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>En productos vivimos entre guías, sprints y entregables. Eso da seguridad, pero a veces empobrece el lenguaje visual. Un Laboratorio de Formas es una sesión corta y periódica para probar materiales, técnicas y fotografía con propósito: produce activos reales (texturas, relieves, micro-protótipos) que enriquecen interfaces, branding y narrativas sin romper coherencia.</p>
+        <p>
+          Un día arrugué papel, lo fotografié con luz rasante y terminé usando esa textura
+          en una pieza digital tres semanas después. No lo planeé. Pasó porque tenía
+          una carpeta de experimentos y el ojo entrenado para reconocer cuándo algo servía.
+        </p>
+        <p>
+          Eso es el Laboratorio de Formas: tiempo reservado para probar materiales sin
+          presión de entrega. Papel, tintas, luz, cartón. Ver qué pasa.
+          Y documentarlo para que no se pierda.
+        </p>
+        <p>
+          Lo que aprendí: los plazos te hacen eficiente, pero también te hacen predecible.
+          Una sesión al mes de experimentación libre es suficiente para que el trabajo
+          visual no siempre se vea igual.
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>La presión por cumplir plazos empuja a repetir patrones previsibles y perder oportunidades visuales. Si la experimentación carece de proceso, los hallazgos quedan en fotos desordenadas o ideas olvidadas. La solución: un flujo simple —experimentar, documentar, digitalizar e integrar— que convierta experimentos en recursos reutilizables.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">Una tensión frecuente: seguir el camino seguro o probar lo nuevo.</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Cuando el calendario aprieta, repites lo que funcionó la vez anterior.
+          Eso no es malo — es racional. Pero acumulado en el tiempo, produce un lenguaje
+          visual que se vuelve limitado. Mismo tipo de composición, misma paleta segura,
+          mismas decisiones tipográficas.
+        </p>
+        <p>
+          El Laboratorio es nutrir el trabajo desde otro lugar.
+          Y la diferencia entre un experimento que queda olvidado y uno que termina
+          en un entregable es tener un flujo claro: <strong><em>experimentar, fotografiar,
+          documentar, digitalizar, integrar.</em></strong>
+        </p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          Una tensión frecuente: seguir el camino seguro o probar lo nuevo.
+        </p>
+    
         <hr class="my-5">
+    
         <h4 class="mb-3">Mini-casos</h4>
+    
         <ul>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DMOgSTsyD6m/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Venezia Venezia — Cartel</a></em></strong>
-            <br><strong>Reto:</strong> traducir una crítica arquitectónica/ambiental en una pieza impactante.
-            <br><strong>Acción:</strong> experimentar con pliegues y arrugas en papel para generar volúmenes; fotografiar y editar variantes.
-            <br><strong>Resultado:</strong> piezas impresas y digitales con textura propia, listas para flyers y afiches.
-            <p><strong><em>Aprendizaje:</em></strong> una textura física puede transformarse en motivo visual coherente en múltiples soportes.</p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DMOgSTsyD6m/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Venezia Venezia — Cartel</a>
+            </em></strong>
+            <br><strong>Reto:</strong> traducir una crítica arquitectónica y ambiental en una pieza impactante.
+            <br><strong>Acción:</strong> pliegues y arrugas en papel para generar volúmenes físicos;
+            fotografía de las variantes; edición y aplicación digital.
+            <br><strong>Resultado:</strong> piezas con textura propia, listas para flyers y afiches.
+            <p>
+              <strong><em>Aprendizaje:</em></strong> lo que el papel hace accidentalmente,
+              el software tarda en imitar. A veces el accidente es la solución.
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DMLlLzQyweZ/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">TEPA — Exploración serigráfica</a></em></strong>
-            <br><strong>Reto:</strong> crear identidad propia para portadas y bolsos usando técnicas artesanales.
-            <br><strong>Acción:</strong> fotografiar objetos con luz rasante para revelar relieves; digitalizar ilustraciones y generar patterns.
-            <br><strong>Resultado:</strong> texturas únicas aplicadas en portadas y material promocional digital.
-            <p><strong><em>Aprendizaje:</em></strong> la observación de material y luz produce detalles auténticos y diferenciadores.</p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DMLlLzQyweZ/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >TEPA — Exploración serigráfica</a>
+            </em></strong>
+            <br><strong>Reto:</strong> identidad propia para portadas y bolsos con técnicas artesanales.
+            <br><strong>Acción:</strong> fotografía con luz rasante para revelar relieves;
+            digitalización de ilustraciones; generación de patterns desde esas capturas.
+            <br><strong>Resultado:</strong> texturas únicas en portadas y material promocional digital.
+            <p>
+              <strong><em>Aprendizaje:</em></strong> la luz rasante revela lo que la luz frontal aplana.
+              Cambiar el ángulo cambia el material.
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Proyecto de título — “El corazón, un órgano diferenciador”</a></em></strong>    
-            <br><strong>Reto:</strong> convertir frecuencia cardiaca en imagen y sonido con propósito artístico y comunicacional.
-            <br><strong>Acción:</strong> registro in situ, transformación de señales en mándalas y prototipado de aplicaciones gráficas para soportes físicos/digitales.
-            <br><strong>Resultado:</strong> componentes visuales con carga emocional que reforzaron la presentación del proyecto.
-            <p><strong><em>Aprendizaje:</em></strong> datos bien traducidos al diseño aumentan la carga narrativa y el impacto.</p>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Proyecto de título — "El corazón, un órgano diferenciador"</a>
+            </em></strong>
+            <br><strong>Reto:</strong> convertir frecuencia cardiaca en imagen y sonido
+            con propósito artístico y comunicacional.
+            <br><strong>Acción:</strong> registro in situ, transformación de señales en mándalas,
+            prototipado de aplicaciones gráficas para soportes físicos y digitales.
+            <br><strong>Resultado:</strong> componentes visuales con carga emocional
+            que reforzaron la presentación del proyecto.
+            <p>
+              <strong><em>Aprendizaje:</em></strong> cuando los datos se traducen bien al diseño,
+              no son decoración. Son el argumento.
+            </p>
           </li>
+    
         </ul>
+    
         <hr class="my-5">
+    
         <h2 class="mt-5 fontpoppins opacity-100">Cómo montar tu Laboratorio de Formas</h2>
-        <h4 class="mb-3">1. Reserva el tiempo — 4 horas, 1 vez al mes.</h4>
-        <ul>
-          <li>Materiales básicos: papeles variados, cartón, tintas, pegamentos, cuchillas y una cámara o móvil con buena cámara.</li>
-        </ul>
+    
+        <p>Seis pasos. Sin presupuesto grande, sin equipo especializado.</p>
+    
+        <h4 class="mb-3">1. Reserva 4 horas, una vez al mes.</h4>
+        <p>
+          Materiales básicos: papeles variados, cartón, tintas, pegamentos, cuchillas (corta cartón o tiptop)
+          y un móvil con buena cámara. Lo que ya tienes en casa suele alcanzar.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">2. Prueba 3 técnicas — por sesión.</h4>
-        <ul>
-          <li>Elige técnicas contrastantes (plegado, serigrafía, relieve con gel) y prioriza la que aporte mayor sorpresa o aplicabilidad.</li>
-        </ul>
+    
+        <h4 class="mb-3">2. Prueba 3 técnicas por sesión.</h4>
+        <p>
+          Elige técnicas contrastantes — plegado, serigrafía, relieve con gel.
+          Quédate con la que más sorprenda. La sorpresa es la señal de que algo vale explorar.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">3. Fotografía</h4>
-        <ul>
-          <li>Captura 3–6 versiones por pieza (luz lateral, rasante, difusa). Estas fotos serán la base para digitalizar texturas y generar assets digitales.</li>
-        </ul>
+    
+        <h4 class="mb-3">3. Fotografía bien.</h4>
+        <p>
+          Captura 3 a 6 versiones por pieza: luz lateral, rasante, difusa.
+          Estas fotos son la materia prima para digitalizar. La luz rasante es tu aliada.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">4. Documenta en caliente</h4>
-        <ul>
-          <li>Anota: qué sorprendió, posibles usos en UI, y la emoción que transmite. Usa notas de voz, fotos y un cuaderno.</li>
-        </ul>
+    
+        <h4 class="mb-3">4. Documenta en caliente.</h4>
+        <p>
+          Anota qué sorprendió, posibles usos en UI y qué emoción transmite.
+          Notas de voz, fotos, cuaderno. Si no lo registras ahora, lo pierdes —
+          la memoria edita sin avisar.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">5. Traduce a digital</h4>
-        <ul>
-          <li>Escanea/fotografía → limpiar → vectorizar si hace falta → probar como fondo, botón, icono o micro-animación. Regla práctica: 1 experimento → 1 componente UI.</li>
-        </ul>
+    
+        <h4 class="mb-3">5. Traduce a digital.</h4>
+        <p>
+          Escanea o fotografía → limpia → vectoriza si hace falta → prueba como fondo,
+          botón, icono o micro-animación. Una regla simple: 1 experimento, 1 componente UI.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">6. Clasifica e integra</h4>
-        <ul>
-          <li>Guarda recursos en “Activos Experimentales”; define reglas de uso y tags (ej.: textura_rugosa_v1). Si procede, transforma hallazgos en tokens visuales.</li>
-        </ul>
+    
+        <h4 class="mb-3">6. Clasifica e integra.</h4>
+        <p>
+          Guarda en "Activos Experimentales" con tags claros (ej.: textura_rugosa_v1).
+          Define cuándo y cómo usar cada recurso. Así el experimento personal
+          pasa a ser parte del sistema.
+        </p>
+    
         <hr class="my-5">
-  
-        <!-- Banner E-Book Branding --> 
+    
+        <!-- Banner E-Book Branding -->
         <div id="banner-ebook-free-branding" class="d-none"></div>
         <!-- Banner E-Book Branding -->
-
-        <h2 class="mt-5 fontpoppins opacity-100">Beneficios concretos</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Para qué sirve en la práctica</h2>
         <ul>
-          <li>Diferenciación estética sin perder coherencia.</li>
-          <li>Elementos reutilizables (texturas, iconos, micro-animaciones) que aceleran entregas.</li>
+          <li>Diferenciación visual sin romper coherencia de marca.</li>
+          <li>Assets reutilizables — texturas, iconos, micro-animaciones — que aceleran entregas.</li>
           <li>Material auténtico para campañas y storytelling.</li>
-          <li>Mayor conexión emocional con usuarios gracias a recursos sensoriales.</li>
+          <li>Recursos sensoriales que ningún banco de imágenes tiene.</li>
         </ul>
+    
         <hr class="my-5">
+    
         <h2 class="mt-5 fontpoppins opacity-100">Galería de fotos</h2>
+    
         <!-- Gallery Article -->
         <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                  <div class="text-center">
-                    <figure>
-                        <img src="assets/img/gallery/img-gallery-article4-1-500@2x.webp" alt="Textura de pintura" class="img-article-gallery"/>
-                        <figcaption><small><em>Textura de pintura — témpera y color.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article4-2-500@2x.webp" alt="Composición digital sobre diferentes fotos" class="img-article-gallery"/>
-                        <figcaption><small><em>Composición digital sobre varias fotos.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article4-3-500@2x.webp" alt="Zoom a cartel 3d" class="img-article-gallery"/>
-                        <figcaption><small><em>Zoom al cartel 3D (Venezia).</em></small></figcaption>
-                      </figure>
-                  </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="text-center">
+                <figure>
+                  <img src="assets/img/gallery/img-gallery-article4-1-500@2x.webp" alt="Textura de pintura" class="img-article-gallery"/>
+                  <figcaption><small><em>Textura de pintura — témpera y color.</em></small></figcaption>
+                </figure>
+                <figure>
+                  <img src="assets/img/gallery/img-gallery-article4-2-500@2x.webp" alt="Composición digital sobre diferentes fotos" class="img-article-gallery"/>
+                  <figcaption><small><em>Composición digital sobre varias fotos.</em></small></figcaption>
+                </figure>
+                <figure>
+                  <img src="assets/img/gallery/img-gallery-article4-3-500@2x.webp" alt="Zoom a cartel 3d" class="img-article-gallery"/>
+                  <figcaption><small><em>Zoom al cartel 3D (Venezia).</em></small></figcaption>
+                </figure>
               </div>
-              <div class="col-12 col-md-6">
-                  <div class="text-center">
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article4-4-500@2x.webp" alt="Superposición de fotos" class="img-article-gallery"/>
-                        <figcaption><small><em>Superposición de fotografías.</em></small></figcaption>
-                      </figure>
-                      <figure>
-                        <img src="assets/img/gallery/img-gallery-article4-5-500@2x.webp" alt="Capa vectorial sobre fotografias complejas" class="img-article-gallery"/>
-                        <figcaption><small><em>Capa vectorial sobre fotografías complejas.</em></small></figcaption>
-                      </figure>
-                  </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="text-center">
+                <figure>
+                  <img src="assets/img/gallery/img-gallery-article4-4-500@2x.webp" alt="Superposición de fotos" class="img-article-gallery"/>
+                  <figcaption><small><em>Superposición de fotografías.</em></small></figcaption>
+                </figure>
+                <figure>
+                  <img src="assets/img/gallery/img-gallery-article4-5-500@2x.webp" alt="Capa vectorial sobre fotografias complejas" class="img-article-gallery"/>
+                  <figcaption><small><em>Capa vectorial sobre fotografías complejas.</em></small></figcaption>
+                </figure>
               </div>
             </div>
           </div>
-          <!-- Gallery Article -->
-        <hr class="my-5">
-        <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Necesito mucho presupuesto?</strong></p>
-            <p>No. Materiales básicos y un móvil bastan. La clave es disciplina y flujo claro de traducción a digital.</p>
-            <hr>
-            <p><strong>¿Cómo evito romper la coherencia de la marca?</strong></p>
-            <p>Define reglas de uso antes de integrar: cuándo aplicar, contrastes permitidos y requisitos de accesibilidad.</p>
-            <hr>
-            <p><strong>¿Qué métricas conviene medir?</strong></p>
-            <p>CTR (tasa de clics) de piezas que usan el activo, tiempo de producción por asset, tasa de reutilización y feedback cualitativo.</p>
         </div>
+        <!-- Gallery Article -->
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
+    
+        <div class="bg-canva p-5">
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Necesito mucho presupuesto?</strong></p>
+          <p>
+            No. Lo que importa es tener un flujo claro de traducción a digital,
+            no la calidad del papel. Un móvil con buena cámara y disciplina son suficientes.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Cómo evito romper la coherencia de la marca?</strong></p>
+          <p>
+            Define reglas de uso antes de integrar: cuándo aplica el recurso,
+            contrastes permitidos y requisitos de accesibilidad.
+            El experimento entra al sistema con reglas, no sin ellas.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Qué métricas conviene medir?</strong></p>
+          <p>
+            Tasa de Clics (CTR) de piezas que usan el activo, tiempo de producción por asset
+            y tasa de reutilización. Si el recurso se reutiliza, la sesión valió la pena.
+          </p>
+        </div>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 aprendizajes clave</h2>
         <ol>
-          <li>La experimentación dirigida produce recursos aplicables y distintivos.</li>
-          <li>Fotografiar y documentar en caliente evita perder hallazgos valiosos.</li>
-          <li>Integrar resultados en el design system transforma descubrimientos en recursos escalables.</li>
+          <li>
+            La experimentación con dirección produce recursos aplicables,
+            no solo fotos en una carpeta que nadie vuelve a abrir.
+          </li>
+          <li>
+            Documentar en el momento es la diferencia entre un hallazgo y un recuerdo vago.
+          </li>
+          <li>
+            Integrar al design system transforma el descubrimiento personal en recurso de equipo.
+          </li>
         </ol>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“La simplicidad consiste en restar lo obvio y añadir lo significativo.” — <em>John Maeda</em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "La simplicidad consiste en restar lo obvio y añadir lo significativo." — <em>John Maeda</em>
+        </p>
+    
         <hr class="my-5">
-        <p>Practicar en un Laboratorio de Formas no es escapar del trabajo: es enriquecerlo. Pequeños experimentos bien documentados se convierten en componentes, texturas y narrativas que elevan la experiencia del producto.</p>   
+    
+        <p>
+          Experimentar no es un lujo de cuando hay tiempo libre. Es parte del trabajo,
+          aunque no aparezca en ningún brief. Lo que sale de una sesión de Laboratorio
+          tarde o temprano aterriza en algo real — si tienes el sistema para capturarlo.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "3", title: "El corazón, un órgano diferenciador— proyecto de título" },
+        { id: "3", title: "El corazón, un órgano diferenciador — proyecto de título" },
         { id: "9", title: "Herramientas de Diseño Inteligentes" },
         { id: "5", title: "Antes de llamarlo UX: diseño, personas y criterio profesional" }
       ],
@@ -1174,110 +1315,229 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "5": {
       id: 5,
       titleHTML: `
-        Antes de llamarlo UX: 
-        <span class="opacity-70"> 
-        lo que aprendí sobre diseño, personas y criterio profesional en el voluntariado
+        Antes de llamarlo UX:
+        <span class="opacity-70">
+          lo que aprendí sobre diseño, personas y criterio profesional en el voluntariado
         </span>
       `,
-      date: "25 de julio, 2025",
+      date: "24 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo5/img-article-5-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo5/img-article-5-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-5@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong> 
-          Me titulé en Diseño Gráfico en 2015. En 2017 cursé un diplomado Front-End Jr. (Laboratoria Chile) y, desde entonces, consolidé experiencia en UX/UI en roles profesionales y como freelance, complementando mi formación con cursos autodidactas (Udemy, Domestika, YouTube). Mis primeros voluntariados como estudiante fueron el semillero de prácticas que hoy muestro con orgullo en mi portafolio.
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
+          Me titulé en Diseño Gráfico en 2015. En 2017 cursé un diplomado Front-End Jr.
+          (Laboratoria Chile) y desde entonces consolidé experiencia en UX/UI en roles
+          profesionales y como freelance. Mis primeros voluntariados como estudiante
+          fueron el semillero de prácticas que hoy muestro con orgullo en mi portafolio.
           Cuando no diseño, exploro visualizaciones de datos con un café en mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-5-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>Durante mucho tiempo pensé que mi experiencia en voluntariados era solo eso: participación, apoyo y aprendizaje personal. Hoy entiendo que ahí —sin llamarlo UX— empecé a desarrollar una forma de observar, priorizar y tomar decisiones que definiría mi camino profesional.</p>
-        <p><strong>Mis primeros voluntariados fueron un laboratorio:</strong> sin terminología técnica ni procesos formales, ejercité la curiosidad, la sensibilidad por las personas, el orden en el caos y la capacidad de iterar con lo que había.</p>
-        <p>Con el tiempo —tras titularme en 2015, cursar un diplomado Front-End Jr. en 2017 (Laboratoria Chile) y profundizar de manera autodidacta y profesional en UX/UI— entendí que esas prácticas no eran casuales. <strong>Eran señales tempranas de una manera de pensar</strong> que hoy aplico conscientemente en diseño de producto.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">Mirar hacia atrás fue clave: no para reescribir mi historia, sino para entenderla.</p>
+        <p>
+          Hay una versión de mi historia que podría empezar en 2015, cuando me titulé.
+          O en 2017, cuando terminé el diplomado Front-End. Pero si soy honesta,
+          hay decisiones que tomo hoy — cómo observo, cómo priorizo, cómo me muevo
+          en contextos que no tienen instrucciones — que se formaron mucho antes.
+          En voluntariados estudiantiles, sin terminología técnica y sin nadie
+          que me dijera qué hacer en cada paso.
+        </p>
+        <p>
+          <strong><em>Tardé años en entender que eso no era anécdota.</em> Era entrenamiento.</strong>
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mb-3">Mini-casos</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Hay una trampa en cómo se cuenta la trayectoria profesional: todo lo que
+          ocurrió antes del primer trabajo formal tiende a descartarse como experiencia
+          irrelevante. Pero algunas de las competencias más difíciles de enseñar
+          — autonomía real, lectura de contexto, capacidad de iterar sin mapa —
+          no aparecen en ningún curso. Aparecen cuando te enfrentas a un problema
+          sin instrucciones y decides igual.
+        </p>
+        <p>
+          Mirar hacia atrás no fue nostalgia. Fue entender de dónde vienen decisiones
+          que hoy tomo con criterio profesional consciente.
+        </p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          Mirar hacia atrás fue clave: no para reescribir mi historia, sino para entenderla.
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
         <ul>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">AIESEC — Voluntariado (etapa estudiantil)</a>:</em></strong>
-            <br><strong>Reto:</strong> baja captación y materiales no estandarizados.
-            <br><strong>Acción:</strong> diseñé más de 15 piezas de reclutamiento, planifiqué el stand y coordiné equipos multiculturales.
-            <br><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa (registro interno).
-            <p><strong><em>Qué demuestra:</em></strong> investigación rápida, pruebas de diseño y medición de impacto (habilidades aplicables a UX).</p>
+            <strong><em>
+              <a
+                href="https://www.behance.net/gallery/230522186/Voluntariado-en-AIESEC-%2820122014%29"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >AIESEC — Voluntariado (etapa estudiantil)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> baja captación y materiales sin estandarizar.
+            <br><strong>Lo que hice:</strong> diseñé más de 15 piezas de reclutamiento,
+            planifiqué el stand y coordiné equipos multiculturales. Sin brief formal,
+            sin cliente que aprobara — solo un objetivo claro y recursos limitados.
+            <br><strong>Resultado:</strong> +30% en postulaciones respecto a la campaña previa
+            (registro interno).
+            <p>
+              <strong><em>Lo que demuestra hoy:</em></strong> investigación rápida, pruebas
+              de diseño y medición de impacto. Habilidades que aplico en cada proyecto UX,
+              con o sin ese nombre.
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Casona Minka — Manual OPL (proyecto profesional)</a>:</em></strong>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Casona Minka — Manual OPL (proyecto profesional)</a>:
+            </em></strong>
             <br><strong>Reto:</strong> tareas operativas sin documentación clara.
-            <br><strong>Acción:</strong> diseñé un Manual OPL y plantillas para onboarding.
+            <br><strong>Lo que hice:</strong> diseñé un Manual OPL y plantillas para onboarding.
+            Fui al hostal, observé cómo trabajaba el equipo, pregunté qué faltaba
+            y traduje eso a un documento que pudieran usar solos.
             <br><strong>Resultado:</strong> onboarding estandarizado y menor tiempo de adaptación.
-            <p><strong><em>Qué demuestra:</em></strong> capacidad para sistematizar procesos y traducir operaciones a documentación útil (UX writing / documentación de producto).</p>
+            <p>
+              <strong><em>Lo que demuestra hoy:</em></strong> capacidad para sistematizar procesos
+              y traducir operaciones a documentación útil — UX writing y documentación de producto
+              aplicados a un contexto real, no académico.
+            </p>
           </li>
+    
           <li class="mb-5">
-            <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">CBC — Diseño y prototipo de blog (proyecto profesional)</a>:</em></strong>
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >CBC — Diseño y prototipo de blog (proyecto profesional)</a>:
+            </em></strong>
             <br><strong>Reto:</strong> comunicación por email no escalable y mala experiencia móvil.
-            <br><strong>Acción:</strong> prototipé un blog en HTML5/CSS3, definí flujos editoriales y guías de publicación.
-            <br><strong>Resultado:</strong> canal centralizado para medir engagement.
-            <p><strong><em>Qué demuestra:</em></strong> soluciones escalables que integran diseño y front-end.</p>
-            <p class="textdescriptions"><small><strong>Cómo se evaluó:</strong> el blog permitió centralizar contenidos y habilitar métricas básicas de lectura y participación que antes no existían.</small></p>
+            <br><strong>Lo que hice:</strong> prototipé un blog en HTML5/CSS3, definí flujos
+            editoriales y guías de publicación para que el equipo pudiera operar sin depender
+            de diseño en cada post.
+            <br><strong>Resultado:</strong> canal centralizado con métricas de engagement
+            que antes no existían.
+            <p class="textdescriptions">
+              <small>
+                <strong>Cómo se evaluó:</strong> el blog permitió centralizar contenidos
+                y habilitar métricas básicas de lectura y participación que antes no existían.
+              </small>
+            </p>
+            <p>
+              <strong><em>Lo que demuestra hoy:</em></strong> soluciones escalables que integran
+              diseño y front-end. El prototipo en HTML no fue un extra — fue la razón
+              por la que el equipo pudo implementarlo desde el primer día.
+            </p>
           </li>
+    
         </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">"El liderazgo no está en mandar; está en conectar, inspirar y motivar a otros a actuar. La empatía es el mejor catalizador del cambio."</p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "El liderazgo no está en mandar; está en conectar, inspirar y motivar a otros a actuar.
+          La empatía es el mejor catalizador del cambio."
+        </p>
+    
         <hr>
-        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Educación formal vs. “ser profesional”</h4>
-        <ul>
-          <li><strong><em>La educación formal suma:</em></strong> estructura, lenguaje común, validación.</li>
-          <li>Pero <strong><em>no define</em></strong> por completo a la persona profesional.</li>
-          <li>Lo profesional <strong><em>también se construye desde la personalidad</em></strong>, la ética, la curiosidad, la forma de observar y de aportar valor.</li>
-        </ul>
-        <p>Esto <strong>no invalida el título</strong> (muy importante), sino que lo contextualiza como parte de un sistema mayor.</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Lo que aprendí</h2>
+    
+        <h4 class="mt-4 mb-3 fontpoppins opacity-100">La educación formal suma — pero no define sola.</h4>
+        <p>
+          El título estructura, valida y da lenguaje común. Pero la persona profesional
+          también se construye desde la personalidad, la ética y la forma de observar.
+          Eso no aparece en ningún pénsum académico (programa universitario) — se forma en los proyectos donde nadie
+          te está mirando y decides igual.
+        </p>
+    
         <hr>
-        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Personalidad, disfrute y creatividad</h4>
-        <ul>
-          <li>Los momentos de mayor creatividad suelen ocurrir <strong><em>cuando no estamos cumpliendo expectativas externas</em></strong>, sino explorando.</li>
-          <li>
-            Esos momentos dejan pistas sobre:
-            <ul>
-              <li>Cómo pensamos</li>
-              <li>Qué tipo de problemas nos energizan y motivan</li>
-              <li>Qué rol tomamos naturalmente en equipos</li>
-            </ul>
-          </li>
-        </ul>
+    
+        <h4 class="mt-4 mb-3 fontpoppins opacity-100">Los momentos sin presión externa son los más reveladores.</h4>
+        <p>
+          Cuando no estás cumpliendo expectativas ajenas sino explorando, aparecen señales
+          de cómo piensas, qué problemas te energizan y qué rol tomas naturalmente
+          en un equipo. En mi caso: observación antes de proponer, sistematizar lo que
+          otros dejan sin documentar, construir puentes entre lo que el cliente necesita
+          y lo que el equipo puede ejecutar.
+        </p>
+    
         <hr>
-        <h4 class="mt-5 mb-5 fontpoppins opacity-100">Ser autodidacta y autonomía</h4>
-        <ul>
-          <li>Ser autodidacta no es “aprender solo”.</li>
-          <li>Es <strong><em>hacerse responsable del propio crecimiento</em></strong>, decidir qué aprender, cuándo y por qué.</li>
-          <li>En <strong><em>voluntariados</em></strong>, esa autonomía aparece temprano: nadie te da un roadmap, tú lo construyes.</li>
-        </ul>
-        <p>La autonomía es una competencia profesional. El voluntariado es un entorno donde esa competencia se ejercita antes que en trabajos formales.</p>
-
+    
+        <h4 class="mt-4 mb-3 fontpoppins opacity-100">Ser autodidacta es hacerse responsable del propio crecimiento.</h4>
+        <p>
+          No es aprender solo. Es decidir qué aprender, cuándo y por qué.
+          En voluntariados, esa autonomía aparece antes que en cualquier trabajo formal:
+          nadie te da un roadmap, tú lo construyes. Eso es una competencia profesional,
+          no una carencia de estructura.
+        </p>
+    
         <!-- Banner E-Book Memoria Emocional -->
         <div id="banner-ebook-price-memoriaemocional" class="d-none"></div>
         <!-- Banner E-Book Memoria Emocional -->
-
+    
         <hr class="my-5">
+    
         <div class="bg-canva p-5">
           <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
           <p><strong>¿Qué hago si no hay datos previos para medir el impacto de mi experiencia?</strong></p>
-          <p>Cuando no existen métricas previas, el primer paso es <strong>crear una línea base mínima</strong>, aunque sea imperfecta. Puede ser una campaña puntual, un período corto (dos semanas) o una comparación cualitativa antes/después.</p>
-          <p>Medir no siempre es tener dashboards complejos; muchas veces es demostrar criterio, intención y capacidad de observación.</p>
+          <p>
+            Cuando no existen métricas previas, el primer paso es crear una línea base mínima,
+            aunque sea imperfecta. Puede ser una campaña puntual, un período corto
+            o una comparación cualitativa antes/después. Medir no siempre es tener dashboards:
+            muchas veces es demostrar criterio, intención y capacidad de observación.
+          </p>
+    
           <hr>
+    
           <p><strong>¿Cómo muestro que soy autodidacta sin sonar informal?</strong></p>
-          <p>Presenta proceso y resultados: problema → aprendizaje aplicado → resultado. Cursos y tutoriales suman cuando están conectados a decisiones reales.</p>
+          <p>
+            Presenta proceso y resultados: problema → aprendizaje aplicado → resultado.
+            Los cursos y tutoriales suman cuando están conectados a decisiones reales,
+            no cuando aparecen como lista de certificados.
+          </p>
+    
           <hr>
+    
           <p><strong>¿Cómo transformo recuerdos creativos en fortalezas profesionales?</strong></p>
-          <p>Revisa esos momentos donde creabas sin presión externa, desde el disfrute y la curiosidad.</p>
-          <p>Pregúntate:</p>
-          <p><em>¿qué estaba resolviendo?, ¿qué me motivaba?, ¿cómo pensaba?, ¿qué decisiones tomaba casi de forma intuitiva?</em></p>
-          <p>Ahí suelen aparecer <strong>patrones de personalidad</strong>: observación, empatía, síntesis, sensibilidad visual o pensamiento sistémico.</p>
-          <p>Cuando los reconoces y los conectas con tu práctica actual, esos recuerdos dejan de ser nostalgia y se convierten en <strong>criterio profesional consciente</strong>.</p>
+          <p>
+            Revisa los momentos donde creabas sin presión externa, desde el disfrute
+            y la curiosidad. Pregúntate: ¿qué estaba resolviendo?, ¿qué me motivaba?,
+            ¿qué decisiones tomaba casi de forma intuitiva? Ahí suelen aparecer patrones
+            de personalidad — observación, empatía, síntesis, pensamiento sistémico —
+            que cuando los reconoces y conectas con tu práctica actual, dejan de ser
+            nostalgia y se convierten en criterio profesional consciente.
+          </p>
         </div>
+    
         <!-- Gallery Article -->
         <hr class="my-5">
         <h2 class="mt-5 fontpoppins opacity-100">Galería de fotos</h2>
@@ -1286,15 +1546,15 @@
             <div class="col-12 col-md-6">
               <div class="text-center">
                 <figure>
-                  <img src="assets/img/gallery/img-gallery-article5-1-500@2x.webp" alt="Foto en stand" class="img-article-gallery" />
+                  <img src="assets/img/gallery/img-gallery-article5-1-500@2x.webp" alt="Foto en stand" class="img-article-gallery"/>
                   <figcaption><small><em>Stand de campaña — Outgoing Exchange.</em></small></figcaption>
                 </figure>
                 <figure>
-                  <img src="assets/img/gallery/img-gallery-article5-2-500@2x.webp" alt="Foto del set Transmisión de TV" class="img-article-gallery" />
+                  <img src="assets/img/gallery/img-gallery-article5-2-500@2x.webp" alt="Foto del set Transmisión de TV" class="img-article-gallery"/>
                   <figcaption><small><em>Foto del set Transmisión de TV — Entrevista a AIESEC.</em></small></figcaption>
                 </figure>
                 <figure>
-                  <img src="assets/img/gallery/img-gallery-article5-3-500@2x.webp" alt="Diseño de etiquetas de bienvenida" class="img-article-gallery" />
+                  <img src="assets/img/gallery/img-gallery-article5-3-500@2x.webp" alt="Diseño de etiquetas de bienvenida" class="img-article-gallery"/>
                   <figcaption><small><em>Diseño de etiquetas de bienvenida — Outgoing Exchange.</em></small></figcaption>
                 </figure>
               </div>
@@ -1302,11 +1562,11 @@
             <div class="col-12 col-md-6">
               <div class="text-center">
                 <figure>
-                  <img src="assets/img/gallery/img-gallery-article5-4-500@2x.webp" alt="Flyer campaña Outgoing Exchange" class="img-article-gallery" />
-                  <figcaption><small><em>Flyer campaña Outgoing Exchange</em></small></figcaption>
+                  <img src="assets/img/gallery/img-gallery-article5-4-500@2x.webp" alt="Flyer campaña Outgoing Exchange" class="img-article-gallery"/>
+                  <figcaption><small><em>Flyer campaña Outgoing Exchange.</em></small></figcaption>
                 </figure>
                 <figure>
-                  <img src="assets/img/gallery/img-gallery-article5-5-500@2x.webp" alt="Foto grupal de equipos internos de AIESEC." class="img-article-gallery" />
+                  <img src="assets/img/gallery/img-gallery-article5-5-500@2x.webp" alt="Foto grupal de equipos internos de AIESEC" class="img-article-gallery"/>
                   <figcaption><small><em>Foto grupal de equipos internos de AIESEC.</em></small></figcaption>
                 </figure>
               </div>
@@ -1314,17 +1574,28 @@
           </div>
         </div>
         <!-- Gallery Article -->
+    
         <hr class="my-5">
-        <p>Mis experiencias de voluntariado, vividas en etapa estudiantil, fueron mucho más que una colaboración puntual. Sin saberlo en ese momento, ahí empecé a practicar habilidades muy cercanas al <strong>pensamiento UX:</strong> observar antes de decidir, priorizar en contextos reales e iterar con los recursos disponibles.</p>
-        <p>No lo aprendí en una sala de clases. Surgió de hacerme responsable, de escuchar a otros, de intentar mejorar procesos que no funcionaban y de aprender mientras avanzaba.</p>
-        <p>Ser autodidacta y asumir responsabilidad es una forma de liderazgo. No es algo que deba esconderse o minimizarse; es algo que merece ser mostrado con claridad y orgullo.</p>
-        <p><strong>Un voluntariado es una escuela práctica:</strong> te enfrenta a problemas reales, equipos diversos y decisiones que importan. Por eso, tus experiencias desde la etapa estudiantil no deberían descartarse. Muchas competencias profesionales nacen ahí, cuando aún no estamos intentando <em>“ser profesionales”</em>, sino simplemente resolver, colaborar y crear desde la honestidad.</p>
-        <p>Mirar hacia atrás y reconocer esos momentos no es nostalgia: <strong>es autoconocimiento</strong>. Entender cómo aprendiste, cómo decidiste y qué disfrutaste hacer es una herramienta poderosa para <em>construir una carrera con sentido</em>. Porque, al final, <em><strong><u>el crecimiento profesional</u> <span class="color-green">no empieza con un título ni termina con él</span></strong></em>: se construye cuando conectas quién eres, cómo aprendes y el impacto que decides generar.</p>
+    
+        <p>
+          Mis voluntariados estudiantiles no fueron solo participación. Sin saberlo entonces,
+          ahí empecé a practicar algo muy cercano al <strong>pensamiento UX:</strong> observar antes de decidir,
+          priorizar con recursos limitados e iterar con lo que había.
+        </p>
+        <p>
+          No lo aprendí en una sala de clases. Surgió de hacerme responsable, de escuchar
+          a otros y de intentar mejorar procesos que no funcionaban — mientras avanzaba.
+          Eso es autonomía real. Y esa autonomía hoy la reconozco como una ventaja,
+          no como algo que deba justificar o minimizar.
+        </p>
+        <p>
+          <strong>El crecimiento profesional no empieza con un título ni termina con él:</strong>
+          se construye cuando conectas quién eres, cómo aprendes y el impacto que decides generar.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
-        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
+        { id: "4",  title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" },
+        { id: "7",  title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
         { id: "10", title: "Brand Kit Eficiente" }
       ],
       relatedProjects: [
@@ -1342,113 +1613,303 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "6": {
       id: 6,
       titleHTML: `
-        Investigación UX: 
-        <span class="opacity-70"> mapas, A/B y observación en contexto</span>
+        Investigación UX:
+        <span class="opacity-70">mapas, A/B y observación en contexto</span>
       `,
-      date: "18 de julio, 2025",
+      date: "24 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo6/img-article-6-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo6/img-article-6-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-6@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
-          En proyectos como CBC y Casona Minka aplico mapas de recorrido, pruebas por etapas y observación en contexto, siempre con la intención de disponer con el contenido real desde el primer prototipo. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de manera autodidacta.
-          Cuando no investigo, pruebo herramientas nuevas con una infusión de rooibos y hibiscos.
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
+          En proyectos como CBC y Casona Minka aplico mapas de recorrido, pruebas por etapas
+          y observación en contexto — siempre con contenido real desde el primer prototipo.
+          Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome
+          de manera autodidacta. Cuando no investigo, pruebo herramientas nuevas con
+          una infusión de rooibos y hibiscos.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-6-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>Vi a un usuario quedarse cinco minutos atascado en un formulario: clics erráticos, duda y finalmente abandono. Con investigación aplicada —mapas de recorrido, pruebas A/B controladas y observación en contexto— transformamos esas observaciones en cambios concretos: menos tiempo de tarea, +25% en CTR y +20% en reservas (registros internos). Trabajamos contenido desde el primer prototipo —titulares y microcopy— porque sin texto claro el diseño puede quedarse en pura decoración.</p>
+        <p>
+          Vi a un usuario quedarse cinco minutos atascado en un formulario.
+          Clics erráticos, duda visible, y finalmente abandono. El equipo creía
+          que el problema era el diseño. Cuando mapeamos el recorrido completo,
+          el problema era anterior: el flujo pedía información en un orden que
+          no tenía sentido para quien lo usaba, y el microcopy no ayudaba a entender
+          por qué cada campo importaba.
+        </p>
+        <p>
+          Lo que hicimos después — mapas de recorrido, A/B controlado, observación 1:1
+          en contexto — redujo ese tiempo de tarea de 15 a 6 minutos
+          y subió el CTR un 25% acumulado en las iteraciones siguientes (registros internos CBC).
+          En este artículo desgloso qué cambió, qué medimos y por qué el orden de las decisiones fue lo que hizo la diferencia.
+        </p>
+    
         <hr>
-        <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
-        <p>Muchas interfaces nacen de suposiciones: pantallas atractivas que ocultan pasos confusos. Sin investigación, los equipos toman decisiones por opinión y no por efecto real.</p>
-        <p><strong>Un punto que suele pasarse por alto:</strong> diseñar sin contenido suele ser decoración. Textos, titulares, CTAs y ejemplos reales dan intención y jerarquía; sin ellos, la interfaz puede quedar bonita pero vacía. Por eso recomiendo <strong><em>investigar, diseñar y escribir en paralelo:</em></strong> el contenido aporta propósito y el diseño estructura ese propósito.</p>
-        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Muchas interfaces nacen de suposiciones: pantallas atractivas que ocultan pasos confusos.
+          Sin investigación, los equipos toman decisiones por opinión y no por efecto real.
+          El resultado es predecible: usuarios que abandonan, soporte que se sobrecarga
+          y un equipo que no entiende por qué el rediseño no funcionó.
+        </p>
+        <p>
+          <strong>Un punto que suele pasarse por alto:</strong> diseñar sin contenido real
+          es decoración. Textos, titulares, CTAs y ejemplos concretos dan intención y jerarquía.
+          Sin ellos, la interfaz puede quedar bonita pero vacía. Por eso investigo, diseño
+          y escribo en paralelo — el contenido aporta propósito y el diseño estructura ese propósito.
+        </p>
+    
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
         <ul>
-            <li><p><strong><em>Antes:</em></strong> pantallas que se veían bien pero no resolvían procesos.</p></li>
-            <li><p><strong><em>Qué pasó:</em></strong> aplicamos métodos de investigación (mapas de recorrido, observación en contexto y pruebas por etapas) y trabajamos el contenido desde el primer boceto.</p></li>
-            <li><p><strong><em>Después:</em></strong> convertimos observaciones en hipótesis, pruebas y cambios que entregaron resultados claros para usuarios y operación.</p></li>
+          <li>
+            <p>
+              <strong><em>Antes:</em></strong> pantallas que se veían bien pero no resolvían
+              los procesos que los usuarios necesitaban completar.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Lo que hice:</em></strong> aplicar métodos de investigación en orden —
+              mapas de recorrido para entender el flujo completo, observación en contexto para ver
+              lo que los datos no muestran, y pruebas A/B controladas para validar hipótesis
+              con evidencia. Siempre con contenido real desde el primer boceto.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Después:</em></strong> decisiones basadas en comportamiento real,
+              no en opiniones. Resultados medibles y un equipo que entiende por qué
+              cada cambio ocurrió.
+            </p>
+          </li>
         </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Si el usuario no puede usarlo, no funciona” — <em>Susan Dray</em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Si el usuario no puede usarlo, no funciona." — <em>Susan Dray</em>
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mb-3">Mini-casos (qué se hizo y por qué funcionó)</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
         <ul>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLskei2SY5r/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Módulo “Mis Datos” — Plataforma CBC (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> pasos redundantes para actualizar información.
-                <br><strong>Acción:</strong> mapa del recorrido, rediseño del flujo y prototipos testados con usuarios internos.
-                <br><strong>Resultado:</strong> tiempo medio por tarea reducido de 15 a 6 minutos (registro interno).
-                <p class="textdescriptions"><small><strong>Qué demuestra:</strong> investigar el recorrido y escribir microcopy claro desde el inicio evita ambigüedades y reduce errores.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLsLeySMdog/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">A/B testing — CBC Web (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> baja visibilidad del menú y la landing.
-                <br><strong>Acción:</strong> diseño de variantes y pruebas por etapas (una variable por prueba).
-                <br><strong>Resultado:</strong> +25% CTR acumulado tras las iteraciones (registro interno).
-                <p class="textdescriptions"><small><strong>Qué demuestra:</strong> usar pruebas controladas para priorizar cambios con evidencia.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="landing-projects-d-minka.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Observación en contexto — Hostal Casona Minka (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> procesos manuales y desorden en recepción que afectaban la atención y las reservas.
-                <br><strong>Acción:</strong> observación 1:1 en contexto, ajuste de formularios y reorganización de tareas con el equipo.
-                <br><strong>Resultado:</strong> aumento en reservas (≈+20%) y mayor fluidez en la operación (registros y observación).
-                <p class="textdescriptions"><small><strong>Qué demuestra:</strong> ver el trabajo en su contexto revela problemas operativos que impactan directamente la conversión.</small></p>
-            </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLskei2SY5r/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Módulo "Mis Datos" — Plataforma CBC (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> pasos redundantes para actualizar información personal.
+            Los usuarios tardaban demasiado y cometían errores evitables.
+            <br><strong>Lo que hice:</strong> mapeé el recorrido completo con usuarios internos,
+            identifiqué dónde se acumulaban las dudas, rediseñé el flujo y prototipé
+            con microcopy claro desde la primera versión.
+            <br><strong>Resultado:</strong> tiempo medio por tarea reducido de 15 a 6 minutos
+            (registro interno CBC).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> investigar el recorrido y escribir microcopy claro
+                desde el inicio evita ambigüedades que después son costosas de corregir.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLsLeySMdog/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >A/B testing — CBC Web (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> baja visibilidad del menú y la landing principal.
+            El equipo tenía hipótesis distintas sobre qué cambiar — y ninguna con evidencia.
+            <br><strong>Lo que hice:</strong> diseñé variantes y propuse pruebas por etapas:
+            una sola variable por iteración para poder atribuir el efecto correctamente.
+            <br><strong>Resultado:</strong> +25% CTR acumulado tras las iteraciones (registro interno CBC).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> probar una variable a la vez no es ser lento —
+                es la única forma de saber qué funcionó y por qué.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="landing-projects-d-minka.html"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Observación en contexto — Hostal Casona Minka (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> procesos manuales y desorden en recepción que afectaban
+            la atención y la tasa de reservas.
+            <br><strong>Lo que hice:</strong> fui al hostal, observé el trabajo en su contexto real,
+            identifiqué qué tareas se repetían sin sistema y cuáles generaban errores.
+            Después ajusté formularios y reorganicé flujos con el equipo.
+            <br><strong>Resultado:</strong> aumento en reservas (~+20%) y mayor fluidez operativa
+            (reportado por el equipo de Casona Minka).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> ver el trabajo en su contexto revela problemas
+                operativos que ninguna entrevista remota hubiera detectado.
+              </small>
+            </p>
+          </li>
+    
         </ul>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Qué prácticas integrar (y por qué funcionan)</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Qué prácticas integrar y por qué funcionan</h2>
+    
         <ul>
-            <li><strong><em>Registrar el recorrido del usuario (journey mapping):</em></strong> deja ver pasos y decisiones, y ayuda a detectar dónde hay bloqueos.</li>
-            <li><strong><em>Content-first / Contenido junto al diseño:</em></strong> desarrolla titulares, microcopy y ejemplos paralelos al wireframe; sin contenido real, el diseño puede volverse mera decoración. <br><strong><em>Esto aplica no solo en UX/UI</em></strong> sino también en emails, landing pages, onboarding, documentación y marketing.</li>
-            <li><strong><em>Pruebas por etapas (A/B de 1 variable):</em></strong> aíslan el efecto de cambios y evitan conclusiones erróneas.</li>
-            <li><strong><em>Observación en contexto (1:1):</em></strong> muestra atajos, herramientas y comportamientos no visibles en pruebas remotas.</li>
-            <li><strong><em>Validar prototipos en condiciones reales:</em></strong> probar con contenido real antes de programar reduce procesos repetitivos e innecesarios.</li>
+          <li>
+            <strong><em>Registrar el recorrido del usuario (journey mapping):</em></strong>
+            deja ver pasos y decisiones completos, y ayuda a detectar dónde se acumulan los bloqueos.
+            No solo qué falla — dónde y por qué.
+          </li>
+          <li>
+            <strong><em>Content-first — contenido junto al diseño:</em></strong>
+            desarrolla titulares, microcopy y ejemplos en paralelo al wireframe.
+            Sin contenido real, el diseño puede volverse mera decoración.
+            Esto aplica también en emails, landing pages, onboarding y documentación.
+          </li>
+          <li>
+            <strong><em>Pruebas por etapas, una variable a la vez:</em></strong>
+            eso permite atribuir el resultado a una causa concreta, no a una combinación de decisiones simultáneas.
+          </li>
+          <li>
+            <strong><em>Observación en contexto (contextual inquiry):</em></strong>
+            muestra atajos, herramientas paralelas y comportamientos que no aparecen
+            en pruebas remotas ni en datos de Analytics.
+          </li>
+          <li>
+            <strong><em>Validar prototipos con contenido real antes de programar:</em></strong>
+            reduce ciclos de revisión y evita rehacer código por decisiones de diseño
+            que no se probaron a tiempo.
+          </li>
         </ul>
-
+    
         <!-- Banner E-Book Memoria Emocional -->
-          <div id="banner-ebook-price-memoriaemocional" class="d-none"></div>
-          <!-- Banner E-Book Memoria Emocional -->
-          <hr class="my-5">
-          <p class="text-center fs-6 my-4 bg-canva p-3">“Regla general para UX: más opciones, más problemas” — <em>Scott Belsky</em></p>
-          <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">KPIs recomendados (elige 2–3 según objetivo)</h2>
-          <ul>
-              <li><strong>Eficiencia de tarea:</strong> tiempo medio por tarea, tasa de completitud, tasa de error.</li>
-              <li><strong>Visibilidad / Enganche:</strong> CTR en elementos clave, % de usuarios que alcanzan la meta.</li>
-              <li><strong>Conversión:</strong> reservas, leads, tasa de conversión por paso.</li>
-          </ul>
-          <p><em>Complementa siempre con feedback cualitativo para entender el “por qué”.</em></p>
-          <hr class="my-5">
-          <div class="bg-canva p-5">
-              <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-              <p><strong>¿Por dónde empiezo si tengo poco tráfico?</strong></p>
-              <p>Prioriza observación en contexto y pruebas con 3–5 usuarios representativos; los hallazgos cualitativos generan hipótesis sólidas para validar después con pruebas cuantitativas.</p>
-              <hr>
-              <p><strong>¿Cuánto tiempo tarda ver resultados en un A/B?</strong></p>
-              <p>Depende del tráfico y del tamaño del efecto. Define el tamaño de muestra y duración antes de lanzar (p. ej. 1–2 semanas con tráfico moderado). Si no hay tráfico, empieza por pruebas cualitativas.</p>
-              <hr>
-              <p><strong>¿Shadowing reemplaza las métricas?</strong></p>
-              <p>No, las complementa. Observación explica el “por qué” detrás de los números y ayuda a diseñar pruebas más precisas.</p>
-          </div>
-          <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">Mis 4 Aprendizajes Clave</h2>
-          <ol>
-              <li>Registrar el recorrido completo ahorra horas: ver el flujo entero revela la causa real de muchos problemas.</li>
-              <li>Prueba por etapas y repite: unas pocas iteraciones controladas valen más que muchas opiniones.</li>
-              <li>Observar en contexto humaniza los datos: ver a la persona usar el producto revela soluciones prácticas.</li>
-              <li>Diseñar con contenido desde el inicio evita que la interfaz se vuelva poco usable; el contenido da intención y dirección.</li>
-          </ol>
-          <p class="text-center fs-6 my-4 bg-canva p-3">“Un buen diseño de UX se basa en simplificar la experiencia del usuario, lo que implica eliminar cualquier elemento innecesario” — <em>Career Foundry</em></p>
-          <hr class="my-5">
-          <p>La investigación UX convierte incertidumbres en decisiones claras. Empieza pequeño: elige un flujo, observa su uso en contexto y prueba una hipótesis con contenido real. <strong>Recuerda: un diseño sin contenido es decoración.</strong> Diseñar y escribir deberían avanzar juntos —en interfaces, emails, onboarding y campañas— para que el mensaje y la experiencia sean coherentes.</p>
+        <div id="banner-ebook-price-memoriaemocional" class="d-none"></div>
+        <!-- Banner E-Book Memoria Emocional -->
+    
+        <hr class="my-5">
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Regla general para UX: más opciones, más problemas." — <em>Scott Belsky</em>
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">KPIs recomendados — elige 2 o 3 según objetivo</h2>
+        <ul>
+          <li><strong>Eficiencia de tarea:</strong> tiempo medio por tarea, tasa de completitud, tasa de error.</li>
+          <li><strong>Visibilidad / enganche:</strong> Tasa de Clics (CTR) en elementos clave, % de usuarios que alcanzan la meta.</li>
+          <li><strong>Conversión:</strong> reservas, leads, tasa de conversión por paso del flujo.</li>
+        </ul>
+        <p><em>Complementa siempre con feedback cualitativo para entender el "por qué" detrás del número.</em></p>
+    
+        <hr class="my-5">
+    
+        <div class="bg-canva p-5">
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Por dónde empiezo si tengo poco tráfico?</strong></p>
+          <p>
+            Prioriza observación en contexto y pruebas con 3–5 usuarios representativos.
+            Los hallazgos cualitativos generan hipótesis sólidas para validar después
+            con pruebas cuantitativas. No necesitas volumen para empezar a aprender.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Cuánto tiempo tarda ver resultados en un A/B?</strong></p>
+          <p>
+            Depende del tráfico y del tamaño del efecto esperado. Define el tamaño de muestra
+            y la duración antes de lanzar — no después. Si no hay tráfico suficiente,
+            empieza por pruebas cualitativas y usa el A/B cuando tengas volumen real.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿El shadowing reemplaza las métricas?</strong></p>
+          <p>
+            No — las complementa. La observación explica el "por qué" detrás de los números
+            y ayuda a diseñar pruebas más precisas. Sin ese "por qué", los datos
+            son difíciles de actuar.
+          </p>
+        </div>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 4 aprendizajes clave</h2>
+        <ol>
+          <li>
+            Registrar el recorrido completo ahorra horas: ver el flujo entero revela
+            la causa real de muchos problemas que parecían de diseño pero eran de contenido.
+          </li>
+          <li>
+            Prueba por etapas y repite: pocas iteraciones controladas valen más que
+            muchas opiniones bien intencionadas.
+          </li>
+          <li>
+            Observar en contexto humaniza los datos: ver a la persona usar el producto
+            en su entorno real revela soluciones que los números no sugieren.
+          </li>
+          <li>
+            Diseñar con contenido desde el inicio evita que la interfaz se vuelva
+            un cascarón bonito. El contenido da intención — el diseño la estructura.
+          </li>
+        </ol>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Un buen diseño de UX se basa en simplificar la experiencia del usuario,
+          lo que implica eliminar cualquier elemento innecesario." — <em>Career Foundry</em>
+        </p>
+    
+        <hr class="my-5">
+    
+        <p>
+          La investigación UX convierte incertidumbre en decisiones claras.
+          No necesitas un presupuesto grande para empezar — necesitas una hipótesis,
+          un flujo que observar y la disciplina de cambiar una sola cosa a la vez.
+        </p>
+        <p>
+          <strong>Recuerda: un diseño sin contenido es decoración.</strong>
+          Diseñar y escribir deberían avanzar juntos — en interfaces, emails,
+          onboarding y campañas — para que el mensaje y la experiencia sean coherentes
+          desde el primer prototipo.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "8", title: "El Retorno de Inversión en UX: Por Qué Vale la Pena" },
+        { id: "8",  title: "El Retorno de Inversión en UX: Por Qué Vale la Pena" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
         { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
@@ -1467,6 +1928,9 @@
         }
       ]
     },
+
+
+    
     "7": {
       id: 7,
       titleHTML: `
@@ -1479,7 +1943,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-7@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
           Creo que empezar con un brief operativo es un acto de cuidado: protege tiempos, presupuesto y expectativas. Tras estandarizar documentos en equipos diversos, comprobé que un brief corto y práctico cambia la energía del proyecto. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de manera autodidacta.
           Cuando no diseño, pruebo metodologías nuevas con un té de jazmín a mano.
         </span>
@@ -1650,7 +2114,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-8@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
           He aplicado investigación y prototipado en proyectos como Austral Group, CBC Web y Hostal Casona Minka para transformar dificultades en mejoras medibles. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de forma autodidacta.
           Cuando no mido impactos, disfruto un capítulo de anime con una tabla de sushi vegetariano (sin palta).
         </span>
@@ -1818,7 +2282,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-9@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
           He adaptado herramientas y flujos según contexto y objetivos, buscando siempre que el equipo gane autonomía y velocidad.
           Cuando no estoy utilizando herramientas de diseño, me puedes encontrar disfrutando de un pastel de frutos del bosque con una infusión de rooibos.
         </span>
@@ -1950,7 +2414,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-10@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
           He ayudado a equipos a ahorrar horas de trabajo y a mantener coherencia visual en múltiples proyectos.
           Cuando no organizo assets, me encontrarás disfrutando de la compañía de un hermoso gatito.
         </span>
@@ -2100,7 +2564,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-11@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer,</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper,</strong>
           y creo que validar rápido es un acto de cuidado: prototipos bien hechos ahorran tiempo y dinero y mantienen la visión del producto. He liderado sprints de prototipado que detectaron problemas críticos antes de escribir código y redujeron semanas de desarrollo.
           Cuando no construyo prototipos, pruebo nuevas herramientas ágiles con un helado Amarena en mano.
         </span>
@@ -2251,7 +2715,7 @@
       ogImage: "mi-portafolio/assets/img/og-images/og-article-12@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
-          Soy Macarena, <strong>Product & UX/UI Designer.</strong>
+          Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
           Trabajo mezclando diseño, prototipado front-end (HTML/CSS) y Brand Systems para convertir ideas en productos útiles. Uso la IA para eliminar tareas repetitivas y dedicar tiempo a la estrategia, las pruebas y el detalle humano. No la veo como sustituta: la pruebo, la documento y la adapto a cada proyecto.
           Cuando no estoy afinando prompts, me encontrarás disfrutando de mi sándwich favorito.
         </span>
