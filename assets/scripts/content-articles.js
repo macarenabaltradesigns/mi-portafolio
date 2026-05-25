@@ -1929,162 +1929,308 @@
       ]
     },
 
-
+    // ─────────────────────────────────────────────────────────────────────────────
     
     "7": {
       id: 7,
       titleHTML: `
-        Brief de diseño: 
-        <span class="opacity-70"> la hoja de ruta que acorta proyectos</span>
+        Brief de diseño:
+        <span class="opacity-70">la hoja de ruta que acorta proyectos</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo7/img-article-7-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo7/img-article-7-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-7@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
-          Creo que empezar con un brief operativo es un acto de cuidado: protege tiempos, presupuesto y expectativas. Tras estandarizar documentos en equipos diversos, comprobé que un brief corto y práctico cambia la energía del proyecto. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de manera autodidacta.
+          Creo que empezar con un brief operativo es un acto de cuidado: protege tiempos,
+          presupuesto y expectativas. Titulada en 2015; cursé Front-End Jr.
+          (Laboratoria, 2017) y sigo formándome de manera autodidacta.
           Cuando no diseño, pruebo metodologías nuevas con un té de jazmín a mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-1-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>Un brief claro acorta proyectos: menos dudas, decisiones más rápidas y entregables alineados con el negocio.</p>
-        <p>En este artículo encontrarás una hoja de ruta práctica para crear briefs operativos: qué incluir, cómo estructurarlo y plantillas para empezar ya.</p>
-        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
+        <p>
+          El proyecto más complicado que viví no falló por mal diseño.
+          Falló porque en el kick-off nadie preguntó qué se quería lograr
+          ni quién iba a aprobar cada etapa. A las tres semanas, cada reunión
+          era una negociación sobre algo que debió quedar claro el primer día.
+        </p>
+        <p>
+          Desde entonces tengo una regla: antes de comenzar a diseñar, existe el brief.
+          No un documento largo que nadie lee — una hoja de ruta corta y operativa
+          que el equipo consulta cada vez que aparece una duda.
+          Eso acorta proyectos más que cualquier herramienta.
+        </p>
+    
+        <hr>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Sin un brief claro, los proyectos empiezan por pantallas y terminan en debates.
+          Las correcciones no vienen del diseño — vienen de expectativas que nunca
+          se pusieron por escrito. Cada cambio de dirección cuesta tiempo,
+          energía y a veces la confianza del cliente.
+        </p>
+        <p>
+          Dedicar una hora al brief al inicio no es papeleo. Es la inversión
+          que protege todo lo que viene después.
+        </p>
+    
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
         <ul>
-            <li><p><strong><em>Antes:</em></strong> proyectos que empezaban por pantallas y terminaban con muchas correcciones.</p></li>
-            <li><p><strong><em>Qué pasó:</em></strong> al poner un brief operativo en el kick-off, alineamos objetivo, contenido y plazos desde el día 0.</p></li>
-            <li><p><strong><em>Después:</em></strong> decisiones más ágiles, entregables coherentes y clientes con capacidad para publicar sin depender del equipo de diseño.</p></li>
+          <li>
+            <p>
+              <strong><em>Antes:</em></strong> proyectos que empezaban por pantallas
+              y terminaban con rondas interminables de correcciones.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Lo que hice:</em></strong> incorporar un brief operativo en el kick-off.
+              Objetivo, métricas, perfiles de usuario, contenido de referencia,
+              alcance y responsables — todo acordado antes del primer wireframe.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Después:</em></strong> decisiones más rápidas, menos correcciones y stakeholders con mayor autonomía para avanzar sin depender del equipo en cada paso.
+            </p>
+          </li>
         </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño es el pensamiento hecho visual” — <em>Saul Bass</em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "El diseño es el pensamiento hecho visual." — <em>Saul Bass</em>
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
-        <p>El talento creativo importa, pero la mayor parte del resultado se decide al inicio. Sin un brief práctico aparecen: pérdida de tiempo en decisiones evitables, cambios constantes por malentendidos y entregables que no responden al objetivo. Dedicar tiempo a definir un brief no es papeleo: <strong>es una inversión que protege tiempos, presupuesto y expectativas.</strong></p>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">¿Qué es un Brief de Diseño?</h4>
-        <p>Un brief de diseño es un documento breve y operativo que responde con claridad: ¿qué buscamos lograr?, ¿por qué importa?, ¿para quién es esto? y ¿qué entregables y plazos acordamos? <strong>No es un PDF extenso</strong> que nadie abre; es la guía viva que se consulta cada vez que surge una duda.</p>
-        <hr>
-        <h4 class="mt-5 mb-3">Elementos clave de un brief efectivo</h4>
-        <p>Un brief no debe ser largo; debe ser útil y accionable. Campos que siempre incluyo:</p>
-        <ol>
-            <li><strong>Título del proyecto</strong>— foco claro en una línea.</li>
-            <li><strong>Objetivo (1 línea, SMART si es posible)</strong>— ¿Qué buscamos lograr? (p. ej. aumentar completitud de formulario +15% en 60 días).</li>
-            <li><strong>KPIs y línea base</strong>— 1–2 métricas que medirán éxito (cómo y con qué datos se registra la línea base).</li>
-            <li><strong>Audiencia / JTBD (2–3 perfiles)</strong>— quién usa esto, en qué contexto y qué intenta lograr.</li>
-            <li><strong>Mensaje y contenido de referencia (content-first)</strong>— titulares, microcopy y un CTA ejemplo; si no hay textos definitivos, añade “prototipos de contenido” que el diseño debe soportar.</li>
-            <li><strong>Alcance y entregables</strong>— qué está dentro y qué no (wireframes, prototipo, archivos fuente, plantillas).</li>
-            <li><strong>Restricciones técnicas y presupuesto estimado</strong>— stack, limitaciones y recursos.</li>
-            <li><strong>Referencias visuales y tono</strong>— qué sí / qué no.</li>
-            <li><strong>Stakeholders y aprobaciones</strong>— quién aprueba cada paso.</li>
-            <li><strong>Plazos clave y versionado</strong>— fechas, responsable y control de cambios.</li>
-        </ol>
-        <p><strong><em>Tip:</em></strong> un brief que incluye ejemplos de contenido y una plantilla visual reduce preguntas y acelera el hand-off.</p>
-        <hr>
-        <h4 class="mt-5 mb-3">Mini-casos</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
         <ul>
-            <li class="mb-5">
-                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System para FOL (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing que retrasaban lanzamientos.
-                <br><strong>Acción:</strong> brief inicial + moodboard + guía de tokens (colores, tipografías) y plantillas editables.
-                <br><strong>Resultado:</strong> decisiones más ágiles y casi sin correcciones de color.
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un brief operativo con archivos fuente acelera el hand-off técnico.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="landing-projects-d-australGroup.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Aulas Virtuales e-Learning — Austral Group (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> iniciar por pantallas sin entender flujos ni usuarios.
-                <br><strong>Acción:</strong> brief con 3 perfiles prioritarios y mapeo de recorridos antes de wireframes.
-                <br><strong>Resultado:</strong> mayor velocidad en entregas y capacidad de anticipar soluciones.
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> mapear usuarios y trabajos a realizar evita suposiciones costosas.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="landing-projects-d-tarotParaSanar.html" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Rebranding y plantillas — Tarot para Sanar (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> producir 18 piezas para redes sociales y rebranding en 4 semanas manteniendo tono coherente.
-                <br><strong>Acción:</strong> brief estético preciso, plantillas editables en formato para redes y guías rápidas de uso (paleta, tipografías y logo).
-                <br><strong>Resultado:</strong> entregas puntuales y autonomía del cliente.
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> entregar plantillas reduce consultas posteriores y da escalabilidad.</small></p>
-            </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="landing-projects-d-fol.html"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Brand System para FOL (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> decisiones visuales dispersas entre TI y Marketing
+            que retrasaban lanzamientos.
+            <br><strong>Lo que hice:</strong> brief inicial con moodboard, guía de tokens
+            (colores, tipografías) y plantillas editables. Todo acordado antes de diseñar
+            una sola pieza.
+            <br><strong>Resultado:</strong> decisiones más ágiles y casi sin correcciones de color.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> un brief con archivos fuente incluidos
+                acelera el handoff técnico. El equipo de TI no pregunta dos veces
+                si ya tiene los tokens.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="landing-projects-d-australGroup.html"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Aulas Virtuales e-Learning — Austral Group (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> el proyecto iba a empezar directo por pantallas,
+            sin entender flujos ni usuarios.
+            <br><strong>Lo que hice:</strong> brief con 3 perfiles prioritarios y mapeo
+            de recorridos antes de hacer un solo wireframe.
+            <br><strong>Resultado:</strong> mayor velocidad en entregas y capacidad
+            de anticipar problemas antes de que llegaran al equipo de desarrollo.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> mapear usuarios antes de diseñar
+                evita suposiciones que después cuestan semanas.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="landing-projects-d-tarotParaSanar.html"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Rebranding y plantillas — Tarot para Sanar (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> 18 piezas para redes sociales y rebranding completo
+            en 4 semanas, manteniendo tono coherente.
+            <br><strong>Lo que hice:</strong> brief estético preciso, plantillas editables
+            en formato para redes y guías rápidas de uso — paleta, tipografías y logo.
+            <br><strong>Resultado:</strong> entregas puntuales y cliente con autonomía
+            para publicar sin depender de mí.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> entregar plantillas junto al brief
+                reduce consultas posteriores y da escalabilidad real al cliente.
+              </small>
+            </p>
+          </li>
+    
         </ul>
+    
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Brief operativo — 7 pasos que realmente funcionan</h4>
-        <p>Un brief eficaz es práctico, colaborativo y accionable. Más que un documento largo, debe ser la guía viva del proyecto.</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Qué incluye un brief que funciona</h2>
+    
+        <p>
+          No es largo. Es útil. Estos son los campos que idealmente deberían estar:
+        </p>
+    
         <ol>
-          <li>
-            <p><strong>Kick-off colaborativo (45–60 min)</strong></p>
-            <ul>
-              <li class="mb-3">Junta a cliente, producto, diseño y quien apruebe los entregables. Usa un tablero visual (Miro / Notion) para consensuar objetivo, restricciones y responsables. Documenta acuerdos.</li>
-            </ul>
+          <li><strong>Título del proyecto</strong> — foco claro en una línea.</li>
+          <li><strong>Objetivo (SMART si es posible)</strong> — qué se quiere lograr y en qué plazo.</li>
+          <li><strong>KPIs y línea base</strong> — 1 o 2 métricas con fuente y período de medición.</li>
+          <li><strong>Audiencia / JTBD (2–3 perfiles)</strong> — quién usa esto, en qué contexto y qué intenta resolver.</li>
+          <li><strong>Contenido de referencia (content-first)</strong> — titulares, microcopy y un CTA ejemplo.
+          Si no hay textos definitivos, van prototipos de contenido.</li>
+          <li><strong>Alcance y entregables</strong> — qué está dentro y qué no.</li>
+          <li><strong>Restricciones técnicas y presupuesto estimado</strong> — stack, límites y recursos.</li>
+          <li><strong>Referencias visuales y tono</strong> — qué sí / qué no.</li>
+          <li><strong>Stakeholders y aprobaciones</strong> — quién aprueba cada paso.</li>
+          <li><strong>Plazos y versionado</strong> — fechas, responsable y control de cambios.</li>
+        </ol>
+    
+        <p>
+          <strong>Tip:</strong> un brief con ejemplos de contenido y una plantilla visual
+          reduce preguntas y acelera el handoff. Si se entiende en 5 minutos, funciona.
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">7 pasos para un brief operativo</h2>
+    
+        <ol>
+          <li class="mb-3">
+            <strong>Kick-off colaborativo (45–60 min)</strong>
+            <p>
+              Junta a cliente, producto, diseño y quien aprueba. Tablero visual en Miro o Notion.
+              Documenta los acuerdos — lo que no queda escrito no existió.
+            </p>
           </li>
-          <li>
-            <p><strong>Define objetivo y KPI línea base</strong></p>
-            <ul>
-              <li class="mb-3">1 objetivo principal (SMART) y 1–2 KPIs. Registra cómo se midió la línea base (herramienta, periodo). Esto evita discusiones sobre resultados.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Define objetivo y KPI con línea base</strong>
+            <p>
+              1 objetivo principal y 1–2 KPIs. Registra cómo se midió la línea base:
+              herramienta, período, fuente. Esto evita discusiones sobre resultados al final.
+            </p>
           </li>
-          <li>
-            <p><strong>Perfila usuarios y JTBD ((Jobs to be Done)</strong></p>
-            <ul>
-              <li class="mb-3">Describe 2–3 perfiles prioritarios y su trabajo clave: dispositivo, contexto y motivadores. Esto evita diseñar para “el usuario promedio”.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Perfiles de usuario prioritarios</strong>
+            <p>
+              Define 2–3 perfiles con su contexto de uso: dispositivo, situación y qué los motiva a completar la tarea. Cuanto más específico, menos decisiones quedan abiertas durante el diseño.
+            </p>
           </li>
-          <li>
-            <p><strong>Contenido desde el día 0 (content-first)</strong></p>
-            <ul>
-              <li class="mb-3">Incluye titulares de ejemplo, microcopy y un CTA real. Si no hay textos finales, añade prototipos de contenido: el diseño debe sostener el mensaje, no al revés.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Contenido desde el día 0</strong>
+            <p>
+              Titulares de ejemplo, microcopy y un CTA real. El diseño debe sostener
+              el mensaje — no al revés.
+            </p>
           </li>
-          <li>
-            <p><strong>Alcance y entregables claros</strong></p>
-            <ul>
-              <li class="mb-3">Lista lo que se entrega (wireframes, prototipo, archivos fuente, plantillas). Adjunta al brief las plantillas editables para uso del cliente.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Alcance y entregables claros</strong>
+            <p>
+              Lista lo que se entrega: wireframes, prototipo, archivos fuente, plantillas.
+              Tener esto escrito desde el inicio evita malentendidos y facilita ajustes
+              cuando el proyecto cambia de dirección — porque siempre cambia algo.
+            </p>
           </li>
-          <li>
-            <p><strong>Restricciones técnicas y presupuesto estimado</strong></p>
-            <ul>
-              <li class="mb-3">Señala stack, límites de accesibilidad y un estimado de tiempo/costo. Esto reduce scope creep y malos entendidos.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Restricciones técnicas y presupuesto</strong>
+            <p>
+              Stack, límites de accesibilidad, estimado de tiempo y costo.
+              Esto frena el scope creep antes de que empiece.
+            </p>
           </li>
-          <li>
-            <p><strong>Responsables y versionado</strong></p>
-            <ul>
-              <li class="mb-3">Define quién aprueba qué, cómo se registra un cambio y quién actualiza la línea base de KPIs. Cada versión debe tener fecha y responsable.</li>
-            </ul>
+          <li class="mb-3">
+            <strong>Responsables y versionado</strong>
+            <p>
+              Quién aprueba qué. Cómo se registra un cambio. Quién actualiza los KPIs.
+              Cada versión del brief lleva fecha y responsable.
+            </p>
           </li>
         </ol>
-        <p><strong><em>Tip:</em></strong> Agenda sesiones cortas por área (Marketing, TI, Ventas): presentación del brief, cómo acceder a assets y qué se espera de cada equipo. Las micro-sesiones reducen preguntas y aumentan adopción.</p>
+    
+        <p>
+          <strong>Tip:</strong> sesiones cortas por área — 20 minutos, no más —
+          para presentar el brief y resolver dudas. Las micro-sesiones generan adopción
+          real. Los correos largos, no.
+        </p>
+    
         <hr class="my-5">
+    
         <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Qué diferencia un brief UX de un brief visual?</strong></p>
-            <p>El brief UX incluye objetivos de comportamiento y métricas (tests, usuarios); el visual se concentra en tono e imagen. Lo ideal es un brief que combine ambos planos.</p>
-            <hr>
-            <p><strong>¿Quién debe aprobar el brief?</strong></p>
-            <p>Como mínimo: cliente / project owner, responsable de producto y diseñador líder.</p>
-            <hr>
-            <p><strong>¿Quién participa en la creación del brief?</strong></p>
-            <p>Generalmente el cliente, el equipo de producto, stakeholders clave y el diseñador UX.</p>
-            <hr>
-            <p><strong>¿El brief puede cambiar durante el proyecto?</strong></p>
-            <p>Sí —pero con control: versiona el cambio, registra el impacto en KPIs y solicita aprobación de los responsables.</p>
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Qué diferencia un brief UX de un brief visual?</strong></p>
+          <p>
+            El brief UX incluye objetivos de comportamiento y métricas de uso.
+            El visual se centra en tono e imagen. Lo ideal es un brief que combine ambos
+            — porque el diseño que no tiene contexto de uso termina siendo solo decoración.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Quién debe aprobar el brief?</strong></p>
+          <p>
+            Como mínimo: cliente o project owner, responsable de producto y diseñador líder.
+            Si alguien que toma decisiones no lo aprobó, el brief no existe todavía.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿El brief puede cambiar durante el proyecto?</strong></p>
+          <p>
+            Sí — y eso es normal en proyectos reales. Lo importante es versionarlo,
+            registrar el impacto en KPIs y avisarle a los responsables. Así el cambio
+            queda integrado en lugar de generar confusión más adelante.
+          </p>
         </div>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 4 Aprendizajes Clave</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 4 aprendizajes clave</h2>
         <ol>
-            <li>Involucra a las personas correctas desde el día 0.</li>
-            <li>Define 1–2 métricas que importen al negocio</li>
-            <li>Entrega plantillas y archivos fuente: facilitan implementación y reducen consultas.</li>
-            <li>Mantén el brief vivo: cada cambio con fecha y responsable.</li>
+          <li>Involucra a las personas correctas desde el día 0. Después es tarde.</li>
+          <li>Define 1 o 2 métricas que importen al negocio — no más.</li>
+          <li>Entrega plantillas y archivos fuente: facilitan la implementación y reducen consultas.</li>
+          <li>El brief es un documento vivo. Cuando algo cambia, lo actualizamos juntos y dejamos registro — así todos saben dónde estamos parados.</li>
         </ol>
+    
         <hr>
-        <p>Un brief bien pensado no es un trámite: es la brújula que guía al equipo hacia soluciones claras y alineadas. Dedicar tiempo a definirlo es invertir en proyectos más cortos, entregables más alineados y clientes que vuelven.</p>
+    
+        <p>
+          Un brief bien hecho no es un trámite — es la diferencia entre un proyecto
+          que avanza y uno que da vueltas. Lo aprendí de la manera difícil.
+          Ahora es lo primero que propongo en cualquier proyecto nuevo.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "2", title: "Coherencia Visual: Estandariza tus Documentos" },
-        { id: "9", title: "Herramientas de Diseño Inteligentes" },
+        { id: "2",  title: "Coherencia Visual: Estandariza tus Documentos" },
+        { id: "9",  title: "Herramientas de Diseño Inteligentes" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" }
       ],
       relatedProjects: [
@@ -2102,156 +2248,298 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "8": {
       id: 8,
       titleHTML: `
         ROI en UX:
-        <span class="opacity-70"> demuestra con números cómo el diseño aumenta conversiones y ahorra costos</span>
+        <span class="opacity-70">demuestra con números cómo el diseño aumenta conversiones y ahorra costos</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo8/img-article-8-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo8/img-article-8-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-8@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
-          He aplicado investigación y prototipado en proyectos como Austral Group, CBC Web y Hostal Casona Minka para transformar dificultades en mejoras medibles. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017) y sigo formándome de forma autodidacta.
-          Cuando no mido impactos, disfruto un capítulo de anime con una tabla de sushi vegetariano (sin palta).
+          He aplicado investigación y prototipado en proyectos como Austral Group,
+          CBC Web y Hostal Casona Minka para transformar problemas de uso
+          en mejoras medibles. Titulada en 2015; cursé Front-End Jr. (Laboratoria, 2017)
+          y sigo formándome de forma autodidacta.
+          Cuando no mido impactos, disfruto un capítulo de anime con sushi vegetariano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-2-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong>¿UX como gasto?</strong> Es un error frecuente. Con un método práctico, la investigación y el diseño no solo mejoran la experiencia: generan conversiones, reducen consultas al soporte y producen ahorros concretos. Aquí verás qué medir, cómo probar hipótesis y cómo presentar resultados claros que convenzan a un reclutador o a la dirección.</p>
-        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después (mi experiencia)</h4>
-        <ul>
-            <li><p><strong><em>Antes:</em></strong> los proyectos solían comenzar por diseñar pantallas y acabar en debates sobre prioridades y cambios continuos.</p></li>
-            <li><p><strong><em>Qué pasó:</em></strong> registramos la línea base, investigamos en contexto, prototipamos con contenido real y probamos hipótesis en ciclos cortos.</p></li>
-            <li><p><strong><em>Después:</em></strong> priorizamos solo las soluciones que demostraron impacto: menos tickets de soporte, mayor tasa de finalización en flujos clave y ahorros operativos concretos —resultados que facilitaron aprobaciones de inversión y acortaron los plazos de entrega.</p></li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Si piensas que el buen diseño es caro, deberías considerar el costo del mal diseño” — <em>Dr. Ralf Speth</em></p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Contexto y problema</h2>
-        <p>Sin métricas, el diseño queda en opinión. Usuarios abandonan pasos críticos, soporte se sobrecarga y se pierde facturación. En organizaciones que consideran al diseño una “decisión estética”, el equipo no tiene espacio para investigar ni justificar cambios. Medir transforma intuiciones en evidencia.</p>
+        <p>
+          La primera vez que me dijeron "UX es un gasto" no supe cómo responder.
+          Tenía intuición de que estaban equivocados, pero no tenía los números.
+          Eso cambió cuando empecé a medir antes de tocar nada:
+          línea base primero, intervención después, comparativa al final.
+        </p>
+        <p>
+          Con ese orden, el diseño deja de ser una opinión y se convierte en evidencia.
+          Menos tickets de soporte, mayor completitud en flujos clave, procesos internos
+          más ágiles — resultados que la dirección entiende sin necesitar traducción.
+        </p>
+    
         <hr>
-        <h4 class="mb-3">Qué medir primero (línea base)</h4>
-        <p>Antes de tocar nada, registra durante 1–2 semanas (o 100 sesiones):</p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Sin métricas, el diseño queda reducido a preferencias estéticas.
+          Los usuarios abandonan pasos críticos, el soporte se sobrecarga
+          y se pierde facturación — pero nadie puede demostrar que el diseño
+          es la causa ni la solución.
+        </p>
+        <p>
+          Medir transforma intuiciones en evidencia. Y la evidencia abre presupuesto.
+        </p>
+    
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
+        <ul>
+          <li>
+            <p>
+              <strong><em>Antes:</em></strong> proyectos que empezaban diseñando pantallas
+              y terminaban en debates sobre prioridades.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Lo que hice:</em></strong> registrar la línea base, investigar en contexto,
+              prototipar con contenido real y probar hipótesis en ciclos cortos.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Después:</em></strong> resultados concretos que justificaron inversión,
+              acortaron plazos de entrega y redujeron la carga operativa del equipo.
+            </p>
+          </li>
+        </ul>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Si piensas que el buen diseño es caro, deberías considerar el costo del mal diseño."
+          — <em>Dr. Ralf Speth</em>
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
+        <ul>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.behance.net/gallery/229418197/Perfil-de-Inversionista-en-App-FOL-%282018%29"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Perfil de Inversionista — FOL (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> flujos y textos pensados para escritorio que fallaban en móvil.
+            <br><strong>Lo que hice:</strong> investigación de contenido (content-first),
+            priorización de campos y prototipado responsive.
+            <br><strong>Resultado:</strong> aumento en la tasa de completitud y menor abandono
+            en mobile (registro interno).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> invertir en contenido y validación móvil
+                mejora conversión con inversión moderada. El problema no era el diseño — era el orden.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Diseño y Prototipo de Blog — CBC (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> comunicación por email no escalable y mala experiencia móvil.
+            <br><strong>Lo que hice:</strong> flujos editoriales, prototipado responsive
+            en HTML5/CSS3 y foco en lectura móvil.
+            <br><strong>Resultado:</strong> canal público con métricas de engagement
+            que antes no existían.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> un canal bien diseñado
+                se convierte en activo medible para marketing.
+                El diseño no es el costo — es la infraestructura.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >"El corazón, un órgano diferenciador" (Proyecto académico)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> traducir señales biométricas a experiencia visual y sonora.
+            <br><strong>Lo que hice:</strong> investigación interdisciplinaria y prototipado experimental.
+            <br><strong>Resultado:</strong> validación de la hipótesis y exhibición pública.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> la investigación aplicada comunica ideas complejas
+                a audiencias amplias. El método importa tanto como el resultado.
+              </small>
+            </p>
+          </li>
+    
+        </ul>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Cómo convertir UX en ROI — pasos prácticos</h2>
+    
+        <p>Antes de tocar nada, registra durante 1 a 2 semanas:</p>
         <ol>
-            <li>Tiempo por tarea crítica (ej.: completar registro).</li>
-            <li>Tasa de abandono por paso del flujo.</li>
-            <li>Tickets / consultas relacionados (nº por semana).</li>
+          <li>Tiempo por tarea crítica (ej.: completar registro).</li>
+          <li>Tasa de abandono por paso del flujo.</li>
+          <li>Tickets y consultas relacionadas por semana.</li>
         </ol>
-        <p>Con estos datos tendrás la base para comparar tras las mejoras.</p>
+        <p>Con esos datos tienes la base para comparar después de la intervención.</p>
+    
         <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Cómo convertir UX en ROI — pasos prácticos</h4>
+    
         <ol>
-            <li class="mb-3">
-                <strong><em>Define la hipótesis</em></strong>
-                <p>Ej.: “Si simplificamos el formulario, la completitud subirá X%”.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Elige la métrica norte</em></strong>
-                <p>Selecciona 1 KPI (ej.: % de completitud) y registra la línea base (periodo, fuente).</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Investiga en contexto</em></strong>
-                <p>Shadowing 1:1 (10–30 min) y entrevistas cortas; anota atajos, términos confusos y momentos que interrumpen la tarea.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Prototipa y prueba</em></strong>
-                <p>Crea un prototipo click-through o HTML ligero. Testea con 3–5 usuarios o A/B si hay suficiente tráfico. Cambia una sola variable por iteración.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Mide y monetiza</em></strong>
-                <p>Calcula la mejora (antes → después) y monetiza: horas ahorradas × coste/hora + aumento de conversiones × valor medio.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Comunica con un one-pager</em></strong>
-                <p>Resume: objetivo, línea base, hipótesis, resultado (%), cálculo de ahorro/ingreso y tiempo de recuperación.</p>
-            </li>   
+          <li class="mb-3">
+            <strong>Define la hipótesis</strong>
+            <p>Una sola. Ej.: "Si simplificamos el formulario, la completitud subirá X%."</p>
+          </li>
+          <li class="mb-3">
+            <strong>Elige la métrica norte</strong>
+            <p>1 KPI. Registra la línea base con fuente y período. Sin esto, no hay comparación posible.</p>
+          </li>
+          <li class="mb-3">
+            <strong>Investiga en contexto</strong>
+            <p>
+              Shadowing 1:1 de 10 a 30 minutos. Anota atajos, términos confusos
+              y momentos que interrumpen la tarea. Los datos de Analytics no muestran esto.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Prototipa y prueba</strong>
+            <p>
+              Prototipo click-through o HTML ligero. 3 a 5 usuarios, o A/B si hay tráfico.
+              Una sola variable por iteración.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Mide y monetiza</strong>
+            <p>
+              Calcula antes vs. después. Monetiza: horas ahorradas × costo/hora
+              + aumento de conversiones × valor medio.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Comunica con un one-pager</strong>
+            <p>
+              Objetivo, línea base, hipótesis, resultado (%), cálculo de ahorro o ingreso
+              y tiempo de recuperación. Una página. Sin más.
+            </p>
+          </li>
         </ol>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Si quieres un gran sitio, debes probarlo” — <em>Steve Krug</em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Si quieres un gran sitio, debes probarlo." — <em>Steve Krug</em>
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mb-3 mt-5">Mini-casos</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Perfiles UX y cuándo contratarlos</h2>
+    
+        <p>
+          Un diseñador gráfico no es un diseñador UX/UI. El gráfico trabaja identidad
+          y piezas estáticas. El UX se centra en procesos, comportamiento y medición.
+          Tampoco es necesario que dependa de TI — lo ideal es colaboración transversal
+          entre Producto, TI y Marketing.
+        </p>
+    
         <ul>
-            <li class="mb-5">
-                <strong><em><a href="https://www.behance.net/gallery/229418197/Perfil-de-Inversionista-en-App-FOL-%282018%29" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Perfil de Inversionista — FOL (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> flujos y textos pensados para desktop que fallaban en móvil.
-                <br><strong>Acción:</strong> research de contenido (content-first), priorización de campos y prototipado responsive.
-                <br><strong>Resultado:</strong> aumento en la tasa de completitud y menor abandono en mobile (registro interno).
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> invertir en contenido y validación móvil mejora conversión con inversión moderada.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLnmgKHS9he/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Burbuja de Chatbot — CBC (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> alto volumen de consultas repetidas y falta de acceso directo a asesor.
-                <br><strong>Acción:</strong> diseño de burbuja con cuatro rutas, pruebas de usabilidad y microcopy optimizado.
-                <br><strong>Resultado:</strong> menor volumen de consultas repetidas y soporte más eficiente (registro interno).
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> soluciones UX reducen costos operativos.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLiftbVSbw3/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Diseño y Prototipo de Blog — CBC (proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> comunicación por email difícil de escalar y mala experiencia móvil.
-                <br><strong>Acción:</strong> flujos editoriales, prototipado responsive (HTML5/CSS3) y foco en lectura móvil.
-                <br><strong>Resultado:</strong> mayor lectura móvil y canal público con métricas de engagement.
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> un canal bien diseñado se convierte en activo medible para marketing.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DMJX0VbSrib/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">"El corazón, un órgano diferenciador" (Proyecto académico)</a>:</em></strong>
-                <br><strong>Reto:</strong> traducir señales biométricas a experiencia visual y sonora.
-                <br><strong>Acción:</strong> investigación interdisciplinaria y prototipado experimental.
-                <br><strong>Resultado:</strong> validación de la hipótesis y exhibición.
-                <p class="textdescriptions"><small><strong><em>Qué demuestra:</em></strong> investigación aplicada comunica ideas complejas a audiencias amplias.</small></p>
-            </li>
+          <li><strong>Generalista UX/UI (MVPs):</strong> prototipo navegable y user flows. Para lanzar y validar rápido.</li>
+          <li><strong>UX Researcher:</strong> entrevistas, tests y síntesis de insights. Reduce riesgo antes de construir.</li>
+          <li><strong>Product / UX Designer:</strong> estrategia, prototipos y métricas. Conecta negocio y usuario.</li>
+          <li><strong>Interaction Designer:</strong> especificaciones de interacción y estados. Precisión en micro-experiencias.</li>
+          <li><strong>UI / Visual Designer:</strong> kits visuales y mockups hi-fi. Aumenta confianza visual.</li>
+          <li><strong>UX Engineer / Front-end (foco UX):</strong> componentes accesibles y performance.</li>
+          <li><strong>Design System Specialist:</strong> tokens y gobernanza.</li>
+          <li><strong>Content Designer / UX Writer:</strong> microcopy y arquitectura de contenido.</li>
         </ul>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          Invertir en UX no es una moda: es la estrategia que hace que tu producto funcione
+          y que tu negocio crezca de forma sostenible.
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Perfiles UX y cuándo contratarlos</h4>
-        <p>Un diseñador gráfico no es lo mismo que un diseñador UX/UI. El gráfico trabaja identidad y piezas estáticas; el UX se centra en procesos, comportamiento y medición. Tampoco es necesario que el diseñador dependa jerárquicamente de TI: lo ideal es una colaboración transversal entre Producto, TI y Marketing. Un diseñador puede liderar iniciativas, proponer hipótesis y coordinar con ingeniería según su experiencia y contexto.</p>
-        <ul>
-            <li><strong>Generalista UX/UI (MVPs):</strong> prototipo navegable, user flows. Ideal para lanzar y validar rápido.</li>
-            <li><strong>UX Researcher:</strong> entrevistas, tests y síntesis de insights. Reduce riesgo.</li>
-            <li><strong>Product / UX Designer:</strong> estrategia, prototipos y métricas; conecta negocio y usuario.</li>
-            <li><strong>Interaction Designer:</strong> especificaciones de interacción y estados; precisión en micro-experiencias.</li>
-            <li><strong>UI / Visual Designer:</strong> kits visuales y mockups hi-fi (alta fidelidad); aumenta confianza visual.</li>
-            <li><strong>UX Engineer / Front-end (foco UX):</strong> componentes accesibles y performance.</li>
-            <li><strong>Design System Specialist:</strong> tokens y gobernanza.</li>
-            <li><strong>Content Designer / UX Writer:</strong> microcopy y arquitectura de contenido.</li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">Invertir en UX no es una moda: es la estrategia que hace que tu producto funcione y que tu negocio crezca de forma sostenible.</p>
-        <hr class="my-5">
-        <h4>Mini-guía rápida según presupuesto</h4>
-        <ul>
-            <li><strong><em>Startup / MVP:</em></strong> UX+UI generalist — pide prototipo navegable y resultados de 1 experimento.</li>
-            <li><strong><em>Scaleup:</em></strong> separar research, product y front-end — pide case studies con métricas.</li>
-            <li><strong><em>Enterprise:</em></strong> design system + especialistas — pide snapshots y gobernanza.</li>
-        </ul>
-        <p>Cada perfil —del generalista al especialista— aporta habilidades concretas que, combinadas con objetivos y métricas, transforman ideas en productos útiles, rápidos de lanzar y fáciles de escalar.</p>
-        <hr class="my-5">
+    
         <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Cómo calculo el ROI de UX?</strong></p>
-            <p><em>ROI = (Beneficio neto − Inversión) / Inversión × 100</em>. Beneficio neto = ingresos adicionales + ahorro operativo estimado.</p>
-            <hr>
-            <p><strong>¿Qué KPI inicio para e-commerce?</strong></p>
-            <p>Tasa de conversión por paso, AOV, abandono de carrito y tiempo hasta completar la compra.</p>
-            <hr>
-            <p><strong>¿Por qué invertir en UX es relevante para mi empresa y equipo de trabajo?</strong></p>
-            <p>Porque reduce obstáculos y costos, aumenta conversiones y velocidad de entrega, y convierte decisiones en resultados medibles.</p>
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Cómo calculo el ROI de UX?</strong></p>
+          <p>
+            ROI = (Beneficio neto − Inversión) / Inversión × 100.
+            Beneficio neto = ingresos adicionales + ahorro operativo estimado.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Qué KPI inicio para e-commerce?</strong></p>
+          <p>
+            Tasa de conversión por paso, valor promedio de orden, abandono de carrito
+            y tiempo hasta completar la compra. Elige uno y mídelo bien
+            antes de agregar más.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Por qué invertir en UX es relevante para mi empresa?</strong></p>
+          <p>
+            Porque reduce obstáculos y costos, aumenta conversiones y velocidad de entrega,
+            y convierte decisiones de diseño en resultados medibles que la dirección puede leer.
+          </p>
         </div>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 aprendizajes clave</h2>
         <ol>
-            <li>Medir primero: sin línea base no hay historia defendible.</li>
-            <li>Experimenta barato y repite: 2–3 iteraciones aportan evidencia sólida.</li>
-            <li>Traduce resultados a dinero o tiempo: así el negocio entiende el valor del diseño.</li>
+          <li>Medir primero. Tener una línea base hace que las conversaciones sobre resultados sean más claras para todo el equipo — no solo para diseño.</li>
+          <li>Experimenta barato y repite. 2 o 3 iteraciones generan evidencia sólida.</li>
+          <li>Traduce resultados a dinero o tiempo. Así el negocio entiende el valor del diseño.</li>
         </ol>
+    
         <hr class="my-5">
-        <p>El diseño deja de ser un gasto cuando se demuestra con números: medir primero, probar rápido y traducir mejoras a ahorro o ingresos transforma intuiciones en decisiones.</p>
-        <p>Cuando integras contenido, investigación y prototipado desde el inicio, las soluciones dejan de ser ideas bonitas y pasan a ser resultados claros: menos consultas al soporte, mayor completitud en flujos clave y procesos internos más ágiles.</p>
-        <p>Cambiar la forma de trabajar no requiere milagros: pide disciplina para registrar la línea base, valentía para probar en pequeño y hábito para comunicar resultados con claridad. Esas tres prácticas son las que, en mi experiencia, convierten diseño en ventaja competitiva.</p>
+    
+        <p>
+          El diseño deja de ser un gasto cuando se demuestra con números.
+          Medir primero, probar rápido y traducir mejoras a ahorro o ingresos —
+          esas tres prácticas son las que, en mi experiencia, convierten diseño
+          en ventaja competitiva. No hace falta un equipo grande para empezar.
+          Hace falta disciplina para registrar la línea base y valentía para probar en pequeño.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
+        { id: "6",  title: "Investigación UX: mapas, A/B y observación en contexto" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
         { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
@@ -2270,122 +2558,269 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "9": {
       id: 9,
       titleHTML: `
-        Herramientas de Diseño: 
-        <span class="opacity-70"> elige lo que hace al equipo más autónomo</span>
+        Herramientas de Diseño:
+        <span class="opacity-70">elige lo que hace al equipo más autónomo</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo9/img-article-9-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo9/img-article-9-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-9@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
-          He adaptado herramientas y flujos según contexto y objetivos, buscando siempre que el equipo gane autonomía y velocidad.
-          Cuando no estoy utilizando herramientas de diseño, me puedes encontrar disfrutando de un pastel de frutos del bosque con una infusión de rooibos.
+          He adaptado herramientas y flujos según contexto y objetivos,
+          buscando siempre que el equipo gane autonomía y velocidad.
+          Cuando no estoy eligiendo herramientas, me puedes encontrar
+          disfrutando un pastel de frutos del bosque con una infusión de rooibos.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-3-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-          <p>Elige herramientas con pruebas reales y métricas: así ganas autonomía, velocidad y menos dependencias.</p>
-          <p>La mejor herramienta es la que el equipo domina y que resuelve objetivos reales —no la que está de moda.</p>
-          <p>Aquí tienes un proceso práctico (5 pasos), criterios claros y ejemplos reales para elegir, probar e incorporar la herramienta que realmente ayude a tu equipo a hacer mejor su trabajo.</p>
-          <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
-          <p>He visto equipos elegir herramientas por moda o por la preferencia de quien decide. El resultado suele ser siempre el mismo: curvas de aprendizaje largas, frustración, demoras y gasto en licencias que casi no se usan. Si la elección no se vincula a objetivos concretos, la herramienta deja de ser ayuda y se vuelve un freno. Este artículo explica cómo decidir con evidencia, probar en condiciones reales y acompañar la implementación para que el uso sea real y constante.</p>
-          <h4 class="mt-5 fontpoppins opacity-100">Antes / Después — en pocas palabras</h4>
-          <ul>
-              <li><p><strong><em>Antes:</em></strong> decisiones por opinión o moda.</p></li>
-              <li><p><strong><em>Después:</em></strong> decisiones basadas en necesidades, pruebas reales y métricas que demuestran si la herramienta mejora el trabajo diario.</p></li>
-          </ul>
-          <hr class="my-5">
-          <h4 class="my-5 fontpoppins opacity-100">5 pasos para elegir la herramienta correcta (proceso práctico)</h4>
-          <ol>
-            <li><strong>Auditoría rápida (30–60 min):</strong> Reúne 4–5 stakeholders (Marketing, Producto, TI, Operaciones, Diseño). Pide 2–3 necesidades por persona y prioriza por impacto × frecuencia. El entregable: 3 objetivos concretos (ej.: velocidad de publicación, calidad de arte final, integración con desarrollo).</li>
-            <li><strong>Define la métrica norte por entregable:</strong> Antes de probar, acuerda qué medirás: tiempo por publicación, errores en la exportación, tiempo de hand-off, satisfacción del responsable. Registra la línea base (cómo se midió) para comparar después.</li>
-            <li><strong>Evalúa con una matriz simple:</strong> Valora: (a) precisión técnica (¿requiere control vectorial?), (b) colaboración en tiempo real, (c) integración con desarrollo/formatos de entrega, (d) coste y curva de aprendizaje. Prioriza según impacto × frecuencia.</li>
-            <li><strong>Prueba corta y medible (7–14 días):</strong> Elige 1 entregable real (post, banner, página o video corto). Haz la prueba, mide tiempo por tarea, errores y satisfacción del responsable. Si hace falta, repite la prueba con otra alternativa. Usa los datos para decidir con mayor seguridad.</li>
-            <li><strong>Plan de incorporación 30/60/90 días:</strong> Define licencias, responsable de implementación, plantillas, sesiones cortas de formación y métricas de uso (por ejemplo: % de uso de plantillas, tiempo por tarea, tickets de soporte). Revisa y ajusta en ciclos breves.</li>
-          </ol>
+        <p>
+          Cada equipo tiene su historia con las herramientas: algunas llegaron por moda,
+          otras por lo que usaba el equipo anterior, algunas por una demo convincente.
+          No hay una elección incorrecta de entrada — pero sí hay una forma de evaluar
+          si la herramienta actual está ayudando o frenando el trabajo.
+        </p>
+        <p>
+          La mejor herramienta no es la más popular. Es la que el equipo domina
+          y que resuelve objetivos reales. Aquí cuento cómo llego a esa decisión:
+          5 pasos, criterios claros y ejemplos de proyectos reales.
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Elegir sin criterio produce dependencia: el equipo no puede avanzar
+          sin que alguien con acceso o conocimiento específico esté disponible.
+          Una buena elección hace lo contrario — libera tiempo para crear
+          en vez de consumirlo en problemas técnicos.
+        </p>
+    
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
+        <ul>
+          <li>
+            <p><strong><em>Antes:</em></strong> decisiones por opinión o moda.</p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Después:</em></strong> decisiones basadas en necesidades reales,
+              pruebas cortas y métricas que demuestran si la herramienta mejora el trabajo diario.
+            </p>
+          </li>
+        </ul>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">5 pasos para elegir bien</h2>
+    
+        <ol>
+          <li class="mb-3">
+            <strong>Auditoría rápida (30–60 min)</strong>
+            <p>
+              Reúne 4 o 5 personas de distintas áreas — Marketing, Producto, TI, Diseño.
+              Pide 2 o 3 necesidades por persona y prioriza por impacto y frecuencia.
+              El entregable: 3 objetivos concretos (velocidad, calidad de arte final, integración con desarrollo).
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Define la métrica norte por entregable</strong>
+            <p>
+              Antes de probar, acuerda qué medirás: tiempo por publicación, errores en exportación,
+              tiempo de handoff. Registra la línea base para tener algo con qué comparar.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Evalúa con una matriz simple</strong>
+            <p>
+              Valora: precisión técnica, colaboración en tiempo real, integración con desarrollo
+              y costo vs. curva de aprendizaje. Prioriza por impacto y frecuencia de uso.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Prueba corta y medible (7–14 días)</strong>
+            <p>
+              Elige 1 entregable real — un post, un banner, una página.
+              Mide tiempo por tarea, errores y satisfacción. Si hace falta, repite con otra alternativa.
+              Decide con datos, no con intuición.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong>Plan de incorporación 30/60/90 días</strong>
+            <p>
+              Define licencias, responsable de implementación, plantillas, sesiones cortas de formación
+              y métricas de uso. Revisa y ajusta en ciclos breves.
+            </p>
+          </li>
+        </ol>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Cuándo elegir cada herramienta</h2>
+    
+        <p><strong>Illustrator</strong> — Branding, iconografía y arte final con control vectorial. Para equipos de diseño y producción.</p>
+        <p><strong>InDesign</strong> — Maquetación multipágina: revistas, catálogos. Para equipos editoriales.</p>
+        <p><strong>Canva</strong> — Contenidos rápidos en redes y equipos no diseñadores. Con plantillas controladas y archivos fuente para producción.</p>
+        <p><strong>Figma</strong> — Interfaces, prototipado y colaboración en vivo. Facilita el handoff a desarrollo. Para producto y diseño.</p>
+        <p><strong>CapCut / Premiere Pro</strong> — CapCut para video ágil; Premiere para producción profesional. Según recursos y objetivos de calidad.</p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "La mejor herramienta no siempre es la más popular:
+          es la que tu equipo domina y que impulsa resultados."
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mini-casos</h2>
+    
+        <ul>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DL0pyKUSCg-/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Plantillas Social Media — Akasha Healing (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenido constante.
+            <br><strong>Lo que hice:</strong> plantillas editables en Canva y guía rápida de uso.
+            <br><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement
+            (comparativa interna).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> elegir la herramienta por autonomía del cliente
+                permite velocidad sin perder identidad de marca.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Prototipado & handoff — CBC (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> assets inconsistentes y handoff lento a desarrollo.
+            <br><strong>Lo que hice:</strong> assets optimizados en SVG y tokens CSS,
+            snippets reutilizables y prototipo en HTML/CSS.
+            <br><strong>Resultado:</strong> tiempo de preparación de assets reducido
+            y despliegues más ágiles (estimación interna).
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> estandarizar formatos y fragmentos reutilizables
+                acelera la implementación más que cualquier herramienta nueva.
+              </small>
+            </p>
+          </li>
+    
+        </ul>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "La fuerza del equipo reside en cada miembro. La fuerza de cada miembro es el equipo."
+          — <em>Phil Jackson</em>
+        </p>
+    
+        <hr>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Cómo medir la prueba — plantilla rápida</h2>
+    
+        <p>Una tabla simple con estas columnas:</p>
+        <ul>
+          <li><strong>Tarea</strong> — qué se está midiendo.</li>
+          <li><strong>Tiempo antes (min)</strong> — línea base.</li>
+          <li><strong>Tiempo prueba (min)</strong> — durante el ensayo.</li>
+          <li><strong>Errores / ajustes</strong> — número de correcciones necesarias.</li>
+          <li><strong>Satisfacción (1–5)</strong> — valoración del responsable.</li>
+        </ul>
+        <p>
+          <strong>Criterio de decisión:</strong> si la herramienta nueva reduce tiempo
+          y mantiene calidad, seguir. Si no, probar otra alternativa.
+        </p>
+    
+        <hr>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Responsabilidades y versiones</h2>
+        <p>Antes de implementar, define:</p>
+        <ul>
+          <li>Responsable del cambio (nombre, no cargo).</li>
+          <li>Formato y nombre de archivo estándar — ej.: banner_v1_2026_facebook.svg</li>
+          <li>Dónde están los master files — Figma, Drive o GitHub.</li>
+        </ul>
+        <p>
+          Tener esto claro desde el inicio ayuda a que la adopción sea más fluida
+          y que el equipo sepa exactamente dónde encontrar lo que necesita.
+        </p>
+    
+        <hr class="my-5">
+    
+        <div class="bg-canva p-5">
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Canva sirve para branding profesional?</strong></p>
+          <p>
+            Sí, si se entrega con master files y reglas claras. Canva es útil para velocidad
+            y autonomía de equipos no diseñadores. Para producción o impresión,
+            conserva los archivos fuente en AI o Figma.
+          </p>
+    
           <hr>
-          <h4 class="my-5 fontpoppins opacity-100">Cuándo elegir cada herramienta</h4>
-          <p><strong>Illustrator (Adobe)</strong>— Para branding, iconografía y arte final con control vectorial. Recomendado para equipos de diseño/producción.</p>
-          <p><strong>InDesign (Adobe)</strong>— Para maquetación multipágina (revistas, catálogos). Recomendado para equipos editoriales.</p>
-          <p><strong>Canva</strong>— Para contenidos rápidos en redes y equipos no diseñadores. Úsalo con plantillas controladas y conservando archivos originales para producción.</p>
-          <p><strong>Figma</strong>— Para interfaces, prototipado y colaboración en vivo; facilita el hand-off a desarrollo. Recomendado para producto/diseño.</p>
-          <p><strong>CapCut / Premiere Pro</strong>— CapCut para video ágil; Premiere para producción profesional. Elige según recursos y objetivos de calidad.</p>
-          <p class="text-center fs-6 my-4 bg-canva p-3">"La mejor herramienta no siempre es la más popular: es la que tu equipo domina y que impulsa resultados"</p>
-          <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">Mini-casos</h2>
-          <ul>
-              <li class="mb-5">
-                  <strong><em><a href="https://www.instagram.com/p/DL0pyKUSCg-/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Plantillas Social Media — Akasha Healing (Proyecto profesional)</a>:</em></strong>
-                  <br><strong>Reto:</strong> cliente sin equipo ni tiempo para producir contenido constante.
-                  <br><strong>Acción:</strong> plantillas editables en Canva y guía rápida de uso.
-                  <br><strong>Resultado:</strong> coherencia visual inmediata y +30% de engagement (comparativa interna).
-                  <p class="textdescriptions"><small><strong>Qué demuestra:</strong> elegir la herramienta por autonomía permite velocidad sin perder identidad.</small></p>
-              </li>
-              <li class="mb-5">
-                  <strong><em><a href="https://www.instagram.com/p/DLsRJJ7stBt/?utm_source=ig_web_copy_link" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Prototipado & hand-off — CBC (Proyecto profesional)</a>:</em></strong>
-                  <br><strong>Reto:</strong> assets inconsistentes y hand-off lento a desarrollo.
-                  <br><strong>Acción:</strong> assets optimizados (SVG, tokens), snippets CSS y prototipo en HTML/CSS.
-                  <br><strong>Resultado:</strong> tiempo de preparación de assets estimado 30→15 minutos y despliegues más ágiles.
-                  <p class="textdescriptions"><small><strong>Qué demuestra:</strong> estandarizar formatos y fragmentos reutilizables acelera la implementación.</small></p>
-              </li>
-          </ul>
-          <p class="text-center fs-6 my-4 bg-canva p-3">“La fuerza del equipo reside en cada miembro. La fuerza de cada miembro es el equipo.” — <em>Phil Jackson</em></p>
+    
+          <p><strong>¿Cuánto tarda un equipo en incorporar una herramienta nueva?</strong></p>
+          <p>
+            Con prueba corta, plantillas y formación breve: 30 a 90 días para uso habitual.
+            Mide con porcentaje de uso de plantillas y tiempo por tarea.
+          </p>
+    
           <hr>
-          <h4 class="my-5 fontpoppins opacity-100">Cómo medir la prueba (plantilla rápida)</h4>
-          <p>Registra estas columnas en una tabla simple:</p>
-          <ul>
-              <li><p><strong><em>Tarea —</em></strong> qué se está midiendo.</p></li>
-              <li><p><strong><em>Tiempo antes (min) —</em></strong> línea base.</p></li>
-              <li><p><strong><em>Tiempo prueba (min) —</em></strong> durante el ensayo.</p></li>
-              <li><p><strong><em>Errores / ajustes —</em></strong> número de correcciones necesarias.</p></li>
-              <li><p><strong><em>Satisfacción (1–5) —</em></strong> valoración del responsable.</p></li>
-          </ul>
-          <p><strong>Decisión práctica:</strong> si la nueva herramienta reduce tiempo y mantiene calidad → seguir; si no, probar otra alternativa.</p>
-          <hr>
-          <h4 class="my-5 fontpoppins opacity-100">Responsabilidades y versiones (breve y práctico)</h4>
-          <p>Define:</p>
-          <ul>
-              <li>Responsable del cambio (nombre)</li>
-              <li>Formato y nombre de archivo estándar (ej.: banner_v1_2026_facebook.svg)</li>
-              <li>Dónde están los master files (Figma / Drive / GitHub)</li>
-              <li>Dónde están los master files (Figma / Drive / GitHub)</li>
-          </ul>
-          <p><strong>Esto evita</strong> malentendidos y scope creep.</p>
-          <hr class="my-5">
-          <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Canva sirve para branding?</strong></p>
-            <p>Sí, si se entrega con master files y reglas claras; Canva es útil para velocidad y autonomía, pero conserva archivos fuente (AI/Figma) para producción o impresión.</p>
-            <hr>
-            <p><strong>¿Cuánto tarda un equipo en incorporar una herramienta?</strong></p>
-            <p>Con una prueba corta, plantillas y formación breve: 30–90 días para uso habitual. Mide con % de uso de plantillas y tiempo por tarea.</p>
-            <hr>
-            <p><strong>¿Cómo demuestro el retorno de la herramienta?</strong></p>
-            <p>Define la métrica principal, registra la línea base, haz la prueba corta y compara. Complementa con testimonios internos.</p>
-          </div>
-          <hr class="my-5">
-          <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
-          <ul>
-            <li>La mejor herramienta es la que el equipo usa bien y que cumple objetivos concretos.</li>
-            <li>Pruebas cortas con métricas claras evitan decisiones guiadas por opiniones.</li>
-            <li>Plantillas y sesiones de 15–30 minutos logran uso real más rápido que manuales extensos.</li>
-          </ul>
-          <hr class="my-5">
-          <p>Elegir herramientas es una decisión de trabajo diario, no una moda. Cuando tomas esa decisión con cuidado —definiendo qué quieres lograr, probando con casos reales y midiendo resultados— <strong>estás diseñando la forma en que tu equipo trabajará y cómo se verá su trabajo mañana.</strong></p>
-          <p>Esto va más allá de licencias o listas de funciones: es un compromiso con la autonomía de las personas que hacen el trabajo. Una buena elección libera tiempo para pensar, iterar y resolver problemas reales; <strong>una mala elección disminuye la creatividad</strong> porque consume atención en problemas técnicos.</p>
+    
+          <p><strong>¿Cómo demuestro el retorno de la herramienta?</strong></p>
+          <p>
+            Define la métrica principal, registra la línea base, haz la prueba corta y compara.
+            Complementa con testimonios internos del equipo que la usa.
+          </p>
+        </div>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 aprendizajes clave</h2>
+        <ul>
+          <li>La mejor herramienta es la que el equipo usa bien y que resuelve objetivos reales.</li>
+          <li>Pruebas cortas con métricas claras evitan decisiones guiadas por opiniones.</li>
+          <li>Plantillas y sesiones de 15 a 30 minutos generan adopción real
+          más rápido que cualquier manual extenso.</li>
+        </ul>
+    
+        <hr class="my-5">
+    
+        <p>
+          Elegir una herramienta es una decisión de trabajo diario, no una declaración
+          de identidad. Cuando esa decisión se toma con criterio — definiendo qué quieres
+          lograr, probando en condiciones reales y midiendo — el equipo gana velocidad
+          y confianza. Y eso se nota en cada entrega.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "7", title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
+        { id: "7",  title: "Brief de diseño: la hoja de ruta que acorta proyectos" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" },
-        { id: "4", title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" }
+        { id: "4",  title: "Laboratorio de Formas: experimentación creativa aplicada al diseño" }
       ],
       relatedProjects: [
         {
@@ -2402,136 +2837,337 @@
         }
       ]
     },
+
+    // ─────────────────────────────────────────────────────────────────────────────
+
     "10": {
       id: 10,
       titleHTML: `
         Brand Kit eficiente:
-        <span class="opacity-70"> ahorra tiempo y consigue coherencia visual</span>
+        <span class="opacity-70">ahorra tiempo y consigue coherencia visual</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo10/img-article-10-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo10/img-article-10-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-10@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
-          He ayudado a equipos a ahorrar horas de trabajo y a mantener coherencia visual en múltiples proyectos.
-          Cuando no organizo assets, me encontrarás disfrutando de la compañía de un hermoso gatito.
+          He ayudado a equipos a ahorrar horas de trabajo y a mantener coherencia visual
+          en múltiples proyectos. Cuando no organizo assets, me encontrarás
+          disfrutando la compañía de un hermoso gatito.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-4-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>No es decoración: un Brand Kit práctico hace que tu equipo gaste energía en crear, no en buscar archivos.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“El diseño es el embajador silencioso de tu marca.” — <em>Paul Rand</em></p>
+        <p>
+          En un proyecto con FOL, el equipo de Marketing y el de TI usaban versiones
+          distintas del logo. Nadie lo había notado hasta que apareció en una presentación
+          importante. No fue culpa de nadie — era un problema de sistema:
+          no había un lugar único con los archivos correctos ni reglas claras de uso.
+        </p>
+        <p>
+          Eso es lo que resuelve un Brand Kit bien hecho. No es decoración ni un entregable
+          de cierre de proyecto — es la herramienta que permite que el equipo trabaje
+          con autonomía y coherencia al mismo tiempo.
+        </p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "El diseño es el embajador silencioso de tu marca." — <em>Paul Rand</em>
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Contexto & problema</h2>
-        <p>En mi experiencia profesional he visto cómo la falta de reglas claras termina consumiendo horas y energía. Un Brand Kit bien pensado no es decoración: es la herramienta que transforma improvisación en velocidad, confianza y profesionalismo. <strong>Sin un Brand Kit, la presencia de la marca se debilita</strong>: cada persona interpreta la identidad desde su propio lugar y, poco a poco, la marca puede convertirse en un Frankenstein visual —variada, inconsistente y confusa. Centralizar los activos evita eso y <strong>permite que el equipo gaste su energía en crear, no en buscar archivos.</strong></p>
-        <hr>
-        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después — en pocas palabras</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Cuando no hay un sistema claro, cada persona interpreta la identidad
+          desde su propio lugar. El resultado es gradual e invisible al principio:
+          colores que varían un poco, logos en versiones distintas, tipografías
+          que no coinciden entre piezas. Nada grave por separado — pero acumulado,
+          la marca empieza a contar historias distintas dependiendo de quién produce.
+        </p>
+        <p>
+          Un Brand Kit centraliza los activos y las reglas para que eso no pase.
+          El equipo gasta energía en crear, no en buscar archivos ni en preguntar
+          cuál es la versión correcta.
+        </p>
+    
+        <h4 class="mt-5 fontpoppins opacity-100">Antes / Después</h4>
         <ul>
-          <li><strong><em>Antes:</em></strong> piezas con colores distintos y preguntas repetidas sobre cuál es el logo correcto.</li>
-          <li><strong><em>Después:</em></strong> una carpeta única con archivos fuente, plantillas y un UI Kit que el equipo usa a diario; menos correcciones y entregas más rápidas.</li>
+          <li>
+            <p>
+              <strong><em>Antes:</em></strong> piezas con colores distintos
+              y preguntas frecuentes sobre cuál era el logo correcto.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong><em>Después:</em></strong> una carpeta centralizada con archivos fuente,
+              plantillas y un UI Kit que el equipo usa a diario. Menos revisiones,
+              entregas más rápidas y menos dependencia del equipo de diseño
+              para tareas operativas.
+            </p>
+          </li>
         </ul>
+    
         <hr class="my-5">
+    
         <h4 class="mb-3">Qué es y por qué funciona</h4>
         <ul>
-          <li><strong>Brand System / Brand Kit:</strong> guía viva con paleta (HEX / RGB / CMYK), tipografías, versiones de logo, uso correcto vs incorrecto y reglas de tono. Un Brand System escalable integra tokens y componentes para productos digitales; <strong><em>un Brand Kit es la versión compacta para arrancar rápido.</em></strong></li>
-          <li><strong>UI Kit:</strong> colección de componentes (botones, inputs, cards, iconos SVG), tokens y snippets que facilitan la implementación sin inconsistencias. Usar <strong><em>design tokens</em></strong> ayuda a mantener valores de color y espaciados sincronizados entre diseño y código.</li>
-          <li><strong>Documentación:</strong> mantener ejemplos interactivos y estados de componentes reduce dudas y acelera hand-off hacia desarrollo.</li>
+          <li>
+            <strong>Brand System / Brand Kit:</strong> guía con paleta (HEX / RGB / CMYK),
+            tipografías, versiones de logo, reglas de uso y tono.
+            Un Brand System escalable integra tokens y componentes para productos digitales.
+            <strong><em>Un Brand Kit es la versión compacta para arrancar rápido.</em></strong>
+          </li>
+          <li>
+            <strong>UI Kit:</strong> colección de componentes — botones, inputs, cards, iconos SVG —
+            tokens y snippets que facilitan la implementación sin inconsistencias.
+            Los design tokens mantienen valores de color y espaciados sincronizados
+            entre diseño y código.
+          </li>
+          <li>
+            <strong>Documentación:</strong> ejemplos interactivos y estados de componentes
+            que reducen dudas y aceleran el handoff a desarrollo.
+          </li>
         </ul>
+    
         <hr class="my-5">
-        <h4 class="mb-3 mt-5">Mini-casos</h4>
+    
+        <h4 class="mb-3">Mini-casos</h4>
+    
         <ul>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Brand System — CBC (Proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> piezas y documentos con líneas visuales distintas entre áreas.
-                <br><strong>Acción:</strong> Brand Guide práctico (10 páginas) + archivos fuente
-                <br><strong>Resultado:</strong> equipos alineados y plantillas internas listas; menos revisiones de color y usos del logo.
-                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> centralizar archivos fuente y reglas ahorra tiempo y consultas.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="landing-projects-d-fol.html" class="a-small-article px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Style Guide — FOL (Proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> uso inconsistente de colores y tipografías entre Marketing, TI y Ventas.
-                <br><strong>Acción:</strong> paleta (HEX/RGB), familias tipográficas, iconografía y guías de aplicación.
-                <br><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales.
-                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> entregar ejemplos “qué sí / qué no” evita interpretaciones distintas.</small></p>
-            </li>
-            <li class="mb-5">
-                <strong><em><a href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link" class="a-small-article-green px-1" target="_blank" rel="noopener noreferrer" title="Ver más sobre este Proyecto" data-bs-toggle="tooltip">Manual OPL — Casona Minka (Proyecto profesional)</a>:</em></strong>
-                <br><strong>Reto:</strong> identidad externa cuidada; procesos internos sin estandarizar.
-                <br><strong>Acción:</strong> manual operativo con instrucciones claras para convivencia, procesos y comunicación.
-                <br><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación de equipos.
-                <p class="textdescriptions"><small><strong>Aprendizaje:</strong> un manual práctico funciona si lo enseñas en 15–30 minutos a equipos del negocio.</small></p>
-            </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLxhfxrxvp_/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Brand System — CBC (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> piezas y documentos con líneas visuales distintas entre áreas.
+            <br><strong>Lo que hice:</strong> Brand Guide práctico de 10 páginas más archivos fuente.
+            <br><strong>Resultado:</strong> equipos alineados con plantillas listas;
+            menos revisiones de color y de usos del logo.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> centralizar archivos fuente y reglas de uso
+                reduce consultas y libera tiempo para trabajo de mayor valor.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="landing-projects-d-fol.html"
+                class="a-small-article px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Style Guide — FOL (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> uso inconsistente de colores y tipografías
+            entre Marketing, TI y Ventas.
+            <br><strong>Lo que hice:</strong> paleta con valores HEX/RGB, familias tipográficas,
+            iconografía y guías de aplicación con ejemplos de qué sí y qué no.
+            <br><strong>Resultado:</strong> coherencia inmediata en web y materiales comerciales.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> los ejemplos visuales de uso correcto e incorrecto
+                son más útiles que las reglas escritas. La gente los entiende a primera vista.
+              </small>
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>
+              <a
+                href="https://www.instagram.com/p/DLnbeYNSgf6/?utm_source=ig_web_copy_link"
+                class="a-small-article-green px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ver más sobre este Proyecto"
+                data-bs-toggle="tooltip"
+              >Manual OPL — Casona Minka (proyecto profesional)</a>:
+            </em></strong>
+            <br><strong>Reto:</strong> identidad externa cuidada pero procesos internos sin estandarizar.
+            <br><strong>Lo que hice:</strong> manual operativo con instrucciones claras
+            para convivencia, procesos y comunicación interna.
+            <br><strong>Resultado:</strong> mayor eficiencia operativa y mejor coordinación de equipos.
+            <p class="textdescriptions">
+              <small>
+                <strong>Lo que aprendí:</strong> un manual práctico funciona si lo enseñas
+                en 15 a 30 minutos con el equipo. Sin ese tiempo de activación, queda guardado.
+              </small>
+            </p>
+          </li>
+    
         </ul>
+    
         <hr class="my-5">
+    
         <h4 class="mb-3">Evidencia y benchmarks: qué dicen los datos</h4>
-        <p>No hagas métricas por moda: usa benchmarks reales para fijar metas alcanzables. Esto es lo que muestran estudios y experiencias de la industria —y cómo convertirlo en objetivos concretos para tu Brand Kit.</p>
+        <p>
+          Esto es lo que muestran estudios y experiencias de la industria —
+          útil para fijar metas alcanzables al proponer un Brand Kit internamente.
+        </p>
         <ol>
-            <li class="mb-3">
-                <strong><em>Ahorro de tiempo</em></strong>
-                <p>Equipos con design systems reportan reducciones en tiempos de trabajo entre <strong><em>25% y 40%</em></strong>, según la madurez del sistema.<br> 
-                Traducción práctica: si hoy un banner te toma 60 min, una meta razonable tras implementar tokens y un UI Kit es dejarlo en 36–45 min.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Uso de plantillas (benchmark)</em></strong>
-                <p>Equipos que miden el uso de plantillas suelen ver que alcanzar <strong><em>>70% en 60–90 días</em></strong> es realista cuando hay formación breve y un responsable que impulse el proceso. Si tu punto de partida es <30%, arma un plan con sesiones cortas y seguimiento semanal.</p>
-            </li>
-            <li class="mb-3">
-                <strong><em>Calidad</em></strong>
-                <p>Organizaciones que usan documentación interactiva y librerías vivas reducen errores visuales y problemas de accesibilidad —esto se traduce en <strong><em>menos correcciones y ahorro de horas en QA</em></strong>. Registra incidencias mensuales antes y después con un tag “error-identidad” para mostrar el impacto.</p>
-            </li>
+          <li class="mb-3">
+            <strong><em>Ahorro de tiempo</em></strong>
+            <p>
+              Equipos con design systems reportan reducciones de entre 25% y 40%
+              en tiempos de producción, según la madurez del sistema.
+              En términos prácticos: si un banner toma 60 minutos hoy,
+              una meta razonable tras implementar tokens y un UI Kit es dejarlo en 36 a 45 minutos.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Adopción de plantillas</em></strong>
+            <p>
+              Equipos que miden el uso de plantillas suelen alcanzar más del 70% en 60 a 90 días
+              cuando hay una sesión de activación y un responsable que acompaña el proceso.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Calidad y errores</em></strong>
+            <p>
+              Organizaciones con documentación interactiva y librerías vivas reportan
+              menos errores visuales y problemas de accesibilidad — lo que se traduce
+              en menos rondas de revisión y más tiempo para trabajo de diseño real.
+            </p>
+          </li>
         </ol>
+    
         <h5 class="mt-5">Referencias</h5>
         <ul>
-          <li class="textdescriptions"><small><a href="https://www.figma.com/es-la/reports/measure-design-system-roi/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Figma — Measure design system ROI."</a></small></li>
-          <li class="textdescriptions"><small><a href="https://www.smashingmagazine.com/2022/09/formula-roi-design-system/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Smashing Magazine — The ROI of a design system."</a></small></li>
-          <li class="textdescriptions"><small><a href="https://storybook.js.org/showcase/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Storybook — Case studies."</a></small></li> 
-          <li class="textdescriptions"><small><a href="https://storybook.js.org/docs" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">"Storybook — Docs."</a></small></li>          
+          <li class="textdescriptions">
+            <small>
+              <a
+                href="https://www.figma.com/es-la/reports/measure-design-system-roi/"
+                class="a-small px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ir a la fuente"
+                data-bs-toggle="tooltip"
+              >"Figma — Measure design system ROI."</a>
+            </small>
+          </li>
+          <li class="textdescriptions">
+            <small>
+              <a
+                href="https://www.smashingmagazine.com/2022/09/formula-roi-design-system/"
+                class="a-small px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ir a la fuente"
+                data-bs-toggle="tooltip"
+              >"Smashing Magazine — The ROI of a design system."</a>
+            </small>
+          </li>
+          <li class="textdescriptions">
+            <small>
+              <a
+                href="https://storybook.js.org/showcase/"
+                class="a-small px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ir a la fuente"
+                data-bs-toggle="tooltip"
+              >"Storybook — Case studies."</a>
+            </small>
+          </li>
+          <li class="textdescriptions">
+            <small>
+              <a
+                href="https://storybook.js.org/docs"
+                class="a-small px-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Ir a la fuente"
+                data-bs-toggle="tooltip"
+              >"Storybook — Docs."</a>
+            </small>
+          </li>
         </ul>
+    
         <hr class="my-5">
-        <h4 class="mb-3">Cómo medir (recomendación rápida y práctica)</h4>        
+    
+        <h4 class="mb-3">Cómo medir el impacto</h4>
         <ol>
-          <li><strong>Antes:</strong> registra 10–20 assets típicos (tiempo y número de correcciones).</li>
-          <li><strong>Implementa:</strong> One-page + 3 tokens + 1 plantilla.</li>
+          <li><strong>Antes:</strong> registra 10 a 20 assets típicos — tiempo de producción y número de correcciones.</li>
+          <li><strong>Implementa:</strong> one-page + 3 tokens + 1 plantilla.</li>
           <li><strong>Después:</strong> a los 30 y 90 días, mide la misma muestra.</li>
-          <li><strong>Reporta:</strong> % reducción de tiempo, % uso de plantilla, nº incidencias.</li>          
+          <li><strong>Reporta:</strong> reducción de tiempo, porcentaje de uso de plantilla, incidencias.</li>
         </ol>
-        <p><strong>Por qué esto suma:</strong> benchmarks + una mini-prueba convierten al Brand Kit en una inversión justificable —no en una actividad estética.</p>
+    
         <hr class="my-5">
-        <h4 class="mb-3">¿Qué son los benchmarks?</h4>
-        <p>Los <em>benchmarks</em> son <strong>puntos de referencia:</strong> cifras o resultados que sirven para comparar cómo estamos haciendo algo frente a otras prácticas o estándares. No son reglas; son mediciones que nos ayudan a decidir si lo que hacemos está dentro de lo esperado o si debemos mejorar.</p>
-        <h5 class="my-3">Cómo usar un benchmark en 3 pasos sencillos</h5>
-        <ol>
-          <li><strong>Busca una referencia</strong> (un artículo o caso público o tu propia medición).</li>
-          <li><strong>Mide tu situación actual</strong> (registra 10 piezas similares y su tiempo).</li>
-          <li><strong>Compara y decide:</strong> si estás muy por encima del benchmark, planifica mejoras concretas y una pequeña prueba para reducir tiempos.</li>
-        </ol>
-        <hr class="my-5">
+    
         <div class="bg-canva p-5">
           <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
           <p><strong>¿Brand Kit o Brand System?</strong></p>
-          <p>El <strong>Brand Kit</strong> es la versión compacta para arrancar rápido (paleta, logos, 2–3 plantillas). El <strong>Brand System</strong> es la versión escalable con tokens, componentes y documentación viva. Empieza por un Brand Kit si necesitas resultados pronto; evoluciona a Brand System cuando el producto digital lo demande.</p>
+          <p>
+            El Brand Kit es la versión compacta para arrancar rápido — paleta, logos, 2 o 3 plantillas.
+            El Brand System es la versión escalable con tokens, componentes y documentación viva.
+            Empezar por el Kit y evolucionar al System cuando el producto digital lo demande
+            es una ruta que funciona bien en equipos que están creciendo.
+          </p>
+    
           <hr>
-          <p><strong>¿Cómo hago que el equipo lo use?</strong></p>
-          <p>Asigna un owner visible, realiza micro-workshops por área, versiona archivos y mide adopción. Plantillas listas y formación breve generan uso inmediato.</p>
+    
+          <p><strong>¿Cómo logro que el equipo lo use?</strong></p>
+          <p>
+            Con una sesión corta de activación por área, un responsable visible
+            y plantillas listas para usar desde el primer día. La adopción viene
+            cuando el sistema facilita el trabajo, no cuando lo complica.
+          </p>
+    
           <hr>
+    
           <p><strong>¿Entregar código listo o solo snippets?</strong></p>
-          <p>- Si lanzas con frecuencia: entrega componentes documentados (Storybook) y código listo.</p>
-          <p>- Si arrancas rápido: entrega snippets CSS/variables y un prototipo navegable; desarrollo completará la integración.</p>
+          <p>
+            Depende del ritmo del equipo. Si el proyecto lanza con frecuencia,
+            componentes documentados en Storybook aceleran mucho.
+            Si el equipo está arrancando, snippets CSS y un prototipo navegable
+            son un buen punto de partida que desarrollo puede completar.
+          </p>
         </div>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 Aprendizajes Clave</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mis 3 aprendizajes clave</h2>
         <ol>
-            <li>Centralizar assets evita pérdidas de tiempo y errores repetidos.</li>
-            <li>Un UI Kit bien pensado acelera entregas y mejora la relación diseño-desarrollo.</li>
-            <li>Enseñar en poco tiempo (micro-workshops) es más efectivo que una guía extensa.</li>
+          <li>
+            Centralizar assets reduce el tiempo que el equipo pasa buscando
+            y preguntando — y eso se nota en el ritmo de trabajo diario.
+          </li>
+          <li>
+            Un UI Kit bien pensado mejora la relación entre diseño y desarrollo:
+            menos idas y vueltas, más claridad en cada entrega.
+          </li>
+          <li>
+            Una sesión corta de activación vale más que un manual extenso.
+            El sistema funciona cuando la gente sabe usarlo, no solo cuando existe.
+          </li>
         </ol>
+    
         <hr class="my-5">
-        <p>La coherencia visual no es un lujo: es una práctica diaria que protege la reputación y acelera el trabajo. Un Brand Kit eficiente no solo reduce errores; libera tiempo para que el equipo haga lo que importa: resolver problemas, probar ideas y conectar con usuarios.</p>
+    
+        <p>
+          La coherencia visual no es un lujo — es una práctica que protege
+          la reputación de la marca y hace el trabajo diario más fluido.
+          Un Brand Kit bien construido y bien activado libera al equipo
+          para hacer lo que importa: diseñar, iterar y conectar con usuarios.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
         { id: "2", title: "Coherencia Visual: Estandariza tus Documentos" },
         { id: "1", title: "Diseño que Evoluciona" },
@@ -2552,140 +3188,298 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "11": {
       id: 11,
       titleHTML: `
         Iteraciones Rápidas:
-        <span class="opacity-70"> prototipado que minimiza riesgos</span>
+        <span class="opacity-70">prototipado que minimiza riesgos</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo11/img-article-11-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo11/img-article-11-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-11@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper,</strong>
-          y creo que validar rápido es un acto de cuidado: prototipos bien hechos ahorran tiempo y dinero y mantienen la visión del producto. He liderado sprints de prototipado que detectaron problemas críticos antes de escribir código y redujeron semanas de desarrollo.
-          Cuando no construyo prototipos, pruebo nuevas herramientas ágiles con un helado Amarena en mano.
+          y creo que validar rápido es un acto de cuidado hacia el equipo:
+          prototipos bien hechos ahorran tiempo y mantienen la visión del producto.
+          Cuando no construyo prototipos, pruebo nuevas herramientas ágiles
+          con un helado Amarena en mano.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-5-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p>Valida en días, no en meses: prototipos tempranos solucionan dudas reales antes de escribir código.</p>
-        <p>Una vez me tocó rehacer semanas de desarrollo porque nadie había probado la idea con usuarios. Desde entonces, prototipar temprano se volvió mi forma de cuidar el tiempo del equipo. Aquí comparto lo práctico: pasos que uso, errores que ya no repito y resultados que sí se ven.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“La transformación ágil no es un proyecto; es un cambio cultural” — <em>Michael Sahota</em></p>
-        <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Problema</h2>
-        <p>Si construyes sin probar, gastas horas en código que no responde a lo que la gente necesita. Se alargan los plazos, suben los cambios y baja la confianza del equipo. Probar primero evita todo eso.</p>
+        <p>
+          En un proyecto me tocó ser parte del equipo que tuvo que rehacer semanas
+          de desarrollo porque la idea no se había probado antes de programarla.
+          No fue error de nadie en particular — fue un proceso que no tenía
+          un momento de validación antes de escribir código.
+        </p>
+        <p>
+          Desde entonces, propongo prototipar temprano en cada proyecto donde tengo
+          esa posibilidad. No como regla, sino porque he visto la diferencia:
+          un prototipo de dos días puede evitar dos semanas de retrabajo.
+          Y eso cuida el tiempo de todo el equipo, no solo del mío.
+        </p>
+    
         <hr>
-        <h4 class="mb-3 mt-5">Mini-casos</h4>
-        <ul>
-            <li class="mb-5">
-                <strong><em>Laboratoria — sprints cortos (formación)</em></strong>
-                <p>Hicimos sprints cortos y hackathons de 24 h para pasar de idea a prototipo. <em><strong>Resultado:</em></strong> la práctica de iterar pasó a ser rutina y los equipos aprendieron a tomar decisiones rápidas sin perder foco.</p>
-            </li>
-            <li class="mb-5">
-                <strong><em>FOL — trabajo junto a TI (proyecto profesional)</em></strong>
-                <p>Me sumé desde el inicio a reuniones técnicas, armé prototipos en HTML y trabajé en ciclos. <em><strong>Resultado:</em></strong> menos malentendidos y un traspaso a desarrollo más suave. Aprendí que involucrar a quien va a programar desde el prototipo ahorra trabajo y tiempo.</p>
-            </li>
-        </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“En un equipo Scrum, todos están dando lo máximo siempre, buscando apoyar a sus compañeros en lo que requieran” — <em>Jorge Abad</em></p>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Cuando se construye sin validar primero, el costo del error sube con cada etapa.
+          Lo que es un ajuste rápido en un prototipo se convierte en un cambio de código
+          una semana después. Los plazos se estiran, la confianza del equipo baja
+          y nadie entiende bien por qué.
+        </p>
+        <p>
+          Probar antes no es desconfiar del diseño — es cuidar el esfuerzo
+          que viene después.
+        </p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "La transformación ágil no es un proyecto; es un cambio cultural."
+          — <em>Michael Sahota</em>
+        </p>
+    
         <hr class="my-5">
-        <h2 class="mt-5 fontpoppins opacity-100">Lo que realmente funciona</h2>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
+        <ul>
+    
+          <li class="mb-5">
+            <strong><em>Laboratoria — sprints cortos (formación)</em></strong>
+            <p>
+              Durante el diplomado trabajamos en sprints cortos y hackathons de 24 horas
+              para pasar de idea a prototipo. Aprendí a tomar decisiones rápidas
+              sin perder el foco del usuario — y a trabajar en ciclos cortos
+              donde cada iteración tiene un aprendizaje claro.
+            </p>
+            <p>
+              <strong><em>Lo que me llevé:</em></strong> la práctica de iterar como rutina
+              hace que el equipo se mueva con más seguridad. No por velocidad —
+              por claridad en cada paso.
+            </p>
+          </li>
+    
+          <li class="mb-5">
+            <strong><em>FOL — trabajo junto a TI (proyecto profesional)</em></strong>
+            <p>
+              Me integré desde el inicio a las reuniones técnicas del equipo de TI,
+              armé prototipos en HTML y trabajé en ciclos cortos junto a desarrollo.
+              El objetivo era que el traspaso fuera lo más fluido posible.
+            </p>
+            <p>
+              <strong><em>Lo que aprendí:</em></strong> cuando desarrollo conoce la hipótesis
+              y ve el prototipo temprano, las preguntas técnicas aparecen antes
+              — y eso ahorra tiempo en ambas direcciones.
+            </p>
+          </li>
+    
+        </ul>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "En un equipo Scrum, todos están dando lo máximo siempre,
+          buscando apoyar a sus compañeros en lo que requieran." — <em>Jorge Abad</em>
+        </p>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Lo que funciona en la práctica</h2>
+    
         <ol>
-            <li class="mb-3"><strong><em>Arranca con lo mínimo que pruebe la idea.</em></strong>
-              <br>Un prototipo simple que deje probar la <em>tarea clave</em> (registro, compra, envío) ya te da pistas reales.
-            </li>
-            <li class="mb-3"><strong><em>Valida el flujo, no la decoración.</em></strong>
-              <br>Primero comprueba si la gente <em>entiende el camino</em>. Después trabajas en la estética y los detalles.
-            </li>
-            <li class="mb-3"><strong><em>No subas la fidelidad hasta estar seguro.</em></strong>
-              <br>HTML/CSS tiene sentido cuando ya validaste que el flujo y el contenido funcionan. Si no, estarás programando partes que luego cambian.
-            </li>
-            <li class="mb-3"><strong><em>Cada prueba responde una pregunta.</em></strong>
-              <br>¿Queremos saber si la gente se registra sin ayuda? Esa es la pregunta del test. <em>No multipreguntas:</em> pierdes foco. Evita la dispersión.
-            </li>
-            <li class="mb-3"><strong><em>Registra lo que aprendes.</em></strong>
-              <br>Un changelog simple (fecha – hipótesis – hallazgo – decisión) evita repetir errores y hace claro por qué se cambió algo.
-            </li>
+          <li class="mb-3">
+            <strong><em>Empieza con lo mínimo que pruebe la idea.</em></strong>
+            <p>
+              Un prototipo simple que permita probar la tarea clave — registro, compra,
+              envío — ya da pistas reales. No necesita ser perfecto para ser útil.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Valida el flujo antes que la estética.</em></strong>
+            <p>
+              Primero comprueba si la gente entiende el camino.
+              Los detalles visuales vienen después, cuando el flujo ya tiene sentido.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>No subas la fidelidad hasta estar seguro.</em></strong>
+            <p>
+              El prototipo en HTML/CSS tiene sentido cuando el flujo y el contenido
+              ya están validados. Antes de eso, es construir sobre suposiciones.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Cada prueba responde una pregunta.</em></strong>
+            <p>
+              ¿El usuario completa el registro sin ayuda? Esa es la pregunta del test —
+              una sola. Cuando se mezclan varias preguntas, los resultados
+              son difíciles de interpretar.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Documenta lo que aprendes.</em></strong>
+            <p>
+              Un registro simple — fecha, hipótesis, hallazgo, decisión — evita repetir
+              los mismos errores y hace claro para todo el equipo por qué algo cambió.
+            </p>
+          </li>
         </ol>
-        <h4 class="mb-3 mt-5">Método práctico que uso</h4>
+    
+        <h4 class="mb-3 mt-5">Método que uso</h4>
         <ul>
-          <li><strong><em>Hipótesis en 1 línea.</em></strong> Por ejemplo: “El 70% de usuarios completará el registro en menos de 2 minutos.”</li>
-          <li><strong><em>Métrica principal.</em></strong> Elige una sola (tasa de éxito, tiempo, o errores críticos).</li>
-          <li><strong><em>Ronda rápida:</em></strong> 3–5 usuarios para detectar problemas importantes. Si hay patrones, haces otra ronda.</li>
-          <li><strong><em>Entregable:</em></strong> prototipo click-through + grabaciones + changelog con 8–12 hallazgos priorizados.</li>
+          <li><strong>Hipótesis en 1 línea.</strong> Ej.: "El 70% de usuarios completará el registro en menos de 2 minutos."</li>
+          <li><strong>Métrica principal.</strong> Una sola — tasa de éxito, tiempo o errores críticos.</li>
+          <li><strong>Ronda rápida:</strong> 3 a 5 usuarios para detectar los problemas más importantes.</li>
+          <li><strong>Entregable:</strong> prototipo click-through + notas de hallazgos priorizados.</li>
         </ul>
-        <p><small><strong>Consejo:</strong> no necesitas gran reclutamiento para empezar. Amigos, colegas o stakeholders representativos sirven para la primera ronda. Lo importante es observar y repetir.</small></p>
+    
+        <p>
+          <small>
+            <strong>Consejo:</strong> no siempre se puede reclutar usuarios externos.
+            Colegas, stakeholders o personas representativas del equipo sirven para una primera ronda.
+            Lo importante es observar, no la perfección de la muestra.
+          </small>
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mb-3 mt-5">KPIs sencillos</h4>
+    
+        <h4 class="mb-3">KPIs sencillos</h4>
         <ul>
-          <li><strong><em>% de tareas completadas —</em></strong> cuenta cuántos usuarios lograron la tarea.</li>
-          <li><strong><em>Tiempo medio por tarea —</em></strong> cronómetro y registra.</li>
-          <li><strong><em>Problemas críticos —</em></strong> lista corta de errores que impiden completar la tarea.</li>
+          <li><strong>% de tareas completadas</strong> — cuántos usuarios lograron la tarea.</li>
+          <li><strong>Tiempo medio por tarea</strong> — cronómetro y registro.</li>
+          <li><strong>Problemas críticos</strong> — lista corta de errores que impiden completar la tarea.</li>
         </ul>
-        <p><small><strong>Registra los resultados en una hoja con columnas:</strong> usuario / tarea / tiempo / completó (sí/no) / nota. Así tienes evidencia para decidir.</small></p>
+        <p>
+          <small>
+            <strong>Registro simple:</strong> una hoja con columnas —
+            usuario / tarea / tiempo / completó (sí/no) / nota.
+            Así hay evidencia para decidir y compartir con el equipo.
+          </small>
+        </p>
+    
         <hr class="my-5">
-        <p class="text-center fs-6 my-4 bg-canva p-3">“La forma más costosa de probar tu idea es desarrollar software de calidad de producción” — <em>Jeff Patton</em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "La forma más costosa de probar tu idea es desarrollar software de calidad de producción."
+          — <em>Jeff Patton</em>
+        </p>
+    
         <hr>
-        <h4 class="mb-3 mt-5">Herramientas recomendadas</h4>
+    
+        <h4 class="mb-3 mt-5">Herramientas que se suelen usar</h4>
         <ul>
-          <li><strong><em>Prototipado interactivo:</em></strong> Figma, Adobe XD, ProtoPie.</li>
-          <li><strong><em>Maquetas planas / arte final:</em></strong> Illustrator, Photoshop.</li>
-          <li><strong><em>Testing / reclutamiento:</em></strong> Lookback, Maze, UserTesting.</li>
-          <li><strong><em>Documentación / hand-off:</em></strong> Notion, Google Sheets, Storybook (para componentes).</li>
-          <li><strong><em>Registro / grabación:</em></strong> Loom, Zoom.</li>
+          <li><strong>Prototipado interactivo:</strong> Figma, Adobe XD, ProtoPie.</li>
+          <li><strong>Maquetas y arte final:</strong> Illustrator, Photoshop.</li>
+          <li><strong>Testing:</strong> Lookback, Maze, UserTesting.</li>
+          <li><strong>Documentación y handoff:</strong> Notion, Google Sheets, Storybook.</li>
+          <li><strong>Registro y grabación:</strong> Loom, Zoom.</li>
         </ul>
-        <p>Si no hay desarrollador disponible, considera no-code (Webflow) o contratación puntual para convertir el prototipo validado en producción; evita programar antes de validar.</p>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“Build — Measure — Learn.” — <em>Eric Ries</em></p>
-        <h4 class="mb-3 mt-5">Procesos internos que sostienen iteraciones sanas</h4>
-        <p><em>No son reuniones por cumplir:</em> los procesos internos bien pensados mantienen el ritmo del proyecto y cuidan al equipo. <strong>He aprendido que sin acuerdos claros, la iteración se vuelve ruido:</strong> tareas abiertas, revisiones eternas y expectativas perdidas.</p>
-        <p>Prácticas concretas que he explorado y que funcionan:</p>
-        <ul class="mb-5">
-            <li class="mb-3"><strong><em>Sprint corto y con foco.</em></strong>
-              <br>Sprints de una o dos semanas que priorizan 1–2 hipótesis clave. Evita intentar “todo a la vez”. (Esto reduce rehacer y mantiene energía)
-            </li>
-            <li class="mb-3"><strong><em>Reuniones cortas y útiles.</em></strong>
-              <br>Daily standups de 10–15 minutos para sincronizar bloqueos —no para reportar todo.
-            </li>
-            <li class="mb-3"><strong><em>Muestra rápida cada sprint.</em></strong>
-              <br>Mostrar lo probado en 20–30 minutos ayuda a alinear a producto, negocio y desarrollo. Cuando todos ven lo que funciona (o no), las decisiones son más limpias.
-            </li>
-            <li class="mb-3"><strong><em>Preguntas sencillas y accionables.</em></strong>
-              <br>Tres preguntas: ¿qué salió bien?, ¿qué no?, ¿qué haremos distinto la próxima vez? Pequeños cambios acumulados mejoran el ritmo.
-            </li>
-            <li class="mb-3"><strong><em>Reglas claras de entrega (Definition of Done).</em></strong>
-              <br>Qué se considera “listo”: diseño, microcopy, assets optimizados, notas para desarrollo. Esto evita que “listo” signifique cosas distintas según la persona.
-            </li>
-            <li class="mb-3"><strong><em>Límites de trabajo en curso (WIP).</em></strong>
-              <br>Menos tareas abiertas = menos context switching. Esto protege la calidad y la energía del equipo.
-            </li>
-            <li class="mb-3"><strong><em>Involucra a desarrollo desde el inicio.</em></strong>
-              <br>Cuando dev conoce la hipótesis y ve el prototipo temprano, se evitan malentendidos técnicos y se acelera el paso a producción.
-            </li>
-        </ul>
-        <p><strong><em>Estos acuerdos no son rígidos;</em></strong> se ajustan al contexto de la empresa. Lo importante es que existan y que todos los respeten: así las iteraciones dejan de ser improvisación y pasan a ser aprendizaje con sentido.</p>
-        <div class="bg-canva mt-5 p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿Por qué con 5 usuarios alcanza para empezar?</strong></p>
-            <p>Cinco usuarios suelen ser suficientes para identificar los problemas más críticos de usabilidad de forma rápida y económica; si aparecen patrones, amplía la muestra en rondas sucesivas.</p>
-            <hr>
-            <p><strong>¿Y si no hay presupuesto para usuarios externos?</strong></p>
-            <p>Haz guerrilla testing: prueba con compañeros, clientes internos o personas en la calle. Lo clave es observar y repetir.</p>
-            <hr>
-            <p><strong>¿Cómo acelerar procesos en empresas donde las decisiones tardan?</strong></p>
-            <p>Propón entregas pequeñas y visibles: un tablero (Trello, Miro o incluso Excel), acuerdos breves por reunión y demos rápidas. Pequeños éxitos muestran valor y contagian la práctica.</p>
-        </div>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "Construir — Medir — Aprender" — <em>Eric Ries</em>
+        </p>
+    
         <hr class="my-5">
-        <p>Prototipar rápido me enseñó algo esencial: no se trata solo de ahorrar horas. Se trata de cuidar el tiempo de las personas, las expectativas del cliente y la reputación del producto. Por eso, además de prototipos, siempre busco que existan <strong><em>reglas simples</em></strong> dentro del equipo: sprints con foco, muestras frecuentes, una definición clara de “listo” y una persona responsable de mantener el ritmo.</p>
-        <p>Creo en Scrum y en los principios ágiles no como recetas rígidas, sino como marcos que protegen al equipo. <strong><em>Sprints cortos, roles claros y ceremonias útiles</em></strong> (no reuniones interminables) crean ritmo sin quemar a las personas: detectan problemas temprano y evitan rehacer. Probar rápido tiene sentido solo si ponemos límites, cuidamos la carga de trabajo y mantenemos la salud del equipo como prioridad.</p>
-        
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Procesos de equipo que sostienen iteraciones sanas</h2>
+    
+        <p>
+          Prototipar rápido funciona mejor cuando hay acuerdos de equipo que lo sostienen.
+          En los proyectos donde he podido proponer o co-construir estos acuerdos,
+          el ritmo de trabajo mejoró notablemente:
+        </p>
+    
+        <ul class="mb-5">
+          <li class="mb-3">
+            <strong><em>Sprints cortos con foco.</em></strong>
+            <p>
+              1 o 2 hipótesis clave por sprint. Menos frentes abiertos, más claridad
+              en cada entrega.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Standups útiles.</em></strong>
+            <p>
+              10 a 15 minutos para sincronizar bloqueos — no para reportar todo.
+              Cuando el standup es corto y enfocado, el equipo queda con energía.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Demos rápidas al final del sprint.</em></strong>
+            <p>
+              Mostrar lo probado en 20 a 30 minutos alinea a producto, negocio y desarrollo.
+              Cuando todos ven lo que funcionó y lo que no, las decisiones son más claras.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Definición clara de "listo".</em></strong>
+            <p>
+              Qué incluye una entrega: diseño, microcopy, assets optimizados, notas para desarrollo.
+              Cuando "listo" significa lo mismo para todos, hay menos malentendidos en el handoff.
+            </p>
+          </li>
+          <li class="mb-3">
+            <strong><em>Desarrollo presente desde el prototipo.</em></strong>
+            <p>
+              Cuando el equipo de desarrollo conoce la hipótesis y ve el prototipo temprano,
+              las preguntas técnicas aparecen antes — y eso ahorra tiempo en ambas direcciones.
+            </p>
+          </li>
+        </ul>
+    
+        <p>
+          <strong><em>Estos son acuerdos, no reglas rígidas.</em></strong> Cada equipo los adapta a su contexto.
+          Lo que sí he visto en todos los casos: cuando existen y todos los respetan,
+          el trabajo fluye mejor y las personas se desgastan menos.
+        </p>
+    
+        <div class="bg-canva mt-5 p-5">
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿Por qué con 5 usuarios alcanza para empezar?</strong></p>
+          <p>
+            5 usuarios suelen ser suficientes para identificar los problemas más críticos
+            de usabilidad en una primera ronda. Si aparecen patrones, se amplía la muestra
+            en rondas siguientes.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Y si no hay presupuesto para usuarios externos?</strong></p>
+          <p>
+            Se puede hacer guerrilla testing con compañeros, clientes internos o personas
+            cercanas al perfil. Lo clave es observar sin interferir y registrar lo que pasa.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Cómo avanzar en empresas donde las decisiones toman tiempo?</strong></p>
+          <p>
+            Proponer entregas pequeñas y visibles ayuda mucho: un tablero compartido,
+            una demo rápida al cierre de cada ciclo, un hallazgo concreto en cada reunión.
+            Los resultados visibles generan confianza y esa confianza abre espacio
+            para iterar con más velocidad.
+          </p>
+        </div>
+    
+        <hr class="my-5">
+    
+        <p>
+          Prototipar temprano no es solo una técnica — es una forma de cuidar el tiempo
+          de las personas con quienes trabajo. Cuando el equipo ve que una ronda de pruebas
+          de dos días evitó semanas de retrabajo, el hábito se instala solo.
+          Y el producto que llega a producción es mejor para todos.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "1", title: "Diseño que Evoluciona" },
-        { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
+        { id: "1",  title: "Diseño que Evoluciona" },
+        { id: "6",  title: "Investigación UX: mapas, A/B y observación en contexto" },
         { id: "12", title: "Colabora con IA: en tu Proceso de Diseño" }
       ],
       relatedProjects: [
@@ -2694,7 +3488,7 @@
           url: "https://www.behance.net/gallery/132995601/Diseno-Givit"
         },
         {
-          title: "Diseño Web & Prototipado de la Sección “Premio CBC”",
+          title: "Diseño Web & Prototipado de la Sección \"Premio CBC\"",
           url: "https://www.behance.net/gallery/229571505/rototipado-de-la-Seccion-Premio-CBC"
         },
         {
@@ -2703,110 +3497,243 @@
         }
       ]
     },
+    
+    // ─────────────────────────────────────────────────────────────────────────────
+    
     "12": {
       id: 12,
       titleHTML: `
-        Colabora con IA:
-        <span class="opacity-70"> en tu Proceso de Diseño</span>
+        IA
+        <span class="opacity-70">en Diseño</span>
       `,
-      date: "18 de julio, 2025",
+      date: "25 de mayo, 2026",
       imagenDesktop: "assets/img/hero-article/Articulo12/img-article-12-3840@2x.webp",
       imagenMobile: "assets/img/hero-article/Articulo12/img-article-12-750@2x.webp",
       ogImage: "mi-portafolio/assets/img/og-images/og-article-12@2x.webp",
       aboutHTML: `
         <span class="opacity-70">
           Soy Macarena, <strong>UX/UI Designer & Front-End Prototyper.</strong>
-          Trabajo mezclando diseño, prototipado front-end (HTML/CSS) y Brand Systems para convertir ideas en productos útiles. Uso la IA para eliminar tareas repetitivas y dedicar tiempo a la estrategia, las pruebas y el detalle humano. No la veo como sustituta: la pruebo, la documento y la adapto a cada proyecto.
+          Trabajo mezclando diseño, prototipado front-end (HTML/CSS) y Brand Systems
+          para convertir ideas en productos útiles. Uso la IA para eliminar tareas
+          repetitivas y dedicar más tiempo a la estrategia, las pruebas y el detalle humano.
           Cuando no estoy afinando prompts, me encontrarás disfrutando de mi sándwich favorito.
         </span>
       `,
       imageUrl: "assets/img/coveraboutme/avatar-6-400@2x.webp",
       imageAlt: "Imagen de mí",
       content: `
-        <p><strong><em>La IA acelera tareas repetitivas;</em></strong> tu criterio decide qué queda y qué suma.</p>
-        <p>Hace poco pedí cinco paletas en segundos y usé ese tiempo para ajustar contraste y accesibilidad <em>—lo que normalmente me llevaría horas.</em> En un proyecto reciente, esa agilidad me permitió pasar de 3 propuestas a la versión final en una sola reunión con el cliente. La IA me dio velocidad; yo decidí si la salida valía la pena. Por eso trabajo con método: <strong><em>generar → validar → documentar.</em></strong></p>
-        <p>Te comparto mi flujo práctico para usar IA en diseño: prompts que funcionan, validación humana y reglas simples para no perder la voz de la marca.</p>
+        <p>
+          Pedí cinco paletas en segundos. Usé ese tiempo en revisar contraste y accesibilidad
+          — algo que normalmente me lleva mucho más. En ese proyecto, la velocidad
+          me permitió llegar a la versión final en una sola reunión con el cliente.
+        </p>
+        <p>
+          <strong>La IA me dio velocidad. Yo decidí si la salida valía la pena.</strong>
+          Esa distinción es la que más me importa: la herramienta acelera,
+          el criterio sigue siendo mío.
+        </p>
+        <p>
+          Aquí cuento mi flujo para integrar IA en el proceso de diseño:
+          qué delego, cómo valido y qué nunca dejo sin revisión humana.
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Qué pasa cuando se usa mal</h4>
-        <p>Sin reglas, la IA produce versiones sueltas: copys con tonos distintos, imágenes que desvirtúan la identidad o código con atajos inseguros. Si no guardo los prompts, pierdo reproducibilidad. Usar IA por moda sin controles complica más que ayuda.</p>
-        <hr>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">El problema</h2>
+    
+        <p>
+          Sin un método claro, la IA produce variantes sueltas: copys con tonos distintos,
+          imágenes que no respetan la identidad o código que funciona pero no se puede mantener.
+          Si no guardo los prompts que funcionan, pierdo reproducibilidad.
+          Y usar IA por usarla, sin integrarla al proceso, complica más de lo que ayuda.
+        </p>
+    
         <h4 class="mb-3 mt-5">Dónde me ayuda la IA</h4>
         <ul>
-          <li><strong>Exploración visual y paletas —</strong> arranque visual rápido para propuestas.</li>
-          <li><strong>Microcopy y variantes —</strong> pruebas A/B de CTAs y titulares.</li>
-          <li><strong>Prototipado inicial y snippets —</strong> reduce boilerplate (código repetitivo o “plantillas” innecesarias); siempre revisa seguridad y calidad del código.</li>
-          <li><strong>Operaciones internas —</strong> plantillas de email, agendas y resúmenes.</li>
-          <li><strong>Testing preparatorio —</strong> generar variantes para luego probar con usuarios.</li>
+          <li><strong>Exploración visual y paletas</strong> — arranque rápido para propuestas.</li>
+          <li><strong>Microcopy y variantes</strong> — pruebas de CTAs y titulares para A/B.</li>
+          <li><strong>Snippets de código</strong> — reduce el boilerplate; siempre reviso calidad y seguridad.</li>
+          <li><strong>Operaciones internas</strong> — plantillas de email, agendas y resúmenes.</li>
+          <li><strong>Testing preparatorio</strong> — generar variantes para probar con usuarios.</li>
         </ul>
-        <p class="text-center fs-6 my-4 bg-canva p-3">“En encuestas a diseñadores, la mayoría dice que la IA aumenta la eficiencia, pero menos de la mitad asegura que la IA los hace ‘mejores’ profesionales —lo que confirma que el criterio humano sigue siendo clave.” — <em><a href="https://www.figma.com/blog/figma-2025-ai-report-perspectives/" class="a-small px-1" target="_blank" rel="noopener noreferrer" title="Ir a la fuente" data-bs-toggle="tooltip">Figma</a></em></p>
+    
+        <p class="text-center fs-6 my-4 bg-canva p-3">
+          "En encuestas a diseñadores, la mayoría dice que la IA aumenta la eficiencia,
+          pero menos de la mitad asegura que los hace 'mejores' profesionales —
+          lo que confirma que el criterio humano sigue siendo clave."
+          — <em>
+            <a
+              href="https://www.figma.com/blog/figma-2025-ai-report-perspectives/"
+              class="a-small px-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Ir a la fuente"
+              data-bs-toggle="tooltip"
+            >Figma</a>
+          </em>
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Buenas prácticas de prompts</h4>
-        <ul class="my-3">
-          <li><strong><em>Sé claro como si le hablaras a una persona:</em></strong> indica audiencia, tono, longitud y formato.<br><small><em>Ej.: “Escribe 6 CTAs para registro, dirigidos a emprendedoras, tono cordial y directo, 3–5 palabras.”</em></small></li>
-          <li><strong><em>Pide variantes y pide explicaciones:</em></strong> solicita 3 opciones y una línea que explique por qué cada una funciona. Así entiendes la intención detrás de la salida.</li>
-          <li><strong><em>Da contexto fijo:</em></strong> incluye siempre el <strong><em>brief corto</em></strong> (qué hace el producto, para quién y qué no debe decir). Eso reduce resultados fuera de tono.</li>
-          <li><strong><em>Controla el alcance:</em></strong> si quieres solo ideas, dilo; si quieres texto listo para publicar, dilo también. Evita malentendidos al principio.</li>
-          <li><strong><em>Itera el prompt, no la versión final:</em></strong> ajusta poco a poco y guarda cada versión que funcione. Un pequeño cambio en una palabra puede mejorar mucho la salida.</li>
-          <li><strong><em>Guarda todo en un solo lugar:</em></strong> Notion o Google Drive con fecha, modelo y la salida final. Así reproduces lo que funcionó cuando lo necesites.</li>
-          <li><strong><em>Valida siempre con criterio humano:</em></strong> corrige estilo, comprueba datos y prueba las frases con una persona real antes de publicar.</li>
-          <li><strong><em>Ten un prompt base de marca:</em></strong> una frase fija que siempre añades (p. ej. “Tono: cercano, profesional; evitar jergas técnicas”). Úsalo como contexto predeterminado.</li>
-        </ul>
-        <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Prompts listos (copiar y pegar)</h4>
-        <ol class="my-3">
-            <li class="mb-4">
-              <strong><em>Paletas rápidas</em></strong>
-              <br>“Dame 5 paletas HEX para una UI minimalista orientada al bienestar. Indica contraste (alto/medio/bajo) y uso recomendado (fondo/texto/acento).”
-            </li>
-            <li class="mb-4">
-              <strong><em>Microcopy CTA</em></strong>
-              <br>“Escribe 6 variantes de CTA para ‘registro’ dirigido a emprendedoras; tono cordial y directo; 3–5 palabras.”
-            </li>
-            <li class="mb-4">
-              <strong><em>Snippet HTML/CSS</em></strong>
-              <br>“Genera un snippet HTML/CSS para una card responsive con imagen, título y botón; incluye variables CSS para color y spacing. Añade 2 sugerencias de accesibilidad.”
-            </li>
-            <li class="mb-4">
-              <strong><em>Prompt base UX/UI</em></strong>
-              <br>“Contexto: [funcionalidad]. Audiencia: [perfil, dispositivo]. Objetivo: [acción clave]. Prioridad: [accesibilidad/rendimiento/conversión]. Entregable: [CTA/microcopy/form]. Estilo: claro y directo. Genera 6 variantes e indica la más accesible.”
-            </li>
-        </ol>
-        <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Cómo lo hago (mi flujo, en 4 pasos)</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Mi proceso — lo que hice</h2>
+    
+        <h4 class="mt-4 mb-3 fontpoppins opacity-100">Cómo lo integro en 4 pasos</h4>
         <ul>
-          <li><strong>Generar —</strong> Pido 5–10 opciones rápidas (paletas, textos, snippets).</li>
-          <li><strong>Filtrar —</strong> Elijo 2–3 opciones con criterio: legibilidad, voz y factibilidad.</li>
-          <li><strong>Validar —</strong> Pruebo las mejores con un colega o 3–5 usuarios (según lo que se trate).</li>
-          <li><strong>Documentar —</strong> Guardo el prompt, la versión del modelo y la salida final con notas.</li>
+          <li><strong>Generar</strong> — pido 5 a 10 opciones rápidas: paletas, textos, snippets.</li>
+          <li><strong>Filtrar</strong> — elijo 2 o 3 con criterio: legibilidad, voz de marca, factibilidad técnica.</li>
+          <li><strong>Validar</strong> — pruebo las mejores con un colega o con usuarios, según lo que se trate.</li>
+          <li><strong>Documentar</strong> — guardo el prompt, la versión del modelo y la salida final con notas.</li>
         </ul>
+    
+        <p>
+          Este flujo convierte una herramienta rápida en un recurso reproducible.
+          Lo que funciona queda registrado para la próxima vez.
+        </p>
+    
         <hr class="my-5">
-        <h4 class="mt-5 fontpoppins opacity-100">Medir sin complicarte: 3 métricas que uso</h4>
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Buenas prácticas de prompts</h2>
+    
         <ul class="my-3">
-          <li><strong><em>Tiempo ahorrado por tarea</em></strong> (minutos antes vs después).</li>
-          <li><strong><em>Variantes útiles por hora</em></strong> (cuántas salidas sirven de verdad).</li>
-          <li><strong><em>% de salidas reutilizadas sin edición —</em></strong> porcentaje de salidas de IA que puedo usar tal cual; si baja, ajusto el prompt (más contexto, ejemplo y formato) hasta mejorar la reproducción.</li>
+          <li>
+            <strong><em>Sé específico desde el inicio:</em></strong> indica audiencia, tono, longitud y formato.
+            <br><small><em>Ej.: "Escribe 6 CTAs para registro, dirigidos a emprendedoras, tono cordial y directo, 3–5 palabras."</em></small>
+          </li>
+          <li>
+            <strong><em>Pide variantes y explicaciones:</em></strong> solicita 3 opciones y una línea
+            que explique por qué cada una funciona. Así entiendes la intención, no solo la salida.
+          </li>
+          <li>
+            <strong><em>Da contexto fijo:</em></strong> incluye siempre un brief corto —
+            qué hace el producto, para quién y qué no debe decir. Eso reduce resultados fuera de tono.
+          </li>
+          <li>
+            <strong><em>Controla el alcance:</em></strong> si quieres ideas, dilo.
+            Si quieres texto listo para publicar, dilo también. Evita ambigüedades desde el principio.
+          </li>
+          <li>
+            <strong><em>Itera el prompt, no solo la versión final:</em></strong>
+            un pequeño cambio en una palabra puede mejorar mucho la salida.
+            Guarda cada versión que funcione.
+          </li>
+          <li>
+            <strong><em>Guarda todo en un solo lugar:</em></strong> Notion o Google Drive,
+            con fecha, modelo y salida final. Así reproduces lo que funcionó
+            cuando lo necesites de nuevo.
+          </li>
+          <li>
+            <strong><em>Valida siempre con criterio humano:</em></strong> corrige el estilo,
+            comprueba los datos y prueba las frases con una persona real antes de publicar.
+          </li>
+          <li>
+            <strong><em>Ten un prompt base de marca:</em></strong> una frase fija que añades siempre
+            — ej.: "Tono: cercano, profesional; evitar jergas técnicas."
+            Úsalo como contexto predeterminado en cada sesión.
+          </li>
         </ul>
-        <p><small><strong>Registro simple:</strong> hoja con tarea / tiempo antes / tiempo después / variantes generadas / uso final.</small></p>
-        <p class="mt-4"><strong>Ética y legal — lo imprescindible:</strong> Verifica siempre la información que genera la IA (puede inventar hechos), cuida la representación para evitar estereotipos y revisa las licencias antes de usar imágenes o assets en productos comerciales; además, no subas datos sensibles a modelos públicos sin permisos claros.</p>
+    
         <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Prompts listos para copiar</h2>
+    
+        <ol class="my-3">
+          <li class="mb-4">
+            <strong><em>Paletas rápidas</em></strong>
+            <br>"Dame 5 paletas HEX para una UI minimalista orientada al bienestar.
+            Indica contraste (alto/medio/bajo) y uso recomendado (fondo/texto/acento)."
+          </li>
+          <li class="mb-4">
+            <strong><em>Microcopy CTA</em></strong>
+            <br>"Escribe 6 variantes de CTA para 'registro' dirigido a emprendedoras;
+            tono cordial y directo; 3–5 palabras."
+          </li>
+          <li class="mb-4">
+            <strong><em>Snippet HTML/CSS</em></strong>
+            <br>"Genera un snippet HTML/CSS para una card responsive con imagen, título y botón;
+            incluye variables CSS para color y spacing. Añade 2 sugerencias de accesibilidad."
+          </li>
+          <li class="mb-4">
+            <strong><em>Prompt base UX/UI</em></strong>
+            <br>"Contexto: [funcionalidad]. Audiencia: [perfil, dispositivo]. Objetivo: [acción clave].
+            Prioridad: [accesibilidad/rendimiento/conversión]. Entregable: [CTA/microcopy/form].
+            Estilo: claro y directo. Genera 6 variantes e indica la más accesible."
+          </li>
+        </ol>
+    
+        <hr class="my-5">
+    
+        <h2 class="mt-5 fontpoppins opacity-100">Cómo medir sin complicarte</h2>
+    
+        <ul class="my-3">
+          <li><strong>Tiempo ahorrado por tarea</strong> — minutos antes vs. después.</li>
+          <li><strong>Variantes útiles por hora</strong> — cuántas salidas sirven de verdad.</li>
+          <li>
+            <strong>Porcentaje de salidas reutilizadas sin edición</strong> —
+            si baja, ajusto el prompt con más contexto, ejemplo y formato.
+          </li>
+        </ul>
+    
+        <p>
+          <small>
+            <strong>Registro simple:</strong> una hoja con columnas —
+            tarea / tiempo antes / tiempo después / variantes generadas / uso final.
+          </small>
+        </p>
+    
+        <p class="mt-4">
+          <strong>Ética y legal — lo imprescindible:</strong>
+          verifica siempre la información que genera la IA, cuida la representación
+          para evitar estereotipos y revisa las licencias antes de usar imágenes
+          o assets en productos comerciales. No subas datos sensibles a modelos públicos
+          sin permisos claros.
+        </p>
+    
+        <hr class="my-5">
+    
         <div class="bg-canva p-5">
-            <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
-            <p><strong>¿La IA reemplazará al diseñador?</strong></p>
-            <p>No. La IA automatiza tareas repetitivas y amplifica el juicio; quien valida y aplica el criterio humano sigue siendo esencial.</p>
-            <hr>
-            <p><strong>¿Cómo evito resultados fuera de tono?</strong></p>
-            <p>Define indicaciones claras (audiencia, tono, longitud), pide variantes y edita antes de publicar. Mantén un repositorio de prompts validados.</p>
-            <hr>
-            <p><strong>¿Qué hago si no tengo presupuesto para herramientas de pago?</strong></p>
-            <p>Empieza con versiones gratuitas o pruebas; usa la IA para borradores y prioriza la revisión humana. Documenta resultados para medir impacto antes de invertir.</p>
+          <h4 class="text-center fontpoppins-semibold pb-4 opacity-100">FAQ´s</h4>
+    
+          <p><strong>¿La IA reemplazará al diseñador?</strong></p>
+          <p>
+            No. Automatiza tareas repetitivas y amplifica el criterio —
+            pero quien valida, decide y aplica el contexto humano sigue siendo esencial.
+            La IA no sabe qué es lo que el usuario necesita: eso lo sé yo después
+            de haber investigado.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Cómo evito resultados fuera de tono?</strong></p>
+          <p>
+            Con un prompt que incluya audiencia, tono y restricciones claras desde el inicio.
+            Pedir variantes y editar antes de publicar. Y tener un repositorio de prompts
+            validados para no empezar de cero cada vez.
+          </p>
+    
+          <hr>
+    
+          <p><strong>¿Qué hago si no tengo presupuesto para herramientas de pago?</strong></p>
+          <p>
+            Versiones gratuitas o períodos de prueba son suficientes para empezar.
+            Lo importante es documentar resultados antes de invertir —
+            así la decisión de compra tiene base real.
+          </p>
         </div>
+    
         <hr class="my-5">
-        <p>La IA me regaló tiempo: tiempo para pensar, para conversar con usuarios y para cuidar los detalles que marcan la diferencia. Pero la velocidad sin método es ruido. Mi forma es sencilla y práctica: <strong>genero, filtro, pruebo y documento</strong> Así convierto una herramienta rápida en un recurso confiable.</p>    
+    
+        <p>
+          <strong>La IA me dio tiempo: tiempo para pensar, para conversar con usuarios
+          y para cuidar los detalles que marcan la diferencia.</strong>
+          Pero la velocidad sin método es ruido. Mi forma es simple:
+          genero, filtro, pruebo y documento.
+          Así una herramienta rápida se convierte en un recurso confiable
+          que aporta al proceso del equipo, no solo al mío.
+        </p>
       `,
-      // ← Aquí las relaciones
       relatedArticles: [
-        { id: "6", title: "Investigación UX: mapas, A/B y observación en contexto" },
-        { id: "8", title: "El Retorno de Inversión en UX: Por Qué Vale la Pena" },
+        { id: "6",  title: "Investigación UX: mapas, A/B y observación en contexto" },
+        { id: "8",  title: "El Retorno de Inversión en UX: Por Qué Vale la Pena" },
         { id: "11", title: "Iteraciones Rápidas: Prototipado que Minimiza Riesgos" }
       ],
       relatedProjects: [
