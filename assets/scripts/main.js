@@ -221,7 +221,7 @@
       <section>
         <div class="cta-group-center py-5">
           <a href="https://forms.gle/9m8BURuvUohX2iNE8" class="btn btn-primary my-2" aria-label="Cotizar" title="Cotizar" data-bs-toggle="tooltip" target="_blank" rel="noopener">Cotizar proyecto</a>
-          <a href="assets/Macarena_Baltra_UXUI_FrontEnd_FullTime.pdf" download="Macarena_Baltra_UXUI_FrontEnd_FullTime.pdf" class="btn btn-secondary my-2" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" target="_blank" rel="noopener">Descargar CV</a>
+          <a href="assets/MacarenaBaltra_ProductDesigner.docx.pdf" download="MacarenaBaltra_ProductDesigner.docx.pdf" class="btn btn-secondary my-2" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" target="_blank" rel="noopener">Descargar CV</a>
         </div>
       </section>
     `);
@@ -230,7 +230,7 @@
       <section>
         <div class="cta-group-center py-5">
           <a href="https://wa.me/message/2KZW3XDAWMFAJ1" class="btn btn-secondary my-2" target="_blank" aria-label="Contactar por WhatsApp" title="Contactar por WhatsApp" data-bs-toggle="tooltip" rel="noopener">Contactar por WhatsApp</a>
-          <a href="assets/Macarena_Baltra_UXUI_FrontEnd_FullTime.pdf" download="Macarena_Baltra_UXUI_FrontEnd_FullTime.pdf" class="btn btn-primary my-2" target="_blank" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" rel="noopener">Descargar CV</a>
+          <a href="assets/MacarenaBaltra_ProductDesigner.docx.pdf" download="MacarenaBaltra_ProductDesigner.docx.pdf" class="btn btn-primary my-2" target="_blank" aria-label="Ver currículum" title="Ver currículum" data-bs-toggle="tooltip" rel="noopener">Descargar CV</a>
         </div>
       </section>
     `);
